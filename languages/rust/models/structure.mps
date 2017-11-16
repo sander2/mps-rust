@@ -77,6 +77,13 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="X3GX7L1XV2" resolve="Arg" />
     </node>
+    <node concept="1TJgyj" id="X3GX7L25wL" role="1TKVEi">
+      <property role="IQ2ns" value="1099920448281925681" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="value" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
     <node concept="PrWs8" id="X3GX7L24rY" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
@@ -108,6 +115,23 @@
       <property role="20kJfa" value="ty" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="X3GX7L1XUC" resolve="Id" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="X3GX7L25vI">
+    <property role="EcuMT" value="1099920448281925614" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <property role="TrG5h" value="Expr" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="X3GX7L25vJ">
+    <property role="EcuMT" value="1099920448281925615" />
+    <property role="TrG5h" value="Literal" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="X3GX7L25vK" role="1TKVEl">
+      <property role="IQ2nx" value="1099920448281925616" />
+      <property role="TrG5h" value="value" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>
