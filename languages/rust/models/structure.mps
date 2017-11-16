@@ -10,6 +10,9 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
+        <property id="7862711839422615217" name="text" index="t5JxN" />
+      </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
@@ -38,6 +41,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -81,8 +87,8 @@
       <property role="IQ2ns" value="1099920448281925681" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="value" />
-      <property role="20lbJX" value="0..1" />
-      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L2ml$" resolve="Block" />
     </node>
     <node concept="PrWs8" id="X3GX7L24rY" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -127,11 +133,70 @@
   <node concept="1TIwiD" id="X3GX7L25vJ">
     <property role="EcuMT" value="1099920448281925615" />
     <property role="TrG5h" value="Literal" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
     <node concept="1TJgyi" id="X3GX7L25vK" role="1TKVEl">
       <property role="IQ2nx" value="1099920448281925616" />
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="X3GX7L2921">
+    <property role="EcuMT" value="1099920448281940097" />
+    <property role="TrG5h" value="PlusOp" />
+    <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
+    <node concept="1TJgyj" id="X3GX7L2922" role="1TKVEi">
+      <property role="IQ2ns" value="1099920448281940098" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="lhs" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+    <node concept="1TJgyj" id="X3GX7L2925" role="1TKVEi">
+      <property role="IQ2ns" value="1099920448281940101" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="rhs" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="X3GX7L2miD">
+    <property role="EcuMT" value="1099920448281994409" />
+    <property role="TrG5h" value="Statement" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="X3GX7L2miE">
+    <property role="EcuMT" value="1099920448281994410" />
+    <property role="TrG5h" value="StatementSemi" />
+    <ref role="1TJDcQ" node="X3GX7L2miD" resolve="Statement" />
+    <node concept="1TJgyj" id="X3GX7L2miF" role="1TKVEi">
+      <property role="IQ2ns" value="1099920448281994411" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+    <node concept="t5JxF" id="X3GX7L2mkU" role="lGtFl">
+      <property role="t5JxN" value="Expr with trailing semi-colon (may have any type)" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="X3GX7L2ml$">
+    <property role="EcuMT" value="1099920448281994596" />
+    <property role="TrG5h" value="Block" />
+    <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
+    <node concept="1TJgyj" id="X3GX7L2ml_" role="1TKVEi">
+      <property role="IQ2ns" value="1099920448281994597" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="statements" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="X3GX7L2miD" resolve="Statement" />
+    </node>
+    <node concept="1TJgyj" id="X3GX7L2mlC" role="1TKVEi">
+      <property role="IQ2ns" value="1099920448281994600" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expr" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
     </node>
   </node>
 </model>
