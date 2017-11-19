@@ -14,12 +14,17 @@
       <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
         <property id="1140524450557" name="separatorText" index="2czwfO" />
+        <property id="1140524450556" name="usesBraces" index="2czwfP" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
+        <child id="1233141163694" name="separatorStyle" index="sWeuL" />
       </concept>
+      <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
       <concept id="1237375020029" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineChildrenStyleClassItem" flags="ln" index="pj6Ft" />
+      <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
+      <concept id="1233148810477" name="jetbrains.mps.lang.editor.structure.InlineStyleDeclaration" flags="ng" index="tppnM" />
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -46,8 +51,14 @@
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
       </concept>
     </language>
+    <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
+    </language>
   </registry>
   <node concept="24kQdi" id="X3GX7L1bto">
+    <property role="3GE5qa" value="Item" />
     <ref role="1XX52x" to="ls40:X3GX7L1bsO" resolve="Function" />
     <node concept="3EZMnI" id="X3GX7L1Y$3" role="2wV5jI">
       <node concept="3F0ifn" id="X3GX7L1Y$5" role="3EZMnx">
@@ -111,12 +122,14 @@
     </node>
   </node>
   <node concept="24kQdi" id="X3GX7L25vV">
+    <property role="3GE5qa" value="Expr" />
     <ref role="1XX52x" to="ls40:X3GX7L25vJ" resolve="Literal" />
     <node concept="3F0A7n" id="X3GX7L25vX" role="2wV5jI">
       <ref role="1NtTu8" to="ls40:X3GX7L25vK" resolve="value" />
     </node>
   </node>
   <node concept="24kQdi" id="X3GX7L292i">
+    <property role="3GE5qa" value="Expr" />
     <ref role="1XX52x" to="ls40:X3GX7L2921" resolve="PlusOp" />
     <node concept="3EZMnI" id="X3GX7L292D" role="2wV5jI">
       <node concept="3F1sOY" id="X3GX7L292N" role="3EZMnx">
@@ -132,6 +145,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="X3GX7L2ml5">
+    <property role="3GE5qa" value="Statement" />
     <ref role="1XX52x" to="ls40:X3GX7L2miE" resolve="StatementSemi" />
     <node concept="3EZMnI" id="X3GX7L2ml7" role="2wV5jI">
       <node concept="3F1sOY" id="X3GX7L2mll" role="3EZMnx">
@@ -144,6 +158,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="X3GX7L2mlP">
+    <property role="3GE5qa" value="Expr" />
     <ref role="1XX52x" to="ls40:X3GX7L2ml$" resolve="Block" />
     <node concept="3EZMnI" id="X3GX7L2mrv" role="2wV5jI">
       <node concept="3F0ifn" id="X3GX7L2omX" role="3EZMnx">
@@ -179,6 +194,41 @@
       </node>
       <node concept="l2Vlx" id="X3GX7L2mrw" role="2iSdaV" />
       <node concept="lj46D" id="X3GX7L2mrx" role="3F10Kt" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="1ioFhpHY0Ki">
+    <property role="3GE5qa" value="Item" />
+    <ref role="1XX52x" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+    <node concept="3EZMnI" id="1ioFhpHY0Kk" role="2wV5jI">
+      <node concept="3F0ifn" id="1ioFhpHY0KJ" role="3EZMnx">
+        <property role="3F0ifm" value="struct" />
+      </node>
+      <node concept="3F0A7n" id="1ioFhpHY0L0" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="1ioFhpHY0Ll" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+      </node>
+      <node concept="3F2HdR" id="1ioFhpHY7mB" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <property role="2czwfP" value="true" />
+        <ref role="1NtTu8" to="ls40:1ioFhpHY0K0" resolve="fields" />
+        <node concept="2iRkQZ" id="1ioFhpHYhvO" role="2czzBx" />
+        <node concept="pVoyu" id="1ioFhpHYlB1" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="tppnM" id="1ioFhpHYu9_" role="sWeuL">
+          <node concept="pVoyu" id="1ioFhpHYu9C" role="3F10Kt" />
+          <node concept="ljvvj" id="1ioFhpHYu9K" role="3F10Kt" />
+        </node>
+      </node>
+      <node concept="3F0ifn" id="1ioFhpHY1_g" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+        <node concept="pVoyu" id="1ioFhpHY1_L" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+      </node>
+      <node concept="l2Vlx" id="1ioFhpHY0Kn" role="2iSdaV" />
     </node>
   </node>
 </model>
