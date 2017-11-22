@@ -8,6 +8,7 @@
   <imports>
     <import index="ls40" ref="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="tpch" ref="r:00000000-0000-4000-0000-011c8959028d(jetbrains.mps.lang.structure.editor)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -30,6 +31,9 @@
       </concept>
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
+      </concept>
+      <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
+        <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
@@ -229,6 +233,52 @@
         </node>
       </node>
       <node concept="l2Vlx" id="1ioFhpHY0Kn" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7VV7iqShXVj">
+    <property role="3GE5qa" value="Statement" />
+    <ref role="1XX52x" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
+    <node concept="3EZMnI" id="7VV7iqShZWP" role="2wV5jI">
+      <node concept="3F0ifn" id="7VV7iqShZWR" role="3EZMnx">
+        <property role="3F0ifm" value="let" />
+        <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
+      </node>
+      <node concept="3F0A7n" id="7VV7iqShZXo" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="7VV7iqShZXJ" role="3EZMnx">
+        <property role="3F0ifm" value="=" />
+      </node>
+      <node concept="3F1sOY" id="7VV7iqShZYw" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:7VV7iqShXWh" resolve="value" />
+      </node>
+      <node concept="3F0ifn" id="7VV7iqShZZ7" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+      </node>
+      <node concept="l2Vlx" id="7VV7iqShZWS" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7VV7iqShXWQ">
+    <property role="3GE5qa" value="Expr" />
+    <ref role="1XX52x" to="ls40:7VV7iqShXWm" resolve="FieldAccess" />
+    <node concept="3EZMnI" id="7VV7iqShXWS" role="2wV5jI">
+      <node concept="3F1sOY" id="7VV7iqShXX8" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:7VV7iqShXWn" resolve="struct" />
+      </node>
+      <node concept="3F0ifn" id="7VV7iqShXXn" role="3EZMnx">
+        <property role="3F0ifm" value="." />
+      </node>
+      <node concept="3F0A7n" id="7VV7iqShXXI" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="l2Vlx" id="7VV7iqShXWV" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="7VV7iqSictY">
+    <property role="3GE5qa" value="Expr" />
+    <ref role="1XX52x" to="ls40:7VV7iqSictK" resolve="VarRef" />
+    <node concept="3F0A7n" id="7VV7iqSicu0" role="2wV5jI">
+      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
 </model>
