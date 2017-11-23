@@ -184,15 +184,6 @@
           <property role="VOm3f" value="true" />
         </node>
       </node>
-      <node concept="3F1sOY" id="X3GX7L2mrL" role="3EZMnx">
-        <ref role="1NtTu8" to="ls40:X3GX7L2mlC" resolve="expr" />
-        <node concept="lj46D" id="X3GX7L2mrM" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-        <node concept="ljvvj" id="X3GX7L2mrN" role="3F10Kt">
-          <property role="VOm3f" value="true" />
-        </node>
-      </node>
       <node concept="3F0ifn" id="X3GX7L2onA" role="3EZMnx">
         <property role="3F0ifm" value="}" />
       </node>

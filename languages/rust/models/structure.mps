@@ -134,7 +134,7 @@
     <property role="R5$K2" value="false" />
     <property role="TrG5h" value="Expr" />
     <property role="3GE5qa" value="Expr" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="X3GX7L2miD" resolve="Statement" />
     <node concept="PrWs8" id="6xtNCeb2Pbd" role="PzmwI">
       <ref role="PrY4T" node="6xtNCeb2Pb7" resolve="Node" />
     </node>
@@ -208,12 +208,6 @@
       <property role="20kJfa" value="statements" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="X3GX7L2miD" resolve="Statement" />
-    </node>
-    <node concept="1TJgyj" id="X3GX7L2mlC" role="1TKVEi">
-      <property role="IQ2ns" value="1099920448281994600" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="expr" />
-      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
     </node>
   </node>
   <node concept="1TIwiD" id="1ioFhpHXQ60">
