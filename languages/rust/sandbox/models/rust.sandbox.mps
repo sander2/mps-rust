@@ -172,6 +172,7 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
+      <concept id="1068431790191" name="jetbrains.mps.baseLanguage.structure.Expression" flags="nn" index="33vP2n" />
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
@@ -327,6 +328,9 @@
     </language>
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
       <concept id="9149939120071034736" name="rust.structure.VarRef" flags="ng" index="36GXDm" />
+      <concept id="9149939120070975254" name="rust.structure.FieldAccess" flags="ng" index="36Jc8K">
+        <child id="9149939120070975255" name="struct" index="36Jc8L" />
+      </concept>
       <concept id="9149939120070975178" name="rust.structure.LetBinding" flags="ng" index="36JcfG">
         <child id="9149939120070975249" name="value" index="36Jc8R" />
       </concept>
@@ -360,6 +364,10 @@
       <concept id="1153944233411" name="jetbrains.mps.baseLanguage.collections.structure.ForEachVariableReference" flags="nn" index="2GrUjf">
         <reference id="1153944258490" name="variable" index="2Gs0qQ" />
       </concept>
+      <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
+        <child id="1197683466920" name="keyType" index="3rvQeY" />
+        <child id="1197683475734" name="valueType" index="3rvSg0" />
+      </concept>
       <concept id="1240824834947" name="jetbrains.mps.baseLanguage.collections.structure.ValueAccessOperation" flags="nn" index="3AV6Ez" />
       <concept id="1240825616499" name="jetbrains.mps.baseLanguage.collections.structure.KeyAccessOperation" flags="nn" index="3AY5_j" />
     </language>
@@ -377,8 +385,11 @@
         <node concept="3YiHqP" id="3xT0G2BKtpA" role="3YiHqO">
           <node concept="36JcfG" id="3xT0G2BKtpR" role="3YiHqO">
             <property role="TrG5h" value="z" />
-            <node concept="36GXDm" id="3xT0G2BKtpZ" role="36Jc8R">
-              <property role="TrG5h" value="testw" />
+            <node concept="36Jc8K" id="3xT0G2BKtHm" role="36Jc8R">
+              <property role="TrG5h" value="x" />
+              <node concept="36GXDm" id="3xT0G2BKtHw" role="36Jc8L">
+                <property role="TrG5h" value="testw" />
+              </node>
             </node>
           </node>
         </node>
@@ -785,6 +796,13 @@
       </node>
     </node>
     <node concept="1XdyHe" id="4JmXFjQ1N7Q" role="1dubk0" />
+    <node concept="1XdyHe" id="3xT0G2BKu05" role="1dubk0" />
+    <node concept="3zyOaA" id="3xT0G2BKxNv" role="1dubk0">
+      <property role="TrG5h" value="typeOfStruct" />
+      <node concept="3zV_Rz" id="3xT0G2BKxNw" role="3zVECS" />
+    </node>
+    <node concept="1XdyHe" id="3xT0G2BKwok" role="1dubk0" />
+    <node concept="1XdyHe" id="3xT0G2BKupP" role="1dubk0" />
     <node concept="3zyOaA" id="4JmXFjQ1GFS" role="1dubk0">
       <property role="TrG5h" value="argOk" />
       <node concept="3zV_Rz" id="4JmXFjQ1GFT" role="3zVECS">
@@ -2730,11 +2748,36 @@
       </node>
     </node>
     <node concept="2slB5m" id="3xT0G2BxChn" role="_iOnB" />
-    <node concept="2slB5m" id="xVxp1qsD5f" role="_iOnB" />
+    <node concept="hMdjl" id="6IEb4ERooZk" role="_iOnB">
+      <property role="TrG5h" value="createEmptyStruct" />
+      <node concept="2ZQB9c" id="6IEb4ERoBOr" role="3clF45">
+        <ref role="2ZQB93" node="xVxp1qqXZp" resolve="TypeLattice" />
+      </node>
+      <node concept="3Tm1VV" id="6IEb4ERooZn" role="1B3o_S" />
+      <node concept="3clFbS" id="6IEb4ERooZo" role="3clF47">
+        <node concept="3cpWs6" id="6IEb4ERoBOC" role="3cqZAp">
+          <node concept="33vP2n" id="6IEb4ERoBOQ" role="3cqZAk" />
+        </node>
+      </node>
+    </node>
     <node concept="2Z3Rg9" id="xVxp1qqY4s" role="2Z3R6k">
       <property role="TrG5h" value="StructType" />
       <node concept="2Z3RmO" id="xVxp1qqYzl" role="2Z3Rhz">
         <node concept="17QB3L" id="3xT0G2BbcGH" role="2Z3Rhw" />
+      </node>
+    </node>
+    <node concept="2Z3Rg9" id="3xT0G2BKz$F" role="2Z3R6k">
+      <property role="TrG5h" value="DetailedStructType" />
+      <node concept="2Z3RmO" id="6IEb4ERoprc" role="2Z3Rhz">
+        <node concept="17QB3L" id="6IEb4ERopr9" role="2Z3Rhw" />
+      </node>
+      <node concept="2Z3RmO" id="6IEb4ERopKH" role="2Z3Rhz">
+        <node concept="3rvAFt" id="6IEb4ERopKB" role="2Z3Rhw">
+          <node concept="17QB3L" id="6IEb4ERopVV" role="3rvQeY" />
+          <node concept="2ZQB9c" id="6IEb4ERoqVl" role="3rvSg0">
+            <ref role="2ZQB93" node="xVxp1qqXZp" resolve="TypeLattice" />
+          </node>
+        </node>
       </node>
     </node>
     <node concept="2Z3Rg9" id="xVxp1qqY$d" role="2Z3R6k">
