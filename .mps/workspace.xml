@@ -7,6 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e41a497e-5a22-4ff8-9ee2-3073ce047668" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mps/workspace.xml" afterPath="$PROJECT_DIR$/.mps/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/rust/models/editor.mps" afterPath="$PROJECT_DIR$/languages/rust/models/editor.mps" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/rust/models/structure.mps" afterPath="$PROJECT_DIR$/languages/rust/models/structure.mps" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/languages/rust/sandbox/models/rust.sandbox.mps" afterPath="$PROJECT_DIR$/languages/rust/sandbox/models/rust.sandbox.mps" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,7 +33,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="79ee3db4-43c6-461b-a547-aa20224ce135/r:8a7a222f-f38c-4be3-b39a-5d68f1579921(TempModule79ee3db4-43c6-461b-a547-aa20224ce135/TempModel_4209460035799)">
+            <model ref="b6943518-15b1-4c58-b9af-4fe0ef49adc9/r:7463448b-c964-44da-a44d-091f33e43203(TempModuleb6943518-15b1-4c58-b9af-4fe0ef49adc9/TempModel_18426693253194)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -64,13 +67,13 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="3dWlfh3Vw3q">
-                <node concept="3balQm" id="3dWlfh3Vw3r" role="aymYE" />
-                <node concept="2Clz$F" id="3dWlfh3Vw3s" role="aymYO">
+              <node concept="aymSD" id="3dWlfh4nSAD">
+                <node concept="3balQm" id="3dWlfh4nSAE" role="aymYE" />
+                <node concept="2Clz$F" id="3dWlfh4nSAF" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
-                <node concept="2_V_lH" id="3dWlfh3Vw3t" role="1PhJh3">
-                  <ref role="2_V_lI" node="3dWlfh3Vw3s" resolve="CommandHolder" />
+                <node concept="2_V_lH" id="3dWlfh4nSAG" role="1PhJh3">
+                  <ref role="2_V_lI" node="3dWlfh4nSAF" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -106,7 +109,7 @@
                     <property name="caretXRelative" value="8" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="Constant_zdj1kh_e0" cellNumber="0" isInList="false">
-                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141762617" />
+                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -115,7 +118,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141762617" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -134,15 +137,15 @@
         <entry file="mps://node://rust.sandbox/rust.sandbox/BottomUp">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="2658">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="2372">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="199" />
-                    <property name="caretXRelative" value="24" />
+                    <property name="caretX" value="231" />
+                    <property name="caretXRelative" value="40" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
-                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141053478" />
+                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767867151" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -157,7 +160,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141762617" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -168,6 +171,80 @@
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StructInit" pinned="false" current-in-tab="false">
+        <entry file="mps://node://rust/rust.structure/StructInit">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="75" />
+                    <property name="caretXRelative" value="8" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="ReadOnlyModelAccessor_mtiojs_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:3588c289-639d-479d-b8e5-87a3742c5331(rust.editor)/3709933601141784030" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+              <node node_ref="r:3588c289-639d-479d-b8e5-87a3742c5331(rust.editor)/3709933601141784005" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StructInitPair" pinned="false" current-in-tab="false">
+        <entry file="mps://node://rust/rust.structure/StructInitPair">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="259" />
+                    <property name="caretXRelative" value="16" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="ReadOnlyModelAccessor_abi8e8_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:3588c289-639d-479d-b8e5-87a3742c5331(rust.editor)/3709933601141783963" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+              <node node_ref="r:3588c289-639d-479d-b8e5-87a3742c5331(rust.editor)/3709933601141783961" />
             </state>
           </provider>
         </entry>
@@ -193,7 +270,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141762617" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -213,15 +290,15 @@
         <entry file="mps://node://rust.sandbox/rust.sandbox/TypeLattice">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="180">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="2651">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="151" />
-                    <property name="caretXRelative" value="16" />
+                    <property name="caretX" value="167" />
+                    <property name="caretXRelative" value="40" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141641384" />
+                    <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601144442288" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -236,6 +313,11 @@
                   <collapsedElement isCollapsed="false">
                     <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
                       <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624088674007" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601143694218" />
                     </cellIdElement>
                   </collapsedElement>
                   <collapsedElement isCollapsed="false">
@@ -256,6 +338,11 @@
                   <collapsedElement isCollapsed="false">
                     <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
                       <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601138354078" />
+                    </cellIdElement>
+                  </collapsedElement>
+                  <collapsedElement isCollapsed="false">
+                    <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601142642816" />
                     </cellIdElement>
                   </collapsedElement>
                   <collapsedElement isCollapsed="false">
@@ -307,12 +394,12 @@
                 <restoreAlways>
                   <collapsedElement isCollapsed="false">
                     <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695446826" />
+                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601143694218" />
                     </cellIdElement>
                   </collapsedElement>
                 </restoreAlways>
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141762617" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -348,7 +435,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141762617" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -564,7 +651,7 @@
     </option>
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -578,69 +665,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystem" />
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
-      </pane>
-      <pane id="Favorites" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f2eeb444-859b-4a1d-b5b6-a111f40bc51d" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f2eeb444-859b-4a1d-b5b6-a111f40bc51d" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rust" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox) in IdeaFile{file:///home/sander/workspace/master-thesis/src/mps-rust/languages/rust/sandbox/models/rust.sandbox.mps}" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="f2eeb444-859b-4a1d-b5b6-a111f40bc51d" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rust" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <SELECTED>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Project" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </SELECTED>
-        </subPane>
-      </pane>
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
@@ -709,7 +733,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Visualization" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Bookmarks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -723,21 +746,21 @@
       <window_info id="Class Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Module Dependencies" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5192308" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33403805" sideWeight="0.5277778" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Context Actions 2" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49679488" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Chart" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33403805" sideWeight="0.47435898" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="IncA Explorer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18696581" sideWeight="0.49358973" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33403805" sideWeight="0.4722222" order="18" side_tool="false" content_ui="tabs" />
+      <window_info id="IncA Explorer" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18696581" sideWeight="0.49358973" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49786323" order="19" side_tool="false" content_ui="tabs" />
       <window_info id="Code Review" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49786323" order="20" side_tool="false" content_ui="tabs" />
-      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.48076922" order="21" side_tool="false" content_ui="tabs" />
+      <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.47863248" order="21" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
       <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1635,11 +1658,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://rust.sandbox/rust.sandbox/RequirementLattice" />
-    <entry file="mps://node://rust.sandbox/rust.sandbox/RequirementLattice" />
-    <entry file="mps://node://rust.sandbox/rust.sandbox/RequirementLattice" />
-    <entry file="mps://node://rust.sandbox/rust.sandbox/RequirementLattice" />
-    <entry file="mps://node://rust.sandbox/rust.sandbox/RequirementLattice" />
     <entry file="mps://node://rust.sandbox/rust.sandbox/RequirementLattice" />
     <entry file="mps://node://rust.sandbox/rust.sandbox/null" />
     <entry file="mps://node://rust.sandbox@transient83/rust.sandbox@5_0/BottomUp_CheckNodes_WrappedBody1QuerySpecification" />
@@ -2587,6 +2605,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="mps://node://rust/rust.structure/&lt;no name&gt;[ConceptDeclaration]" />
+    <entry file="mps://node://rust/rust.structure/&lt;no name&gt;[ConceptDeclaration]" />
+    <entry file="mps://node://rust/rust.structure/&lt;no name&gt;[ConceptDeclaration]" />
+    <entry file="mps://node://rust/rust.structure/StructInitPair">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="259" />
+                <property name="caretXRelative" value="16" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ReadOnlyModelAccessor_abi8e8_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:3588c289-639d-479d-b8e5-87a3742c5331(rust.editor)/3709933601141783963" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+          <node node_ref="r:3588c289-639d-479d-b8e5-87a3742c5331(rust.editor)/3709933601141783961" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/languages/rust/sandbox/source_gen/rust/sandbox/TypeLattice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="821" column="11" lean-forward="false" selection-start-line="821" selection-start-column="11" selection-end-line="821" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="mps://node://rust/rust.structure/FieldStruct">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -2607,7 +2670,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141762617" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2622,10 +2685,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/languages/rust/sandbox/source_gen/rust/sandbox/TypeLattice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="584" column="11" lean-forward="false" selection-start-line="584" selection-start-column="11" selection-end-line="584" selection-end-column="11" />
+    <entry file="mps://node://rust/rust.structure/StructInit">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="75" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="ReadOnlyModelAccessor_mtiojs_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:3588c289-639d-479d-b8e5-87a3742c5331(rust.editor)/3709933601141784030" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+          <node node_ref="r:3588c289-639d-479d-b8e5-87a3742c5331(rust.editor)/3709933601141784005" />
         </state>
       </provider>
     </entry>
@@ -2649,7 +2740,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141762617" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2664,58 +2755,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://rust.sandbox/rust.sandbox/BottomUp">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="2658">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="199" />
-                <property name="caretXRelative" value="24" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
-                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141053478" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable>
-              <collapsedElement isCollapsed="false">
-                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
-                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/7300601992974522938" />
-                </cellIdElement>
-              </collapsedElement>
-            </foldable>
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141762617" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://rust.sandbox/rust.sandbox/TypeLattice">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="180">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="2651">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                 <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="151" />
-                <property name="caretXRelative" value="16" />
+                <property name="caretX" value="167" />
+                <property name="caretXRelative" value="40" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141641384" />
+                <cellInfo cellId="property_value" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601144442288" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2730,6 +2781,11 @@
               <collapsedElement isCollapsed="false">
                 <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
                   <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624088674007" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601143694218" />
                 </cellIdElement>
               </collapsedElement>
               <collapsedElement isCollapsed="false">
@@ -2750,6 +2806,11 @@
               <collapsedElement isCollapsed="false">
                 <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
                   <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601138354078" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601142642816" />
                 </cellIdElement>
               </collapsedElement>
               <collapsedElement isCollapsed="false">
@@ -2801,12 +2862,52 @@
             <restoreAlways>
               <collapsedElement isCollapsed="false">
                 <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695446826" />
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601143694218" />
                 </cellIdElement>
               </collapsedElement>
             </restoreAlways>
           </memento>
-          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141762617" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://rust.sandbox/rust.sandbox/BottomUp">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="2372">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="231" />
+                <property name="caretXRelative" value="40" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767867151" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/7300601992974522938" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -2831,7 +2932,7 @@
                 <property name="caretXRelative" value="8" />
                 <property name="sideSelectDirection" value="NONE" />
                 <cellInfo cellId="Constant_zdj1kh_e0" cellNumber="0" isInList="false">
-                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141762617" />
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -2840,7 +2941,7 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601141762617" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3709933601140576276" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
