@@ -31,7 +31,7 @@
         <TabState>
           <option name="title" value="Console" />
           <tab>
-            <model ref="364c42f2-f108-42c7-bd81-2143f621d00e/r:e8f9e438-5e8b-4a74-b793-a3cc0460781f(TempModule364c42f2-f108-42c7-bd81-2143f621d00e/TempModel_197746725475)">
+            <model ref="79ee3db4-43c6-461b-a547-aa20224ce135/r:8a7a222f-f38c-4be3-b39a-5d68f1579921(TempModule79ee3db4-43c6-461b-a547-aa20224ce135/TempModel_4209460035799)">
               <persistence version="9" />
               <languages>
                 <use id="de1ad86d-6e50-4a02-b306-d4d17f64c375" name="jetbrains.mps.console.base" version="0" />
@@ -65,13 +65,13 @@
                   <concept id="757553790980850366" name="jetbrains.mps.console.base.structure.History" flags="ng" index="3balQm" />
                 </language>
               </registry>
-              <node concept="aymSD" id="6sCD3SeI3Fz">
-                <node concept="3balQm" id="6sCD3SeI3F$" role="aymYE" />
-                <node concept="2Clz$F" id="6sCD3SeI3F_" role="aymYO">
+              <node concept="aymSD" id="3dWlfh3Vw3q">
+                <node concept="3balQm" id="3dWlfh3Vw3r" role="aymYE" />
+                <node concept="2Clz$F" id="3dWlfh3Vw3s" role="aymYO">
                   <property role="TrG5h" value="CommandHolder" />
                 </node>
-                <node concept="2_V_lH" id="6sCD3SeI3FA" role="1PhJh3">
-                  <ref role="2_V_lI" node="6sCD3SeI3F_" resolve="CommandHolder" />
+                <node concept="2_V_lH" id="3dWlfh3Vw3t" role="1PhJh3">
+                  <ref role="2_V_lI" node="3dWlfh3Vw3s" resolve="CommandHolder" />
                 </node>
               </node>
             </model>
@@ -106,8 +106,8 @@
                     <property name="caretX" value="23" />
                     <property name="caretXRelative" value="8" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_90zwhq_e0" cellNumber="0" isInList="false">
-                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/5464826454943067078" />
+                    <cellInfo cellId="Constant_kw2rpr_c0" cellNumber="0" isInList="false">
+                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764771635654" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -116,7 +116,7 @@
                 <foldable />
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624089273282" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767636897" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -124,6 +124,7 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="jetbrains.mps.lang.core.editor.BaseEditorContextHints.comment" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
@@ -131,18 +132,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="?BottomUp?" pinned="false" current-in-tab="true">
-        <entry file="mps://node://rust.sandbox/rust.sandbox/?BottomUp?">
+      <file leaf-file-name="BottomUp" pinned="false" current-in-tab="true">
+        <entry file="mps://node://rust.sandbox/rust.sandbox/BottomUp">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="420">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="1810">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                    <property name="caretX" value="0" />
-                    <property name="caretXRelative" value="-15" />
+                    <property name="caretX" value="16" />
+                    <property name="caretXRelative" value="-31" />
                     <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Collection_630h0h_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624089273282" />
+                    <cellInfo cellId="Collection_evgwyu_a" cellNumber="0" isInList="false">
+                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767636897" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -157,7 +158,7 @@
                 </foldable>
                 <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624089273282" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767636897" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -165,6 +166,7 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="jetbrains.mps.lang.core.editor.BaseEditorContextHints.comment" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
@@ -172,56 +174,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FieldStruct" pinned="false" current-in-tab="false">
-        <entry file="mps://node://rust/rust.structure/FieldStruct">
-          <provider selected="true" editor-type-id="MPSFileEditor">
-            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
-              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack>
-                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                    <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="71" />
-                    <property name="caretXRelative" value="56" />
-                    <property name="sideSelectDirection" value="NONE" />
-                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
-                      <node node_reference="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)/1484126389064436735" />
-                    </cellInfo>
-                  </stackElement>
-                </selectionStack>
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-              </memento>
-              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624089273282" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-                <selectionStack />
-                <errorMarkers />
-                <transactionalProperties />
-                <foldable />
-                <restoreAlways />
-                <enabledHints>
-                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-                </enabledHints>
-              </inspectorMemento>
-              <node node_ref="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)/1484126389064436735" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="?TypeLattice?" pinned="false" current-in-tab="false">
-        <entry file="mps://node://rust.sandbox/rust.sandbox/?TypeLattice?">
+      <file leaf-file-name="TypeLattice" pinned="false" current-in-tab="false">
+        <entry file="mps://node://rust.sandbox/rust.sandbox/TypeLattice">
           <provider selected="true" editor-type-id="MPSFileEditor">
             <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
               <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack>
                   <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
                     <property name="hasNonTrivialSelection" value="false" />
-                    <property name="caretX" value="231" />
-                    <property name="caretXRelative" value="144" />
+                    <property name="caretX" value="327" />
+                    <property name="caretXRelative" value="0" />
                     <property name="sideSelectDirection" value="NONE" />
                     <cellInfo cellId="property_name" cellNumber="0" isInList="false">
-                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/7433371771417036841" />
+                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764777453867" />
                     </cellInfo>
                   </stackElement>
                 </selectionStack>
@@ -274,15 +239,9 @@
                     </cellIdElement>
                   </collapsedElement>
                 </foldable>
-                <restoreAlways>
-                  <collapsedElement isCollapsed="false">
-                    <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
-                      <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624088674007" />
-                    </cellIdElement>
-                  </collapsedElement>
-                </restoreAlways>
+                <restoreAlways />
               </memento>
-              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624089273282" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767636897" saveSessionState="false" viewPositionX="0" viewPositionY="0">
                 <selectionStack />
                 <errorMarkers />
                 <transactionalProperties />
@@ -290,9 +249,48 @@
                 <restoreAlways />
                 <enabledHints>
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="jetbrains.mps.lang.core.editor.BaseEditorContextHints.comment" />
                   <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
                 </enabledHints>
               </inspectorMemento>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FieldStruct" pinned="false" current-in-tab="false">
+        <entry file="mps://node://rust/rust.structure/FieldStruct">
+          <provider selected="true" editor-type-id="MPSFileEditor">
+            <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
+              <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack>
+                  <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                    <property name="hasNonTrivialSelection" value="false" />
+                    <property name="caretX" value="71" />
+                    <property name="caretXRelative" value="56" />
+                    <property name="sideSelectDirection" value="NONE" />
+                    <cellInfo cellId="Constant_ueqr71_c0a" cellNumber="0" isInList="false">
+                      <node node_reference="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)/1484126389064436735" />
+                    </cellInfo>
+                  </stackElement>
+                </selectionStack>
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+              </memento>
+              <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767636897" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+                <selectionStack />
+                <errorMarkers />
+                <transactionalProperties />
+                <foldable />
+                <restoreAlways />
+                <enabledHints>
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+                  <enabledHintsElement enabledHintsAttribute="jetbrains.mps.lang.core.editor.BaseEditorContextHints.comment" />
+                  <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+                </enabledHints>
+              </inspectorMemento>
+              <node node_ref="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)/1484126389064436735" />
             </state>
           </provider>
         </entry>
@@ -512,8 +510,54 @@
     </navigator>
     <panes>
       <pane id="FileSystem" />
+      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
+        <subPane />
+      </pane>
+      <pane id="Favorites" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f2eeb444-859b-4a1d-b5b6-a111f40bc51d" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f2eeb444-859b-4a1d-b5b6-a111f40bc51d" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rust" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox) in IdeaFile{file:///home/sander/workspace/master-thesis/src/mps-rust/languages/rust/sandbox/models/rust.sandbox.mps}" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Project" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="f2eeb444-859b-4a1d-b5b6-a111f40bc51d" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rust" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Project" />
@@ -528,10 +572,6 @@
           </SELECTED>
         </subPane>
       </pane>
-      <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
-        <subPane />
-      </pane>
-      <pane id="Favorites" />
       <pane id="CustomProjectView_com.mbeddr.mpsutil.favourites.plugin.plugin.FavouritesProjectView">
         <subPane />
       </pane>
@@ -616,13 +656,13 @@
       <window_info id="Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspector" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5192308" order="15" side_tool="true" content_ui="tabs" />
       <window_info id="Context Actions 2" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Usages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Chart" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.48076922" order="18" side_tool="false" content_ui="tabs" />
-      <window_info id="IncA Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="28" side_tool="false" content_ui="tabs" />
+      <window_info id="IncA Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4524313" sideWeight="0.5" order="28" side_tool="false" content_ui="tabs" />
       <window_info id="Context Actions" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49786323" order="19" side_tool="false" content_ui="tabs" />
@@ -630,8 +670,8 @@
       <window_info id="RefactoringView" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.49786323" order="20" side_tool="false" content_ui="tabs" />
       <window_info id="Node Explorer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.48076922" order="21" side_tool="false" content_ui="tabs" />
       <window_info id="Typechecker State" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="22" side_tool="false" content_ui="tabs" />
-      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="23" side_tool="false" content_ui="tabs" />
+      <window_info id="Supertypes" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Graphing" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Typesystem Trace" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -667,7 +707,7 @@
         <query>
           <scope scope_class="jetbrains.mps.ide.findusages.model.scopes.ProjectScope" />
           <holder holder_class="jetbrains.mps.ide.findusages.model.holders.NodeHolder">
-            <node ref="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767879638" title="typeOfBlock" />
+            <node ref="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638428" title="StructType(string)" />
           </holder>
         </query>
         <usage_view>
@@ -703,12 +743,12 @@
                               </data>
                               <children>
                                 <child>
-                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="BottomUp" info="" excluded="false" expanded="true" isresult="false" results_section="false" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/7300601992974522938" isRoot="true">
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="true" isresult="false" results_section="false" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
                                     <role name="root" />
                                   </data>
                                   <children>
                                     <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="typeOfBlock" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;BottomUp&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="false" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767879638">
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;constructors&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="false" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638428">
                                         <role name="target" />
                                       </data>
                                       <children />
@@ -750,12 +790,12 @@
                                   </data>
                                   <children>
                                     <child>
-                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="typeOf" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;BottomUp&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/57609565138140813">
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="_typeOfParameter" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;BottomUp&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767630073">
                                         <role name="root to target" />
                                       </data>
                                       <children>
                                         <child>
-                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="typeOfBlock(n : Node, m : Module)" info="role: &lt;i&gt;call&lt;/i&gt;; in: &lt;i&gt;typeOfBlock(n : Node, m : Module)&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767982582">
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;expression&lt;/i&gt;; in: &lt;i&gt;return StructType(string)&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767637661">
                                             <role name="target" />
                                           </data>
                                           <children />
@@ -797,7 +837,679 @@
                                       </data>
                                       <children>
                                         <child>
-                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="typeOfBlock(n : Node, m : Module)" info="role: &lt;i&gt;call&lt;/i&gt;; in: &lt;i&gt;typeOfBlock(n : Node, m : Module)&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767982582">
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;expression&lt;/i&gt;; in: &lt;i&gt;return StructType(string)&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764772542693">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="BottomUp" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/7300601992974522938" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="_typeOfBlock" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;BottomUp&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767890698">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;expression&lt;/i&gt;; in: &lt;i&gt;return StructType(string)&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764771719466">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="leq(TypeLattice,TypeLattice):boolean" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695440358">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;&amp;lt;no name&amp;gt;[Pattern]&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477696811">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="leq(TypeLattice,TypeLattice):boolean" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695440358">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;&amp;lt;no name&amp;gt;[Pattern]&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477697918">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="lub(TypeLattice,TypeLattice):TypeLattice" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695446826">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;&amp;lt;no name&amp;gt;[Pattern]&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477849356">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="lub(TypeLattice,TypeLattice):TypeLattice" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695446826">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;&amp;lt;no name&amp;gt;[Pattern]&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477858098">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="glb(TypeLattice,TypeLattice):TypeLattice" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029478075791">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;&amp;lt;no name&amp;gt;[Pattern]&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764773532477">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="glb(TypeLattice,TypeLattice):TypeLattice" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029478075791">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;&amp;lt;no name&amp;gt;[Pattern]&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764773532480">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="BottomUp" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/7300601992974522938" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="_typeOfParameter" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;BottomUp&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767630073">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;expression&lt;/i&gt;; in: &lt;i&gt;return StructType(string)&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767637661">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="BottomUp" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/7300601992974522938" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="typeOf" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;BottomUp&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/57609565138140813">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;expression&lt;/i&gt;; in: &lt;i&gt;return StructType(string)&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764772542693">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="BottomUp" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/7300601992974522938" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="_typeOfBlock" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;BottomUp&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767890698">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;expression&lt;/i&gt;; in: &lt;i&gt;return StructType(string)&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764771719466">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="leq(TypeLattice,TypeLattice):boolean" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695440358">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;&amp;lt;no name&amp;gt;[Pattern]&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477696811">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="leq(TypeLattice,TypeLattice):boolean" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695440358">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;&amp;lt;no name&amp;gt;[Pattern]&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477697918">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="lub(TypeLattice,TypeLattice):TypeLattice" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695446826">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;&amp;lt;no name&amp;gt;[Pattern]&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477849356">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="lub(TypeLattice,TypeLattice):TypeLattice" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695446826">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;&amp;lt;no name&amp;gt;[Pattern]&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477858098">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="glb(TypeLattice,TypeLattice):TypeLattice" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029478075791">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;&amp;lt;no name&amp;gt;[Pattern]&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764773532477">
+                                            <role name="target" />
+                                          </data>
+                                          <children />
+                                        </child>
+                                      </children>
+                                    </child>
+                                  </children>
+                                </child>
+                              </children>
+                            </child>
+                          </children>
+                        </child>
+                      </children>
+                    </child>
+                    <child>
+                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.CategoryNodeData" caption="&lt;b&gt;Node Usages&lt;/b&gt;" info="" excluded="false" expanded="true" isresult="false" results_section="true" category="Node Usages" category_kind="Category">
+                        <role name="category:Category" />
+                      </data>
+                      <children>
+                        <child>
+                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModuleNodeData" caption="rust.sandbox" info="" excluded="false" expanded="true" isresult="false" results_section="true" module_ref="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)">
+                            <role name="module" />
+                          </data>
+                          <children>
+                            <child>
+                              <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.ModelNodeData" caption="rust.sandbox" info="" excluded="false" expanded="false" isresult="false" results_section="true">
+                                <role name="model" />
+                                <model uid="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)" />
+                              </data>
+                              <children>
+                                <child>
+                                  <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="TypeLattice" info="" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" isRoot="true">
+                                    <role name="root" />
+                                  </data>
+                                  <children>
+                                    <child>
+                                      <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="glb(TypeLattice,TypeLattice):TypeLattice" info="role: &lt;i&gt;contents&lt;/i&gt;; in: &lt;i&gt;TypeLattice&lt;/i&gt;" excluded="false" expanded="false" isresult="false" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029478075791">
+                                        <role name="root to target" />
+                                      </data>
+                                      <children>
+                                        <child>
+                                          <data data_class="jetbrains.mps.ide.findusages.view.treeholder.tree.nodedatatypes.NodeNodeData" caption="StructType(string)" info="role: &lt;i&gt;type&lt;/i&gt;; in: &lt;i&gt;&amp;lt;no name&amp;gt;[Pattern]&lt;/i&gt;" excluded="false" expanded="false" isresult="true" results_section="true" nodePtr="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764773532480">
                                             <role name="target" />
                                           </data>
                                           <children />
@@ -854,9 +1566,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="mps://node://rust.sandbox/rust.sandbox/RequirementLattice" />
-    <entry file="mps://node://rust.sandbox/rust.sandbox/RequirementLattice" />
-    <entry file="mps://node://rust.sandbox/rust.sandbox/RequirementLattice" />
     <entry file="mps://node://rust.sandbox/rust.sandbox/RequirementLattice" />
     <entry file="mps://node://rust.sandbox/rust.sandbox/RequirementLattice" />
     <entry file="mps://node://rust.sandbox/rust.sandbox/RequirementLattice" />
@@ -1809,40 +2518,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://rust.sandbox/rust.sandbox/Module">
-      <provider selected="true" editor-type-id="MPSFileEditor">
-        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack>
-              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
-                <property name="hasNonTrivialSelection" value="false" />
-                <property name="caretX" value="23" />
-                <property name="caretXRelative" value="8" />
-                <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Constant_90zwhq_e0" cellNumber="0" isInList="false">
-                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/5464826454943067078" />
-                </cellInfo>
-              </stackElement>
-            </selectionStack>
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-          </memento>
-          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624089273282" saveSessionState="false" viewPositionX="0" viewPositionY="0">
-            <selectionStack />
-            <errorMarkers />
-            <transactionalProperties />
-            <foldable />
-            <restoreAlways />
-            <enabledHints>
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
-              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
-            </enabledHints>
-          </inspectorMemento>
-        </state>
-      </provider>
-    </entry>
     <entry file="mps://node://rust/rust.structure/FieldStruct">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState">
@@ -1863,7 +2538,44 @@
             <foldable />
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624089273282" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767636897" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="jetbrains.mps.lang.core.editor.BaseEditorContextHints.comment" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+          <node node_ref="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)/1484126389064436735" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://rust.sandbox/rust.sandbox/?BottomUp?" />
+    <entry file="mps://node://rust/rust.structure/Struct">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.tabs.TabbedEditor$TabbedEditorState" editorFocused="true">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="199" />
+                <property name="caretXRelative" value="48" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="name" cellNumber="0" isInList="false">
+                  <node node_reference="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)/1484126389064393088" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)/1484126389064393088" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1874,21 +2586,137 @@
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
-          <node node_ref="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)/1484126389064436735" />
+          <node node_ref="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)/1484126389064393088" />
         </state>
       </provider>
     </entry>
-    <entry file="mps://node://rust.sandbox/rust.sandbox/?BottomUp?">
+    <entry file="mps://node://rust.sandbox/rust.sandbox/Module">
       <provider selected="true" editor-type-id="MPSFileEditor">
         <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
-          <memento saveSessionState="false" viewPositionX="0" viewPositionY="420">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="23" />
+                <property name="caretXRelative" value="8" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="Constant_kw2rpr_c0" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764771635654" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767636897" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="jetbrains.mps.lang.core.editor.BaseEditorContextHints.comment" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://rust.sandbox/rust.sandbox/TypeLattice">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack>
+              <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellLabelSelection">
+                <property name="hasNonTrivialSelection" value="false" />
+                <property name="caretX" value="327" />
+                <property name="caretXRelative" value="0" />
+                <property name="sideSelectDirection" value="NONE" />
+                <cellInfo cellId="property_name" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764777453867" />
+                </cellInfo>
+              </stackElement>
+            </selectionStack>
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="refNodeList_imports" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029477638105" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624088674007" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/7758062007514927060" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/7433371771416895870" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/611229029478075791" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695446826" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695440358" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695440147" />
+                </cellIdElement>
+              </collapsedElement>
+              <collapsedElement isCollapsed="false">
+                <cellIdElement cellId="Collection_fao2ea_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/3248327366695440023" />
+                </cellIdElement>
+              </collapsedElement>
+            </foldable>
+            <restoreAlways />
+          </memento>
+          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767636897" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+            <selectionStack />
+            <errorMarkers />
+            <transactionalProperties />
+            <foldable />
+            <restoreAlways />
+            <enabledHints>
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="jetbrains.mps.lang.core.editor.BaseEditorContextHints.comment" />
+              <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
+            </enabledHints>
+          </inspectorMemento>
+        </state>
+      </provider>
+    </entry>
+    <entry file="mps://node://rust.sandbox/rust.sandbox/BottomUp">
+      <provider selected="true" editor-type-id="MPSFileEditor">
+        <state class="jetbrains.mps.ide.editor.BaseNodeEditor$BaseEditorState">
+          <memento saveSessionState="false" viewPositionX="0" viewPositionY="1810">
             <selectionStack>
               <stackElement className="jetbrains.mps.nodeEditor.selection.EditorCellSelection">
-                <property name="caretX" value="0" />
-                <property name="caretXRelative" value="-15" />
+                <property name="caretX" value="16" />
+                <property name="caretXRelative" value="-31" />
                 <property name="sideSelectDirection" value="NONE" />
-                <cellInfo cellId="Collection_630h0h_a" cellNumber="0" isInList="false">
-                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624089273282" />
+                <cellInfo cellId="Collection_evgwyu_a" cellNumber="0" isInList="false">
+                  <node node_reference="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767636897" />
                 </cellInfo>
               </stackElement>
             </selectionStack>
@@ -1903,7 +2731,7 @@
             </foldable>
             <restoreAlways />
           </memento>
-          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/6942259624089273282" saveSessionState="false" viewPositionX="0" viewPositionY="0">
+          <inspectorMemento currentlyEditedNode="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)/4069286764767636897" saveSessionState="false" viewPositionX="0" viewPositionY="0">
             <selectionStack />
             <errorMarkers />
             <transactionalProperties />
@@ -1911,6 +2739,7 @@
             <restoreAlways />
             <enabledHints>
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor_doNotUseThisHint" />
+              <enabledHintsElement enabledHintsAttribute="jetbrains.mps.lang.core.editor.BaseEditorContextHints.comment" />
               <enabledHintsElement enabledHintsAttribute="de.slisson.mps.conditionalEditor.hints.editor.conditionalEditorHints.conditionalEditor" />
             </enabledHints>
           </inspectorMemento>
