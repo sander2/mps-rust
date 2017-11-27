@@ -15,6 +15,7 @@
       </concept>
       <concept id="1169125787135" name="jetbrains.mps.lang.structure.structure.AbstractConceptDeclaration" flags="ig" index="PkWjJ">
         <property id="6714410169261853888" name="conceptId" index="EcuMT" />
+        <property id="4628067390765907488" name="conceptShortDescription" index="R4oN_" />
         <property id="4628067390765956807" name="final" index="R5$K2" />
         <property id="4628067390765956802" name="abstract" index="R5$K7" />
         <property id="5092175715804935370" name="conceptAlias" index="34LRSv" />
@@ -317,6 +318,7 @@
     <property role="EcuMT" value="3709933601141783943" />
     <property role="3GE5qa" value="Expr" />
     <property role="TrG5h" value="StructInit" />
+    <property role="R4oN_" value="Struct initialization" />
     <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
     <node concept="1TJgyj" id="3dWlfh4lRQf" role="1TKVEi">
       <property role="IQ2ns" value="3709933601141783951" />
@@ -325,24 +327,32 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3dWlfh4lRQa" resolve="StructInitPair" />
     </node>
-    <node concept="PrWs8" id="3dWlfh4lRR7" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="1TJgyj" id="1cUXGcKE1Ln" role="1TKVEi">
+      <property role="IQ2ns" value="1385691153565228119" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="struct" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1ioFhpHY0JZ" resolve="FieldStruct" />
     </node>
   </node>
   <node concept="1TIwiD" id="3dWlfh4lRQa">
     <property role="EcuMT" value="3709933601141783946" />
-    <property role="3GE5qa" value="Expr" />
+    <property role="3GE5qa" value="" />
     <property role="TrG5h" value="StructInitPair" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="3dWlfh4lRQb" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyj" id="3dWlfh4lRQd" role="1TKVEi">
       <property role="IQ2ns" value="3709933601141783949" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="value" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+    <node concept="1TJgyj" id="2Z$qCIhVe4Q" role="1TKVEi">
+      <property role="IQ2ns" value="3451000362153861430" />
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="field" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L1XV2" resolve="Arg" />
     </node>
   </node>
   <node concept="PlHQZ" id="7FAWTxy91ou">
