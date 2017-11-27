@@ -346,5 +346,37 @@
       <node concept="l2Vlx" id="3dWlfh4lRRc" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="2Z$qCIis53q">
+    <property role="3GE5qa" value="Statement" />
+    <ref role="1XX52x" to="ls40:2Z$qCIis53c" resolve="Assignment" />
+    <node concept="3EZMnI" id="2Z$qCIis53s" role="2wV5jI">
+      <node concept="3F1sOY" id="2Z$qCIis53z" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:2Z$qCIis53d" resolve="lhs" />
+      </node>
+      <node concept="3F0ifn" id="2Z$qCIis53D" role="3EZMnx">
+        <property role="3F0ifm" value="=" />
+      </node>
+      <node concept="3F1sOY" id="2Z$qCIis53Q" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:2Z$qCIis53f" resolve="rhs" />
+      </node>
+      <node concept="3F0ifn" id="2Z$qCIis540" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+      </node>
+      <node concept="l2Vlx" id="2Z$qCIis53v" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3IkiYNasXJJ">
+    <property role="3GE5qa" value="Expr" />
+    <ref role="1XX52x" to="ls40:3IkiYNasXJy" resolve="Borrow" />
+    <node concept="3EZMnI" id="3IkiYNasXJL" role="2wV5jI">
+      <node concept="3F0A7n" id="3IkiYNasXKa" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:3IkiYNasXJz" resolve="isMut" />
+      </node>
+      <node concept="3F1sOY" id="3IkiYNasXKw" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:3IkiYNasXKi" resolve="e" />
+      </node>
+      <node concept="l2Vlx" id="3IkiYNasXJO" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
