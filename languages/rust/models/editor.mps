@@ -66,36 +66,15 @@
       </concept>
     </language>
   </registry>
-  <node concept="24kQdi" id="X3GX7L1bto">
-    <property role="3GE5qa" value="Item" />
-    <ref role="1XX52x" to="ls40:X3GX7L1bsO" resolve="Function" />
-    <node concept="3EZMnI" id="X3GX7L1Y$3" role="2wV5jI">
-      <node concept="3F0ifn" id="X3GX7L1Y$5" role="3EZMnx">
-        <property role="3F0ifm" value="fn" />
-      </node>
-      <node concept="3F0A7n" id="X3GX7L24se" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F0ifn" id="X3GX7L20ve" role="3EZMnx">
-        <property role="3F0ifm" value="(" />
-      </node>
-      <node concept="3F2HdR" id="X3GX7L1Zcy" role="3EZMnx">
-        <property role="2czwfO" value="," />
-        <ref role="1NtTu8" to="ls40:X3GX7L1Y$0" resolve="args" />
-        <node concept="l2Vlx" id="X3GX7L1Zc_" role="2czzBx" />
-      </node>
-      <node concept="3F0ifn" id="X3GX7L200a" role="3EZMnx">
-        <property role="3F0ifm" value=")" />
-      </node>
-      <node concept="3F1sOY" id="X3GX7L25wQ" role="3EZMnx">
-        <ref role="1NtTu8" to="ls40:X3GX7L25wL" resolve="value" />
-      </node>
-      <node concept="l2Vlx" id="X3GX7L1Y$6" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="X3GX7L1hP1">
     <ref role="1XX52x" to="ls40:X3GX7L14ar" resolve="Module" />
     <node concept="3EZMnI" id="X3GX7L2hR7" role="2wV5jI">
+      <node concept="3F0ifn" id="3ldL1i68Xzr" role="3EZMnx">
+        <property role="3F0ifm" value="fn main()" />
+      </node>
+      <node concept="3F1sOY" id="3ldL1i68XzZ" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:3ldL1i68XyN" resolve="mainBlock" />
+      </node>
       <node concept="3F2HdR" id="X3GX7L2hRk" role="3EZMnx">
         <ref role="1NtTu8" to="ls40:X3GX7L1hOQ" resolve="defs" />
         <node concept="l2Vlx" id="X3GX7L2hRl" role="2czzBx" />
@@ -103,6 +82,9 @@
           <property role="VOm3f" value="true" />
         </node>
         <node concept="ljvvj" id="X3GX7L2hRo" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="pVoyu" id="3ldL1i693lO" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
       </node>
@@ -116,7 +98,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="X3GX7L1XVj">
-    <ref role="1XX52x" to="ls40:X3GX7L1XV2" resolve="Arg" />
+    <ref role="1XX52x" to="ls40:X3GX7L1XV2" resolve="StructFieldDecl" />
     <node concept="3EZMnI" id="X3GX7L1XVI" role="2wV5jI">
       <node concept="3F0A7n" id="3dWlfh56yL0" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -136,35 +118,12 @@
       <node concept="l2Vlx" id="X3GX7L1XVL" role="2iSdaV" />
     </node>
   </node>
-  <node concept="24kQdi" id="X3GX7L25vV">
-    <property role="3GE5qa" value="Expr" />
-    <ref role="1XX52x" to="ls40:X3GX7L25vJ" resolve="Literal" />
-    <node concept="3F0A7n" id="X3GX7L25vX" role="2wV5jI">
-      <ref role="1NtTu8" to="ls40:X3GX7L25vK" resolve="value" />
-    </node>
-  </node>
-  <node concept="24kQdi" id="X3GX7L292i">
-    <property role="3GE5qa" value="Expr" />
-    <ref role="1XX52x" to="ls40:X3GX7L2921" resolve="PlusOp" />
-    <node concept="3EZMnI" id="X3GX7L292D" role="2wV5jI">
-      <node concept="3F1sOY" id="X3GX7L292N" role="3EZMnx">
-        <ref role="1NtTu8" to="ls40:X3GX7L2922" resolve="lhs" />
-      </node>
-      <node concept="3F0ifn" id="X3GX7L292W" role="3EZMnx">
-        <property role="3F0ifm" value="+" />
-      </node>
-      <node concept="3F1sOY" id="X3GX7L293h" role="3EZMnx">
-        <ref role="1NtTu8" to="ls40:X3GX7L2925" resolve="rhs" />
-      </node>
-      <node concept="l2Vlx" id="X3GX7L292G" role="2iSdaV" />
-    </node>
-  </node>
   <node concept="24kQdi" id="X3GX7L2ml5">
     <property role="3GE5qa" value="Statement" />
     <ref role="1XX52x" to="ls40:X3GX7L2miE" resolve="StatementSemi" />
     <node concept="3EZMnI" id="X3GX7L2ml7" role="2wV5jI">
       <node concept="3F1sOY" id="X3GX7L2mll" role="3EZMnx">
-        <ref role="1NtTu8" to="ls40:X3GX7L2miF" resolve="expr" />
+        <ref role="1NtTu8" to="ls40:X3GX7L2miF" resolve="s" />
       </node>
       <node concept="3F0ifn" id="X3GX7L2mlu" role="3EZMnx">
         <property role="3F0ifm" value=";" />
@@ -279,14 +238,8 @@
   <node concept="24kQdi" id="7VV7iqSictY">
     <property role="3GE5qa" value="Expr" />
     <ref role="1XX52x" to="ls40:7VV7iqSictK" resolve="VarRef" />
-    <node concept="1iCGBv" id="3dWlfh4R2di" role="2wV5jI">
-      <ref role="1NtTu8" to="ls40:3dWlfh4R4ht" resolve="let" />
-      <node concept="1sVBvm" id="3dWlfh4R2dk" role="1sWHZn">
-        <node concept="3F0A7n" id="3dWlfh4R2dr" role="2wV5jI">
-          <property role="1Intyy" value="true" />
-          <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-        </node>
-      </node>
+    <node concept="3F0A7n" id="3ldL1i67RWw" role="2wV5jI">
+      <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
   <node concept="24kQdi" id="3dWlfh4lRQp">
@@ -315,14 +268,11 @@
     <property role="3GE5qa" value="Expr" />
     <ref role="1XX52x" to="ls40:3dWlfh4lRQ7" resolve="StructInit" />
     <node concept="3EZMnI" id="3dWlfh4lRR9" role="2wV5jI">
-      <node concept="1iCGBv" id="1cUXGcKE3hW" role="3EZMnx">
-        <ref role="1NtTu8" to="ls40:1cUXGcKE1Ln" resolve="struct" />
-        <node concept="1sVBvm" id="1cUXGcKE3hY" role="1sWHZn">
-          <node concept="3F0A7n" id="1cUXGcKE3iE" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
+      <node concept="3F0A7n" id="3ldL1i67RVd" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="3ldL1i67RW3" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
       </node>
       <node concept="3F2HdR" id="3dWlfh4lRRu" role="3EZMnx">
         <ref role="1NtTu8" to="ls40:3dWlfh4lRQf" resolve="fields" />
