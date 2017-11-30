@@ -139,8 +139,8 @@
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="Statement" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="6xtNCeb2Pb8" role="PzmwI">
-      <ref role="PrY4T" node="6xtNCeb2Pb7" resolve="Node" />
+    <node concept="PrWs8" id="3ldL1i6nb2j" role="PzmwI">
+      <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
     </node>
   </node>
   <node concept="1TIwiD" id="X3GX7L2miE">
@@ -151,7 +151,7 @@
     <node concept="1TJgyj" id="X3GX7L2miF" role="1TKVEi">
       <property role="IQ2ns" value="1099920448281994411" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="s" />
+      <property role="20kJfa" value="e" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
     </node>
@@ -204,15 +204,19 @@
     <node concept="PrWs8" id="7VV7iqShXVq" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
-    <node concept="PrWs8" id="7FAWTxy9a0D" role="PzmwI">
-      <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
-    </node>
     <node concept="1TJgyj" id="7VV7iqShXWh" role="1TKVEi">
       <property role="IQ2ns" value="9149939120070975249" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="value" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+    <node concept="1TJgyj" id="2oS0yTpPtfs" role="1TKVEi">
+      <property role="IQ2ns" value="2753953570235995100" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="typeAnnotation" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="X3GX7L1XUC" resolve="Id" />
     </node>
   </node>
   <node concept="1TIwiD" id="7VV7iqShXWm">
@@ -303,9 +307,6 @@
       <property role="20kJfa" value="rhs" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
-    </node>
-    <node concept="PrWs8" id="5$_96qUvpry" role="PzmwI">
-      <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
     </node>
   </node>
   <node concept="AxPO7" id="3IkiYNasXJp">

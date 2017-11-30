@@ -3,9 +3,12 @@
   <persistence version="9" />
   <languages>
     <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="11" />
+    <use id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
   <imports>
+    <import index="teg0" ref="r:96165ed2-ef22-48c7-bfe5-8fce083cbabb(com.mbeddr.mpsutil.grammarcells.structure)" />
+    <import index="7z3h" ref="642f71f8-327a-425b-84f9-44ad58786d27/f:project#9d69e719-78c8-4286-90db-fb19c107d049(jetbrains.mps.lang.project.modules/module.com.mbeddr.mpsutil.grammarcells@project_stub)" />
     <import index="ls40" ref="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpch" ref="r:00000000-0000-4000-0000-011c8959028d(jetbrains.mps.lang.structure.editor)" implicit="true" />
@@ -58,6 +61,11 @@
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
         <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
+      </concept>
+    </language>
+    <language id="9d69e719-78c8-4286-90db-fb19c107d049" name="com.mbeddr.mpsutil.grammarcells">
+      <concept id="5083944728298846680" name="com.mbeddr.mpsutil.grammarcells.structure.OptionalCell" flags="ng" index="_tjkj">
+        <child id="5083944728298846681" name="option" index="_tjki" />
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -123,7 +131,7 @@
     <ref role="1XX52x" to="ls40:X3GX7L2miE" resolve="StatementSemi" />
     <node concept="3EZMnI" id="X3GX7L2ml7" role="2wV5jI">
       <node concept="3F1sOY" id="X3GX7L2mll" role="3EZMnx">
-        <ref role="1NtTu8" to="ls40:X3GX7L2miF" resolve="s" />
+        <ref role="1NtTu8" to="ls40:X3GX7L2miF" resolve="e" />
       </node>
       <node concept="3F0ifn" id="X3GX7L2mlu" role="3EZMnx">
         <property role="3F0ifm" value=";" />
@@ -207,16 +215,32 @@
       <node concept="3F0A7n" id="7VV7iqShZXo" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
-      <node concept="3F0ifn" id="7VV7iqShZXJ" role="3EZMnx">
-        <property role="3F0ifm" value="=" />
-      </node>
-      <node concept="3F1sOY" id="7VV7iqShZYw" role="3EZMnx">
-        <ref role="1NtTu8" to="ls40:7VV7iqShXWh" resolve="value" />
-      </node>
-      <node concept="3F0ifn" id="7VV7iqShZZ7" role="3EZMnx">
-        <property role="3F0ifm" value=";" />
+      <node concept="_tjkj" id="2oS0yTpPcyS" role="3EZMnx">
+        <node concept="3EZMnI" id="2oS0yTpPcyT" role="_tjki">
+          <node concept="l2Vlx" id="2oS0yTpPcyU" role="2iSdaV" />
+          <node concept="3F0ifn" id="2oS0yTpPcyV" role="3EZMnx">
+            <property role="3F0ifm" value=":" />
+          </node>
+          <node concept="3F1sOY" id="2oS0yTpPcyW" role="3EZMnx">
+            <ref role="1NtTu8" to="ls40:2oS0yTpPtfs" resolve="typeAnnotation" />
+          </node>
+        </node>
       </node>
       <node concept="l2Vlx" id="7VV7iqShZWS" role="2iSdaV" />
+      <node concept="_tjkj" id="2oS0yTpIB39" role="3EZMnx">
+        <node concept="3EZMnI" id="2oS0yTpIBgm" role="_tjki">
+          <node concept="l2Vlx" id="2oS0yTpIBgn" role="2iSdaV" />
+          <node concept="3F0ifn" id="2oS0yTpIBgo" role="3EZMnx">
+            <property role="3F0ifm" value="=" />
+          </node>
+          <node concept="3F1sOY" id="2oS0yTpIBgz" role="3EZMnx">
+            <ref role="1NtTu8" to="ls40:7VV7iqShXWh" resolve="value" />
+          </node>
+        </node>
+      </node>
+      <node concept="3F0ifn" id="2oS0yTpIW4r" role="3EZMnx">
+        <property role="3F0ifm" value=";" />
+      </node>
     </node>
   </node>
   <node concept="24kQdi" id="7VV7iqShXWQ">
