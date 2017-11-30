@@ -169,6 +169,7 @@
     <property role="EcuMT" value="1099920448281994596" />
     <property role="TrG5h" value="Block" />
     <property role="3GE5qa" value="Expr" />
+    <property role="34LRSv" value="{" />
     <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
     <node concept="1TJgyj" id="X3GX7L2ml_" role="1TKVEi">
       <property role="IQ2ns" value="1099920448281994597" />
@@ -268,6 +269,7 @@
     <property role="3GE5qa" value="Expr" />
     <property role="TrG5h" value="StructInit" />
     <property role="R4oN_" value="Struct initialization" />
+    <property role="34LRSv" value="init" />
     <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
     <node concept="1TJgyj" id="3dWlfh4lRQf" role="1TKVEi">
       <property role="IQ2ns" value="3709933601141783951" />
