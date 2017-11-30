@@ -1,3 +1,5 @@
-*source_gen*
-*/classes_gen
+source_gen
+source_gen.caches
+classes_gen
 *.iws
+workspace.xml
