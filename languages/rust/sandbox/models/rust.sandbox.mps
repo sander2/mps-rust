@@ -370,6 +370,7 @@
       </concept>
       <concept id="9149939120071034736" name="rust.structure.VarRef" flags="ng" index="36GXDm" />
       <concept id="9149939120070975178" name="rust.structure.LetBinding" flags="ng" index="36JcfG">
+        <property id="2753953570239116245" name="mutable" index="1Wfn7V" />
         <child id="9149939120070975249" name="value" index="36Jc8R" />
         <child id="2753953570235995100" name="typeAnnotation" index="1ZVt7M" />
       </concept>
@@ -451,7 +452,8 @@
         <property role="TrG5h" value="c" />
       </node>
       <node concept="36JcfG" id="2oS0yTpU5M9" role="3YiHqO">
-        <property role="TrG5h" value="d" />
+        <property role="TrG5h" value="d1" />
+        <property role="1Wfn7V" value="true" />
         <node concept="3Yh6PT" id="2oS0yTpU5Mr" role="1ZVt7M">
           <property role="TrG5h" value="NonEmptyStruct" />
         </node>
