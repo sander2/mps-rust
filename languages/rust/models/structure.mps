@@ -30,7 +30,9 @@
         <child id="1071489727083" name="linkDeclaration" index="1TKVEi" />
         <child id="1071489727084" name="propertyDeclaration" index="1TKVEl" />
       </concept>
-      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ" />
+      <concept id="1169125989551" name="jetbrains.mps.lang.structure.structure.InterfaceConceptDeclaration" flags="ig" index="PlHQZ">
+        <child id="1169127546356" name="extends" index="PrDN$" />
+      </concept>
       <concept id="1169127622168" name="jetbrains.mps.lang.structure.structure.InterfaceConceptReference" flags="ig" index="PrWs8">
         <reference id="1169127628841" name="intfc" index="PrY4T" />
       </concept>
@@ -405,6 +407,7 @@
   <node concept="1TIwiD" id="5z8qOPDzgMw">
     <property role="EcuMT" value="6397481250907294880" />
     <property role="TrG5h" value="PointerType" />
+    <property role="34LRSv" value="&amp;" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyi" id="5z8qOPDzhYg" role="1TKVEl">
       <property role="IQ2nx" value="6397481250907299728" />
@@ -421,6 +424,9 @@
   <node concept="PlHQZ" id="5z8qOPD_3tU">
     <property role="EcuMT" value="6397481250907764602" />
     <property role="TrG5h" value="ITypeRef" />
+    <node concept="PrWs8" id="1QkkqS1qsbY" role="PrDN$">
+      <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
+    </node>
   </node>
 </model>
 
