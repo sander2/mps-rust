@@ -96,6 +96,26 @@
         </node>
       </node>
     </node>
+    <node concept="37WvkG" id="4SqZSFWcuIH" role="37WGs$">
+      <ref role="37XkoT" to="ls40:3IkiYNasXJy" resolve="Borrow" />
+      <node concept="37Y9Zx" id="4SqZSFWcuII" role="37ZfLb">
+        <node concept="3clFbS" id="4SqZSFWcuIJ" role="2VODD2">
+          <node concept="3clFbF" id="4SqZSFWcuKd" role="3cqZAp">
+            <node concept="37vLTI" id="4SqZSFWcwj7" role="3clFbG">
+              <node concept="3clFbT" id="4SqZSFWcwpK" role="37vLTx">
+                <property role="3clFbU" value="false" />
+              </node>
+              <node concept="2OqwBi" id="4SqZSFWcuU5" role="37vLTJ">
+                <node concept="1r4Lsj" id="4SqZSFWcuKc" role="2Oq$k0" />
+                <node concept="3TrcHB" id="4SqZSFWcvFw" role="2OqNvi">
+                  <ref role="3TsBF5" to="ls40:3IkiYNasXJz" resolve="isMut" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

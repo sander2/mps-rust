@@ -70,15 +70,10 @@
       </concept>
       <concept id="1139535439104" name="jetbrains.mps.lang.editor.structure.CellActionMap_ExecuteFunction" flags="in" index="1hAIg9" />
       <concept id="5692353713941573329" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_ActionLabelText" flags="ig" index="1hCUdq" />
-      <concept id="1088013125922" name="jetbrains.mps.lang.editor.structure.CellModel_RefCell" flags="sg" stub="730538219795941030" index="1iCGBv">
-        <child id="1088186146602" name="editorComponent" index="1sWHZn" />
-      </concept>
       <concept id="1381004262292414836" name="jetbrains.mps.lang.editor.structure.ICellStyle" flags="ng" index="1k5N5V">
         <reference id="1381004262292426837" name="parentStyleClass" index="1k5W1q" />
       </concept>
-      <concept id="1088185857835" name="jetbrains.mps.lang.editor.structure.InlineEditorComponent" flags="ig" index="1sVBvm" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
-        <property id="1140017977771" name="readOnly" index="1Intyy" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1073389214265" name="jetbrains.mps.lang.editor.structure.EditorCellModel" flags="ng" index="3EYTF0">
@@ -366,14 +361,8 @@
     <property role="3GE5qa" value="" />
     <ref role="1XX52x" to="ls40:3dWlfh4lRQa" resolve="StructInitPair" />
     <node concept="3EZMnI" id="3dWlfh4lRQr" role="2wV5jI">
-      <node concept="1iCGBv" id="2Z$qCIhVe4V" role="3EZMnx">
-        <ref role="1NtTu8" to="ls40:2Z$qCIhVe4Q" resolve="field" />
-        <node concept="1sVBvm" id="2Z$qCIhVe4X" role="1sWHZn">
-          <node concept="3F0A7n" id="2Z$qCIhVe55" role="2wV5jI">
-            <property role="1Intyy" value="true" />
-            <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-          </node>
-        </node>
+      <node concept="3F0A7n" id="6AMZpq7r0ZO" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
       <node concept="3F0ifn" id="2Z$qCIhVKpK" role="3EZMnx">
         <property role="3F0ifm" value=":" />
@@ -586,8 +575,8 @@
           </node>
         </node>
       </node>
-      <node concept="3F0A7n" id="5z8qOPDzi8q" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      <node concept="3F1sOY" id="4SqZSFWh17U" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:4SqZSFWgqu9" resolve="ty" />
       </node>
       <node concept="l2Vlx" id="5z8qOPDzgNy" role="2iSdaV" />
     </node>
