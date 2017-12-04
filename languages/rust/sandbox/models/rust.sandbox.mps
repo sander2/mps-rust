@@ -380,6 +380,10 @@
         <property id="6397481250907299728" name="mutable" index="Lhnjt" />
         <child id="5628091656755586953" name="ty" index="2MmPw3" />
       </concept>
+      <concept id="3451000362162475212" name="rust.structure.Assignment" flags="ng" index="2X_3D7">
+        <child id="3451000362162475215" name="rhs" index="2X_3D4" />
+        <child id="3451000362162475213" name="lhs" index="2X_3D6" />
+      </concept>
       <concept id="9149939120071034736" name="rust.structure.VarRef" flags="ng" index="36GXDm" />
       <concept id="9149939120070975178" name="rust.structure.LetBinding" flags="ng" index="36JcfG">
         <property id="2753953570239116245" name="mutable" index="1Wfn7V" />
@@ -513,6 +517,14 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+      <node concept="2X_3D7" id="6AMZpq7UW5E" role="3YiHqO">
+        <node concept="36GXDm" id="6AMZpq7UW6G" role="2X_3D6">
+          <property role="TrG5h" value="qw2" />
+        </node>
+        <node concept="36GXDm" id="6AMZpq7UW6M" role="2X_3D4">
+          <property role="TrG5h" value="qw" />
         </node>
       </node>
       <node concept="36GXDm" id="6EC6D97b7pA" role="3YiHqO">
@@ -1268,6 +1280,36 @@
                     <node concept="2k1_uq" id="5$_96qUwWHv" role="2nKVj6">
                       <ref role="2nKBpL" node="3IkiYNavtj5" resolve="validLifetime" />
                       <node concept="30NkWi" id="5$_96qUwWHN" role="2nKBpO">
+                        <ref role="XkjO9" node="3cETwxIk8N" resolve="n" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="34ocy7" id="6AMZpq7VdSG" role="1dgzf0">
+              <node concept="34ofUU" id="6AMZpq7VoB_" role="34ocs8">
+                <node concept="2k1GkI" id="6AMZpq7Vrio" role="34ocZk">
+                  <node concept="2k1_uq" id="6AMZpq7Vrim" role="2nKVj6">
+                    <ref role="2nKBpL" node="3cETwxIjUd" resolve="typeOf" />
+                    <node concept="2kdhWc" id="6AMZpq7VtZt" role="2nKBpO">
+                      <node concept="727y6" id="6AMZpq7VwJ_" role="3zVzRQ">
+                        <ref role="3zVwH8" to="ls40:2Z$qCIis53f" resolve="rhs" />
+                      </node>
+                      <node concept="30NkWi" id="6AMZpq7VtZj" role="2kdhYM">
+                        <ref role="XkjO9" node="3cETwxIk8N" resolve="n" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2k1GkI" id="6AMZpq7Vg_U" role="34ocZn">
+                  <node concept="2k1_uq" id="6AMZpq7Vg_S" role="2nKVj6">
+                    <ref role="2nKBpL" node="3cETwxIjUd" resolve="typeOf" />
+                    <node concept="2kdhWc" id="6AMZpq7Vjhi" role="2nKBpO">
+                      <node concept="727y6" id="6AMZpq7VlUN" role="3zVzRQ">
+                        <ref role="3zVwH8" to="ls40:2Z$qCIis53d" resolve="lhs" />
+                      </node>
+                      <node concept="30NkWi" id="6AMZpq7Vjh8" role="2kdhYM">
                         <ref role="XkjO9" node="3cETwxIk8N" resolve="n" />
                       </node>
                     </node>
@@ -2188,6 +2230,7 @@
     <node concept="1XdyHe" id="6EC6D96WSiv" role="1dubk0" />
     <node concept="1XdyHe" id="6EC6D96ZOVJ" role="1dubk0" />
     <node concept="1XdyHe" id="6EC6D96ZQ3W" role="1dubk0" />
+    <node concept="1XdyHe" id="6AMZpq6L8ok" role="1dubk0" />
     <node concept="1XdyHe" id="6AMZpq6L9$p" role="1dubk0" />
     <node concept="1XdyHb" id="2Z$qCIibf$Z" role="1dubk0">
       <property role="1dubkF" value="checks whether a struct initialization Struct{x:1, y:2} is well-typed" />
