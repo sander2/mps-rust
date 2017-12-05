@@ -649,5 +649,22 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="5$fSc6YusPj">
+    <property role="3GE5qa" value="Expr" />
+    <ref role="1XX52x" to="ls40:5$fSc6YusP5" resolve="While" />
+    <node concept="3EZMnI" id="5$fSc6YusPl" role="2wV5jI">
+      <node concept="3F0ifn" id="5$fSc6YusP_" role="3EZMnx">
+        <property role="3F0ifm" value="while" />
+        <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
+      </node>
+      <node concept="3F0ifn" id="5$fSc6YusPO" role="3EZMnx">
+        <property role="3F0ifm" value="&lt;condition&gt;" />
+      </node>
+      <node concept="3F1sOY" id="5$fSc6YusQb" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:5$fSc6YusP6" resolve="block" />
+      </node>
+      <node concept="l2Vlx" id="5$fSc6YusPo" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

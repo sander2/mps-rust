@@ -428,5 +428,19 @@
       <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
     </node>
   </node>
+  <node concept="1TIwiD" id="5$fSc6YusP5">
+    <property role="EcuMT" value="6417595116755209541" />
+    <property role="3GE5qa" value="Expr" />
+    <property role="TrG5h" value="While" />
+    <property role="34LRSv" value="while" />
+    <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
+    <node concept="1TJgyj" id="5$fSc6YusP6" role="1TKVEi">
+      <property role="IQ2ns" value="6417595116755209542" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="block" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L2ml$" resolve="Block" />
+    </node>
+  </node>
 </model>
 
