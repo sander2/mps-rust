@@ -87,6 +87,9 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="X3GX7L1bso" resolve="Item" />
     </node>
+    <node concept="PrWs8" id="7c2Vtxi_Pyv" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
   <node concept="1TIwiD" id="X3GX7L1bso">
     <property role="EcuMT" value="1099920448281687832" />

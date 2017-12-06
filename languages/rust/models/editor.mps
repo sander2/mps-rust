@@ -159,6 +159,9 @@
       <node concept="3F0ifn" id="3ldL1i68Xzr" role="3EZMnx">
         <property role="3F0ifm" value="fn main()" />
       </node>
+      <node concept="3F0A7n" id="7c2Vtxi_Pz5" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
       <node concept="3F1sOY" id="3ldL1i68XzZ" role="3EZMnx">
         <ref role="1NtTu8" to="ls40:3ldL1i68XyN" resolve="mainBlock" />
       </node>
