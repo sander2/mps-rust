@@ -346,11 +346,12 @@
     <property role="EcuMT" value="4293139825171880930" />
     <property role="3GE5qa" value="Expr" />
     <property role="TrG5h" value="Borrow" />
+    <property role="34LRSv" value="&amp;" />
     <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
     <node concept="1TJgyi" id="3IkiYNasXJz" role="1TKVEl">
       <property role="IQ2nx" value="4293139825171880931" />
-      <property role="TrG5h" value="isMut" />
-      <ref role="AX2Wp" node="3IkiYNasXJp" resolve="MutabilityModifier" />
+      <property role="TrG5h" value="mutable" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
     <node concept="1TJgyj" id="3IkiYNasXKi" role="1TKVEi">
       <property role="IQ2ns" value="4293139825171880978" />
