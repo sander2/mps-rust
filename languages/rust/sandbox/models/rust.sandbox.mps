@@ -433,10 +433,6 @@
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
       <concept id="4222318806802425298" name="jetbrains.mps.lang.core.structure.SuppressErrorsAnnotation" flags="ng" index="15s5l7" />
-      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
-        <property id="779128492853934523" name="cellId" index="1K8rM7" />
-        <property id="779128492853699361" name="side" index="1Kfyot" />
-      </concept>
       <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
         <property id="709746936026609031" name="linkId" index="3V$3ak" />
         <property id="709746936026609029" name="linkRole" index="3V$3am" />
@@ -460,7 +456,7 @@
         <child id="9149939120070975249" name="value" index="36Jc8R" />
       </concept>
       <concept id="4293139825171880930" name="rust.structure.Borrow" flags="ng" index="3LTT0e">
-        <property id="4293139825171880931" name="isMut" index="3LTT0f" />
+        <property id="4293139825171880931" name="mutable" index="3LTT0f" />
         <child id="4293139825171880978" name="e" index="3LTTvY" />
       </concept>
       <concept id="3709933601141783943" name="rust.structure.StructInit" flags="ng" index="1RaM_N">
@@ -481,6 +477,9 @@
       </concept>
       <concept id="1099920448281994596" name="rust.structure.Block" flags="ng" index="3YiHqP">
         <child id="1099920448281994597" name="statements" index="3YiHqO" />
+      </concept>
+      <concept id="1099920448281994410" name="rust.structure.StatementSemi" flags="ng" index="3YiHtV">
+        <child id="1099920448281994411" name="e" index="3YiHtU" />
       </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
@@ -562,9 +561,10 @@
         <node concept="1RaM_N" id="7c2VtxhVb_X" role="36Jc8R">
           <property role="TrG5h" value="EmptyStruct" />
         </node>
-        <node concept="1KehLL" id="6PRO_yG2D0V" role="lGtFl">
-          <property role="1K8rM7" value="Constant_zdj1kh_a0" />
-          <property role="1Kfyot" value="right" />
+      </node>
+      <node concept="3YiHtV" id="5cYjNPErPS_" role="3YiHqO">
+        <node concept="1RaM_N" id="5cYjNPErQAT" role="3YiHtU">
+          <property role="TrG5h" value="NonEmptyStruct" />
         </node>
       </node>
       <node concept="36JcfG" id="6PRO_yG2D1B" role="3YiHqO">
@@ -1555,7 +1555,7 @@
             <node concept="34odk1" id="7c2VtxjekpA" role="1dgzf0">
               <node concept="2kdhWc" id="7c2VtxjeniV" role="34ocZk">
                 <node concept="727y6" id="7c2VtxjetFI" role="3zVzRQ">
-                  <ref role="3zVwH8" to="ls40:3IkiYNasXJz" resolve="isMut" />
+                  <ref role="3zVwH8" to="ls40:3IkiYNasXJz" resolve="mutable" />
                 </node>
                 <node concept="30NkWi" id="7c2VtxjeniM" role="2kdhYM">
                   <ref role="XkjO9" node="3cETwxIk8N" resolve="n" />
@@ -3775,7 +3775,7 @@
             </node>
             <node concept="2kdhWc" id="6PRO_yFvTXb" role="34ocZn">
               <node concept="727y6" id="6PRO_yFw10V" role="3zVzRQ">
-                <ref role="3zVwH8" to="ls40:3IkiYNasXJz" resolve="isMut" />
+                <ref role="3zVwH8" to="ls40:3IkiYNasXJz" resolve="mutable" />
               </node>
               <node concept="30NkWi" id="6PRO_yFvQKO" role="2kdhYM">
                 <ref role="XkjO9" node="6PRO_yFsH5s" resolve="x" />
@@ -3915,7 +3915,7 @@
             </node>
             <node concept="2kdhWc" id="6PRO_yFygqC" role="34ocZn">
               <node concept="727y6" id="6PRO_yFykfT" role="3zVzRQ">
-                <ref role="3zVwH8" to="ls40:3IkiYNasXJz" resolve="isMut" />
+                <ref role="3zVwH8" to="ls40:3IkiYNasXJz" resolve="mutable" />
               </node>
               <node concept="30NkWi" id="6PRO_yFygq_" role="2kdhYM">
                 <ref role="XkjO9" node="6PRO_yFrJfw" resolve="b" />
@@ -3952,7 +3952,7 @@
             </node>
             <node concept="2kdhWc" id="6PRO_yG0kDT" role="34ocZn">
               <node concept="727y6" id="6PRO_yG0owm" role="3zVzRQ">
-                <ref role="3zVwH8" to="ls40:3IkiYNasXJz" resolve="isMut" />
+                <ref role="3zVwH8" to="ls40:3IkiYNasXJz" resolve="mutable" />
               </node>
               <node concept="30NkWi" id="6PRO_yG0kDQ" role="2kdhYM">
                 <ref role="XkjO9" node="6PRO_yFrJfw" resolve="b" />
