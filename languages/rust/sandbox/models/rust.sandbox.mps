@@ -18,6 +18,7 @@
     <import index="lui2" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.module(MPS.OpenAPI/)" />
     <import index="mhbf" ref="8865b7a8-5271-43d3-884c-6fd1d9cfdd34/java:org.jetbrains.mps.openapi.model(MPS.OpenAPI/)" />
     <import index="pzen" ref="r:25bfb30f-3676-4451-9448-27a17343be80(com.mbeddr.mpsutil.inca.core.runtime.plugin)" />
+    <import index="l0z0" ref="7766a138-716a-422a-9c88-131459fb8d6a/java:io.usethesource.capsule(com.mbeddr.mpsutil.inca.core.runtime/)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" implicit="true" />
@@ -271,13 +272,10 @@
       <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
         <child id="1081516765348" name="expression" index="3fr31v" />
       </concept>
-      <concept id="1154542696413" name="jetbrains.mps.baseLanguage.structure.ArrayCreatorWithInitializer" flags="nn" index="3g6Rrh">
-        <child id="1154542793668" name="componentType" index="3g7fb8" />
-        <child id="1154542803372" name="initValue" index="3g7hyw" />
-      </concept>
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
+        <child id="4972241301747169160" name="typeArgument" index="3PaCim" />
       </concept>
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk">
         <child id="1212687122400" name="typeParameter" index="1pMfVU" />
@@ -485,26 +483,14 @@
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
         <child id="1204796294226" name="closure" index="23t8la" />
       </concept>
-      <concept id="1176903168877" name="jetbrains.mps.baseLanguage.collections.structure.UnionOperation" flags="nn" index="4Tj9Z" />
       <concept id="1176906603202" name="jetbrains.mps.baseLanguage.collections.structure.BinaryOperation" flags="nn" index="56pJg">
         <child id="1176906787974" name="rightExpression" index="576Qk" />
       </concept>
-      <concept id="540871147943773365" name="jetbrains.mps.baseLanguage.collections.structure.SingleArgumentSequenceOperation" flags="nn" index="25WWJ4">
-        <child id="540871147943773366" name="argument" index="25WWJ7" />
-      </concept>
       <concept id="1176921879268" name="jetbrains.mps.baseLanguage.collections.structure.IntersectOperation" flags="nn" index="60FfQ" />
-      <concept id="1176923520476" name="jetbrains.mps.baseLanguage.collections.structure.ExcludeOperation" flags="nn" index="66VNe" />
       <concept id="1204980550705" name="jetbrains.mps.baseLanguage.collections.structure.VisitAllOperation" flags="nn" index="2es0OD" />
       <concept id="1207233427108" name="jetbrains.mps.baseLanguage.collections.structure.MapRemoveOperation" flags="nn" index="kI3uX">
         <child id="1207233489861" name="key" index="kIiFs" />
       </concept>
-      <concept id="1224414427926" name="jetbrains.mps.baseLanguage.collections.structure.SequenceCreator" flags="nn" index="kMnCb">
-        <child id="1224414456414" name="elementType" index="kMuH3" />
-      </concept>
-      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
-        <child id="1151689745422" name="elementType" index="A3Ik2" />
-      </concept>
-      <concept id="6126991172893676625" name="jetbrains.mps.baseLanguage.collections.structure.ContainsAllOperation" flags="nn" index="BjQpj" />
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
         <child id="1153944424730" name="inputSequence" index="2GsD0m" />
@@ -518,7 +504,6 @@
       </concept>
       <concept id="1203518072036" name="jetbrains.mps.baseLanguage.collections.structure.SmartClosureParameterDeclaration" flags="ig" index="Rh6nW" />
       <concept id="1162935959151" name="jetbrains.mps.baseLanguage.collections.structure.GetSizeOperation" flags="nn" index="34oBXx" />
-      <concept id="1240325842691" name="jetbrains.mps.baseLanguage.collections.structure.AsSequenceOperation" flags="nn" index="39bAoz" />
       <concept id="1201872418428" name="jetbrains.mps.baseLanguage.collections.structure.GetKeysOperation" flags="nn" index="3lbrtF" />
       <concept id="1197683403723" name="jetbrains.mps.baseLanguage.collections.structure.MapType" flags="in" index="3rvAFt">
         <child id="1197683466920" name="keyType" index="3rvQeY" />
@@ -9874,11 +9859,11 @@
         <node concept="3cpWs6" id="6k$2nTd_JSF" role="3cqZAp">
           <node concept="2ZRyFJ" id="6k$2nTd_JUZ" role="3cqZAk">
             <ref role="2ZRyFH" node="6k$2nTd_m9H" resolve="VarList" />
-            <node concept="2ShNRf" id="6k$2nTd_JZa" role="2ZRyFy">
-              <node concept="kMnCb" id="6k$2nTd_LfL" role="2ShVmc">
-                <node concept="3Tqbb2" id="6k$2nTd_LhS" role="kMuH3">
-                  <ref role="ehGHo" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
-                </node>
+            <node concept="2YIFZM" id="3mD0ARw$6Uy" role="2ZRyFy">
+              <ref role="37wK5l" to="l0z0:~Set$Immutable.of():io.usethesource.capsule.Set$Immutable" resolve="of" />
+              <ref role="1Pybhc" to="l0z0:~Set$Immutable" resolve="Set.Immutable" />
+              <node concept="3Tqbb2" id="3mD0ARw$bLd" role="3PaCim">
+                <ref role="ehGHo" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
               </node>
             </node>
           </node>
@@ -9925,11 +9910,12 @@
                 </node>
               </node>
               <node concept="2OqwBi" id="6k$2nTdX0K5" role="EsVZz">
-                <node concept="1tmTer" id="6k$2nTdX0v9" role="2Oq$k0">
-                  <ref role="1tmTeq" node="6k$2nTdWZKs" resolve="s1" />
+                <node concept="1tmTer" id="3mD0ARw_ker" role="2Oq$k0">
+                  <ref role="1tmTeq" node="6k$2nTdWZKv" resolve="s2" />
                 </node>
-                <node concept="BjQpj" id="6k$2nTdX178" role="2OqNvi">
-                  <node concept="1tmTer" id="6k$2nTdX1lM" role="25WWJ7">
+                <node concept="liA8E" id="3mD0ARw_hJO" role="2OqNvi">
+                  <ref role="37wK5l" to="l0z0:~Set.containsAll(java.util.Collection):boolean" resolve="containsAll" />
+                  <node concept="1tmTer" id="3mD0ARw_ifu" role="37wK5m">
                     <ref role="1tmTeq" node="6k$2nTdWZKv" resolve="s2" />
                   </node>
                 </node>
@@ -9958,6 +9944,70 @@
       </node>
     </node>
     <node concept="2slB5m" id="6k$2nTdX2wG" role="_iOnB" />
+    <node concept="hMdjl" id="6k$2nTd_p7v" role="_iOnB">
+      <property role="TrG5h" value="lub" />
+      <node concept="2ZQB9c" id="6k$2nTd_pa6" role="3clF45">
+        <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
+      </node>
+      <node concept="3Tm1VV" id="6k$2nTd_p7y" role="1B3o_S" />
+      <node concept="3clFbS" id="6k$2nTd_p7z" role="3clF47">
+        <node concept="3clFbF" id="6k$2nTd_qE_" role="3cqZAp">
+          <node concept="3_zFn_" id="6k$2nTd_qEy" role="3clFbG">
+            <node concept="3_zGKh" id="6k$2nTd_qGZ" role="3_zGzc">
+              <node concept="3__aGB" id="6k$2nTd_qHZ" role="3_$9z$">
+                <node concept="1tkKlP" id="6k$2nTd_qHX" role="3_zOWp">
+                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
+                </node>
+                <node concept="1tm2WG" id="6k$2nTd_qJl" role="3_zOWs">
+                  <property role="TrG5h" value="s1" />
+                </node>
+              </node>
+              <node concept="3__aGB" id="6k$2nTd_qMe" role="3_$9z$">
+                <node concept="1tkKlP" id="6k$2nTd_qMc" role="3_zOWp">
+                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
+                </node>
+                <node concept="1tm2WG" id="6k$2nTd_qNd" role="3_zOWs">
+                  <property role="TrG5h" value="s2" />
+                </node>
+              </node>
+              <node concept="2ZRyFJ" id="6k$2nTd_sJZ" role="EsVZz">
+                <ref role="2ZRyFH" node="6k$2nTd_m9H" resolve="VarList" />
+                <node concept="2OqwBi" id="6k$2nTd_tCr" role="2ZRyFy">
+                  <node concept="1tmTer" id="6k$2nTd_sU$" role="2Oq$k0">
+                    <ref role="1tmTeq" node="6k$2nTd_qJl" resolve="s1" />
+                  </node>
+                  <node concept="liA8E" id="3mD0ARw_aVo" role="2OqNvi">
+                    <ref role="37wK5l" to="l0z0:~Set$Immutable.__insertAll(java.util.Set):io.usethesource.capsule.Set$Immutable" resolve="__insertAll" />
+                    <node concept="1tmTer" id="3mD0ARw_bPC" role="37wK5m">
+                      <ref role="1tmTeq" node="6k$2nTd_qNd" resolve="s2" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="37vLTw" id="6k$2nTd_qFt" role="3_$Z8D">
+              <ref role="3cqZAo" node="6k$2nTd_p8z" resolve="t1" />
+            </node>
+            <node concept="37vLTw" id="6k$2nTd_qG7" role="3_$Z8D">
+              <ref role="3cqZAo" node="6k$2nTd_p9g" resolve="t2" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="hPFL_" id="6k$2nTd_p8z" role="3clF46">
+        <property role="TrG5h" value="t1" />
+        <node concept="2ZQB9c" id="6k$2nTd_p91" role="1tU5fm">
+          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
+        </node>
+      </node>
+      <node concept="hPFL_" id="6k$2nTd_p9g" role="3clF46">
+        <property role="TrG5h" value="t2" />
+        <node concept="2ZQB9c" id="6k$2nTd_p9R" role="1tU5fm">
+          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
+        </node>
+      </node>
+    </node>
+    <node concept="2slB5m" id="3mD0ARw$ydE" role="_iOnB" />
     <node concept="hMdjl" id="6k$2nTdX2gZ" role="_iOnB">
       <property role="TrG5h" value="glb" />
       <node concept="2ZQB9c" id="6k$2nTdX2h0" role="3clF45">
@@ -9995,8 +10045,9 @@
                   <node concept="1tmTer" id="6k$2nTdX2he" role="2Oq$k0">
                     <ref role="1tmTeq" node="6k$2nTdX2h8" resolve="s1" />
                   </node>
-                  <node concept="60FfQ" id="6k$2nTdX3sG" role="2OqNvi">
-                    <node concept="1tmTer" id="6k$2nTdX3Ii" role="576Qk">
+                  <node concept="liA8E" id="3mD0ARw$m85" role="2OqNvi">
+                    <ref role="37wK5l" to="l0z0:~Set$Immutable.__retainAll(java.util.Set):io.usethesource.capsule.Set$Immutable" resolve="__retainAll" />
+                    <node concept="1tmTer" id="3mD0ARw$pX7" role="37wK5m">
                       <ref role="1tmTeq" node="6k$2nTdX2hb" resolve="s2" />
                     </node>
                   </node>
@@ -10026,70 +10077,6 @@
       </node>
     </node>
     <node concept="2slB5m" id="6k$2nTdX2hn" role="_iOnB" />
-    <node concept="2slB5m" id="6k$2nTdX1t7" role="_iOnB" />
-    <node concept="hMdjl" id="6k$2nTd_p7v" role="_iOnB">
-      <property role="TrG5h" value="lub" />
-      <node concept="2ZQB9c" id="6k$2nTd_pa6" role="3clF45">
-        <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-      </node>
-      <node concept="3Tm1VV" id="6k$2nTd_p7y" role="1B3o_S" />
-      <node concept="3clFbS" id="6k$2nTd_p7z" role="3clF47">
-        <node concept="3clFbF" id="6k$2nTd_qE_" role="3cqZAp">
-          <node concept="3_zFn_" id="6k$2nTd_qEy" role="3clFbG">
-            <node concept="3_zGKh" id="6k$2nTd_qGZ" role="3_zGzc">
-              <node concept="3__aGB" id="6k$2nTd_qHZ" role="3_$9z$">
-                <node concept="1tkKlP" id="6k$2nTd_qHX" role="3_zOWp">
-                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
-                </node>
-                <node concept="1tm2WG" id="6k$2nTd_qJl" role="3_zOWs">
-                  <property role="TrG5h" value="s1" />
-                </node>
-              </node>
-              <node concept="3__aGB" id="6k$2nTd_qMe" role="3_$9z$">
-                <node concept="1tkKlP" id="6k$2nTd_qMc" role="3_zOWp">
-                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
-                </node>
-                <node concept="1tm2WG" id="6k$2nTd_qNd" role="3_zOWs">
-                  <property role="TrG5h" value="s2" />
-                </node>
-              </node>
-              <node concept="2ZRyFJ" id="6k$2nTd_sJZ" role="EsVZz">
-                <ref role="2ZRyFH" node="6k$2nTd_m9H" resolve="VarList" />
-                <node concept="2OqwBi" id="6k$2nTd_tCr" role="2ZRyFy">
-                  <node concept="1tmTer" id="6k$2nTd_sU$" role="2Oq$k0">
-                    <ref role="1tmTeq" node="6k$2nTd_qJl" resolve="s1" />
-                  </node>
-                  <node concept="4Tj9Z" id="6k$2nTd_uqa" role="2OqNvi">
-                    <node concept="1tmTer" id="6k$2nTd_uIq" role="576Qk">
-                      <ref role="1tmTeq" node="6k$2nTd_qNd" resolve="s2" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="37vLTw" id="6k$2nTd_qFt" role="3_$Z8D">
-              <ref role="3cqZAo" node="6k$2nTd_p8z" resolve="t1" />
-            </node>
-            <node concept="37vLTw" id="6k$2nTd_qG7" role="3_$Z8D">
-              <ref role="3cqZAo" node="6k$2nTd_p9g" resolve="t2" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="hPFL_" id="6k$2nTd_p8z" role="3clF46">
-        <property role="TrG5h" value="t1" />
-        <node concept="2ZQB9c" id="6k$2nTd_p91" role="1tU5fm">
-          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-        </node>
-      </node>
-      <node concept="hPFL_" id="6k$2nTd_p9g" role="3clF46">
-        <property role="TrG5h" value="t2" />
-        <node concept="2ZQB9c" id="6k$2nTd_p9R" role="1tU5fm">
-          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-        </node>
-      </node>
-    </node>
-    <node concept="2slB5m" id="6k$2nTdBcPS" role="_iOnB" />
     <node concept="hMdjl" id="6k$2nTdQGzO" role="_iOnB">
       <property role="TrG5h" value="addItem" />
       <node concept="2ZQB9c" id="6k$2nTdQGzP" role="3clF45">
@@ -10114,19 +10101,10 @@
                   <node concept="1tmTer" id="6k$2nTdQG$0" role="2Oq$k0">
                     <ref role="1tmTeq" node="6k$2nTdQGzX" resolve="s" />
                   </node>
-                  <node concept="4Tj9Z" id="6k$2nTdQG$1" role="2OqNvi">
-                    <node concept="2OqwBi" id="6k$2nTdQG$2" role="576Qk">
-                      <node concept="2ShNRf" id="6k$2nTdQG$3" role="2Oq$k0">
-                        <node concept="3g6Rrh" id="6k$2nTdQG$4" role="2ShVmc">
-                          <node concept="3Tqbb2" id="6k$2nTdQG$5" role="3g7fb8">
-                            <ref role="ehGHo" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
-                          </node>
-                          <node concept="37vLTw" id="6k$2nTdQG$6" role="3g7hyw">
-                            <ref role="3cqZAo" node="6k$2nTdQG$b" resolve="n" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="39bAoz" id="6k$2nTdQG$7" role="2OqNvi" />
+                  <node concept="liA8E" id="3mD0ARw$N50" role="2OqNvi">
+                    <ref role="37wK5l" to="l0z0:~Set$Immutable.__insert(java.lang.Object):io.usethesource.capsule.Set$Immutable" resolve="__insert" />
+                    <node concept="37vLTw" id="3mD0ARw$OyY" role="37wK5m">
+                      <ref role="3cqZAo" node="6k$2nTdQG$b" resolve="n" />
                     </node>
                   </node>
                 </node>
@@ -10176,19 +10154,10 @@
                   <node concept="1tmTer" id="6k$2nTdBtlh" role="2Oq$k0">
                     <ref role="1tmTeq" node="6k$2nTdBlUr" resolve="s" />
                   </node>
-                  <node concept="66VNe" id="6k$2nTdQI2_" role="2OqNvi">
-                    <node concept="2OqwBi" id="6k$2nTdQIxt" role="576Qk">
-                      <node concept="2ShNRf" id="6k$2nTdQIxu" role="2Oq$k0">
-                        <node concept="3g6Rrh" id="6k$2nTdQIxv" role="2ShVmc">
-                          <node concept="3Tqbb2" id="6k$2nTdQIxw" role="3g7fb8">
-                            <ref role="ehGHo" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
-                          </node>
-                          <node concept="37vLTw" id="6k$2nTdQIxx" role="3g7hyw">
-                            <ref role="3cqZAo" node="6k$2nTdBd38" resolve="n" />
-                          </node>
-                        </node>
-                      </node>
-                      <node concept="39bAoz" id="6k$2nTdQIxy" role="2OqNvi" />
+                  <node concept="liA8E" id="3mD0ARw$WHX" role="2OqNvi">
+                    <ref role="37wK5l" to="l0z0:~Set$Immutable.__remove(java.lang.Object):io.usethesource.capsule.Set$Immutable" resolve="__remove" />
+                    <node concept="37vLTw" id="3mD0ARw$Y0q" role="37wK5m">
+                      <ref role="3cqZAo" node="6k$2nTdBd38" resolve="n" />
                     </node>
                   </node>
                 </node>
@@ -10217,8 +10186,9 @@
     <node concept="2Z3Rg9" id="6k$2nTd_m9H" role="2Z3R6k">
       <property role="TrG5h" value="VarList" />
       <node concept="2Z3RmO" id="6k$2nTd_maD" role="2Z3Rhz">
-        <node concept="A3Dl8" id="6k$2nTd_wcX" role="2Z3Rhw">
-          <node concept="3Tqbb2" id="6k$2nTd_p6D" role="A3Ik2">
+        <node concept="3uibUv" id="3mD0ARwzWlM" role="2Z3Rhw">
+          <ref role="3uigEE" to="l0z0:~Set$Immutable" resolve="Set.Immutable" />
+          <node concept="3Tqbb2" id="3mD0ARwzpbL" role="11_B2D">
             <ref role="ehGHo" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
           </node>
         </node>
@@ -10245,7 +10215,7 @@
                 <property role="TrG5h" value="e" />
               </node>
               <node concept="36GXDm" id="67lP7Xxjkcm" role="3YiHqO">
-                <property role="TrG5h" value="ass" />
+                <property role="TrG5h" value="a" />
               </node>
             </node>
             <node concept="3YiHqP" id="1lrZ7nHUa$j" role="1W6B0I">
