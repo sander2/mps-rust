@@ -459,7 +459,27 @@
       </concept>
     </language>
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
-      <concept id="1099920448281658011" name="rust.structure.Module" flags="ng" index="3YhZ5a" />
+      <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
+        <child id="7053749796611573408" name="block" index="KpVaL" />
+      </concept>
+      <concept id="9149939120071034736" name="rust.structure.VarRef" flags="ng" index="36GXDm" />
+      <concept id="9149939120070975178" name="rust.structure.LetBinding" flags="ng" index="36JcfG">
+        <property id="2753953570239116245" name="mutable" index="1Wfn7V" />
+      </concept>
+      <concept id="1484126389064436735" name="rust.structure.FieldStruct" flags="ng" index="1ToarD" />
+      <concept id="2753953570241008254" name="rust.structure.IfExpr" flags="ng" index="1W6_1g">
+        <child id="2753953570241008871" name="ifTrue" index="1W6_r9" />
+        <child id="2753953570241016320" name="ifFalse" index="1W6B0I" />
+      </concept>
+      <concept id="1099920448281658011" name="rust.structure.Module" flags="ng" index="3YhZ5a">
+        <child id="1099920448281713974" name="defs" index="3YhEVB" />
+      </concept>
+      <concept id="1099920448281994596" name="rust.structure.Block" flags="ng" index="3YiHqP">
+        <child id="1099920448281994597" name="statements" index="3YiHqO" />
+      </concept>
+      <concept id="1099920448281994410" name="rust.structure.StatementSemi" flags="ng" index="3YiHtV">
+        <child id="1099920448281994411" name="e" index="3YiHtU" />
+      </concept>
     </language>
     <language id="83888646-71ce-4f1c-9c53-c54016f6ad4f" name="jetbrains.mps.baseLanguage.collections">
       <concept id="1204796164442" name="jetbrains.mps.baseLanguage.collections.structure.InternalSequenceOperation" flags="nn" index="23sCx2">
@@ -10210,6 +10230,41 @@
   </node>
   <node concept="3YhZ5a" id="67zX15hHpet">
     <property role="TrG5h" value="SandboxModule" />
+    <node concept="KpV6n" id="1lrZ7nHQJyC" role="3YhEVB">
+      <property role="TrG5h" value="main" />
+      <node concept="3YiHqP" id="1lrZ7nHQJyE" role="KpVaL">
+        <node concept="36JcfG" id="1lrZ7nHTXYz" role="3YiHqO">
+          <property role="1Wfn7V" value="false" />
+          <property role="TrG5h" value="a" />
+        </node>
+        <node concept="3YiHtV" id="1lrZ7nHUayn" role="3YiHqO">
+          <node concept="1W6_1g" id="1lrZ7nHUayN" role="3YiHtU">
+            <node concept="3YiHqP" id="1lrZ7nHUayP" role="1W6_r9">
+              <node concept="36JcfG" id="1lrZ7nHUayZ" role="3YiHqO">
+                <property role="1Wfn7V" value="false" />
+                <property role="TrG5h" value="e" />
+              </node>
+              <node concept="36GXDm" id="67lP7Xxjkcm" role="3YiHqO">
+                <property role="TrG5h" value="ass" />
+              </node>
+            </node>
+            <node concept="3YiHqP" id="1lrZ7nHUa$j" role="1W6B0I">
+              <node concept="36JcfG" id="1lrZ7nHUa$p" role="3YiHqO">
+                <property role="1Wfn7V" value="false" />
+                <property role="TrG5h" value="f" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="36JcfG" id="1lrZ7nHUaxK" role="3YiHqO">
+          <property role="1Wfn7V" value="false" />
+          <property role="TrG5h" value="d" />
+        </node>
+      </node>
+    </node>
+    <node concept="1ToarD" id="1lrZ7nHUaCr" role="3YhEVB">
+      <property role="TrG5h" value="Struct1" />
+    </node>
   </node>
 </model>
 
