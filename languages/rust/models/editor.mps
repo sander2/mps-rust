@@ -262,14 +262,11 @@
   <node concept="24kQdi" id="X3GX7L1hP1">
     <ref role="1XX52x" to="ls40:X3GX7L14ar" resolve="Module" />
     <node concept="3EZMnI" id="X3GX7L2hR7" role="2wV5jI">
-      <node concept="3F0ifn" id="3ldL1i68Xzr" role="3EZMnx">
-        <property role="3F0ifm" value="fn main()" />
+      <node concept="3F0ifn" id="67zX15hAA9L" role="3EZMnx">
+        <property role="3F0ifm" value="// module:" />
       </node>
-      <node concept="3F0A7n" id="7c2Vtxi_Pz5" role="3EZMnx">
+      <node concept="3F0A7n" id="67zX15hAAbE" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F1sOY" id="3ldL1i68XzZ" role="3EZMnx">
-        <ref role="1NtTu8" to="ls40:3ldL1i68XyN" resolve="mainBlock" />
       </node>
       <node concept="3F2HdR" id="X3GX7L2hRk" role="3EZMnx">
         <ref role="1NtTu8" to="ls40:X3GX7L1hOQ" resolve="defs" />
@@ -1126,6 +1123,29 @@
   <node concept="IW6AY" id="5cYjNPE_H5f">
     <property role="3GE5qa" value="Expr" />
     <ref role="aqKnT" to="ls40:X3GX7L25vI" resolve="Expr" />
+  </node>
+  <node concept="24kQdi" id="67zX15hx4nK">
+    <property role="3GE5qa" value="Item" />
+    <ref role="1XX52x" to="ls40:67zX15hx4m6" resolve="Function" />
+    <node concept="3EZMnI" id="67zX15hx4po" role="2wV5jI">
+      <node concept="3F0ifn" id="67zX15hx4pC" role="3EZMnx">
+        <property role="3F0ifm" value="fn" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
+      <node concept="3F0A7n" id="67zX15hx4q9" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="67zX15hxD_0" role="3EZMnx">
+        <property role="3F0ifm" value="(" />
+      </node>
+      <node concept="3F0ifn" id="67zX15hxD_B" role="3EZMnx">
+        <property role="3F0ifm" value=")" />
+      </node>
+      <node concept="3F1sOY" id="67zX15hx4q_" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:67zX15hx4qw" resolve="block" />
+      </node>
+      <node concept="l2Vlx" id="67zX15hx4pr" role="2iSdaV" />
+    </node>
   </node>
 </model>
 
