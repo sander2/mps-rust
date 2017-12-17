@@ -5794,16 +5794,6 @@
     <node concept="3zyOaA" id="6mPjxNku__f" role="1dubk0">
       <property role="TrG5h" value="borrowsConflict" />
       <node concept="3zV_Rz" id="6mPjxNku__g" role="3zVECS">
-        <node concept="34ocy7" id="6mPjxNkEHuA" role="1dgzf0">
-          <node concept="34ofKa" id="6mPjxNkEV_j" role="34ocs8">
-            <node concept="30NkWi" id="6mPjxNkF5$H" role="34ocZk">
-              <ref role="XkjO9" node="6mPjxNkuTnn" resolve="newBorrow" />
-            </node>
-            <node concept="30NkWi" id="6mPjxNkEQIH" role="34ocZn">
-              <ref role="XkjO9" node="6mPjxNkuJsv" resolve="firstBorrow" />
-            </node>
-          </node>
-        </node>
         <node concept="34odk1" id="6mPjxNk$hcm" role="1dgzf0">
           <node concept="2k1GkI" id="6mPjxNk$m9f" role="34ocZk">
             <node concept="2k1_uq" id="6mPjxNk$m9d" role="2nKVj6">
@@ -11622,19 +11612,19 @@
           </node>
         </node>
         <node concept="36JcfG" id="6mPjxNlxIHn" role="3YiHqO">
-          <property role="1Wfn7V" value="false" />
+          <property role="1Wfn7V" value="true" />
           <property role="TrG5h" value="b" />
         </node>
         <node concept="3YiHtV" id="6mPjxNlxIGM" role="3YiHqO">
           <node concept="3BtyQ4" id="6mPjxNlxIGY" role="3YiHtU">
             <node concept="3YiHqP" id="6mPjxNlxIH0" role="3BtyQ7">
-              <node concept="2X_3D7" id="6mPjxNlxIHF" role="3YiHqO">
-                <node concept="36GXDm" id="6mPjxNlxIHO" role="2X_3D6">
+              <node concept="2X_3D7" id="6mPjxNlLQIK" role="3YiHqO">
+                <node concept="36GXDm" id="6mPjxNlLQIQ" role="2X_3D6">
                   <property role="TrG5h" value="b" />
                 </node>
-                <node concept="3LTT0e" id="6mPjxNlueyN" role="2X_3D4">
-                  <property role="3LTT0f" value="true" />
-                  <node concept="36GXDm" id="6mPjxNlxIHT" role="3LTTvY">
+                <node concept="3LTT0e" id="6mPjxNlLQIS" role="2X_3D4">
+                  <property role="3LTT0f" value="false" />
+                  <node concept="36GXDm" id="6mPjxNlLQJ0" role="3LTTvY">
                     <property role="TrG5h" value="a" />
                   </node>
                 </node>
