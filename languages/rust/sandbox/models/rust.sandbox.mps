@@ -274,7 +274,6 @@
       <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
-        <child id="4972241301747169160" name="typeArgument" index="3PaCim" />
       </concept>
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk">
         <child id="1212687122400" name="typeParameter" index="1pMfVU" />
@@ -426,9 +425,6 @@
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
-      <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
-        <reference id="1138405853777" name="concept" index="ehGHo" />
-      </concept>
       <concept id="1138056022639" name="jetbrains.mps.lang.smodel.structure.SPropertyAccess" flags="nn" index="3TrcHB">
         <reference id="1138056395725" name="property" index="3TsBF5" />
       </concept>
@@ -503,9 +499,6 @@
       <concept id="1176921879268" name="jetbrains.mps.baseLanguage.collections.structure.IntersectOperation" flags="nn" index="60FfQ" />
       <concept id="1207233427108" name="jetbrains.mps.baseLanguage.collections.structure.MapRemoveOperation" flags="nn" index="kI3uX">
         <child id="1207233489861" name="key" index="kIiFs" />
-      </concept>
-      <concept id="1151689724996" name="jetbrains.mps.baseLanguage.collections.structure.SequenceType" flags="in" index="A3Dl8">
-        <child id="1151689745422" name="elementType" index="A3Ik2" />
       </concept>
       <concept id="1153943597977" name="jetbrains.mps.baseLanguage.collections.structure.ForEachStatement" flags="nn" index="2Gpval">
         <child id="1153944400369" name="variable" index="2Gsz3X" />
@@ -4808,26 +4801,13 @@
             <property role="TrG5h" value="uninitialized" />
           </node>
         </node>
-        <node concept="34ocy7" id="2q_fATW76Zk" role="1dgzf0">
-          <node concept="34ofUU" id="2q_fATWbUUa" role="34ocs8">
-            <node concept="2Brx2E" id="2q_fATWbYWB" role="34ocZk">
-              <node concept="2k1_0R" id="2q_fATWbYWA" role="2Brx2B">
-                <property role="2k1_0O" value="true" />
-              </node>
+        <node concept="34ocy7" id="tcVLGwx15s" role="1dgzf0">
+          <node concept="34ofUU" id="tcVLGwxeoo" role="34ocs8">
+            <node concept="30NkWi" id="tcVLGwxnrH" role="34ocZk">
+              <ref role="XkjO9" node="2q_fATW65bE" resolve="uninitialized" />
             </node>
-            <node concept="1p__ei" id="2q_fATWbA0x" role="34ocZn">
-              <node concept="1i8UFo" id="2q_fATWbIdz" role="1p_StM">
-                <ref role="2RnLXx" node="2q_fATWb56g" resolve="contains" />
-                <node concept="1sjAk5" id="2q_fATWbIdH" role="2ZRyFy">
-                  <ref role="1sjAk2" node="2q_fATW65bE" resolve="uninitialized" />
-                </node>
-                <node concept="1sjAk5" id="2q_fATWbQKv" role="2ZRyFy">
-                  <ref role="1sjAk2" node="2q_fATW5wQN" resolve="decl" />
-                </node>
-              </node>
-              <node concept="3_JagS" id="2q_fATWbA0t" role="1p__f_">
-                <ref role="3_Jajq" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-              </node>
+            <node concept="30NkWi" id="tcVLGwxae9" role="34ocZn">
+              <ref role="XkjO9" node="2q_fATW5wQN" resolve="decl" />
             </node>
           </node>
         </node>
@@ -4932,30 +4912,6 @@
     <node concept="1XdyHe" id="6k$2nTdzZud" role="1dubk0" />
     <node concept="3zyOaA" id="6k$2nTd$ffq" role="1dubk0">
       <property role="TrG5h" value="getUninitializedVarsBefore" />
-      <node concept="3zV_Rz" id="6k$2nTd$ffr" role="3zVECS">
-        <node concept="34ocy7" id="6k$2nTe4Kc4" role="1dgzf0">
-          <node concept="34sUYq" id="6k$2nTe4Oon" role="34ocs8">
-            <node concept="2k1GkI" id="6k$2nTe4XoE" role="34sUSb">
-              <node concept="2k1_uq" id="6k$2nTe4XoC" role="2nKVj6">
-                <ref role="2nKBpL" node="5cYjNPEDvGo" resolve="getCFGSource" />
-                <node concept="30NkWi" id="6k$2nTe4YgN" role="2nKBpO">
-                  <ref role="XkjO9" node="6k$2nTd$hvT" resolve="n" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="30Nfyg" id="6k$2nTe0QLJ" role="1dgzf0">
-          <node concept="1p__ei" id="6k$2nTe0ZGz" role="30Nf_D">
-            <node concept="1i8UFo" id="6k$2nTe18F$" role="1p_StM">
-              <ref role="2RnLXx" node="6k$2nTd_JLp" resolve="bot" />
-            </node>
-            <node concept="3_JagS" id="6k$2nTe0ZGx" role="1p__f_">
-              <ref role="3_Jajq" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-            </node>
-          </node>
-        </node>
-      </node>
       <node concept="3zV_Rz" id="6he4umC4cm5" role="3zVECS">
         <node concept="34odk1" id="6k$2nTd$mox" role="1dgzf0">
           <node concept="2k1GkI" id="6k$2nTd$npm" role="34ocZk">
@@ -4988,116 +4944,100 @@
         </node>
       </node>
       <node concept="3TL$xT" id="6k$2nTd$vAz" role="3TLBbI">
-        <node concept="2eLkkM" id="6k$2nTd_AO7" role="1dukDx">
-          <node concept="2ZQB9c" id="6k$2nTd_AO6" role="2eP6Tc">
-            <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-          </node>
-          <node concept="2kHsid" id="6k$2nTd_DFW" role="iwB5b">
-            <ref role="2kHsi0" node="6k$2nTd_p7v" resolve="lub" />
-          </node>
+        <node concept="2kdjtB" id="tcVLGwqXLw" role="1dukDx">
+          <ref role="2UGuZ7" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
         </node>
       </node>
     </node>
     <node concept="1XdyHe" id="6k$2nTd$0l6" role="1dubk0" />
-    <node concept="1XdyHb" id="6he4umBZybk" role="1dubk0">
-      <property role="1dubkF" value="checks whether getUninitializedVarsAfterChange affect the initialization status of the memory" />
-    </node>
-    <node concept="3zyOaA" id="6he4umBYAI2" role="1dubk0">
-      <property role="TrG5h" value="affectsMemoryInitialization" />
-      <node concept="3zV_Rz" id="6he4umBYAI3" role="3zVECS">
-        <node concept="34ocy7" id="6he4umBZ33B" role="1dgzf0">
-          <node concept="34oehE" id="6he4umBZ33C" role="34ocs8">
-            <node concept="2kdjtB" id="6he4umBZ33D" role="2RGvlO">
+    <node concept="3zyOaA" id="6k$2nTd$27V" role="1dubk0">
+      <property role="TrG5h" value="getUninitializedVarsAfter" />
+      <node concept="3zV_Rz" id="6k$2nTdIpr_" role="3zVECS">
+        <node concept="1XdyHb" id="6k$2nTdLiz3" role="1dgzf0">
+          <property role="1dubkF" value="destructive read: mark as unitialized" />
+        </node>
+        <node concept="34ocy7" id="6k$2nTdJeQX" role="1dgzf0">
+          <node concept="34oehE" id="6k$2nTdJh96" role="34ocs8">
+            <node concept="2kdjtB" id="6k$2nTdJn8l" role="2RGvlO">
               <ref role="2UGuZ7" to="ls40:7VV7iqSictK" resolve="VarRef" />
             </node>
-            <node concept="30NkWi" id="6he4umBZ33E" role="2RGvhl">
-              <ref role="XkjO9" node="6he4umBYUK9" resolve="n" />
+            <node concept="30NkWi" id="6k$2nTdJg0h" role="2RGvhl">
+              <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
             </node>
           </node>
         </node>
-        <node concept="34ocy7" id="6he4umBZ33F" role="1dgzf0">
-          <node concept="2dT$3Y" id="6he4umBZ33G" role="34ocs8">
-            <node concept="2k1GkI" id="6he4umBZ33H" role="2dT$1H">
-              <node concept="2k1_uq" id="6he4umBZ33I" role="2nKVj6">
+        <node concept="34ocy7" id="6k$2nTdIvmo" role="1dgzf0">
+          <node concept="2dT$3Y" id="6k$2nTdIy$$" role="34ocs8">
+            <node concept="2k1GkI" id="6k$2nTdICs0" role="2dT$1H">
+              <node concept="2k1_uq" id="6k$2nTdICrY" role="2nKVj6">
                 <ref role="2nKBpL" node="6k$2nTdFzD8" resolve="isDestructiveRead" />
-                <node concept="30NkWi" id="6he4umBZ33J" role="2nKBpO">
-                  <ref role="XkjO9" node="6he4umBYUK9" resolve="n" />
+                <node concept="30NkWi" id="6k$2nTdICsk" role="2nKBpO">
+                  <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
                 </node>
               </node>
             </node>
           </node>
         </node>
+        <node concept="34odk1" id="6k$2nTdJvxJ" role="1dgzf0">
+          <node concept="2k1GkI" id="6k$2nTdJ_$z" role="34ocZk">
+            <node concept="2k1_uq" id="6k$2nTdJ_$x" role="2nKVj6">
+              <ref role="2nKBpL" node="3ldL1i6bjc3" resolve="resolveVarRef" />
+              <node concept="2kdhWc" id="6k$2nTdJJNf" role="2nKBpO">
+                <node concept="727y6" id="6k$2nTdJTo1" role="3zVzRQ">
+                  <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
+                </node>
+                <node concept="30NkWi" id="6k$2nTdJAKU" role="2kdhYM">
+                  <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
+                </node>
+              </node>
+              <node concept="30NkWi" id="6k$2nTdK1I2" role="2nKBpO">
+                <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="6k$2nTdJumN" role="34ocZn">
+            <property role="TrG5h" value="decl" />
+          </node>
+        </node>
+        <node concept="30Nfyg" id="tcVLGwrAFg" role="1dgzf0">
+          <node concept="30NkWi" id="tcVLGwrAH5" role="30Nf_D">
+            <ref role="XkjO9" node="6k$2nTdJumN" resolve="decl" />
+          </node>
+        </node>
       </node>
-      <node concept="3zV_Rz" id="6he4umBZ36r" role="3zVECS">
-        <node concept="34ocy7" id="6he4umBZ7kE" role="1dgzf0">
-          <node concept="34oehE" id="6he4umBZ7kF" role="34ocs8">
-            <node concept="2kdjtB" id="6he4umBZ7kG" role="2RGvlO">
+      <node concept="3zV_Rz" id="6k$2nTdK_kd" role="3zVECS">
+        <node concept="1XdyHb" id="6k$2nTdMknK" role="1dgzf0">
+          <property role="1dubkF" value="uninitialized declaration" />
+        </node>
+        <node concept="34ocy7" id="6k$2nTdKRlF" role="1dgzf0">
+          <node concept="34oehE" id="6k$2nTdKRlG" role="34ocs8">
+            <node concept="2kdjtB" id="6k$2nTdKRlH" role="2RGvlO">
               <ref role="2UGuZ7" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
             </node>
-            <node concept="30NkWi" id="6he4umBZ7kH" role="2RGvhl">
-              <ref role="XkjO9" node="6he4umBYUK9" resolve="n" />
+            <node concept="30NkWi" id="6k$2nTdKRlI" role="2RGvhl">
+              <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
             </node>
           </node>
         </node>
-        <node concept="34ocy7" id="6he4umBZ7kI" role="1dgzf0">
-          <node concept="34sUYq" id="6he4umBZ7kJ" role="34ocs8">
-            <node concept="2kdhWc" id="6he4umBZ7kK" role="34sUSb">
-              <node concept="727y6" id="6he4umBZ7kL" role="3zVzRQ">
+        <node concept="34ocy7" id="6k$2nTdKRlJ" role="1dgzf0">
+          <node concept="34sUYq" id="6k$2nTdKRlK" role="34ocs8">
+            <node concept="2kdhWc" id="6k$2nTdKRlL" role="34sUSb">
+              <node concept="727y6" id="6k$2nTdKRlM" role="3zVzRQ">
                 <ref role="3zVwH8" to="ls40:7VV7iqShXWh" resolve="value" />
               </node>
-              <node concept="30NkWi" id="6he4umBZ7kM" role="2kdhYM">
-                <ref role="XkjO9" node="6he4umBYUK9" resolve="n" />
+              <node concept="30NkWi" id="6k$2nTdKRlN" role="2kdhYM">
+                <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
               </node>
             </node>
           </node>
         </node>
-      </node>
-      <node concept="3zV_Rz" id="6he4umBZbMK" role="3zVECS">
-        <node concept="34ocy7" id="6he4umBZbQZ" role="1dgzf0">
-          <node concept="34oehE" id="6he4umBZbR0" role="34ocs8">
-            <node concept="2kdjtB" id="6he4umBZbR1" role="2RGvlO">
-              <ref role="2UGuZ7" to="ls40:2Z$qCIis53c" resolve="Assignment" />
-            </node>
-            <node concept="30NkWi" id="6he4umBZbR2" role="2RGvhl">
-              <ref role="XkjO9" node="6he4umBYUK9" resolve="n" />
-            </node>
-          </node>
-        </node>
-        <node concept="34odk1" id="6he4umBZbR3" role="1dgzf0">
-          <node concept="2kdhWc" id="6he4umBZbR4" role="34ocZk">
-            <node concept="727y6" id="6he4umBZbR5" role="3zVzRQ">
-              <ref role="3zVwH8" to="ls40:2Z$qCIis53d" resolve="lhs" />
-            </node>
-            <node concept="30NkWi" id="6he4umBZbR6" role="2kdhYM">
-              <ref role="XkjO9" node="6he4umBYUK9" resolve="n" />
-            </node>
-          </node>
-          <node concept="30KbLJ" id="6he4umBZbR7" role="34ocZn">
-            <property role="TrG5h" value="lhs" />
-          </node>
-        </node>
-        <node concept="34ocy7" id="6he4umBZbR8" role="1dgzf0">
-          <node concept="34oehE" id="6he4umBZbR9" role="34ocs8">
-            <node concept="2kdjtB" id="6he4umBZbRa" role="2RGvlO">
-              <ref role="2UGuZ7" to="ls40:7VV7iqSictK" resolve="VarRef" />
-            </node>
-            <node concept="30NkWi" id="6he4umBZbRb" role="2RGvhl">
-              <ref role="XkjO9" node="6he4umBZbR7" resolve="lhs" />
-            </node>
+        <node concept="30Nfyg" id="tcVLGwrSma" role="1dgzf0">
+          <node concept="30NkWi" id="tcVLGwrWvG" role="30Nf_D">
+            <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
           </node>
         </node>
       </node>
-      <node concept="1VLyuc" id="6he4umBYUK9" role="1dv5OJ">
-        <property role="TrG5h" value="n" />
-        <node concept="2Qv0mg" id="6he4umBYYUd" role="1dukDx">
-          <ref role="2Qv0mk" node="71BF$qn4LbP" resolve="ICFGNode" />
-        </node>
-      </node>
-    </node>
-    <node concept="1XdyHe" id="6he4umBYk3i" role="1dubk0" />
-    <node concept="3zyOaA" id="6k$2nTd$27V" role="1dubk0">
-      <property role="TrG5h" value="getUninitializedVarsAfter" />
-      <node concept="3zV_Rz" id="6k$2nTd$xtu" role="3zVECS">
+      <node concept="3zV_Rz" id="6k$2nTdL0sE" role="3zVECS">
         <node concept="34odk1" id="6k$2nTd$VG5" role="1dgzf0">
           <node concept="2k1GkI" id="6k$2nTd$XD3" role="34ocZk">
             <node concept="2k1_uq" id="6k$2nTd$XD1" role="2nKVj6">
@@ -5111,117 +5051,22 @@
             <property role="TrG5h" value="before" />
           </node>
         </node>
-        <node concept="1waTxd" id="6k$2nTdIprz" role="1dgzf0">
-          <node concept="3zV_Rz" id="6k$2nTdIpr_" role="3zVECR">
-            <node concept="1XdyHb" id="6k$2nTdLiz3" role="1dgzf0">
-              <property role="1dubkF" value="destructive read: mark as unitialized" />
-            </node>
-            <node concept="34ocy7" id="6k$2nTdJeQX" role="1dgzf0">
-              <node concept="34oehE" id="6k$2nTdJh96" role="34ocs8">
-                <node concept="2kdjtB" id="6k$2nTdJn8l" role="2RGvlO">
-                  <ref role="2UGuZ7" to="ls40:7VV7iqSictK" resolve="VarRef" />
+        <node concept="1waTxd" id="tcVLGwsB8k" role="1dgzf0">
+          <node concept="3zV_Rz" id="tcVLGwsB8m" role="3zVECR">
+            <node concept="34ocy7" id="tcVLGwsKcL" role="1dgzf0">
+              <node concept="2BbxxA" id="tcVLGwsXu9" role="34ocs8">
+                <node concept="2kdjtB" id="tcVLGwt7bw" role="2RGvlO">
+                  <ref role="2UGuZ7" to="ls40:2Z$qCIis53c" resolve="Assignment" />
                 </node>
-                <node concept="30NkWi" id="6k$2nTdJg0h" role="2RGvhl">
+                <node concept="30NkWi" id="tcVLGwsTlV" role="2RGvhl">
                   <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
                 </node>
               </node>
             </node>
-            <node concept="34ocy7" id="6k$2nTdIvmo" role="1dgzf0">
-              <node concept="2dT$3Y" id="6k$2nTdIy$$" role="34ocs8">
-                <node concept="2k1GkI" id="6k$2nTdICs0" role="2dT$1H">
-                  <node concept="2k1_uq" id="6k$2nTdICrY" role="2nKVj6">
-                    <ref role="2nKBpL" node="6k$2nTdFzD8" resolve="isDestructiveRead" />
-                    <node concept="30NkWi" id="6k$2nTdICsk" role="2nKBpO">
-                      <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="34odk1" id="6k$2nTdJvxJ" role="1dgzf0">
-              <node concept="2k1GkI" id="6k$2nTdJ_$z" role="34ocZk">
-                <node concept="2k1_uq" id="6k$2nTdJ_$x" role="2nKVj6">
-                  <ref role="2nKBpL" node="3ldL1i6bjc3" resolve="resolveVarRef" />
-                  <node concept="2kdhWc" id="6k$2nTdJJNf" role="2nKBpO">
-                    <node concept="727y6" id="6k$2nTdJTo1" role="3zVzRQ">
-                      <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
-                    </node>
-                    <node concept="30NkWi" id="6k$2nTdJAKU" role="2kdhYM">
-                      <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
-                    </node>
-                  </node>
-                  <node concept="30NkWi" id="6k$2nTdK1I2" role="2nKBpO">
-                    <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
-                  </node>
-                </node>
-              </node>
-              <node concept="30KbLJ" id="6k$2nTdJumN" role="34ocZn">
-                <property role="TrG5h" value="decl" />
-              </node>
-            </node>
-            <node concept="30Nfyg" id="6k$2nTdIIMK" role="1dgzf0">
-              <node concept="1p__ei" id="6k$2nTdIODl" role="30Nf_D">
-                <node concept="1i8UFo" id="6k$2nTdIODm" role="1p_StM">
-                  <ref role="2RnLXx" node="6k$2nTdQGzO" resolve="addItem" />
-                  <node concept="1sjAk5" id="6k$2nTdIODn" role="2ZRyFy">
-                    <ref role="1sjAk2" node="6k$2nTd$RUN" resolve="before" />
-                  </node>
-                  <node concept="1sjAk5" id="6k$2nTdKjkV" role="2ZRyFy">
-                    <ref role="1sjAk2" node="6k$2nTdJumN" resolve="decl" />
-                  </node>
-                </node>
-                <node concept="3_JagS" id="6k$2nTdIODp" role="1p__f_">
-                  <ref role="3_Jajq" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-                </node>
-              </node>
-            </node>
           </node>
-          <node concept="3zV_Rz" id="6k$2nTdK_kd" role="3zVECR">
-            <node concept="1XdyHb" id="6k$2nTdMknK" role="1dgzf0">
-              <property role="1dubkF" value="uninitialized declaration" />
-            </node>
-            <node concept="34ocy7" id="6k$2nTdKRlF" role="1dgzf0">
-              <node concept="34oehE" id="6k$2nTdKRlG" role="34ocs8">
-                <node concept="2kdjtB" id="6k$2nTdKRlH" role="2RGvlO">
-                  <ref role="2UGuZ7" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
-                </node>
-                <node concept="30NkWi" id="6k$2nTdKRlI" role="2RGvhl">
-                  <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
-                </node>
-              </node>
-            </node>
-            <node concept="34ocy7" id="6k$2nTdKRlJ" role="1dgzf0">
-              <node concept="34sUYq" id="6k$2nTdKRlK" role="34ocs8">
-                <node concept="2kdhWc" id="6k$2nTdKRlL" role="34sUSb">
-                  <node concept="727y6" id="6k$2nTdKRlM" role="3zVzRQ">
-                    <ref role="3zVwH8" to="ls40:7VV7iqShXWh" resolve="value" />
-                  </node>
-                  <node concept="30NkWi" id="6k$2nTdKRlN" role="2kdhYM">
-                    <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="30Nfyg" id="6k$2nTdKRlO" role="1dgzf0">
-              <node concept="1p__ei" id="6k$2nTdKRlP" role="30Nf_D">
-                <node concept="1i8UFo" id="6k$2nTdKRlQ" role="1p_StM">
-                  <ref role="2RnLXx" node="6k$2nTdQGzO" resolve="addItem" />
-                  <node concept="1sjAk5" id="6k$2nTdKRlR" role="2ZRyFy">
-                    <ref role="1sjAk2" node="6k$2nTd$RUN" resolve="before" />
-                  </node>
-                  <node concept="1sjAk5" id="6k$2nTdKRlS" role="2ZRyFy">
-                    <ref role="1sjAk2" node="6k$2nTd$5mN" resolve="n" />
-                  </node>
-                </node>
-                <node concept="3_JagS" id="6k$2nTdKRlT" role="1p__f_">
-                  <ref role="3_Jajq" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3zV_Rz" id="6k$2nTdL0sE" role="3zVECR">
-            <node concept="1XdyHb" id="6k$2nTdNKcG" role="1dgzf0">
-              <property role="1dubkF" value="assignment; mark as initialized" />
+          <node concept="3zV_Rz" id="tcVLGwtbkU" role="3zVECR">
+            <node concept="1XdyHb" id="tcVLGwuXpB" role="1dgzf0">
+              <property role="1dubkF" value="assignment; possibly filter out the letbinding" />
             </node>
             <node concept="34ocy7" id="6k$2nTdO2du" role="1dgzf0">
               <node concept="34oehE" id="6k$2nTdOfC1" role="34ocs8">
@@ -5277,44 +5122,21 @@
                 <property role="TrG5h" value="decl" />
               </node>
             </node>
-            <node concept="30Nfyg" id="6k$2nTdQROJ" role="1dgzf0">
-              <node concept="1p__ei" id="6k$2nTdR0Pr" role="30Nf_D">
-                <node concept="1i8UFo" id="6k$2nTdR9Uv" role="1p_StM">
-                  <ref role="2RnLXx" node="6k$2nTdBcXv" resolve="removeItem" />
-                  <node concept="1sjAk5" id="6k$2nTdRe9y" role="2ZRyFy">
-                    <ref role="1sjAk2" node="6k$2nTd$RUN" resolve="before" />
-                  </node>
-                  <node concept="1sjAk5" id="6k$2nTdRCNM" role="2ZRyFy">
-                    <ref role="1sjAk2" node="6k$2nTdQdpf" resolve="decl" />
-                  </node>
+            <node concept="34ocy7" id="tcVLGwtAsZ" role="1dgzf0">
+              <node concept="34ofKa" id="tcVLGwtIJ_" role="34ocs8">
+                <node concept="30NkWi" id="tcVLGwtRSd" role="34ocZk">
+                  <ref role="XkjO9" node="6k$2nTd$RUN" resolve="before" />
                 </node>
-                <node concept="3_JagS" id="6k$2nTdR0Pp" role="1p__f_">
-                  <ref role="3_Jajq" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
+                <node concept="30NkWi" id="tcVLGwtEAP" role="34ocZn">
+                  <ref role="XkjO9" node="6k$2nTdQdpf" resolve="decl" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3zV_Rz" id="6he4umBZS1t" role="3zVECR">
-            <node concept="1XdyHb" id="6he4umC4AnU" role="1dgzf0">
-              <property role="1dubkF" value="complement of the conditions above" />
-            </node>
-            <node concept="34ocy7" id="6he4umC00cF" role="1dgzf0">
-              <node concept="34sUYq" id="6he4umC07M$" role="34ocs8">
-                <node concept="2k1GkI" id="6he4umC0frm" role="34sUSb">
-                  <node concept="2k1_uq" id="6he4umC0frk" role="2nKVj6">
-                    <ref role="2nKBpL" node="6he4umBYAI2" resolve="affectsMemoryInitialization" />
-                    <node concept="30NkWi" id="6he4umC0frG" role="2nKBpO">
-                      <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="30Nfyg" id="6he4umC0j3h" role="1dgzf0">
-              <node concept="30NkWi" id="6he4umC0j3Y" role="30Nf_D">
-                <ref role="XkjO9" node="6k$2nTd$RUN" resolve="before" />
-              </node>
-            </node>
+        </node>
+        <node concept="30Nfyg" id="tcVLGwulnV" role="1dgzf0">
+          <node concept="30NkWi" id="tcVLGwulqG" role="30Nf_D">
+            <ref role="XkjO9" node="6k$2nTd$RUN" resolve="before" />
           </node>
         </node>
       </node>
@@ -5325,10 +5147,8 @@
         </node>
       </node>
       <node concept="3TL$xT" id="6k$2nTd$tJC" role="3TLBbI">
-        <node concept="2eLkkM" id="6k$2nTd_$Qz" role="1dukDx">
-          <node concept="2ZQB9c" id="6k$2nTd_$Qy" role="2eP6Tc">
-            <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-          </node>
+        <node concept="2kdjtB" id="tcVLGwrp16" role="1dukDx">
+          <ref role="2UGuZ7" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
         </node>
       </node>
     </node>
@@ -11153,442 +10973,6 @@
   </node>
   <node concept="2XOHcx" id="5$fSc6Z3rxr">
     <property role="2XOHcw" value="/home/sander/workspace/master-thesis/src/mps-rust" />
-  </node>
-  <node concept="3U8wA7" id="6k$2nTd_m8Q">
-    <property role="TrG5h" value="UninitializedVarListLattice" />
-    <node concept="hMdjl" id="6k$2nTd_JLp" role="_iOnB">
-      <property role="TrG5h" value="bot" />
-      <node concept="2ZQB9c" id="6k$2nTd_JQL" role="3clF45">
-        <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-      </node>
-      <node concept="3Tm1VV" id="6k$2nTd_JLs" role="1B3o_S" />
-      <node concept="3clFbS" id="6k$2nTd_JLt" role="3clF47">
-        <node concept="3cpWs6" id="6k$2nTd_JSF" role="3cqZAp">
-          <node concept="2ZRyFJ" id="6k$2nTd_JUZ" role="3cqZAk">
-            <ref role="2ZRyFH" node="6k$2nTd_m9H" resolve="VarList" />
-            <node concept="2YIFZM" id="3mD0ARw$6Uy" role="2ZRyFy">
-              <ref role="37wK5l" to="l0z0:~Set$Immutable.of():io.usethesource.capsule.Set$Immutable" resolve="of" />
-              <ref role="1Pybhc" to="l0z0:~Set$Immutable" resolve="Set.Immutable" />
-              <node concept="3Tqbb2" id="3mD0ARw$bLd" role="3PaCim">
-                <ref role="ehGHo" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="hMdjl" id="6k$2nTdWXUv" role="_iOnB">
-      <property role="TrG5h" value="top" />
-      <node concept="2ZQB9c" id="6k$2nTdWYOz" role="3clF45">
-        <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-      </node>
-      <node concept="3Tm1VV" id="6k$2nTdWXUy" role="1B3o_S" />
-      <node concept="3clFbS" id="6k$2nTdWXUz" role="3clF47">
-        <node concept="3cpWs6" id="6k$2nTdWYUJ" role="3cqZAp">
-          <node concept="2ZRyFJ" id="6k$2nTdWZ1a" role="3cqZAk">
-            <ref role="2ZRyFH" node="6k$2nTdWYh1" resolve="Invalid" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2slB5m" id="6k$2nTd_JIA" role="_iOnB" />
-    <node concept="hMdjl" id="6k$2nTdWZms" role="_iOnB">
-      <property role="TrG5h" value="leq" />
-      <node concept="10P_77" id="6k$2nTdWZyQ" role="3clF45" />
-      <node concept="3Tm1VV" id="6k$2nTdWZmv" role="1B3o_S" />
-      <node concept="3clFbS" id="6k$2nTdWZmw" role="3clF47">
-        <node concept="3clFbF" id="6k$2nTdWZKn" role="3cqZAp">
-          <node concept="3_zFn_" id="6k$2nTdWZKo" role="3clFbG">
-            <node concept="3_zGKh" id="6k$2nTdWZKp" role="3_zGzc">
-              <node concept="3__aGB" id="6k$2nTdWZKq" role="3_$9z$">
-                <node concept="1tkKlP" id="6k$2nTdWZKr" role="3_zOWp">
-                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
-                </node>
-                <node concept="1tm2WG" id="6k$2nTdWZKs" role="3_zOWs">
-                  <property role="TrG5h" value="s1" />
-                </node>
-              </node>
-              <node concept="3__aGB" id="6k$2nTdWZKt" role="3_$9z$">
-                <node concept="1tkKlP" id="6k$2nTdWZKu" role="3_zOWp">
-                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
-                </node>
-                <node concept="1tm2WG" id="6k$2nTdWZKv" role="3_zOWs">
-                  <property role="TrG5h" value="s2" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="6k$2nTdX0K5" role="EsVZz">
-                <node concept="1tmTer" id="3mD0ARw_ker" role="2Oq$k0">
-                  <ref role="1tmTeq" node="6k$2nTdWZKv" resolve="s2" />
-                </node>
-                <node concept="liA8E" id="3mD0ARw_hJO" role="2OqNvi">
-                  <ref role="37wK5l" to="l0z0:~Set.containsAll(java.util.Collection):boolean" resolve="containsAll" />
-                  <node concept="1tmTer" id="3mD0ARw_ifu" role="37wK5m">
-                    <ref role="1tmTeq" node="6k$2nTdWZKv" resolve="s2" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="37vLTw" id="6k$2nTdWZUn" role="3_$Z8D">
-              <ref role="3cqZAo" node="6k$2nTdWZx_" resolve="a" />
-            </node>
-            <node concept="37vLTw" id="6k$2nTdX0gX" role="3_$Z8D">
-              <ref role="3cqZAo" node="6k$2nTdWZy8" resolve="b" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="hPFL_" id="6k$2nTdWZx_" role="3clF46">
-        <property role="TrG5h" value="a" />
-        <node concept="2ZQB9c" id="6k$2nTdWZxT" role="1tU5fm">
-          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-        </node>
-      </node>
-      <node concept="hPFL_" id="6k$2nTdWZy8" role="3clF46">
-        <property role="TrG5h" value="b" />
-        <node concept="2ZQB9c" id="6k$2nTdWZyA" role="1tU5fm">
-          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-        </node>
-      </node>
-    </node>
-    <node concept="2slB5m" id="6k$2nTdX2wG" role="_iOnB" />
-    <node concept="hMdjl" id="6k$2nTd_p7v" role="_iOnB">
-      <property role="TrG5h" value="lub" />
-      <node concept="2ZQB9c" id="6k$2nTd_pa6" role="3clF45">
-        <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-      </node>
-      <node concept="3Tm1VV" id="6k$2nTd_p7y" role="1B3o_S" />
-      <node concept="3clFbS" id="6k$2nTd_p7z" role="3clF47">
-        <node concept="3clFbF" id="6k$2nTd_qE_" role="3cqZAp">
-          <node concept="3_zFn_" id="6k$2nTd_qEy" role="3clFbG">
-            <node concept="3_zGKh" id="6k$2nTd_qGZ" role="3_zGzc">
-              <node concept="3__aGB" id="6k$2nTd_qHZ" role="3_$9z$">
-                <node concept="1tkKlP" id="6k$2nTd_qHX" role="3_zOWp">
-                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
-                </node>
-                <node concept="1tm2WG" id="6k$2nTd_qJl" role="3_zOWs">
-                  <property role="TrG5h" value="s1" />
-                </node>
-              </node>
-              <node concept="3__aGB" id="6k$2nTd_qMe" role="3_$9z$">
-                <node concept="1tkKlP" id="6k$2nTd_qMc" role="3_zOWp">
-                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
-                </node>
-                <node concept="1tm2WG" id="6k$2nTd_qNd" role="3_zOWs">
-                  <property role="TrG5h" value="s2" />
-                </node>
-              </node>
-              <node concept="2ZRyFJ" id="6k$2nTd_sJZ" role="EsVZz">
-                <ref role="2ZRyFH" node="6k$2nTd_m9H" resolve="VarList" />
-                <node concept="2OqwBi" id="6k$2nTd_tCr" role="2ZRyFy">
-                  <node concept="1tmTer" id="6k$2nTd_sU$" role="2Oq$k0">
-                    <ref role="1tmTeq" node="6k$2nTd_qJl" resolve="s1" />
-                  </node>
-                  <node concept="liA8E" id="3mD0ARw_aVo" role="2OqNvi">
-                    <ref role="37wK5l" to="l0z0:~Set$Immutable.__insertAll(java.util.Set):io.usethesource.capsule.Set$Immutable" resolve="__insertAll" />
-                    <node concept="1tmTer" id="3mD0ARw_bPC" role="37wK5m">
-                      <ref role="1tmTeq" node="6k$2nTd_qNd" resolve="s2" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="37vLTw" id="6k$2nTd_qFt" role="3_$Z8D">
-              <ref role="3cqZAo" node="6k$2nTd_p8z" resolve="t1" />
-            </node>
-            <node concept="37vLTw" id="6k$2nTd_qG7" role="3_$Z8D">
-              <ref role="3cqZAo" node="6k$2nTd_p9g" resolve="t2" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="hPFL_" id="6k$2nTd_p8z" role="3clF46">
-        <property role="TrG5h" value="t1" />
-        <node concept="2ZQB9c" id="6k$2nTd_p91" role="1tU5fm">
-          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-        </node>
-      </node>
-      <node concept="hPFL_" id="6k$2nTd_p9g" role="3clF46">
-        <property role="TrG5h" value="t2" />
-        <node concept="2ZQB9c" id="6k$2nTd_p9R" role="1tU5fm">
-          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-        </node>
-      </node>
-    </node>
-    <node concept="2slB5m" id="3mD0ARw$ydE" role="_iOnB" />
-    <node concept="hMdjl" id="6k$2nTdX2gZ" role="_iOnB">
-      <property role="TrG5h" value="glb" />
-      <node concept="2ZQB9c" id="6k$2nTdX2h0" role="3clF45">
-        <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-      </node>
-      <node concept="3Tm1VV" id="6k$2nTdX2h1" role="1B3o_S" />
-      <node concept="3clFbS" id="6k$2nTdX2h2" role="3clF47">
-        <node concept="3SKdUt" id="6k$2nTdX5sn" role="3cqZAp">
-          <node concept="3SKdUq" id="6k$2nTdX5sp" role="3SKWNk">
-            <property role="3SKdUp" value=" not actually used" />
-          </node>
-        </node>
-        <node concept="3clFbF" id="6k$2nTdX2h3" role="3cqZAp">
-          <node concept="3_zFn_" id="6k$2nTdX2h4" role="3clFbG">
-            <node concept="3_zGKh" id="6k$2nTdX2h5" role="3_zGzc">
-              <node concept="3__aGB" id="6k$2nTdX2h6" role="3_$9z$">
-                <node concept="1tkKlP" id="6k$2nTdX2h7" role="3_zOWp">
-                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
-                </node>
-                <node concept="1tm2WG" id="6k$2nTdX2h8" role="3_zOWs">
-                  <property role="TrG5h" value="s1" />
-                </node>
-              </node>
-              <node concept="3__aGB" id="6k$2nTdX2h9" role="3_$9z$">
-                <node concept="1tkKlP" id="6k$2nTdX2ha" role="3_zOWp">
-                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
-                </node>
-                <node concept="1tm2WG" id="6k$2nTdX2hb" role="3_zOWs">
-                  <property role="TrG5h" value="s2" />
-                </node>
-              </node>
-              <node concept="2ZRyFJ" id="6k$2nTdX2hc" role="EsVZz">
-                <ref role="2ZRyFH" node="6k$2nTd_m9H" resolve="VarList" />
-                <node concept="2OqwBi" id="6k$2nTdX2hd" role="2ZRyFy">
-                  <node concept="1tmTer" id="6k$2nTdX2he" role="2Oq$k0">
-                    <ref role="1tmTeq" node="6k$2nTdX2h8" resolve="s1" />
-                  </node>
-                  <node concept="liA8E" id="3mD0ARw$m85" role="2OqNvi">
-                    <ref role="37wK5l" to="l0z0:~Set$Immutable.__retainAll(java.util.Set):io.usethesource.capsule.Set$Immutable" resolve="__retainAll" />
-                    <node concept="1tmTer" id="3mD0ARw$pX7" role="37wK5m">
-                      <ref role="1tmTeq" node="6k$2nTdX2hb" resolve="s2" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="37vLTw" id="6k$2nTdX2hh" role="3_$Z8D">
-              <ref role="3cqZAo" node="6k$2nTdX2hj" resolve="t1" />
-            </node>
-            <node concept="37vLTw" id="6k$2nTdX2hi" role="3_$Z8D">
-              <ref role="3cqZAo" node="6k$2nTdX2hl" resolve="t2" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="hPFL_" id="6k$2nTdX2hj" role="3clF46">
-        <property role="TrG5h" value="t1" />
-        <node concept="2ZQB9c" id="6k$2nTdX2hk" role="1tU5fm">
-          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-        </node>
-      </node>
-      <node concept="hPFL_" id="6k$2nTdX2hl" role="3clF46">
-        <property role="TrG5h" value="t2" />
-        <node concept="2ZQB9c" id="6k$2nTdX2hm" role="1tU5fm">
-          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-        </node>
-      </node>
-    </node>
-    <node concept="2slB5m" id="6k$2nTdX2hn" role="_iOnB" />
-    <node concept="hMdjl" id="6k$2nTdQGzO" role="_iOnB">
-      <property role="TrG5h" value="addItem" />
-      <node concept="2ZQB9c" id="6k$2nTdQGzP" role="3clF45">
-        <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-      </node>
-      <node concept="3Tm1VV" id="6k$2nTdQGzQ" role="1B3o_S" />
-      <node concept="3clFbS" id="6k$2nTdQGzR" role="3clF47">
-        <node concept="3clFbF" id="6k$2nTdQGzS" role="3cqZAp">
-          <node concept="3_zFn_" id="6k$2nTdQGzT" role="3clFbG">
-            <node concept="3_zGKh" id="6k$2nTdQGzU" role="3_zGzc">
-              <node concept="3__aGB" id="6k$2nTdQGzV" role="3_$9z$">
-                <node concept="1tkKlP" id="6k$2nTdQGzW" role="3_zOWp">
-                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
-                </node>
-                <node concept="1tm2WG" id="6k$2nTdQGzX" role="3_zOWs">
-                  <property role="TrG5h" value="s" />
-                </node>
-              </node>
-              <node concept="2ZRyFJ" id="6k$2nTdQGzY" role="EsVZz">
-                <ref role="2ZRyFH" node="6k$2nTd_m9H" resolve="VarList" />
-                <node concept="2OqwBi" id="6k$2nTdQGzZ" role="2ZRyFy">
-                  <node concept="1tmTer" id="6k$2nTdQG$0" role="2Oq$k0">
-                    <ref role="1tmTeq" node="6k$2nTdQGzX" resolve="s" />
-                  </node>
-                  <node concept="liA8E" id="3mD0ARw$N50" role="2OqNvi">
-                    <ref role="37wK5l" to="l0z0:~Set$Immutable.__insert(java.lang.Object):io.usethesource.capsule.Set$Immutable" resolve="__insert" />
-                    <node concept="37vLTw" id="3mD0ARw$OyY" role="37wK5m">
-                      <ref role="3cqZAo" node="6k$2nTdQG$b" resolve="n" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="37vLTw" id="6k$2nTdQG$8" role="3_$Z8D">
-              <ref role="3cqZAo" node="6k$2nTdQG$9" resolve="t" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="hPFL_" id="6k$2nTdQG$9" role="3clF46">
-        <property role="TrG5h" value="t" />
-        <node concept="2ZQB9c" id="6k$2nTdQG$a" role="1tU5fm">
-          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-        </node>
-      </node>
-      <node concept="hPFL_" id="6k$2nTdQG$b" role="3clF46">
-        <property role="TrG5h" value="n" />
-        <node concept="3Tqbb2" id="6k$2nTdQG$c" role="1tU5fm">
-          <ref role="ehGHo" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
-        </node>
-      </node>
-    </node>
-    <node concept="2slB5m" id="6k$2nTdQGEZ" role="_iOnB" />
-    <node concept="hMdjl" id="6k$2nTdBcXv" role="_iOnB">
-      <property role="TrG5h" value="removeItem" />
-      <node concept="2ZQB9c" id="6k$2nTdBd48" role="3clF45">
-        <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-      </node>
-      <node concept="3Tm1VV" id="6k$2nTdBcXy" role="1B3o_S" />
-      <node concept="3clFbS" id="6k$2nTdBcXz" role="3clF47">
-        <node concept="3clFbF" id="6k$2nTdBd6H" role="3cqZAp">
-          <node concept="3_zFn_" id="6k$2nTdBd6E" role="3clFbG">
-            <node concept="3_zGKh" id="6k$2nTdBlGv" role="3_zGzc">
-              <node concept="3__aGB" id="6k$2nTdBlTl" role="3_$9z$">
-                <node concept="1tkKlP" id="6k$2nTdBlTJ" role="3_zOWp">
-                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
-                </node>
-                <node concept="1tm2WG" id="6k$2nTdBlUr" role="3_zOWs">
-                  <property role="TrG5h" value="s" />
-                </node>
-              </node>
-              <node concept="2ZRyFJ" id="6k$2nTdBm4C" role="EsVZz">
-                <ref role="2ZRyFH" node="6k$2nTd_m9H" resolve="VarList" />
-                <node concept="2OqwBi" id="6k$2nTdBtxu" role="2ZRyFy">
-                  <node concept="1tmTer" id="6k$2nTdBtlh" role="2Oq$k0">
-                    <ref role="1tmTeq" node="6k$2nTdBlUr" resolve="s" />
-                  </node>
-                  <node concept="liA8E" id="3mD0ARw$WHX" role="2OqNvi">
-                    <ref role="37wK5l" to="l0z0:~Set$Immutable.__remove(java.lang.Object):io.usethesource.capsule.Set$Immutable" resolve="__remove" />
-                    <node concept="37vLTw" id="3mD0ARw$Y0q" role="37wK5m">
-                      <ref role="3cqZAo" node="6k$2nTdBd38" resolve="n" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="37vLTw" id="6k$2nTdBd9z" role="3_$Z8D">
-              <ref role="3cqZAo" node="6k$2nTdBd2_" resolve="t" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="hPFL_" id="6k$2nTdBd2_" role="3clF46">
-        <property role="TrG5h" value="t" />
-        <node concept="2ZQB9c" id="6k$2nTdBd2T" role="1tU5fm">
-          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-        </node>
-      </node>
-      <node concept="hPFL_" id="6k$2nTdBd38" role="3clF46">
-        <property role="TrG5h" value="n" />
-        <node concept="3Tqbb2" id="6k$2nTdBd3J" role="1tU5fm">
-          <ref role="ehGHo" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
-        </node>
-      </node>
-    </node>
-    <node concept="2slB5m" id="2q_fATWb4TB" role="_iOnB" />
-    <node concept="hMdjl" id="2q_fATWb56g" role="_iOnB">
-      <property role="TrG5h" value="contains" />
-      <node concept="10P_77" id="2q_fATWb63O" role="3clF45" />
-      <node concept="3Tm1VV" id="2q_fATWb56j" role="1B3o_S" />
-      <node concept="3clFbS" id="2q_fATWb56k" role="3clF47">
-        <node concept="3clFbF" id="2q_fATWbauA" role="3cqZAp">
-          <node concept="3_zFn_" id="2q_fATWbauz" role="3clFbG">
-            <node concept="3_zGKh" id="2q_fATWbcEb" role="3_zGzc">
-              <node concept="3__aGB" id="2q_fATWbdK6" role="3_$9z$">
-                <node concept="1tkKlP" id="2q_fATWbdK4" role="3_zOWp">
-                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
-                </node>
-                <node concept="1tm2WG" id="2q_fATWbeQn" role="3_zOWs">
-                  <property role="TrG5h" value="s" />
-                </node>
-              </node>
-              <node concept="2OqwBi" id="2q_fATWbgZv" role="EsVZz">
-                <node concept="1tmTer" id="2q_fATWbfWa" role="2Oq$k0">
-                  <ref role="1tmTeq" node="2q_fATWbeQn" resolve="s" />
-                </node>
-                <node concept="liA8E" id="2q_fATWbl54" role="2OqNvi">
-                  <ref role="37wK5l" to="l0z0:~Set.contains(java.lang.Object):boolean" resolve="contains" />
-                  <node concept="37vLTw" id="2q_fATWbljX" role="37wK5m">
-                    <ref role="3cqZAo" node="2q_fATWb79i" resolve="n" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="37vLTw" id="2q_fATWbb$r" role="3_$Z8D">
-              <ref role="3cqZAo" node="2q_fATWb5YR" resolve="t" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="hPFL_" id="2q_fATWb5YR" role="3clF46">
-        <property role="TrG5h" value="t" />
-        <node concept="2ZQB9c" id="2q_fATWb60w" role="1tU5fm">
-          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-        </node>
-      </node>
-      <node concept="hPFL_" id="2q_fATWb79i" role="3clF46">
-        <property role="TrG5h" value="n" />
-        <node concept="3Tqbb2" id="2q_fATWb7be" role="1tU5fm">
-          <ref role="ehGHo" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
-        </node>
-      </node>
-    </node>
-    <node concept="2slB5m" id="6k$2nTdQGLN" role="_iOnB" />
-    <node concept="hMdjl" id="7eGzuda3GDY" role="_iOnB">
-      <property role="TrG5h" value="qq" />
-      <node concept="A3Dl8" id="7eGzuda3IjK" role="3clF45">
-        <node concept="3Tqbb2" id="7eGzuda3Ik7" role="A3Ik2">
-          <ref role="ehGHo" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
-        </node>
-      </node>
-      <node concept="3Tm1VV" id="7eGzuda3GE1" role="1B3o_S" />
-      <node concept="3clFbS" id="7eGzuda3GE2" role="3clF47">
-        <node concept="3clFbF" id="7eGzuda3JvB" role="3cqZAp">
-          <node concept="3_zFn_" id="7eGzuda3Jv$" role="3clFbG">
-            <node concept="3_zGKh" id="7eGzuda3LPZ" role="3_zGzc">
-              <node concept="3__aGB" id="7eGzuda3N1e" role="3_$9z$">
-                <node concept="1tkKlP" id="7eGzuda3N1c" role="3_zOWp">
-                  <ref role="1tneST" node="6k$2nTd_m9H" resolve="VarList" />
-                </node>
-                <node concept="1tm2WG" id="7eGzuda3OcT" role="3_zOWs">
-                  <property role="TrG5h" value="x" />
-                </node>
-              </node>
-              <node concept="1tmTer" id="7eGzuda3Odc" role="EsVZz">
-                <ref role="1tmTeq" node="7eGzuda3OcT" resolve="x" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="7eGzuda3KER" role="3_$Z8D">
-              <ref role="3cqZAo" node="7eGzuda3HDS" resolve="t" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="hPFL_" id="7eGzuda3HDS" role="3clF46">
-        <property role="TrG5h" value="t" />
-        <node concept="2ZQB9c" id="7eGzuda3HFz" role="1tU5fm">
-          <ref role="2ZQB93" node="6k$2nTd_m8Q" resolve="UninitializedVarListLattice" />
-        </node>
-      </node>
-    </node>
-    <node concept="2Z3Rg9" id="6k$2nTd_m9H" role="2Z3R6k">
-      <property role="TrG5h" value="VarList" />
-      <node concept="2Z3RmO" id="6k$2nTd_maD" role="2Z3Rhz">
-        <node concept="3uibUv" id="3mD0ARwzWlM" role="2Z3Rhw">
-          <ref role="3uigEE" to="l0z0:~Set$Immutable" resolve="Set.Immutable" />
-          <node concept="3Tqbb2" id="3mD0ARwzpbL" role="11_B2D">
-            <ref role="ehGHo" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2Z3Rg9" id="6k$2nTdWYh1" role="2Z3R6k">
-      <property role="TrG5h" value="Invalid" />
-    </node>
   </node>
   <node concept="3YhZ5a" id="67zX15hHpet">
     <property role="TrG5h" value="SandboxModule" />
