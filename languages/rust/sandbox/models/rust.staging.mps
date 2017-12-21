@@ -14,11 +14,32 @@
       </concept>
     </language>
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
-      <concept id="1099920448281658011" name="rust.structure.Module" flags="ng" index="3YhZ5a" />
+      <concept id="6397481250907294879" name="rust.structure.OwnedType" flags="ng" index="Lhmvi" />
+      <concept id="1484126389064436735" name="rust.structure.FieldStruct" flags="ng" index="1ToarD">
+        <child id="1484126389064436736" name="fields" index="1Toa4m" />
+      </concept>
+      <concept id="1099920448281894594" name="rust.structure.StructFieldDecl" flags="ng" index="3Yh6Oj">
+        <child id="6397481250907310046" name="ty" index="LhiMj" />
+      </concept>
+      <concept id="1099920448281658011" name="rust.structure.Module" flags="ng" index="3YhZ5a">
+        <child id="1099920448281713974" name="defs" index="3YhEVB" />
+      </concept>
     </language>
   </registry>
   <node concept="3YhZ5a" id="1qSNzGzBG38">
     <property role="TrG5h" value="StagingTests" />
+    <node concept="1ToarD" id="3IOa0fiJVHf" role="3YhEVB">
+      <property role="TrG5h" value="X" />
+    </node>
+    <node concept="1ToarD" id="42F0DLo9DE2" role="3YhEVB">
+      <property role="TrG5h" value="Y" />
+      <node concept="3Yh6Oj" id="42F0DLo9DEQ" role="1Toa4m">
+        <property role="TrG5h" value="x" />
+        <node concept="Lhmvi" id="42F0DLo9DEW" role="LhiMj">
+          <property role="TrG5h" value="X" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
