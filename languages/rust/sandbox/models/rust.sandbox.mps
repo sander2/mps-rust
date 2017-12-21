@@ -6246,8 +6246,8 @@
       <node concept="3Tm1VV" id="2Oko8um3WUq" role="1B3o_S" />
       <node concept="3clFbS" id="2Oko8um3WUr" role="3clF47">
         <node concept="3cpWs6" id="2Oko8um3WVg" role="3cqZAp">
-          <node concept="2ZRyFJ" id="xVxp1qr4Na" role="3cqZAk">
-            <ref role="2ZRyFH" node="xVxp1qqY$d" resolve="Unit" />
+          <node concept="2ZRyFJ" id="11x_cCh4_KD" role="3cqZAk">
+            <ref role="2ZRyFH" node="3ldL1i6tNM9" resolve="Invalid" />
           </node>
         </node>
       </node>
@@ -6500,18 +6500,18 @@
                     <node concept="3clFbS" id="5z8qOPDz0hj" role="3clFbx">
                       <node concept="3SKdUt" id="1qSNzGAw8PE" role="3cqZAp">
                         <node concept="3SKdUq" id="1qSNzGAw8PG" role="3SKWNk">
-                          <property role="3SKdUp" value="result is mutable if either one is mutable" />
+                          <property role="3SKdUp" value="result is mutable if both are mutable" />
                         </node>
                       </node>
                       <node concept="3cpWs6" id="5z8qOPDz61t" role="3cqZAp">
                         <node concept="2ZRyFJ" id="5z8qOPDz7wD" role="3cqZAk">
                           <ref role="2ZRyFH" node="5z8qOPDyFwt" resolve="Pointer" />
-                          <node concept="22lmx$" id="1qSNzGAw3wu" role="2ZRyFy">
-                            <node concept="1tmTer" id="1qSNzGAw6gG" role="3uHU7w">
-                              <ref role="1tmTeq" node="5z8qOPDyZgT" resolve="mut2" />
-                            </node>
+                          <node concept="1Wc70l" id="11x_cCh4zSJ" role="2ZRyFy">
                             <node concept="1tmTer" id="5z8qOPDz9aQ" role="3uHU7B">
                               <ref role="1tmTeq" node="5z8qOPDyZlP" resolve="mut1" />
+                            </node>
+                            <node concept="1tmTer" id="1qSNzGAw6gG" role="3uHU7w">
+                              <ref role="1tmTeq" node="5z8qOPDyZgT" resolve="mut2" />
                             </node>
                           </node>
                           <node concept="1tmTer" id="5z8qOPDzaQv" role="2ZRyFy">
