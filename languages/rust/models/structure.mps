@@ -498,5 +498,11 @@
       <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
     </node>
   </node>
+  <node concept="1TIwiD" id="3ZUfQpLriUB">
+    <property role="EcuMT" value="4610066877789318823" />
+    <property role="TrG5h" value="RustImporter" />
+    <property role="19KtqR" value="true" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
 </model>
 

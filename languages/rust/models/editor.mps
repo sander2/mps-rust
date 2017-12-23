@@ -1276,5 +1276,11 @@
       <node concept="l2Vlx" id="3IOa0fiENUu" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="3ZUfQpLriW8">
+    <ref role="1XX52x" to="ls40:3ZUfQpLriUB" resolve="RustImporter" />
+    <node concept="3EZMnI" id="3ZUfQpLriXy" role="2wV5jI">
+      <node concept="l2Vlx" id="3ZUfQpLriX_" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

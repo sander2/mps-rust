@@ -116,6 +116,10 @@
         </node>
       </node>
     </node>
+    <node concept="KpV6n" id="3ZUfQpLxp$R" role="3YhEVB">
+      <property role="TrG5h" value="imported_function" />
+      <node concept="3YiHqP" id="3ZUfQpLxpA3" role="KpVaL" />
+    </node>
   </node>
 </model>
 
