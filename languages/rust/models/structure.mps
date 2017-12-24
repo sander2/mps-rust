@@ -153,6 +153,7 @@
     <property role="EcuMT" value="1099920448281994410" />
     <property role="TrG5h" value="StatementSemi" />
     <property role="3GE5qa" value="Statement" />
+    <property role="34LRSv" value=";" />
     <ref role="1TJDcQ" node="X3GX7L2miD" resolve="Statement" />
     <node concept="1TJgyj" id="X3GX7L2miF" role="1TKVEi">
       <property role="IQ2ns" value="1099920448281994411" />
@@ -304,9 +305,9 @@
   </node>
   <node concept="1TIwiD" id="2Z$qCIis53c">
     <property role="EcuMT" value="3451000362162475212" />
-    <property role="3GE5qa" value="Statement" />
+    <property role="3GE5qa" value="Expr" />
     <property role="TrG5h" value="Assignment" />
-    <ref role="1TJDcQ" node="X3GX7L2miD" resolve="Statement" />
+    <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
     <node concept="1TJgyj" id="2Z$qCIis53d" role="1TKVEi">
       <property role="IQ2ns" value="3451000362162475213" />
       <property role="20lmBu" value="aggregation" />

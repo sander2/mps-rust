@@ -611,7 +611,7 @@
     </node>
   </node>
   <node concept="24kQdi" id="2Z$qCIis53q">
-    <property role="3GE5qa" value="Statement" />
+    <property role="3GE5qa" value="Expr" />
     <ref role="1XX52x" to="ls40:2Z$qCIis53c" resolve="Assignment" />
     <node concept="3EZMnI" id="2Z$qCIis53s" role="2wV5jI">
       <node concept="3F1sOY" id="2Z$qCIis53z" role="3EZMnx">
@@ -622,9 +622,6 @@
       </node>
       <node concept="3F1sOY" id="2Z$qCIis53Q" role="3EZMnx">
         <ref role="1NtTu8" to="ls40:2Z$qCIis53f" resolve="rhs" />
-      </node>
-      <node concept="3F0ifn" id="2Z$qCIis540" role="3EZMnx">
-        <property role="3F0ifm" value=";" />
       </node>
       <node concept="l2Vlx" id="2Z$qCIis53v" role="2iSdaV" />
     </node>
