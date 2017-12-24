@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/rust/rust.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/rust/sandbox/rust.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/GSonImport/GSonImport.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/rust.importer/rust.importer.msd" folder="" />
     </projectModules>
   </component>

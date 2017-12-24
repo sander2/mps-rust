@@ -120,6 +120,48 @@
       <property role="TrG5h" value="imported_function" />
       <node concept="3YiHqP" id="3ZUfQpLxpA3" role="KpVaL" />
     </node>
+    <node concept="KpV6n" id="1uFTzeMBRHo" role="3YhEVB">
+      <property role="TrG5h" value="imported_function" />
+    </node>
+    <node concept="KpV6n" id="1uFTzeMC8lb" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_bla" />
+    </node>
+    <node concept="KpV6n" id="1uFTzeMCabB" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_error" />
+    </node>
+    <node concept="KpV6n" id="1uFTzeMChI2" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_errorz" />
+    </node>
+    <node concept="KpV6n" id="1uFTzeMCvKK" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_success" />
+    </node>
+    <node concept="KpV6n" id="1uFTzeMCyLx" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_null" />
+    </node>
+    <node concept="KpV6n" id="1uFTzeMCCrB" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_woot!" />
+    </node>
+    <node concept="KpV6n" id="1uFTzeMCHR$" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_wootwoot!" />
+    </node>
+    <node concept="KpV6n" id="3E4Thbj3mF" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_null" />
+    </node>
+    <node concept="KpV6n" id="3E4Thbj6zf" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_Error:null" />
+    </node>
+    <node concept="KpV6n" id="3E4Thbjedo" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_errorz" />
+    </node>
+    <node concept="KpV6n" id="3E4ThbjhsC" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_NotConst" />
+    </node>
+    <node concept="KpV6n" id="3E4ThbkaHs" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_Error:java.lang.IllegalStateException: Expected BEGIN_OBJECT but was BEGIN_ARRAY at line 221 column 24 path $.items[0].Fn.block.stmts[3].Semi" />
+    </node>
+    <node concept="KpV6n" id="3E4ThbkF39" role="3YhEVB">
+      <property role="TrG5h" value="test_borrowck_fail_alias_field" />
+    </node>
   </node>
 </model>
 
