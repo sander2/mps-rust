@@ -162,6 +162,68 @@
     <node concept="KpV6n" id="3E4ThbkF39" role="3YhEVB">
       <property role="TrG5h" value="test_borrowck_fail_alias_field" />
     </node>
+    <node concept="KpV6n" id="3E4ThbmcZB" role="3YhEVB">
+      <property role="TrG5h" value="imported_function_Error:Argument for @NotNull parameter 'child' of jetbrains/mps/smodel/SNode.addChild must not be null" />
+    </node>
+    <node concept="KpV6n" id="3E4ThbmK2C" role="3YhEVB">
+      <property role="TrG5h" value="test_borrowck_fail_alias_field" />
+      <node concept="3YiHqP" id="3E4ThbmK2E" role="KpVaL" />
+    </node>
+    <node concept="KpV6n" id="3E4ThbnoiC" role="3YhEVB">
+      <property role="TrG5h" value="test_borrowck_fail_alias_field" />
+      <node concept="3YiHqP" id="3E4ThbnoiI" role="KpVaL">
+        <node concept="36JcfG" id="3E4ThbnoiE" role="3YiHqO">
+          <property role="TrG5h" value="a" />
+        </node>
+        <node concept="36JcfG" id="3E4ThbnoiF" role="3YiHqO">
+          <property role="TrG5h" value="q" />
+        </node>
+        <node concept="36JcfG" id="3E4ThbnoiG" role="3YiHqO">
+          <property role="TrG5h" value="z" />
+        </node>
+        <node concept="36JcfG" id="3E4ThbnoiH" role="3YiHqO">
+          <property role="TrG5h" value="f" />
+        </node>
+      </node>
+    </node>
+    <node concept="KpV6n" id="3E4Thbo5Z6" role="3YhEVB">
+      <property role="TrG5h" value="test_borrowck_fail_alias_field" />
+      <node concept="3YiHqP" id="3E4Thbo5Zp" role="KpVaL">
+        <node concept="36JcfG" id="3E4Thbo5Z8" role="3YiHqO">
+          <property role="TrG5h" value="a" />
+        </node>
+        <node concept="36JcfG" id="3E4Thbo5Z9" role="3YiHqO">
+          <property role="TrG5h" value="q" />
+        </node>
+        <node concept="36JcfG" id="3E4Thbo5Za" role="3YiHqO">
+          <property role="TrG5h" value="z" />
+        </node>
+        <node concept="3YiHtV" id="3E4Thbo5Zn" role="3YiHqO">
+          <node concept="3YiHqP" id="3E4Thbo5Zm" role="3YiHtU">
+            <node concept="36JcfG" id="3E4Thbo5Zc" role="3YiHqO">
+              <property role="TrG5h" value="d" />
+            </node>
+            <node concept="3YiHtV" id="3E4Thbo5Zl" role="3YiHqO">
+              <node concept="3YiHqP" id="3E4Thbo5Zk" role="3YiHtU">
+                <node concept="36JcfG" id="3E4Thbo5Ze" role="3YiHqO">
+                  <property role="TrG5h" value="b" />
+                </node>
+                <node concept="3YiHtV" id="3E4Thbo5Zf" role="3YiHqO" />
+                <node concept="36JcfG" id="3E4Thbo5Zg" role="3YiHqO">
+                  <property role="TrG5h" value="c" />
+                </node>
+                <node concept="3YiHtV" id="3E4Thbo5Zh" role="3YiHqO" />
+                <node concept="3YiHtV" id="3E4Thbo5Zi" role="3YiHqO" />
+                <node concept="3YiHtV" id="3E4Thbo5Zj" role="3YiHqO" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="36JcfG" id="3E4Thbo5Zo" role="3YiHqO">
+          <property role="TrG5h" value="f" />
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 
