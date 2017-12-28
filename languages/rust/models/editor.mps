@@ -23,6 +23,7 @@
       <concept id="1597643335227097138" name="jetbrains.mps.lang.editor.structure.QueryFunctionParameter_TransformationMenu_node" flags="ng" index="7Obwk" />
       <concept id="6516520003787916624" name="jetbrains.mps.lang.editor.structure.QueryFunction_TransformationMenu_Condition" flags="ig" index="27VH4U" />
       <concept id="1140524381322" name="jetbrains.mps.lang.editor.structure.CellModel_ListWithRole" flags="ng" index="2czfm3">
+        <property id="1140524450557" name="separatorText" index="2czwfO" />
         <child id="1140524464360" name="cellLayout" index="2czzBx" />
         <child id="1140524464359" name="emptyCellModel" index="2czzBI" />
       </concept>
@@ -1235,6 +1236,14 @@
       <node concept="3F0ifn" id="67zX15hxD_0" role="3EZMnx">
         <property role="3F0ifm" value="(" />
       </node>
+      <node concept="3F2HdR" id="4CgVvoT0e1V" role="3EZMnx">
+        <property role="2czwfO" value="," />
+        <ref role="1NtTu8" to="ls40:4CgVvoSZkH4" resolve="args" />
+        <node concept="l2Vlx" id="4CgVvoT0e1X" role="2czzBx" />
+        <node concept="3F0ifn" id="4CgVvoT0e2j" role="2czzBI">
+          <property role="3F0ifm" value="" />
+        </node>
+      </node>
       <node concept="3F0ifn" id="67zX15hxD_B" role="3EZMnx">
         <property role="3F0ifm" value=")" />
       </node>
@@ -1277,6 +1286,22 @@
     <ref role="1XX52x" to="ls40:3ZUfQpLriUB" resolve="RustImporter" />
     <node concept="3EZMnI" id="3ZUfQpLriXy" role="2wV5jI">
       <node concept="l2Vlx" id="3ZUfQpLriX_" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="4CgVvoSZiZo">
+    <property role="3GE5qa" value="Item" />
+    <ref role="1XX52x" to="ls40:4CgVvoSZgOG" resolve="FunctionArg" />
+    <node concept="3EZMnI" id="4CgVvoSZiZq" role="2wV5jI">
+      <node concept="3F0A7n" id="4CgVvoSZiZB" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="4CgVvoSZiZN" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F1sOY" id="4CgVvoSZj05" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:4CgVvoSZgOL" resolve="ty" />
+      </node>
+      <node concept="l2Vlx" id="4CgVvoSZiZt" role="2iSdaV" />
     </node>
   </node>
 </model>

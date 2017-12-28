@@ -14,7 +14,9 @@
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
       <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
         <child id="7053749796611573408" name="block" index="KpVaL" />
+        <child id="5337027200207899460" name="args" index="1MVqqM" />
       </concept>
+      <concept id="6397481250907294879" name="rust.structure.OwnedType" flags="ng" index="Lhmvi" />
       <concept id="3451000362162475212" name="rust.structure.Assignment" flags="ng" index="2X_3D7">
         <child id="3451000362162475215" name="rhs" index="2X_3D4" />
         <child id="3451000362162475213" name="lhs" index="2X_3D6" />
@@ -30,6 +32,9 @@
       <concept id="4293139825171880930" name="rust.structure.Borrow" flags="ng" index="3LTT0e">
         <property id="4293139825171880931" name="mutable" index="3LTT0f" />
         <child id="4293139825171880978" name="e" index="3LTTvY" />
+      </concept>
+      <concept id="5337027200207883564" name="rust.structure.FunctionArg" flags="ng" index="1MVu3q">
+        <child id="5337027200207883569" name="ty" index="1MVu37" />
       </concept>
       <concept id="3709933601141783943" name="rust.structure.StructInit" flags="ng" index="1RaM_N">
         <child id="3709933601141783951" name="fields" index="1RaM_V" />
@@ -52,6 +57,18 @@
     <property role="TrG5h" value="Playground" />
     <node concept="KpV6n" id="5dK$NfTrfCd" role="3YhEVB">
       <property role="TrG5h" value="test_borrowck_fail_alias_field" />
+      <node concept="1MVu3q" id="4CgVvoT0APq" role="1MVqqM">
+        <property role="TrG5h" value="x" />
+        <node concept="Lhmvi" id="4CgVvoT0APy" role="1MVu37">
+          <property role="TrG5h" value="X" />
+        </node>
+      </node>
+      <node concept="1MVu3q" id="4CgVvoT0ZE5" role="1MVqqM">
+        <property role="TrG5h" value="y" />
+        <node concept="Lhmvi" id="4CgVvoT0ZEj" role="1MVu37">
+          <property role="TrG5h" value="Y" />
+        </node>
+      </node>
       <node concept="3YiHqP" id="5dK$NfTrfCY" role="KpVaL">
         <node concept="36JcfG" id="5dK$NfTrfCf" role="3YiHqO">
           <property role="TrG5h" value="a" />

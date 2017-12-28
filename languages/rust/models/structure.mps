@@ -456,6 +456,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="X3GX7L2ml$" resolve="Block" />
     </node>
+    <node concept="1TJgyj" id="4CgVvoSZkH4" role="1TKVEi">
+      <property role="IQ2ns" value="5337027200207899460" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="args" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="4CgVvoSZgOG" resolve="FunctionArg" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6mPjxNlPCYK">
     <property role="EcuMT" value="7328849854369009584" />
@@ -504,6 +511,22 @@
     <property role="TrG5h" value="RustImporter" />
     <property role="19KtqR" value="true" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="4CgVvoSZgOG">
+    <property role="EcuMT" value="5337027200207883564" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="FunctionArg" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="4CgVvoSZgOH" role="PzmwI">
+      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
+    </node>
+    <node concept="1TJgyj" id="4CgVvoSZgOL" role="1TKVEi">
+      <property role="IQ2ns" value="5337027200207883569" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ty" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5z8qOPD_3tU" resolve="ITypeRef" />
+    </node>
   </node>
 </model>
 
