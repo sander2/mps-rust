@@ -553,6 +553,13 @@
     <node concept="PrWs8" id="5MYV7vaUKXg" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
+    <node concept="1TJgyj" id="5MYV7vbM9BV" role="1TKVEi">
+      <property role="IQ2ns" value="6683038896328579579" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="args" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
   </node>
 </model>
 

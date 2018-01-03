@@ -14,9 +14,13 @@
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
       <concept id="1180388172941756682" name="rust.structure.False" flags="ng" index="19pR0" />
       <concept id="1180388172941756681" name="rust.structure.True" flags="ng" index="19pR3" />
+      <concept id="6683038896314060607" name="rust.structure.Call" flags="ng" index="2mlud8">
+        <child id="6683038896328579579" name="args" index="2ntBmc" />
+      </concept>
       <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
         <child id="6683038896314989219" name="returnType" index="2mhXrk" />
         <child id="7053749796611573408" name="block" index="KpVaL" />
+        <child id="5337027200207899460" name="args" index="1MVqqM" />
       </concept>
       <concept id="6397481250907294879" name="rust.structure.OwnedType" flags="ng" index="Lhmvi" />
       <concept id="6397481250907294880" name="rust.structure.PointerType" flags="ng" index="LhmvH">
@@ -44,6 +48,9 @@
       <concept id="4293139825171880930" name="rust.structure.Borrow" flags="ng" index="3LTT0e">
         <property id="4293139825171880931" name="mutable" index="3LTT0f" />
         <child id="4293139825171880978" name="e" index="3LTTvY" />
+      </concept>
+      <concept id="5337027200207883564" name="rust.structure.FunctionArg" flags="ng" index="1MVu3q">
+        <child id="5337027200207883569" name="ty" index="1MVu37" />
       </concept>
       <concept id="5337027200208343197" name="rust.structure.IVarDecl" flags="ng" index="1N5fPF">
         <property id="3997184430521073831" name="mutable" index="3P_DEC" />
@@ -772,6 +779,82 @@
       <node concept="3YiHqP" id="5MYV7vbxccR" role="KpVaL">
         <node concept="1RaM_N" id="5MYV7vbxcdc" role="3YiHqO">
           <property role="TrG5h" value="X" />
+        </node>
+      </node>
+    </node>
+    <node concept="KpV6n" id="5MYV7vbMDls" role="3YhEVB">
+      <property role="TrG5h" value="test1" />
+      <node concept="3YiHqP" id="5MYV7vbMDlt" role="KpVaL" />
+    </node>
+    <node concept="KpV6n" id="5MYV7vbMDmS" role="3YhEVB">
+      <property role="TrG5h" value="test2" />
+      <node concept="3YiHqP" id="5MYV7vbMDmU" role="KpVaL" />
+      <node concept="1MVu3q" id="5MYV7vbMDnq" role="1MVqqM">
+        <property role="TrG5h" value="x" />
+        <node concept="Lhmvi" id="5MYV7vbMDnu" role="1MVu37">
+          <property role="TrG5h" value="X" />
+        </node>
+      </node>
+      <node concept="1MVu3q" id="5MYV7vbMDnx" role="1MVqqM">
+        <property role="TrG5h" value="q" />
+        <node concept="LhmvH" id="5MYV7vbMDnB" role="1MVu37">
+          <property role="Lhnjt" value="false" />
+          <node concept="Lhmvi" id="5MYV7vbMDnG" role="2MmPw3">
+            <property role="TrG5h" value="Q" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="KpV6n" id="5MYV7vbMDlY" role="3YhEVB">
+      <property role="TrG5h" value="test_ok_call_without_args" />
+      <node concept="3YiHqP" id="5MYV7vbMDlZ" role="KpVaL">
+        <node concept="2mlud8" id="5MYV7vbMDm0" role="3YiHqO">
+          <property role="TrG5h" value="test1" />
+        </node>
+      </node>
+    </node>
+    <node concept="KpV6n" id="5MYV7vbMDnJ" role="3YhEVB">
+      <property role="TrG5h" value="test_fail_call_with_too_many_args" />
+      <node concept="3YiHqP" id="5MYV7vbMDnK" role="KpVaL">
+        <node concept="2mlud8" id="5MYV7vbMDnL" role="3YiHqO">
+          <property role="TrG5h" value="test1" />
+          <node concept="1RaM_N" id="5MYV7vbMDnM" role="2ntBmc">
+            <property role="TrG5h" value="X" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="KpV6n" id="5MYV7vbN7hk" role="3YhEVB">
+      <property role="TrG5h" value="test_ok_call_with_args" />
+      <node concept="3YiHqP" id="5MYV7vbN7hl" role="KpVaL">
+        <node concept="2mlud8" id="5MYV7vbN7hm" role="3YiHqO">
+          <property role="TrG5h" value="test2" />
+          <node concept="1RaM_N" id="5MYV7vbN7hn" role="2ntBmc">
+            <property role="TrG5h" value="X" />
+          </node>
+          <node concept="3LTT0e" id="5MYV7vbN7ho" role="2ntBmc">
+            <property role="3LTT0f" value="false" />
+            <node concept="1RaM_N" id="5MYV7vbN7hp" role="3LTTvY">
+              <property role="TrG5h" value="Q" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="KpV6n" id="5MYV7vbMDl$" role="3YhEVB">
+      <property role="TrG5h" value="test_fail_call_wrong_args" />
+      <node concept="3YiHqP" id="5MYV7vbMDlA" role="KpVaL">
+        <node concept="2mlud8" id="5MYV7vbMDlG" role="3YiHqO">
+          <property role="TrG5h" value="test2" />
+          <node concept="1RaM_N" id="5MYV7vbMDmE" role="2ntBmc">
+            <property role="TrG5h" value="X" />
+          </node>
+          <node concept="3LTT0e" id="5MYV7vbMDoM" role="2ntBmc">
+            <property role="3LTT0f" value="false" />
+            <node concept="1RaM_N" id="5MYV7vbMDoT" role="3LTTvY">
+              <property role="TrG5h" value="X" />
+            </node>
+          </node>
         </node>
       </node>
     </node>
