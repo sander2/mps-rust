@@ -15,6 +15,7 @@
       <concept id="1180388172941756682" name="rust.structure.False" flags="ng" index="19pR0" />
       <concept id="1180388172941756681" name="rust.structure.True" flags="ng" index="19pR3" />
       <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
+        <child id="6683038896314989219" name="returnType" index="2mhXrk" />
         <child id="7053749796611573408" name="block" index="KpVaL" />
       </concept>
       <concept id="6397481250907294879" name="rust.structure.OwnedType" flags="ng" index="Lhmvi" />
@@ -197,8 +198,10 @@
             <property role="TrG5h" value="Struct1" />
           </node>
         </node>
-        <node concept="36GXDm" id="fEt_3HauYY" role="3YiHqO">
-          <property role="TrG5h" value="x" />
+        <node concept="3YiHtV" id="5MYV7vbM9n4" role="3YiHqO">
+          <node concept="36GXDm" id="5MYV7vbM9nc" role="3YiHtU">
+            <property role="TrG5h" value="x" />
+          </node>
         </node>
       </node>
     </node>
@@ -732,6 +735,46 @@
         </node>
       </node>
     </node>
+    <node concept="KpV6n" id="5MYV7vbk0pv" role="3YhEVB">
+      <property role="TrG5h" value="test_ok_correct_return_type" />
+      <node concept="3YiHqP" id="5MYV7vbk0pw" role="KpVaL">
+        <node concept="1RaM_N" id="5MYV7vbk0px" role="3YiHqO">
+          <property role="TrG5h" value="X" />
+        </node>
+      </node>
+      <node concept="Lhmvi" id="5MYV7vbk0py" role="2mhXrk">
+        <property role="TrG5h" value="X" />
+      </node>
+    </node>
+    <node concept="KpV6n" id="5MYV7vbM9ry" role="3YhEVB">
+      <property role="TrG5h" value="test_fail_incorrect_return_type" />
+      <node concept="3YiHqP" id="5MYV7vbM9rz" role="KpVaL">
+        <node concept="1RaM_N" id="5MYV7vbjRLr" role="3YiHqO">
+          <property role="TrG5h" value="Q" />
+        </node>
+      </node>
+      <node concept="Lhmvi" id="5MYV7vbjRKv" role="2mhXrk">
+        <property role="TrG5h" value="X" />
+      </node>
+    </node>
+    <node concept="KpV6n" id="5MYV7vbxccf" role="3YhEVB">
+      <property role="TrG5h" value="test_ok_correct_implicit_return_type" />
+      <node concept="3YiHqP" id="5MYV7vbxccg" role="KpVaL">
+        <node concept="3YiHtV" id="5MYV7vbxccx" role="3YiHqO">
+          <node concept="1RaM_N" id="5MYV7vbxcch" role="3YiHtU">
+            <property role="TrG5h" value="X" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="KpV6n" id="5MYV7vbxccQ" role="3YhEVB">
+      <property role="TrG5h" value="test_fail_incorrect_implicit_return_type" />
+      <node concept="3YiHqP" id="5MYV7vbxccR" role="KpVaL">
+        <node concept="1RaM_N" id="5MYV7vbxcdc" role="3YiHqO">
+          <property role="TrG5h" value="X" />
+        </node>
+      </node>
+    </node>
     <node concept="1ToarD" id="67zX15hHpg$" role="3YhEVB">
       <property role="TrG5h" value="Struct1" />
     </node>
@@ -761,6 +804,12 @@
           <property role="TrG5h" value="bool" />
         </node>
       </node>
+    </node>
+    <node concept="1ToarD" id="5MYV7vbjRLd" role="3YhEVB">
+      <property role="TrG5h" value="X" />
+    </node>
+    <node concept="1ToarD" id="5MYV7vbk0pn" role="3YhEVB">
+      <property role="TrG5h" value="Q" />
     </node>
   </node>
   <node concept="3YhZ5a" id="3ns6jdf3$nx">
@@ -949,8 +998,10 @@
             <property role="TrG5h" value="A" />
           </node>
         </node>
-        <node concept="36GXDm" id="fEt_3HauhN" role="3YiHqO">
-          <property role="TrG5h" value="a" />
+        <node concept="3YiHtV" id="5MYV7vbM9nk" role="3YiHqO">
+          <node concept="36GXDm" id="5MYV7vbM9ns" role="3YiHtU">
+            <property role="TrG5h" value="a" />
+          </node>
         </node>
       </node>
     </node>

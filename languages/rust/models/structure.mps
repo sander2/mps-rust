@@ -461,6 +461,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="4CgVvoSZgOG" resolve="FunctionArg" />
     </node>
+    <node concept="1TJgyj" id="5MYV7vaYjEz" role="1TKVEi">
+      <property role="IQ2ns" value="6683038896314989219" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="returnType" />
+      <ref role="20lvS9" node="5z8qOPD_3tU" resolve="ITypeRef" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6mPjxNlPCYK">
     <property role="EcuMT" value="7328849854369009584" />
@@ -537,6 +543,15 @@
       <property role="IQ2nx" value="3997184430521073831" />
       <property role="TrG5h" value="mutable" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="5MYV7vaUKWZ">
+    <property role="EcuMT" value="6683038896314060607" />
+    <property role="3GE5qa" value="Expr" />
+    <property role="TrG5h" value="Call" />
+    <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
+    <node concept="PrWs8" id="5MYV7vaUKXg" role="PzmwI">
+      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
   </node>
 </model>
