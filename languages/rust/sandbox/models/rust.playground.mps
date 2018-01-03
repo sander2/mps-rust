@@ -31,6 +31,9 @@
       <concept id="5337027200207883564" name="rust.structure.FunctionArg" flags="ng" index="1MVu3q">
         <child id="5337027200207883569" name="ty" index="1MVu37" />
       </concept>
+      <concept id="270897023998186435" name="rust.structure.Match" flags="ng" index="1PRjyF">
+        <child id="270897023998192231" name="expr" index="1PRg4f" />
+      </concept>
       <concept id="3709933601141783943" name="rust.structure.StructInit" flags="ng" index="1RaM_N" />
       <concept id="1484126389064436735" name="rust.structure.FieldStruct" flags="ng" index="1ToarD" />
       <concept id="1099920448281658011" name="rust.structure.Module" flags="ng" index="3YhZ5a">
@@ -75,6 +78,11 @@
             <node concept="1RaM_N" id="5MYV7vbN7hp" role="3LTTvY">
               <property role="TrG5h" value="Y" />
             </node>
+          </node>
+        </node>
+        <node concept="1PRjyF" id="f2qQxQ8OdJ" role="3YiHqO">
+          <node concept="1RaM_N" id="f2qQxQ8Oe5" role="1PRg4f">
+            <property role="TrG5h" value="X" />
           </node>
         </node>
       </node>
