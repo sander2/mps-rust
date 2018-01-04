@@ -18,6 +18,8 @@
     <import index="c9jv" ref="389c12aa-7c7f-4e7a-bb98-c8a550e659fb/java:com.google.gson.stream(GSonImport/)" />
     <import index="guwi" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.io(JDK/)" />
     <import index="t6h5" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang.reflect(JDK/)" />
+    <import index="tp5g" ref="r:00000000-0000-4000-0000-011c89590388(jetbrains.mps.lang.test.structure)" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" implicit="true" />
     <import index="33ny" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.util(JDK/)" implicit="true" />
     <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
@@ -245,6 +247,7 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="2396822768958367367" name="jetbrains.mps.lang.smodel.structure.AbstractTypeCastExpression" flags="nn" index="$5XWr">
         <child id="6733348108486823193" name="leftExpression" index="1m5AlR" />
         <child id="3906496115198199033" name="conceptArgument" index="3oSUPX" />
@@ -335,6 +338,19 @@
                   </node>
                 </node>
               </node>
+              <node concept="3clFbF" id="rlSsqGdKHH" role="3cqZAp">
+                <node concept="2OqwBi" id="rlSsqGdOOL" role="3clFbG">
+                  <node concept="2OqwBi" id="rlSsqGdNSv" role="2Oq$k0">
+                    <node concept="2WthIp" id="rlSsqGdKHF" role="2Oq$k0" />
+                    <node concept="3gHZIF" id="rlSsqGdOle" role="2OqNvi">
+                      <ref role="2WH_rO" node="3ZUfQpLxbT3" resolve="node" />
+                    </node>
+                  </node>
+                  <node concept="2qgKlT" id="rlSsqGdPhk" role="2OqNvi">
+                    <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                  </node>
+                </node>
+              </node>
               <node concept="3clFbF" id="3ZUfQpLwP9e" role="3cqZAp">
                 <node concept="2OqwBi" id="3ZUfQpLwRQ5" role="3clFbG">
                   <node concept="2OqwBi" id="3ZUfQpLwPW4" role="2Oq$k0">
@@ -363,7 +379,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="3ZUfQpLxhHu" role="3cqZAp" />
       </node>
     </node>
     <node concept="2S4$dB" id="3ZUfQpLxbT3" role="1NuT2Z">

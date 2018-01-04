@@ -574,11 +574,47 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
     </node>
+    <node concept="1TJgyj" id="rlSsqGgB$A" role="1TKVEi">
+      <property role="IQ2ns" value="492547977676749094" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="arms" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="f2qQxQ8OeL" resolve="MatchArm" />
+    </node>
   </node>
   <node concept="1TIwiD" id="f2qQxQ8OeL">
     <property role="EcuMT" value="270897023998444465" />
     <property role="TrG5h" value="MatchArm" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="rlSsqGfVms" role="1TKVEi">
+      <property role="IQ2ns" value="492547977676567964" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="patterns" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="rlSsqGdD8e" resolve="Pattern" />
+    </node>
+    <node concept="1TJgyj" id="rlSsqGfVmw" role="1TKVEi">
+      <property role="IQ2ns" value="492547977676567968" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="rlSsqGdD8e">
+    <property role="EcuMT" value="492547977675969038" />
+    <property role="TrG5h" value="Pattern" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="rlSsqGdDSX">
+    <property role="EcuMT" value="492547977675972157" />
+    <property role="TrG5h" value="PatternIdent" />
+    <ref role="1TJDcQ" node="rlSsqGdD8e" resolve="Pattern" />
+    <node concept="PrWs8" id="rlSsqGdDTe" role="PzmwI">
+      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
+    </node>
   </node>
 </model>
 
