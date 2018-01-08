@@ -1446,5 +1446,52 @@
       <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
     </node>
   </node>
+  <node concept="24kQdi" id="46yx_MrG0fz">
+    <ref role="1XX52x" to="ls40:46yx_MrG0dk" resolve="FieldPat" />
+    <node concept="3EZMnI" id="46yx_MrG0hp" role="2wV5jI">
+      <node concept="3F0A7n" id="46yx_MrG0hA" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="46yx_MrG0hM" role="3EZMnx">
+        <property role="3F0ifm" value=":" />
+      </node>
+      <node concept="3F1sOY" id="46yx_MrG0i4" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:46yx_MrG0fd" resolve="pat" />
+      </node>
+      <node concept="3F0ifn" id="46yx_MrG0is" role="3EZMnx">
+        <property role="3F0ifm" value="," />
+      </node>
+      <node concept="l2Vlx" id="46yx_MrG0hs" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="46yx_MrG0j6">
+    <ref role="1XX52x" to="ls40:46yx_MrFZLq" resolve="PatternStruct" />
+    <node concept="3EZMnI" id="46yx_MrG0l5" role="2wV5jI">
+      <node concept="3F0A7n" id="46yx_MrG0li" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="3F0ifn" id="46yx_MrG0lu" role="3EZMnx">
+        <property role="3F0ifm" value="{" />
+      </node>
+      <node concept="3F2HdR" id="46yx_MrG0lO" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:46yx_MrG0lK" resolve="fields" />
+        <node concept="l2Vlx" id="46yx_MrG0lQ" role="2czzBx" />
+        <node concept="3F0ifn" id="46yx_MrG0m3" role="2czzBI" />
+      </node>
+      <node concept="3F0ifn" id="46yx_MrG0mq" role="3EZMnx">
+        <property role="3F0ifm" value="}" />
+      </node>
+      <node concept="l2Vlx" id="46yx_MrG0l8" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="3SsynIVQURH">
+    <ref role="1XX52x" to="ls40:3SsynIVQUPP" resolve="PatternLiteral" />
+    <node concept="3EZMnI" id="3SsynIVQUTz" role="2wV5jI">
+      <node concept="3F1sOY" id="3SsynIVQUTH" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:3SsynIVQURE" resolve="expr" />
+      </node>
+      <node concept="l2Vlx" id="3SsynIVQUTA" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 
