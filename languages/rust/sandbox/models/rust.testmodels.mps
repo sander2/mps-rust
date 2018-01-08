@@ -20,6 +20,10 @@
       <concept id="6683038896314060607" name="rust.structure.Call" flags="ng" index="2mlud8">
         <child id="6683038896328579579" name="args" index="2ntBmc" />
       </concept>
+      <concept id="8841274033449256650" name="rust.structure.PatternBorrow" flags="ng" index="2n4$kD">
+        <property id="8841274033449256778" name="mutable" index="2n4$iD" />
+        <child id="8841274033449256651" name="pat" index="2n4$kC" />
+      </concept>
       <concept id="492547977675972157" name="rust.structure.PatternIdent" flags="ng" index="2ESRZV" />
       <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
         <child id="6683038896314989219" name="returnType" index="2mhXrk" />
@@ -1208,9 +1212,7 @@
               </node>
               <node concept="19pR0" id="7EMwYfHdk3y" role="2EU_hA" />
             </node>
-            <node concept="36GXDm" id="3SsynIW8Em2" role="1PRg4f">
-              <property role="TrG5h" value="true" />
-            </node>
+            <node concept="19pR3" id="7EMwYfIe1qt" role="1PRg4f" />
           </node>
         </node>
       </node>
@@ -1400,6 +1402,50 @@
             </node>
             <node concept="36GXDm" id="7EMwYfHCbOv" role="1PRg4f">
               <property role="TrG5h" value="y" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="KpV6n" id="7EMwYfHEmmV" role="3YhEVB">
+      <property role="TrG5h" value="test_ok_match_named_wildcard_in_pointer" />
+      <node concept="3YiHqP" id="7EMwYfHEmmW" role="KpVaL">
+        <node concept="3YiHtV" id="7EMwYfHEmmX" role="3YiHqO">
+          <node concept="1PRjyF" id="7EMwYfHEmmY" role="3YiHtU">
+            <node concept="3LTT0e" id="7EMwYfHEmmZ" role="1PRg4f">
+              <property role="3LTT0f" value="false" />
+              <node concept="19pR3" id="7EMwYfHEmn0" role="3LTTvY" />
+            </node>
+            <node concept="1PSizp" id="7EMwYfHEmn1" role="2E_Tzw">
+              <node concept="19pR3" id="7EMwYfHEmn2" role="2EU_hA" />
+              <node concept="2n4$kD" id="7EMwYfHEmn3" role="2EU_hq">
+                <property role="2n4$iD" value="false" />
+                <node concept="2ESRZV" id="7EMwYfHEmn4" role="2n4$kC">
+                  <property role="TrG5h" value="a" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="KpV6n" id="1A$EJ17oiFq" role="3YhEVB">
+      <property role="TrG5h" value="test_fail_match_named_wildcard_in_pointer" />
+      <node concept="3YiHqP" id="1A$EJ17oiFr" role="KpVaL">
+        <node concept="3YiHtV" id="7EMwYfHCcqI" role="3YiHqO">
+          <node concept="1PRjyF" id="7EMwYfHCcqM" role="3YiHtU">
+            <node concept="3LTT0e" id="7EMwYfHCcr1" role="1PRg4f">
+              <property role="3LTT0f" value="false" />
+              <node concept="19pR3" id="7EMwYfHCcr7" role="3LTTvY" />
+            </node>
+            <node concept="1PSizp" id="7EMwYfHCcqQ" role="2E_Tzw">
+              <node concept="19pR3" id="7EMwYfHEdlc" role="2EU_hA" />
+              <node concept="2n4$kD" id="7EMwYfHEdl3" role="2EU_hq">
+                <property role="2n4$iD" value="false" />
+                <node concept="3q3nC6" id="7EMwYfHEmnM" role="2n4$kC">
+                  <property role="TrG5h" value="X" />
+                </node>
+              </node>
             </node>
           </node>
         </node>

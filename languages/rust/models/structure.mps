@@ -664,5 +664,23 @@
       <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7EMwYfHCcra">
+    <property role="EcuMT" value="8841274033449256650" />
+    <property role="TrG5h" value="PatternBorrow" />
+    <property role="34LRSv" value="&amp;" />
+    <ref role="1TJDcQ" node="rlSsqGdD8e" resolve="Pattern" />
+    <node concept="1TJgyj" id="7EMwYfHCcrb" role="1TKVEi">
+      <property role="IQ2ns" value="8841274033449256651" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pat" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="rlSsqGdD8e" resolve="Pattern" />
+    </node>
+    <node concept="1TJgyi" id="7EMwYfHCcta" role="1TKVEl">
+      <property role="IQ2nx" value="8841274033449256778" />
+      <property role="TrG5h" value="mutable" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
 </model>
 
