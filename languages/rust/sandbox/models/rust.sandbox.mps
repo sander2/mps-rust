@@ -2151,6 +2151,67 @@
               </node>
             </node>
           </node>
+          <node concept="3zV_Rz" id="3SsynIW8Nky" role="3zVECR">
+            <node concept="34ocy7" id="3SsynIW8ZTV" role="1dgzf0">
+              <node concept="34oehE" id="3SsynIW96oU" role="34ocs8">
+                <node concept="2kdjtB" id="3SsynIW9iVg" role="2RGvlO">
+                  <ref role="2UGuZ7" to="ls40:3SsynIVQUPP" resolve="PatternLiteral" />
+                </node>
+                <node concept="30NkWi" id="3SsynIW8ZU5" role="2RGvhl">
+                  <ref role="XkjO9" node="7EXp9q6q07G" resolve="n" />
+                </node>
+              </node>
+            </node>
+            <node concept="34odk1" id="7EMwYfGHi8E" role="1dgzf0">
+              <node concept="2kdhWc" id="7EMwYfGHoks" role="34ocZk">
+                <node concept="727y6" id="7EMwYfGHAGV" role="3zVzRQ">
+                  <ref role="3zVwH8" to="ls40:3SsynIVQURE" resolve="expr" />
+                </node>
+                <node concept="30NkWi" id="7EMwYfGHokl" role="2kdhYM">
+                  <ref role="XkjO9" node="7EXp9q6q07G" resolve="n" />
+                </node>
+              </node>
+              <node concept="30KbLJ" id="7EMwYfGHc0a" role="34ocZn">
+                <property role="TrG5h" value="expr" />
+              </node>
+            </node>
+            <node concept="1waTxd" id="3SsynIWauzp" role="1dgzf0">
+              <node concept="3zV_Rz" id="3SsynIWauzr" role="3zVECR">
+                <node concept="34ocy7" id="3SsynIWaEN1" role="1dgzf0">
+                  <node concept="34oehE" id="3SsynIWbfP8" role="34ocs8">
+                    <node concept="2kdjtB" id="3SsynIWbsvO" role="2RGvlO">
+                      <ref role="2UGuZ7" to="ls40:11x_cChh0$9" resolve="True" />
+                    </node>
+                    <node concept="30NkWi" id="7EMwYfGHI4k" role="2RGvhl">
+                      <ref role="XkjO9" node="7EMwYfGHc0a" resolve="expr" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3zV_Rz" id="3SsynIWbPWh" role="3zVECR">
+                <node concept="34ocy7" id="3SsynIWc2Gz" role="1dgzf0">
+                  <node concept="34oehE" id="3SsynIWckAB" role="34ocs8">
+                    <node concept="2kdjtB" id="3SsynIWcxhM" role="2RGvlO">
+                      <ref role="2UGuZ7" to="ls40:11x_cChh0$a" resolve="False" />
+                    </node>
+                    <node concept="30NkWi" id="7EMwYfGHPpZ" role="2RGvhl">
+                      <ref role="XkjO9" node="7EMwYfGHc0a" resolve="expr" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="30Nfyg" id="3SsynIWcHZd" role="1dgzf0">
+              <node concept="1p__ei" id="3SsynIWdMAX" role="30Nf_D">
+                <node concept="3_JagS" id="3SsynIWdMAV" role="1p__f_">
+                  <ref role="3_Jajq" node="xVxp1qqXZp" resolve="TypeLattice" />
+                </node>
+                <node concept="2ZRyFJ" id="3SsynIWe0mM" role="1p_StM">
+                  <ref role="2ZRyFH" node="11x_cChnVp_" resolve="Boolean" />
+                </node>
+              </node>
+            </node>
+          </node>
           <node concept="3zV_Rz" id="46yx_Msm$lo" role="3zVECR">
             <node concept="34ocy7" id="46yx_MsmK5a" role="1dgzf0">
               <node concept="34oehE" id="46yx_MsmUWr" role="34ocs8">
@@ -2180,6 +2241,9 @@
             </node>
             <node concept="1waTxd" id="46yx_MsnnQ1" role="1dgzf0">
               <node concept="3zV_Rz" id="46yx_MsnnQ3" role="3zVECR">
+                <node concept="1XdyHb" id="7EMwYfHa5qU" role="1dgzf0">
+                  <property role="1dubkF" value="case 1: field access" />
+                </node>
                 <node concept="34ocy7" id="46yx_MsnzlC" role="1dgzf0">
                   <node concept="34oehE" id="46yx_MsoIGA" role="34ocs8">
                     <node concept="2kdjtB" id="46yx_MsoVZ9" role="2RGvlO">
@@ -2288,6 +2352,9 @@
                 </node>
               </node>
               <node concept="3zV_Rz" id="46yx_Msq93g" role="3zVECR">
+                <node concept="1XdyHb" id="7EMwYfHbg8U" role="1dgzf0">
+                  <property role="1dubkF" value="case 2: named wildcard" />
+                </node>
                 <node concept="34ocy7" id="46yx_MstfsR" role="1dgzf0">
                   <node concept="34oehE" id="46yx_MstrgB" role="34ocs8">
                     <node concept="2kdjtB" id="46yx_MstBhy" role="2RGvlO">
