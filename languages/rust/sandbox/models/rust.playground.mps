@@ -12,14 +12,22 @@
       </concept>
     </language>
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
-      <concept id="492547977675972157" name="rust.structure.PatternIdent" flags="ng" index="2ESRZV" />
+      <concept id="8841274033449256650" name="rust.structure.PatternBorrow" flags="ng" index="2n4$kD">
+        <property id="8841274033449256778" name="mutable" index="2n4$iD" />
+        <child id="8841274033449256651" name="pat" index="2n4$kC" />
+      </concept>
+      <concept id="492547977675972157" name="rust.structure.PatternIdent" flags="ng" index="2ESRZV">
+        <property id="7104825393965961924" name="mutable" index="3$7nJ9" />
+      </concept>
       <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
         <child id="7053749796611573408" name="block" index="KpVaL" />
+        <child id="5337027200207899460" name="args" index="1MVqqM" />
       </concept>
       <concept id="6397481250907294879" name="rust.structure.OwnedType" flags="ng" index="Lhmvi" />
       <concept id="9149939120071034736" name="rust.structure.VarRef" flags="ng" index="36GXDm" />
       <concept id="9149939120070975178" name="rust.structure.LetBinding" flags="ng" index="36JcfG">
         <child id="9149939120070975249" name="value" index="36Jc8R" />
+        <child id="1847789696095212661" name="pat" index="1uLnU5" />
         <child id="2753953570235995100" name="typeAnnotation" index="1ZVt7M" />
       </concept>
       <concept id="4729490290999557210" name="rust.structure.PatternStruct" flags="ng" index="3q3nC6">
@@ -27,6 +35,10 @@
       </concept>
       <concept id="4729490290999558996" name="rust.structure.FieldPat" flags="ng" index="3q4Ck8">
         <child id="4729490290999559117" name="pat" index="3q4Cmh" />
+      </concept>
+      <concept id="5337027200207883564" name="rust.structure.FunctionArg" flags="ng" index="1MVu3q">
+        <child id="1847789696095212668" name="pat" index="1uLnUc" />
+        <child id="5337027200207883569" name="ty" index="1MVu37" />
       </concept>
       <concept id="5337027200208343197" name="rust.structure.IVarDecl" flags="ng" index="1N5fPF">
         <property id="3997184430521073831" name="mutable" index="3P_DEC" />
@@ -63,7 +75,44 @@
     <property role="TrG5h" value="Playground" />
     <node concept="KpV6n" id="46yx_Mtni1o" role="3YhEVB">
       <property role="TrG5h" value="test_ok_match_varref_inner" />
+      <node concept="1MVu3q" id="6apqgQ6A4fz" role="1MVqqM">
+        <node concept="Lhmvi" id="6apqgQ6A4fG" role="1MVu37">
+          <property role="TrG5h" value="w" />
+        </node>
+        <node concept="2ESRZV" id="6apqgQ6A4fD" role="1uLnUc">
+          <property role="3$7nJ9" value="false" />
+          <property role="TrG5h" value="y" />
+        </node>
+      </node>
+      <node concept="1MVu3q" id="6apqgQ6AyVQ" role="1MVqqM">
+        <node concept="Lhmvi" id="6apqgQ6AyW2" role="1MVu37">
+          <property role="TrG5h" value="w" />
+        </node>
+        <node concept="2n4$kD" id="6apqgQ6AyW6" role="1uLnUc">
+          <property role="2n4$iD" value="false" />
+          <node concept="2ESRZV" id="6apqgQ6AyWc" role="2n4$kC">
+            <property role="3$7nJ9" value="false" />
+            <property role="TrG5h" value="test" />
+          </node>
+        </node>
+      </node>
       <node concept="3YiHqP" id="46yx_Mtni1p" role="KpVaL">
+        <node concept="36JcfG" id="6apqgQ6A4ei" role="3YiHqO">
+          <node concept="2ESRZV" id="6apqgQ6A4fn" role="1uLnU5">
+            <property role="3$7nJ9" value="true" />
+            <property role="TrG5h" value="y" />
+          </node>
+        </node>
+        <node concept="36JcfG" id="1A$EJ17qap2" role="3YiHqO">
+          <property role="3P_DEC" value="false" />
+          <node concept="2ESRZV" id="1A$EJ17qapy" role="1uLnU5">
+            <property role="TrG5h" value="y" />
+            <property role="3$7nJ9" value="true" />
+          </node>
+          <node concept="1RaM_N" id="1A$EJ17qapD" role="36Jc8R">
+            <property role="TrG5h" value="Y" />
+          </node>
+        </node>
         <node concept="36JcfG" id="46yx_Mtni3t" role="3YiHqO">
           <property role="3P_DEC" value="false" />
           <property role="TrG5h" value="y" />
@@ -75,6 +124,9 @@
                 <property role="TrG5h" value="X" />
               </node>
             </node>
+          </node>
+          <node concept="2ESRZV" id="1A$EJ17qaow" role="1uLnU5">
+            <property role="TrG5h" value="y" />
           </node>
         </node>
         <node concept="36JcfG" id="46yx_Mtni4C" role="3YiHqO">

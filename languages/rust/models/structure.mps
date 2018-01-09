@@ -213,11 +213,11 @@
     <property role="TrG5h" value="LetBinding" />
     <property role="34LRSv" value="let" />
     <ref role="1TJDcQ" node="X3GX7L2miD" resolve="Statement" />
-    <node concept="PrWs8" id="6mPjxNlSMdo" role="PzmwI">
-      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
-    </node>
-    <node concept="PrWs8" id="4CgVvoT112_" role="PzmwI">
-      <ref role="PrY4T" node="4CgVvoT112t" resolve="IVarDecl" />
+    <node concept="1TJgyj" id="1A$EJ17othP" role="1TKVEi">
+      <property role="IQ2ns" value="1847789696095212661" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pat" />
+      <ref role="20lvS9" node="rlSsqGdD8e" resolve="Pattern" />
     </node>
     <node concept="1TJgyj" id="7VV7iqShXWh" role="1TKVEi">
       <property role="IQ2ns" value="9149939120070975249" />
@@ -521,11 +521,11 @@
     <property role="3GE5qa" value="Item" />
     <property role="TrG5h" value="FunctionArg" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="4CgVvoSZgOH" role="PzmwI">
-      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
-    </node>
-    <node concept="PrWs8" id="4CgVvoTvpQu" role="PzmwI">
-      <ref role="PrY4T" node="4CgVvoT112t" resolve="IVarDecl" />
+    <node concept="1TJgyj" id="1A$EJ17othW" role="1TKVEi">
+      <property role="IQ2ns" value="1847789696095212668" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="pat" />
+      <ref role="20lvS9" node="rlSsqGdD8e" resolve="Pattern" />
     </node>
     <node concept="1TJgyj" id="4CgVvoSZgOL" role="1TKVEi">
       <property role="IQ2ns" value="5337027200207883569" />
@@ -533,16 +533,6 @@
       <property role="20kJfa" value="ty" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5z8qOPD_3tU" resolve="ITypeRef" />
-    </node>
-  </node>
-  <node concept="PlHQZ" id="4CgVvoT112t">
-    <property role="EcuMT" value="5337027200208343197" />
-    <property role="3GE5qa" value="Expr" />
-    <property role="TrG5h" value="IVarDecl" />
-    <node concept="1TJgyi" id="3tSQwZ2V$2B" role="1TKVEl">
-      <property role="IQ2nx" value="3997184430521073831" />
-      <property role="TrG5h" value="mutable" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="5MYV7vaUKWZ">
@@ -618,8 +608,10 @@
     <node concept="PrWs8" id="rlSsqGdDTe" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
-    <node concept="PrWs8" id="46yx_MrITJi" role="PzmwI">
-      <ref role="PrY4T" node="4CgVvoT112t" resolve="IVarDecl" />
+    <node concept="1TJgyi" id="6apqgQ6x1b4" role="1TKVEl">
+      <property role="IQ2nx" value="7104825393965961924" />
+      <property role="TrG5h" value="mutable" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
   <node concept="1TIwiD" id="46yx_MrFZLq">
