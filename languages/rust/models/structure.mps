@@ -216,6 +216,9 @@
     <node concept="PrWs8" id="6mPjxNlSMdo" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
+    <node concept="PrWs8" id="4CgVvoT112_" role="PzmwI">
+      <ref role="PrY4T" node="4CgVvoT112t" resolve="IVarDecl" />
+    </node>
     <node concept="1TJgyj" id="7VV7iqShXWh" role="1TKVEi">
       <property role="IQ2ns" value="9149939120070975249" />
       <property role="20lmBu" value="aggregation" />
@@ -520,6 +523,9 @@
     <node concept="PrWs8" id="4CgVvoSZgOH" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
+    <node concept="PrWs8" id="4CgVvoTvpQu" role="PzmwI">
+      <ref role="PrY4T" node="4CgVvoT112t" resolve="IVarDecl" />
+    </node>
     <node concept="1TJgyj" id="4CgVvoSZgOL" role="1TKVEi">
       <property role="IQ2ns" value="5337027200207883569" />
       <property role="20lmBu" value="aggregation" />
@@ -527,6 +533,11 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5z8qOPD_3tU" resolve="ITypeRef" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="4CgVvoT112t">
+    <property role="EcuMT" value="5337027200208343197" />
+    <property role="3GE5qa" value="Expr" />
+    <property role="TrG5h" value="IVarDecl" />
   </node>
 </model>
 
