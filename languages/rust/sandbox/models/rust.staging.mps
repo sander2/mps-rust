@@ -14,17 +14,11 @@
       </concept>
     </language>
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
-      <concept id="1484126389064436735" name="rust.structure.FieldStruct" flags="ng" index="1ToarD" />
-      <concept id="1099920448281658011" name="rust.structure.Module" flags="ng" index="3YhZ5a">
-        <child id="1099920448281713974" name="defs" index="3YhEVB" />
-      </concept>
+      <concept id="1099920448281658011" name="rust.structure.Module" flags="ng" index="3YhZ5a" />
     </language>
   </registry>
   <node concept="3YhZ5a" id="1qSNzGzBG38">
     <property role="TrG5h" value="StagingTests" />
-    <node concept="1ToarD" id="7EMwYfHCcpn" role="3YhEVB">
-      <property role="TrG5h" value="X" />
-    </node>
   </node>
 </model>
 
