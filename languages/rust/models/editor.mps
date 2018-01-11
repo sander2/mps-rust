@@ -1611,5 +1611,11 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="15QbyJGEm8v">
+    <ref role="1XX52x" to="ls40:15QbyJGEm8u" resolve="PatternWildcard" />
+    <node concept="3F0ifn" id="15QbyJGEm8x" role="2wV5jI">
+      <property role="3F0ifm" value="_" />
+    </node>
+  </node>
 </model>
 
