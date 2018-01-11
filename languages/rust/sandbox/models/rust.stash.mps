@@ -138,31 +138,6 @@
         </node>
       </node>
     </node>
-    <node concept="KpV6n" id="15QbyJFY60y" role="3YhEVB">
-      <property role="TrG5h" value="test_borrowck_ok_wildcard_in_let" />
-      <node concept="3YiHqP" id="15QbyJFY60z" role="KpVaL">
-        <node concept="36JcfG" id="15QbyJFY60$" role="3YiHqO">
-          <node concept="2ESRZV" id="15QbyJFY60_" role="1uLnU5">
-            <property role="3$7nJ9" value="false" />
-            <property role="TrG5h" value="x" />
-          </node>
-          <node concept="1RaM_N" id="15QbyJFY60A" role="36Jc8R">
-            <property role="TrG5h" value="X" />
-          </node>
-        </node>
-        <node concept="36JcfG" id="15QbyJGFhTj" role="3YiHqO">
-          <node concept="3XROKP" id="15QbyJGFhTr" role="1uLnU5" />
-          <node concept="36GXDm" id="15QbyJGFhTw" role="36Jc8R">
-            <property role="TrG5h" value="x" />
-          </node>
-        </node>
-        <node concept="3YiHtV" id="15QbyJFY60H" role="3YiHqO">
-          <node concept="36GXDm" id="15QbyJFY60I" role="3YiHtU">
-            <property role="TrG5h" value="x" />
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
 </model>
 
