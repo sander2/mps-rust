@@ -60,6 +60,9 @@
         <child id="1638911550608610281" name="executeFunction" index="IWgqQ" />
         <child id="5692353713941573325" name="textFunction" index="1hCUd6" />
       </concept>
+      <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
+        <property id="1186403771423" name="style" index="Vbekb" />
+      </concept>
       <concept id="615427434521884870" name="jetbrains.mps.lang.editor.structure.SubstituteMenuPart_Subconcepts" flags="ng" index="2VfDsV" />
       <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
         <property id="1186414551515" name="flag" index="VOm3f" />
@@ -623,6 +626,9 @@
     <node concept="3EZMnI" id="3IkiYNasXJL" role="2wV5jI">
       <node concept="3F0ifn" id="6PRO_yFRPvv" role="3EZMnx">
         <property role="3F0ifm" value="&amp;" />
+        <node concept="Vb9p2" id="6Qo2zg8H7I8" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
       </node>
       <node concept="3F0ifn" id="6PRO_yFRPDt" role="3EZMnx">
         <property role="3F0ifm" value="mut" />
@@ -696,6 +702,9 @@
     <node concept="3EZMnI" id="5z8qOPDzgNv" role="2wV5jI">
       <node concept="3F0ifn" id="5z8qOPDzgNJ" role="3EZMnx">
         <property role="3F0ifm" value="&amp;" />
+        <node concept="Vb9p2" id="6Qo2zg8H7Ia" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
       </node>
       <node concept="3F0ifn" id="5z8qOPDzgXZ" role="3EZMnx">
         <property role="3F0ifm" value="mut" />
@@ -1305,6 +1314,7 @@
     <node concept="3EZMnI" id="f2qQxQ7QDX" role="2wV5jI">
       <node concept="3F0ifn" id="f2qQxQ7QEm" role="3EZMnx">
         <property role="3F0ifm" value="match" />
+        <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
       </node>
       <node concept="3F1sOY" id="f2qQxQ7QEa" role="3EZMnx">
         <ref role="1NtTu8" to="ls40:f2qQxQ7QDB" resolve="expr" />
@@ -1429,11 +1439,14 @@
     <node concept="3EZMnI" id="7EMwYfHCcsR" role="2wV5jI">
       <node concept="3F0ifn" id="7EMwYfHCcsY" role="3EZMnx">
         <property role="3F0ifm" value="&amp;" />
+        <node concept="Vb9p2" id="6Qo2zg8G_vy" role="3F10Kt">
+          <property role="Vbekb" value="BOLD" />
+        </node>
       </node>
       <node concept="3F0ifn" id="7EMwYfHCctm" role="3EZMnx">
         <property role="3F0ifm" value="mut" />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
         <ref role="1ERwB7" node="7EMwYfHCKrJ" resolve="PatternBorrow_Actions" />
+        <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
         <node concept="pkWqt" id="7EMwYfHCctn" role="pqm2j">
           <node concept="3clFbS" id="7EMwYfHCcto" role="2VODD2">
             <node concept="3clFbF" id="7EMwYfHCctp" role="3cqZAp">
