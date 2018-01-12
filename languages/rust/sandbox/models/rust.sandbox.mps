@@ -14104,6 +14104,66 @@
           </node>
         </node>
         <node concept="1XdyHe" id="1qSNzG_q68V" role="1dgzf0" />
+        <node concept="34odk1" id="6Qo2zg8J$ZI" role="1dgzf0">
+          <node concept="30KbLJ" id="6Qo2zg8J5Le" role="34ocZn">
+            <property role="TrG5h" value="parent" />
+          </node>
+          <node concept="2kdhWc" id="6Qo2zg8KxOq" role="34ocZk">
+            <node concept="3lV9gE" id="6Qo2zg8KEWx" role="3zVzRQ">
+              <ref role="3zVwH8" to="hqsm:7A0HCuGt5rZ" resolve="parent" />
+            </node>
+            <node concept="30NkWi" id="6Qo2zg8KoFE" role="2kdhYM">
+              <ref role="XkjO9" node="2q_fATW3gkM" resolve="x" />
+            </node>
+          </node>
+        </node>
+        <node concept="1waTxd" id="6Qo2zg8IqI4" role="1dgzf0">
+          <node concept="3zV_Rz" id="6Qo2zg8IqI6" role="3zVECR">
+            <node concept="34ocy7" id="6Qo2zg8L0m9" role="1dgzf0">
+              <node concept="2BbxxA" id="6Qo2zg8LClL" role="34ocs8">
+                <node concept="2kdjtB" id="6Qo2zg8LXcG" role="2RGvlO">
+                  <ref role="2UGuZ7" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
+                </node>
+                <node concept="30NkWi" id="6Qo2zg8MjEh" role="2RGvhl">
+                  <ref role="XkjO9" node="6Qo2zg8J5Le" resolve="parent" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3zV_Rz" id="6Qo2zg8LXcZ" role="3zVECR">
+            <node concept="1XdyHb" id="6Qo2zg8Rra6" role="1dgzf0">
+              <property role="1dubkF" value="in a letbinding you can do anything with a var as long as you don't bind any variables; filter this case here" />
+            </node>
+            <node concept="34ocy7" id="6Qo2zg8MwvM" role="1dgzf0">
+              <node concept="34oehE" id="6Qo2zg8N1KJ" role="34ocs8">
+                <node concept="2kdjtB" id="6Qo2zg8NmWD" role="2RGvlO">
+                  <ref role="2UGuZ7" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
+                </node>
+                <node concept="30NkWi" id="6Qo2zg8MS_C" role="2RGvhl">
+                  <ref role="XkjO9" node="6Qo2zg8J5Le" resolve="parent" />
+                </node>
+              </node>
+            </node>
+            <node concept="34ocy7" id="6Qo2zg8QCRK" role="1dgzf0">
+              <node concept="2dT$3Y" id="6Qo2zg8QCS5" role="34ocs8">
+                <node concept="2k1GkI" id="6Qo2zg8QWMS" role="2dT$1H">
+                  <node concept="2k1_uq" id="6Qo2zg8QWMQ" role="2nKVj6">
+                    <ref role="2nKBpL" node="46yx_Ms2cZN" resolve="PatternCollectDecls" />
+                    <node concept="2kdhWc" id="6Qo2zg8QWNX" role="2nKBpO">
+                      <node concept="727y6" id="6Qo2zg8R63w" role="3zVzRQ">
+                        <ref role="3zVwH8" to="ls40:1A$EJ17othP" resolve="pat" />
+                      </node>
+                      <node concept="30NkWi" id="6Qo2zg8QWNQ" role="2kdhYM">
+                        <ref role="XkjO9" node="6Qo2zg8J5Le" resolve="parent" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1XdyHe" id="6Qo2zg8I6LN" role="1dgzf0" />
         <node concept="34ocy7" id="1qSNzG_qnyD" role="1dgzf0">
           <node concept="2dT$3Y" id="1qSNzG_qrwf" role="34ocs8">
             <node concept="2k1GkI" id="1qSNzG_q$$Q" role="2dT$1H">

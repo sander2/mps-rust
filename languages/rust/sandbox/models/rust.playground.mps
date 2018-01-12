@@ -18,27 +18,15 @@
       <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
         <child id="7053749796611573408" name="block" index="KpVaL" />
       </concept>
-      <concept id="6397481250907294879" name="rust.structure.OwnedType" flags="ng" index="Lhmvi" />
       <concept id="9149939120071034736" name="rust.structure.VarRef" flags="ng" index="36GXDm" />
-      <concept id="9149939120070975254" name="rust.structure.FieldAccess" flags="ng" index="36Jc8K">
-        <child id="9149939120070975255" name="struct" index="36Jc8L" />
-      </concept>
       <concept id="9149939120070975178" name="rust.structure.LetBinding" flags="ng" index="36JcfG">
         <child id="9149939120070975249" name="value" index="36Jc8R" />
         <child id="1847789696095212661" name="pat" index="1uLnU5" />
       </concept>
-      <concept id="3709933601141783943" name="rust.structure.StructInit" flags="ng" index="1RaM_N">
-        <child id="3709933601141783951" name="fields" index="1RaM_V" />
-      </concept>
-      <concept id="3709933601141783946" name="rust.structure.StructInitPair" flags="ng" index="1RaM_Y">
-        <child id="3709933601141783949" name="value" index="1RaM_T" />
-      </concept>
-      <concept id="1484126389064436735" name="rust.structure.FieldStruct" flags="ng" index="1ToarD">
-        <child id="1484126389064436736" name="fields" index="1Toa4m" />
-      </concept>
-      <concept id="1099920448281894594" name="rust.structure.StructFieldDecl" flags="ng" index="3Yh6Oj">
-        <child id="6397481250907310046" name="ty" index="LhiMj" />
-      </concept>
+      <concept id="4729490290999557210" name="rust.structure.PatternStruct" flags="ng" index="3q3nC6" />
+      <concept id="3709933601141783943" name="rust.structure.StructInit" flags="ng" index="1RaM_N" />
+      <concept id="1484126389064436735" name="rust.structure.FieldStruct" flags="ng" index="1ToarD" />
+      <concept id="1258243912085627422" name="rust.structure.PatternWildcard" flags="ng" index="3XROKP" />
       <concept id="1099920448281658011" name="rust.structure.Module" flags="ng" index="3YhZ5a">
         <child id="1099920448281713974" name="defs" index="3YhEVB" />
       </concept>
@@ -49,109 +37,59 @@
   </registry>
   <node concept="3YhZ5a" id="3IOa0fhWB$I">
     <property role="TrG5h" value="Playground" />
-    <node concept="KpV6n" id="4WXtgFrsfm_" role="3YhEVB">
-      <property role="TrG5h" value="test_borrowck_fail_field_moved_exact_path" />
-      <node concept="3YiHqP" id="4WXtgFrsfm$" role="KpVaL">
-        <node concept="36JcfG" id="4WXtgFrsfmg" role="3YiHqO">
-          <node concept="2ESRZV" id="4WXtgFrsfmf" role="1uLnU5">
+    <node concept="KpV6n" id="6Qo2zg7Si6J" role="3YhEVB">
+      <property role="TrG5h" value="test_borrowck_ok_allow_non_move_letbindings" />
+      <node concept="3YiHqP" id="6Qo2zg7Si6K" role="KpVaL">
+        <node concept="36JcfG" id="6Qo2zg7Si6L" role="3YiHqO">
+          <node concept="2ESRZV" id="6Qo2zg7Si6M" role="1uLnU5">
             <property role="3$7nJ9" value="false" />
-            <property role="TrG5h" value="a" />
+            <property role="TrG5h" value="q" />
           </node>
-          <node concept="1RaM_N" id="4WXtgFrsfmp" role="36Jc8R">
-            <property role="TrG5h" value="A" />
-            <node concept="1RaM_Y" id="4WXtgFrsfmo" role="1RaM_V">
-              <property role="TrG5h" value="b" />
-              <node concept="1RaM_N" id="4WXtgFrsfmn" role="1RaM_T">
-                <property role="TrG5h" value="B" />
-                <node concept="1RaM_Y" id="4WXtgFrsfmk" role="1RaM_V">
-                  <property role="TrG5h" value="c" />
-                  <node concept="1RaM_N" id="4WXtgFrsfmj" role="1RaM_T">
-                    <property role="TrG5h" value="C" />
-                    <node concept="1RaM_Y" id="4WXtgFrsfmi" role="1RaM_V">
-                      <property role="TrG5h" value="d" />
-                      <node concept="1RaM_N" id="4WXtgFrsfmh" role="1RaM_T">
-                        <property role="TrG5h" value="D" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-                <node concept="1RaM_Y" id="4WXtgFrsfmm" role="1RaM_V">
-                  <property role="TrG5h" value="d" />
-                  <node concept="1RaM_N" id="4WXtgFrsfml" role="1RaM_T">
-                    <property role="TrG5h" value="D" />
-                  </node>
-                </node>
-              </node>
-            </node>
+          <node concept="1RaM_N" id="6Qo2zg8FmFq" role="36Jc8R">
+            <property role="TrG5h" value="X" />
           </node>
         </node>
-        <node concept="36JcfG" id="4WXtgFrsfmr" role="3YiHqO">
-          <node concept="2ESRZV" id="4WXtgFrsfmq" role="1uLnU5">
+        <node concept="36JcfG" id="6Qo2zg7Siam" role="3YiHqO">
+          <node concept="3XROKP" id="6Qo2zg7SiaE" role="1uLnU5" />
+          <node concept="36GXDm" id="6Qo2zg7SiaJ" role="36Jc8R">
+            <property role="TrG5h" value="q" />
+          </node>
+        </node>
+        <node concept="36JcfG" id="6Qo2zg8Fn09" role="3YiHqO">
+          <node concept="36GXDm" id="6Qo2zg8Fn0a" role="36Jc8R">
+            <property role="TrG5h" value="q" />
+          </node>
+          <node concept="3q3nC6" id="6Qo2zg8Fn0b" role="1uLnU5">
+            <property role="TrG5h" value="X" />
+          </node>
+        </node>
+        <node concept="36JcfG" id="6Qo2zg8FmEK" role="3YiHqO">
+          <node concept="36GXDm" id="6Qo2zg8FmEM" role="36Jc8R">
+            <property role="TrG5h" value="q" />
+          </node>
+          <node concept="2ESRZV" id="6Qo2zg8FmFa" role="1uLnU5">
             <property role="3$7nJ9" value="false" />
-            <property role="TrG5h" value="x" />
-          </node>
-          <node concept="36Jc8K" id="4WXtgFrsfmu" role="36Jc8R">
-            <property role="TrG5h" value="c" />
-            <node concept="36Jc8K" id="4WXtgFrsfmt" role="36Jc8L">
-              <property role="TrG5h" value="b" />
-              <node concept="36GXDm" id="4WXtgFrsfms" role="36Jc8L">
-                <property role="TrG5h" value="a" />
-              </node>
-            </node>
+            <property role="TrG5h" value="w" />
           </node>
         </node>
-        <node concept="36JcfG" id="4WXtgFrsfmw" role="3YiHqO">
-          <node concept="2ESRZV" id="4WXtgFrsfmv" role="1uLnU5">
-            <property role="3$7nJ9" value="false" />
-            <property role="TrG5h" value="y" />
+        <node concept="36JcfG" id="6Qo2zg8FmZy" role="3YiHqO">
+          <node concept="36GXDm" id="6Qo2zg8FmZz" role="36Jc8R">
+            <property role="TrG5h" value="q" />
           </node>
-          <node concept="36Jc8K" id="4WXtgFrsfmz" role="36Jc8R">
-            <property role="TrG5h" value="c" />
-            <node concept="36Jc8K" id="4WXtgFrsfmy" role="36Jc8L">
-              <property role="TrG5h" value="b" />
-              <node concept="36GXDm" id="4WXtgFrsfmx" role="36Jc8L">
-                <property role="TrG5h" value="a" />
-              </node>
-            </node>
+          <node concept="3q3nC6" id="6Qo2zg8FmZ$" role="1uLnU5">
+            <property role="TrG5h" value="X" />
           </node>
         </node>
-      </node>
-    </node>
-    <node concept="1ToarD" id="tcVLGxspzr" role="3YhEVB">
-      <property role="TrG5h" value="A" />
-      <node concept="3Yh6Oj" id="tcVLGxsqzM" role="1Toa4m">
-        <property role="TrG5h" value="b" />
-        <node concept="Lhmvi" id="tcVLGxsqzW" role="LhiMj">
-          <property role="TrG5h" value="B" />
-        </node>
-      </node>
-    </node>
-    <node concept="1ToarD" id="tcVLGxspPE" role="3YhEVB">
-      <property role="TrG5h" value="B" />
-      <node concept="3Yh6Oj" id="tcVLGxsq$2" role="1Toa4m">
-        <property role="TrG5h" value="c" />
-        <node concept="Lhmvi" id="tcVLGxsq$c" role="LhiMj">
-          <property role="TrG5h" value="C" />
-        </node>
-      </node>
-      <node concept="3Yh6Oj" id="tcVLGxsq$y" role="1Toa4m">
-        <property role="TrG5h" value="d" />
-        <node concept="Lhmvi" id="tcVLGxsq$U" role="LhiMj">
-          <property role="TrG5h" value="D" />
-        </node>
-      </node>
-    </node>
-    <node concept="1ToarD" id="tcVLGxsq81" role="3YhEVB">
-      <property role="TrG5h" value="C" />
-      <node concept="3Yh6Oj" id="tcVLGxsq$i" role="1Toa4m">
-        <property role="TrG5h" value="d" />
-        <node concept="Lhmvi" id="tcVLGxsq$s" role="LhiMj">
-          <property role="TrG5h" value="D" />
+        <node concept="36JcfG" id="6Qo2zg8FmYN" role="3YiHqO">
+          <node concept="3XROKP" id="6Qo2zg8FmYO" role="1uLnU5" />
+          <node concept="36GXDm" id="6Qo2zg8FmYP" role="36Jc8R">
+            <property role="TrG5h" value="q" />
+          </node>
         </node>
       </node>
     </node>
     <node concept="1ToarD" id="1qSNzGyQ8T_" role="3YhEVB">
-      <property role="TrG5h" value="D" />
+      <property role="TrG5h" value="X" />
     </node>
   </node>
 </model>
