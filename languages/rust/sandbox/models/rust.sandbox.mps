@@ -13593,6 +13593,7 @@
         </node>
       </node>
     </node>
+    <node concept="1XdyHe" id="1tv5iMqLn$" role="1dubk0" />
     <node concept="1XdyHe" id="3ZUfQpKvgCS" role="1dubk0" />
     <node concept="1XdyHe" id="2yB6XTY97JI" role="1dubk0" />
     <node concept="3zyOaA" id="3ZUfQpKw_q_" role="1dubk0">
@@ -15330,7 +15331,7 @@
     <node concept="1XdyHe" id="15QbyJCxouE" role="1dubk0" />
     <node concept="1XdyHe" id="15QbyJCtqNg" role="1dubk0" />
     <node concept="1XdyHb" id="15QbyJCscGc" role="1dubk0">
-      <property role="1dubkF" value="returns: path (= VarRef | FieldAccess) | LetBinding | FieldPat" />
+      <property role="1dubkF" value="returns: path (= VarRef | FieldAccess) | FieldPat | PatternIdent" />
     </node>
     <node concept="3zyOaA" id="6k$2nTd$27V" role="1dubk0">
       <property role="TrG5h" value="getUninitializedVarsAfter" />
@@ -16549,7 +16550,7 @@
             <node concept="2kdjtB" id="2$1FQ4LICBk" role="2RGvlO">
               <ref role="2UGuZ7" to="ls40:7VV7iqShXVa" resolve="LetBinding" />
             </node>
-            <node concept="30NkWi" id="2$1FQ4LICBl" role="2RGvhl">
+            <node concept="30NkWi" id="1wKE16sOJL8" role="2RGvhl">
               <ref role="XkjO9" node="2$1FQ4LICBL" resolve="n" />
             </node>
           </node>
@@ -16559,7 +16560,7 @@
             <node concept="727y6" id="2$1FQ4NGMbh" role="3zVzRQ">
               <ref role="3zVwH8" to="ls40:1A$EJ17othP" resolve="pat" />
             </node>
-            <node concept="30NkWi" id="2$1FQ4NGKRg" role="2kdhYM">
+            <node concept="30NkWi" id="1wKE16sOIDK" role="2kdhYM">
               <ref role="XkjO9" node="2$1FQ4LICBL" resolve="n" />
             </node>
           </node>
