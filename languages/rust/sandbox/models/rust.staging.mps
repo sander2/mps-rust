@@ -26,6 +26,10 @@
         <child id="7053749796611573408" name="block" index="KpVaL" />
       </concept>
       <concept id="6397481250907294879" name="rust.structure.OwnedType" flags="ng" index="Lhmvi" />
+      <concept id="3451000362162475212" name="rust.structure.Assignment" flags="ng" index="2X_3D7">
+        <child id="3451000362162475215" name="rhs" index="2X_3D4" />
+        <child id="3451000362162475213" name="lhs" index="2X_3D6" />
+      </concept>
       <concept id="9149939120071034736" name="rust.structure.VarRef" flags="ng" index="36GXDm" />
       <concept id="9149939120070975254" name="rust.structure.FieldAccess" flags="ng" index="36Jc8K">
         <child id="9149939120070975255" name="struct" index="36Jc8L" />
@@ -776,6 +780,68 @@
           <node concept="3LTT0e" id="6Qo2zgaD2n$" role="36Jc8R">
             <property role="3LTT0f" value="true" />
             <node concept="36GXDm" id="6Qo2zgaD2n_" role="3LTTvY">
+              <property role="TrG5h" value="x" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="KpV6n" id="6Qo2zgcjJc8" role="3YhEVB">
+      <property role="TrG5h" value="test_fail_lifetime_escape_block2" />
+      <node concept="3YiHqP" id="6Qo2zgcjJc9" role="KpVaL">
+        <node concept="36JcfG" id="6Qo2zgcjJca" role="3YiHqO">
+          <node concept="2ESRZV" id="6Qo2zgcjJcb" role="1uLnU5">
+            <property role="3$7nJ9" value="true" />
+            <property role="TrG5h" value="x" />
+          </node>
+          <node concept="1RaM_N" id="6Qo2zgcjJcc" role="36Jc8R">
+            <property role="TrG5h" value="X" />
+          </node>
+        </node>
+        <node concept="36JcfG" id="6Qo2zgcjJcd" role="3YiHqO">
+          <node concept="2ESRZV" id="6Qo2zgcjJce" role="1uLnU5">
+            <property role="3$7nJ9" value="false" />
+            <property role="TrG5h" value="w" />
+          </node>
+          <node concept="3YiHqP" id="6Qo2zgcjJcf" role="36Jc8R">
+            <node concept="36JcfG" id="6Qo2zgcjJcg" role="3YiHqO">
+              <node concept="2ESRZV" id="6Qo2zgcjJch" role="1uLnU5">
+                <property role="3$7nJ9" value="true" />
+                <property role="TrG5h" value="z" />
+              </node>
+              <node concept="3LTT0e" id="6Qo2zgcjJci" role="36Jc8R">
+                <property role="3LTT0f" value="false" />
+                <node concept="36GXDm" id="6Qo2zgcjJcj" role="3LTTvY">
+                  <property role="TrG5h" value="x" />
+                </node>
+              </node>
+            </node>
+            <node concept="3YiHtV" id="6Qo2zgcj_r$" role="3YiHqO">
+              <node concept="2X_3D7" id="6Qo2zgcj_r0" role="3YiHtU">
+                <node concept="36GXDm" id="6Qo2zgcj_re" role="2X_3D6">
+                  <property role="TrG5h" value="z" />
+                </node>
+                <node concept="3LTT0e" id="6Qo2zgcj_rj" role="2X_3D4">
+                  <property role="3LTT0f" value="false" />
+                  <node concept="1RaM_N" id="6Qo2zgcj_rh" role="3LTTvY">
+                    <property role="TrG5h" value="X" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="36GXDm" id="6Qo2zgcjJck" role="3YiHqO">
+              <property role="TrG5h" value="z" />
+            </node>
+          </node>
+        </node>
+        <node concept="36JcfG" id="6Qo2zgcjJcl" role="3YiHqO">
+          <node concept="2ESRZV" id="6Qo2zgcjJcm" role="1uLnU5">
+            <property role="3$7nJ9" value="false" />
+            <property role="TrG5h" value="y" />
+          </node>
+          <node concept="3LTT0e" id="6Qo2zgcjJcn" role="36Jc8R">
+            <property role="3LTT0f" value="true" />
+            <node concept="36GXDm" id="6Qo2zgcjJco" role="3LTTvY">
               <property role="TrG5h" value="x" />
             </node>
           </node>

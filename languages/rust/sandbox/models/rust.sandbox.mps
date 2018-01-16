@@ -15330,7 +15330,7 @@
     <node concept="1XdyHe" id="15QbyJCxouE" role="1dubk0" />
     <node concept="1XdyHe" id="15QbyJCtqNg" role="1dubk0" />
     <node concept="1XdyHb" id="15QbyJCscGc" role="1dubk0">
-      <property role="1dubkF" value="returns: path (= VarRef | FieldAccess) | LetBinding | PatternIdent" />
+      <property role="1dubkF" value="returns: path (= VarRef | FieldAccess) | LetBinding | FieldPat" />
     </node>
     <node concept="3zyOaA" id="6k$2nTd$27V" role="1dubk0">
       <property role="TrG5h" value="getUninitializedVarsAfter" />
@@ -15394,9 +15394,27 @@
             </node>
           </node>
         </node>
+        <node concept="34odk1" id="1tv5iIKG3J" role="1dgzf0">
+          <node concept="2k1GkI" id="1tv5iIKYkV" role="34ocZk">
+            <node concept="2k1_uq" id="1tv5iIKYkT" role="2nKVj6">
+              <ref role="2nKBpL" node="46yx_Ms2cZN" resolve="PatternCollectDecls" />
+              <node concept="2kdhWc" id="1tv5iIL5O$" role="2nKBpO">
+                <node concept="727y6" id="1tv5iILmhX" role="3zVzRQ">
+                  <ref role="3zVwH8" to="ls40:1A$EJ17othP" resolve="pat" />
+                </node>
+                <node concept="30NkWi" id="1tv5iIL5Os" role="2kdhYM">
+                  <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="1tv5iIK$bQ" role="34ocZn">
+            <property role="TrG5h" value="q" />
+          </node>
+        </node>
         <node concept="30Nfyg" id="tcVLGwrSma" role="1dgzf0">
-          <node concept="30NkWi" id="tcVLGwrWvG" role="30Nf_D">
-            <ref role="XkjO9" node="6k$2nTd$5mN" resolve="n" />
+          <node concept="30NkWi" id="1tv5iIL_Be" role="30Nf_D">
+            <ref role="XkjO9" node="1tv5iIK$bQ" resolve="q" />
           </node>
         </node>
       </node>
@@ -16508,6 +16526,23 @@
     </node>
     <node concept="3zyOaA" id="2$1FQ4LICBg" role="1dubk0">
       <property role="TrG5h" value="resolveHelper2" />
+      <node concept="3zV_Rz" id="1tv5iIM3eA" role="3zVECS">
+        <node concept="34ocy7" id="1tv5iIM6Kh" role="1dgzf0">
+          <node concept="34oehE" id="1tv5iIM9SI" role="34ocs8">
+            <node concept="2kdjtB" id="1tv5iIMeaY" role="2RGvlO">
+              <ref role="2UGuZ7" to="ls40:rlSsqGdDSX" resolve="PatternIdent" />
+            </node>
+            <node concept="30NkWi" id="1tv5iIM8ll" role="2RGvhl">
+              <ref role="XkjO9" node="2$1FQ4LICBL" resolve="n" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="1tv5iIMiHF" role="1dgzf0">
+          <node concept="30NkWi" id="1tv5iIMknH" role="30Nf_D">
+            <ref role="XkjO9" node="2$1FQ4LICBL" resolve="n" />
+          </node>
+        </node>
+      </node>
       <node concept="3zV_Rz" id="2$1FQ4LICBh" role="3zVECS">
         <node concept="34ocy7" id="2$1FQ4LICBi" role="1dgzf0">
           <node concept="34oehE" id="2$1FQ4LICBj" role="34ocs8">
