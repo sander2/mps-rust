@@ -15,6 +15,7 @@
     <dependency reexport="false">7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)</dependency>
     <dependency reexport="false">8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
+    <dependency reexport="false">caf25f7b-d31c-47ec-9b81-44629d39c479(rust.benchmarker)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="5" />
@@ -63,6 +64,7 @@
     <module reference="7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)" version="0" />
     <module reference="50774306-a9df-40b3-8571-64880ad234e2(org.inca.ui)" version="0" />
     <module reference="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e(rust)" version="0" />
+    <module reference="caf25f7b-d31c-47ec-9b81-44629d39c479(rust.benchmarker)" version="0" />
     <module reference="f2eeb444-859b-4a1d-b5b6-a111f40bc51d(rust.sandbox)" version="0" />
   </dependencyVersions>
 </solution>

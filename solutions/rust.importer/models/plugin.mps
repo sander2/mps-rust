@@ -12,7 +12,6 @@
   </languages>
   <imports>
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" />
-    <import index="27ev" ref="00000000-0000-4000-5f02-5beb5f025beb/i:f6c6c07(checkpoints/rust.structure@descriptorclasses)" />
     <import index="ls40" ref="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)" />
     <import index="wy2b" ref="389c12aa-7c7f-4e7a-bb98-c8a550e659fb/java:com.google.gson(GSonImport/)" />
     <import index="c9jv" ref="389c12aa-7c7f-4e7a-bb98-c8a550e659fb/java:com.google.gson.stream(GSonImport/)" />
@@ -391,7 +390,6 @@
     <node concept="2S4$dB" id="3ZUfQpLxbT3" role="1NuT2Z">
       <property role="TrG5h" value="node" />
       <node concept="3Tm6S6" id="3ZUfQpLxbT4" role="1B3o_S" />
-      <node concept="1oajcY" id="3ZUfQpLxbT5" role="1oa70y" />
       <node concept="3Tqbb2" id="3ZUfQpLxbPg" role="1tU5fm">
         <ref role="ehGHo" to="ls40:X3GX7L14ar" resolve="Module" />
       </node>
