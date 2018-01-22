@@ -140,27 +140,6 @@
         </node>
       </node>
     </node>
-    <node concept="1ToarD" id="4aWjx0Ska_n" role="3YhEVB">
-      <property role="TrG5h" value="D" />
-      <node concept="3Yh6Oj" id="4aWjx0SkaC3" role="1Toa4m">
-        <property role="TrG5h" value="e" />
-        <node concept="LhmvH" id="4aWjx0SkaC9" role="LhiMj">
-          <property role="Lhnjt" value="false" />
-          <node concept="Lhmvi" id="4aWjx0SkaCg" role="2MmPw3">
-            <property role="TrG5h" value="X" />
-          </node>
-        </node>
-      </node>
-      <node concept="3Yh6Oj" id="4aWjx0SkaCk" role="1Toa4m">
-        <property role="TrG5h" value="f000" />
-        <node concept="LhmvH" id="4aWjx0SkaCw" role="LhiMj">
-          <property role="Lhnjt" value="false" />
-          <node concept="Lhmvi" id="4aWjx0SkaCB" role="2MmPw3">
-            <property role="TrG5h" value="X" />
-          </node>
-        </node>
-      </node>
-    </node>
   </node>
 </model>
 
