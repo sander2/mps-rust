@@ -4,12 +4,12 @@
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
     </modelRoot>
-    <modelRoot contentPath="/home/sander/workspace/master-thesis/software/gson-2.8.2.jar!/" type="java_classes">
+    <modelRoot contentPath="/home/sander/workspace/master-thesis/src/mps-rust/jars/gson-2.8.2.jar!/" type="java_classes">
       <sourceRoot location="." />
     </modelRoot>
   </models>
   <stubModelEntries>
-    <stubModelEntry path="/home/sander/workspace/master-thesis/software/gson-2.8.2.jar" />
+    <stubModelEntry path="/home/sander/workspace/master-thesis/src/mps-rust/jars/gson-2.8.2.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
