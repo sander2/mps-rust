@@ -388,6 +388,9 @@
       <node concept="3F0A7n" id="1ioFhpHY0L0" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
+      <node concept="3F1sOY" id="B66j8L1MiD" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:B66j8L1inY" resolve="generics" />
+      </node>
       <node concept="3F0ifn" id="1ioFhpHY0Ll" role="3EZMnx">
         <property role="3F0ifm" value="{" />
       </node>
@@ -1176,6 +1179,9 @@
       <node concept="3F0A7n" id="67zX15hx4q9" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
       </node>
+      <node concept="3F1sOY" id="B66j8L3XMN" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:B66j8L3XoF" resolve="generics" />
+      </node>
       <node concept="3F0ifn" id="67zX15hxD_0" role="3EZMnx">
         <property role="3F0ifm" value="(" />
       </node>
@@ -1770,6 +1776,24 @@
     <ref role="1XX52x" to="ls40:15QbyJGEm8u" resolve="PatternWildcard" />
     <node concept="3F0ifn" id="15QbyJGEm8x" role="2wV5jI">
       <property role="3F0ifm" value="_" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="B66j8L1imY">
+    <property role="3GE5qa" value="Item" />
+    <ref role="1XX52x" to="ls40:B66j8L1ims" resolve="Generics" />
+    <node concept="3EZMnI" id="B66j8L1in0" role="2wV5jI">
+      <node concept="3F0ifn" id="B66j8L1ina" role="3EZMnx">
+        <property role="3F0ifm" value="&lt;" />
+      </node>
+      <node concept="3F2HdR" id="B66j8L1inN" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:B66j8L1imy" resolve="params" />
+        <node concept="l2Vlx" id="B66j8L1inP" role="2czzBx" />
+        <node concept="3F0ifn" id="B66j8L2iYZ" role="2czzBI" />
+      </node>
+      <node concept="3F0ifn" id="B66j8L1inj" role="3EZMnx">
+        <property role="3F0ifm" value="&gt;" />
+      </node>
+      <node concept="l2Vlx" id="B66j8L1in3" role="2iSdaV" />
     </node>
   </node>
 </model>

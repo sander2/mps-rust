@@ -193,6 +193,13 @@
     <node concept="PrWs8" id="1ioFhpHY0K_" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="1TJgyj" id="B66j8L1inY" role="1TKVEi">
+      <property role="IQ2ns" value="704278095091541502" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="generics" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="B66j8L1ims" resolve="Generics" />
+    </node>
   </node>
   <node concept="1TIwiD" id="1ioFhpHY0JZ">
     <property role="EcuMT" value="1484126389064436735" />
@@ -467,6 +474,13 @@
       <property role="20kJfa" value="returnType" />
       <ref role="20lvS9" node="5z8qOPD_3tU" resolve="ITypeRef" />
     </node>
+    <node concept="1TJgyj" id="B66j8L3XoF" role="1TKVEi">
+      <property role="IQ2ns" value="704278095092241963" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="generics" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="B66j8L1ims" resolve="Generics" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6mPjxNlPCYK">
     <property role="EcuMT" value="7328849854369009584" />
@@ -679,6 +693,33 @@
     <property role="TrG5h" value="PatternWildcard" />
     <property role="34LRSv" value="_" />
     <ref role="1TJDcQ" node="rlSsqGdD8e" resolve="Pattern" />
+  </node>
+  <node concept="1TIwiD" id="B66j8L1ims">
+    <property role="EcuMT" value="704278095091541404" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="Generics" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="B66j8L1imy" role="1TKVEi">
+      <property role="IQ2ns" value="704278095091541410" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="params" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="B66j8L1imt" resolve="GenericParam" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="B66j8L1imt">
+    <property role="EcuMT" value="704278095091541405" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="GenericParam" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="B66j8L1imu">
+    <property role="EcuMT" value="704278095091541406" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="LifetimeDefinition" />
+    <ref role="1TJDcQ" node="B66j8L1imt" resolve="GenericParam" />
   </node>
 </model>
 

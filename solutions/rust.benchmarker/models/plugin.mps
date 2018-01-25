@@ -377,7 +377,6 @@
     <property role="2uzpH1" value="Run Rust Benchmark" />
     <node concept="tnohg" id="5QRIyc5Gf2V" role="tncku">
       <node concept="3clFbS" id="5QRIyc5Gf2W" role="2VODD2">
-        <node concept="3clFbH" id="39WHocMzDen" role="3cqZAp" />
         <node concept="3cpWs8" id="39WHocMzS72" role="3cqZAp">
           <node concept="3cpWsn" id="39WHocMzS75" role="3cpWs9">
             <property role="TrG5h" value="results" />

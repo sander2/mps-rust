@@ -18,7 +18,9 @@
       </concept>
       <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
         <child id="7053749796611573408" name="block" index="KpVaL" />
+        <child id="704278095092241963" name="generics" index="SMsWp" />
       </concept>
+      <concept id="704278095091541404" name="rust.structure.Generics" flags="ng" index="SKNMI" />
       <concept id="3451000362162475212" name="rust.structure.Assignment" flags="ng" index="2X_3D7">
         <child id="3451000362162475215" name="rhs" index="2X_3D4" />
         <child id="3451000362162475213" name="lhs" index="2X_3D6" />
@@ -96,6 +98,7 @@
           </node>
         </node>
       </node>
+      <node concept="SKNMI" id="B66j8L51iU" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="42F0DLo9DJp" role="3YhEVB">
       <property role="TrG5h" value="test_borrowck_fail_cannot_move_out_of_borrowed_content_2" />
@@ -125,6 +128,7 @@
           </node>
         </node>
       </node>
+      <node concept="SKNMI" id="B66j8L51iV" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="15QbyJGFhS4" role="3YhEVB">
       <property role="TrG5h" value="test_borrowck_ok_wildcard_in_match" />
@@ -155,6 +159,7 @@
           </node>
         </node>
       </node>
+      <node concept="SKNMI" id="B66j8L51iW" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="1tv5iMqnaO" role="3YhEVB">
       <property role="TrG5h" value="test_fail_lifetime_escape_block" />
@@ -334,6 +339,7 @@
           </node>
         </node>
       </node>
+      <node concept="SKNMI" id="B66j8L51iX" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="4aWjx0Skasf" role="3YhEVB">
       <property role="TrG5h" value="test_fail_bla" />
@@ -583,6 +589,7 @@
           </node>
         </node>
       </node>
+      <node concept="SKNMI" id="B66j8L51iY" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="1j4ljq2WQo" role="3YhEVB">
       <property role="TrG5h" value="test_fail_bla" />
@@ -877,6 +884,7 @@
           </node>
         </node>
       </node>
+      <node concept="SKNMI" id="B66j8L51iZ" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="1j4ljyn3x1" role="3YhEVB">
       <property role="TrG5h" value="test_ok_lifetime_match" />
@@ -910,6 +918,7 @@
           </node>
         </node>
       </node>
+      <node concept="SKNMI" id="B66j8L51j0" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="6Qo2zgaD2bZ" role="3YhEVB">
       <property role="TrG5h" value="test_fail_lifetime_match" />
@@ -947,6 +956,7 @@
           </node>
         </node>
       </node>
+      <node concept="SKNMI" id="B66j8L51j1" role="SMsWp" />
     </node>
   </node>
 </model>
