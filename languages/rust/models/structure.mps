@@ -423,6 +423,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5z8qOPD_3tU" resolve="ITypeRef" />
     </node>
+    <node concept="1TJgyj" id="B66j8LOYHB" role="1TKVEi">
+      <property role="IQ2ns" value="704278095105092455" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="lifetime" />
+      <ref role="20lvS9" node="B66j8LOI_X" resolve="Lifetime" />
+    </node>
   </node>
   <node concept="PlHQZ" id="5z8qOPD_3tU">
     <property role="EcuMT" value="6397481250907764602" />
@@ -720,6 +726,26 @@
     <property role="3GE5qa" value="Item" />
     <property role="TrG5h" value="LifetimeDefinition" />
     <ref role="1TJDcQ" node="B66j8L1imt" resolve="GenericParam" />
+    <node concept="1TJgyj" id="B66j8Mulkn" role="1TKVEi">
+      <property role="IQ2ns" value="704278095115932951" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="lifetime" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="B66j8LOI_X" resolve="Lifetime" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="B66j8LOI_W">
+    <property role="EcuMT" value="704278095105026428" />
+    <property role="TrG5h" value="LifetimeSpecifier" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="B66j8LOI_X">
+    <property role="EcuMT" value="704278095105026429" />
+    <property role="TrG5h" value="Lifetime" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="B66j8LOI_Y" role="PzmwI">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
   </node>
 </model>
 

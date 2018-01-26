@@ -2,7 +2,7 @@
 <model ref="r:50f2aa38-a7e3-4b90-bd54-3f44b46d6198(rust.stash)">
   <persistence version="9" />
   <languages>
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="0" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="1" />
   </languages>
   <imports />
   <registry>
@@ -98,7 +98,7 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="B66j8L51iU" role="SMsWp" />
+      <node concept="SKNMI" id="7_66cMVy7mQ" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="42F0DLo9DJp" role="3YhEVB">
       <property role="TrG5h" value="test_borrowck_fail_cannot_move_out_of_borrowed_content_2" />
@@ -128,7 +128,7 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="B66j8L51iV" role="SMsWp" />
+      <node concept="SKNMI" id="7_66cMVy7mR" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="15QbyJGFhS4" role="3YhEVB">
       <property role="TrG5h" value="test_borrowck_ok_wildcard_in_match" />
@@ -159,7 +159,7 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="B66j8L51iW" role="SMsWp" />
+      <node concept="SKNMI" id="7_66cMVy7mS" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="1tv5iMqnaO" role="3YhEVB">
       <property role="TrG5h" value="test_fail_lifetime_escape_block" />
@@ -339,7 +339,7 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="B66j8L51iX" role="SMsWp" />
+      <node concept="SKNMI" id="7_66cMVy7mT" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="4aWjx0Skasf" role="3YhEVB">
       <property role="TrG5h" value="test_fail_bla" />
@@ -589,7 +589,7 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="B66j8L51iY" role="SMsWp" />
+      <node concept="SKNMI" id="7_66cMVy7mU" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="1j4ljq2WQo" role="3YhEVB">
       <property role="TrG5h" value="test_fail_bla" />
@@ -884,7 +884,7 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="B66j8L51iZ" role="SMsWp" />
+      <node concept="SKNMI" id="7_66cMVy7mV" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="1j4ljyn3x1" role="3YhEVB">
       <property role="TrG5h" value="test_ok_lifetime_match" />
@@ -918,7 +918,7 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="B66j8L51j0" role="SMsWp" />
+      <node concept="SKNMI" id="7_66cMVy7mW" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="6Qo2zgaD2bZ" role="3YhEVB">
       <property role="TrG5h" value="test_fail_lifetime_match" />
@@ -956,7 +956,7 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="B66j8L51j1" role="SMsWp" />
+      <node concept="SKNMI" id="7_66cMVy7mX" role="SMsWp" />
     </node>
   </node>
 </model>
