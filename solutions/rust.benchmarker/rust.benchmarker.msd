@@ -32,7 +32,7 @@
     <language slang="l:c72da2b9-7cce-4447-8389-f407dc1158b7:jetbrains.mps.lang.structure" version="6" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
     <language slang="l:b802a056-92a2-4fbc-902e-f8e5004c331f:org.inca.core" version="0" />
-    <language slang="l:02643902-b3a5-4bb6-b85c-3bbbe5fdac0e:rust" version="1" />
+    <language slang="l:02643902-b3a5-4bb6-b85c-3bbbe5fdac0e:rust" version="2" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />

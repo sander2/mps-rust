@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="rust" uuid="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" languageVersion="1" moduleVersion="0">
+<language namespace="rust" uuid="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" languageVersion="2" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
