@@ -7,6 +7,7 @@
   </languages>
   <imports>
     <import index="ls40" ref="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
@@ -20,6 +21,9 @@
       </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
+        <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1068498886294" name="jetbrains.mps.baseLanguage.structure.AssignmentExpression" flags="nn" index="37vLTI" />
       <concept id="1068580123155" name="jetbrains.mps.baseLanguage.structure.ExpressionStatement" flags="nn" index="3clFbF">
@@ -129,6 +133,26 @@
                 <node concept="1r4Lsj" id="6apqgQ6x2et" role="2Oq$k0" />
                 <node concept="3TrcHB" id="6apqgQ6xzB9" role="2OqNvi">
                   <ref role="3TsBF5" to="ls40:6apqgQ6x1b4" resolve="mutable" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="37WvkG" id="5rSZUXAP4kw" role="37WGs$">
+      <ref role="37XkoT" to="ls40:B66j8LOI_X" resolve="Lifetime" />
+      <node concept="37Y9Zx" id="5rSZUXAP4kx" role="37ZfLb">
+        <node concept="3clFbS" id="5rSZUXAP4ky" role="2VODD2">
+          <node concept="3clFbF" id="5rSZUXAP4kz" role="3cqZAp">
+            <node concept="37vLTI" id="5rSZUXAP4k$" role="3clFbG">
+              <node concept="Xl_RD" id="5rSZUXAP4I_" role="37vLTx">
+                <property role="Xl_RC" value="'" />
+              </node>
+              <node concept="2OqwBi" id="5rSZUXAP4kA" role="37vLTJ">
+                <node concept="1r4Lsj" id="5rSZUXAP4kB" role="2Oq$k0" />
+                <node concept="3TrcHB" id="5rSZUXAP4CM" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                 </node>
               </node>
             </node>

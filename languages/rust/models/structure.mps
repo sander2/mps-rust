@@ -464,8 +464,8 @@
     <property role="TrG5h" value="Function" />
     <property role="34LRSv" value="fn" />
     <ref role="1TJDcQ" node="X3GX7L1bso" resolve="Item" />
-    <node concept="PrWs8" id="67zX15hx4pj" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    <node concept="PrWs8" id="5rSZUXANxFC" role="PzmwI">
+      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
     <node concept="1TJgyj" id="67zX15hx4qw" role="1TKVEi">
       <property role="IQ2ns" value="7053749796611573408" />
@@ -732,6 +732,7 @@
     <property role="EcuMT" value="704278095091541406" />
     <property role="3GE5qa" value="Item" />
     <property role="TrG5h" value="LifetimeDefinition" />
+    <property role="34LRSv" value="'" />
     <ref role="1TJDcQ" node="B66j8L1imt" resolve="GenericParam" />
     <node concept="1TJgyj" id="B66j8Mulkn" role="1TKVEi">
       <property role="IQ2ns" value="704278095115932951" />
