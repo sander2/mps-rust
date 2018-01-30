@@ -99,6 +99,7 @@
     <module reference="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" version="0" />
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="b802a056-92a2-4fbc-902e-f8e5004c331f(org.inca.core)" version="0" />
+    <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)" version="0" />
     <module reference="8c9a2720-9d21-4370-a226-819eb3e76e1e(org.inca.fun)" version="0" />
     <module reference="cd2909da-ecb4-49dc-b176-33e5c619e516(org.inca.gp)" version="0" />
     <module reference="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e(rust)" version="0" />

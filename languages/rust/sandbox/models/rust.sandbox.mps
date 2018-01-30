@@ -362,6 +362,7 @@
         <reference id="8650544432874609807" name="pattern" index="Vdrjr" />
       </concept>
       <concept id="4074503452633891989" name="org.inca.core.structure.IPatternCall" flags="ng" index="1aOKZo">
+        <property id="996292992028507456" name="transitive" index="2nKBpM" />
         <reference id="996292992028507459" name="pattern" index="2nKBpL" />
         <child id="996292992028507462" name="arguments" index="2nKBpO" />
       </concept>
@@ -9345,34 +9346,10 @@
         <node concept="30Nfyg" id="4aWjx0ZJspr" role="1dgzf0">
           <node concept="2k1GkI" id="4aWjx0ZJHr9" role="30Nf_D">
             <node concept="2k1_uq" id="4aWjx0ZJHr7" role="2nKVj6">
+              <property role="2nKBpM" value="true" />
               <ref role="2nKBpL" node="4aWjx133p1j" resolve="_pathIs3" />
               <node concept="30NkWi" id="4aWjx0ZJP7V" role="2nKBpO">
                 <ref role="XkjO9" node="4aWjx0WK_JT" resolve="n" />
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="3zV_Rz" id="4aWjx10HR52" role="3zVECS">
-        <node concept="34odk1" id="4aWjx137qn_" role="1dgzf0">
-          <node concept="2k1GkI" id="4aWjx137FGA" role="34ocZk">
-            <node concept="2k1_uq" id="4aWjx137FG$" role="2nKVj6">
-              <ref role="2nKBpL" node="4aWjx133p1j" resolve="_pathIs3" />
-              <node concept="30NkWi" id="4aWjx137Ost" role="2nKBpO">
-                <ref role="XkjO9" node="4aWjx0WK_JT" resolve="n" />
-              </node>
-            </node>
-          </node>
-          <node concept="30KbLJ" id="4aWjx1370j9" role="34ocZn">
-            <property role="TrG5h" value="tmp" />
-          </node>
-        </node>
-        <node concept="30Nfyg" id="4aWjx10HR53" role="1dgzf0">
-          <node concept="2k1GkI" id="4aWjx10HR54" role="30Nf_D">
-            <node concept="2k1_uq" id="4aWjx138dyK" role="2nKVj6">
-              <ref role="2nKBpL" node="4aWjx0WK_J5" resolve="pathIs" />
-              <node concept="30NkWi" id="4aWjx138A16" role="2nKBpO">
-                <ref role="XkjO9" node="4aWjx1370j9" resolve="tmp" />
               </node>
             </node>
           </node>
@@ -16648,7 +16625,7 @@
           <node concept="34sUYq" id="6aPxUjuYUb7" role="34ocs8">
             <node concept="2k1GkI" id="6aPxUjuZ3w$" role="34sUSb">
               <node concept="2k1_uq" id="6aPxUjuZ3wy" role="2nKVj6">
-                <ref role="2nKBpL" node="6aPxUjuX_rq" resolve="funcContainsMovesOfBorrowedData" />
+                <ref role="2nKBpL" node="6aPxUjuX_rq" resolve="funcContainsMovesOutOfBorrowedData" />
                 <node concept="30NkWi" id="6aPxUjuZ3yI" role="2nKBpO">
                   <ref role="XkjO9" node="3ns6jdf6NwQ" resolve="f" />
                 </node>
@@ -16878,7 +16855,7 @@
     </node>
     <node concept="1XdyHe" id="6aPxUjuYs52" role="1dubk0" />
     <node concept="3zyOaA" id="6aPxUjuX_rq" role="1dubk0">
-      <property role="TrG5h" value="funcContainsMovesOfBorrowedData" />
+      <property role="TrG5h" value="funcContainsMovesOutOfBorrowedData" />
       <node concept="3zV_Rz" id="6aPxUjuX_rr" role="3zVECS">
         <node concept="34ocy7" id="6aPxUjuX_rs" role="1dgzf0">
           <node concept="34oehE" id="6aPxUjuX_rt" role="34ocs8">

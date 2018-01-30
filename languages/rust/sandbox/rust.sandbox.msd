@@ -62,6 +62,7 @@
     <module reference="9ded098b-ad6a-4657-bfd9-48636cfe8bc3(jetbrains.mps.lang.traceable)" version="0" />
     <module reference="b802a056-92a2-4fbc-902e-f8e5004c331f(org.inca.core)" version="0" />
     <module reference="7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)" version="0" />
+    <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)" version="0" />
     <module reference="50774306-a9df-40b3-8571-64880ad234e2(org.inca.ui)" version="0" />
     <module reference="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e(rust)" version="0" />
     <module reference="caf25f7b-d31c-47ec-9b81-44629d39c479(rust.benchmarker)" version="0" />
