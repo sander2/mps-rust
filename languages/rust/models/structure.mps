@@ -630,11 +630,8 @@
   </node>
   <node concept="1TIwiD" id="rlSsqGdDSX">
     <property role="EcuMT" value="492547977675972157" />
-    <property role="TrG5h" value="PatternIdent" />
-    <ref role="1TJDcQ" node="rlSsqGdD8e" resolve="Pattern" />
-    <node concept="PrWs8" id="rlSsqGdDTe" role="PzmwI">
-      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
-    </node>
+    <property role="TrG5h" value="PatternIdentByValue" />
+    <ref role="1TJDcQ" node="2CfTpbqDrZl" resolve="PatternIdent" />
     <node concept="1TJgyi" id="6apqgQ6x1b4" role="1TKVEl">
       <property role="IQ2nx" value="7104825393965961924" />
       <property role="TrG5h" value="mutable" />
@@ -748,6 +745,26 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="B66j8LOI_Y" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2CfTpbqDrZk">
+    <property role="EcuMT" value="3030893493139914708" />
+    <property role="TrG5h" value="PatternIdentByRef" />
+    <ref role="1TJDcQ" node="2CfTpbqDrZl" resolve="PatternIdent" />
+    <node concept="1TJgyi" id="2CfTpbqDrZm" role="1TKVEl">
+      <property role="IQ2nx" value="3030893493139914710" />
+      <property role="TrG5h" value="mutableBorrow" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2CfTpbqDrZl">
+    <property role="EcuMT" value="3030893493139914709" />
+    <property role="TrG5h" value="PatternIdent" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="rlSsqGdD8e" resolve="Pattern" />
+    <node concept="PrWs8" id="2CfTpbqFrE4" role="PzmwI">
+      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
   </node>
 </model>
