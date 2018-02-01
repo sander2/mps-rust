@@ -1253,7 +1253,7 @@
                 <node concept="2k1_uq" id="7EXp9q6q03D" role="2nKVj6">
                   <ref role="2nKBpL" node="3cETwxIjUd" resolve="typeOf" />
                   <node concept="2kdhWc" id="7EXp9q6q03E" role="2nKBpO">
-                    <node concept="727y6" id="7EXp9q6q03F" role="3zVzRQ">
+                    <node concept="727y6" id="1psy5BQnYpR" role="3zVzRQ">
                       <ref role="3zVwH8" to="ls40:2oS0yTq8_jB" resolve="ifTrue" />
                     </node>
                     <node concept="30NkWi" id="7EXp9q6q03G" role="2kdhYM">
@@ -8264,7 +8264,7 @@
       </node>
     </node>
     <node concept="1XdyHe" id="6mPjxNliWYV" role="1dubk0" />
-    <node concept="1XdyHe" id="6k$2nTdzZud" role="1dubk0" />
+    <node concept="1XdyHb" id="1psy5BQuaje" role="1dubk0" />
     <node concept="3zyOaA" id="6Qo2zg65aTp" role="1dubk0">
       <property role="TrG5h" value="matchExprIsDestructive" />
       <node concept="3zV_Rz" id="6Qo2zg65aTq" role="3zVECS">
@@ -8732,6 +8732,19 @@
             </node>
           </node>
         </node>
+        <node concept="1XdyHb" id="1psy5BQwzYK" role="1dgzf0">
+          <property role="1dubkF" value="must be declared by value; by ref idents can never be mutably borrowed" />
+        </node>
+        <node concept="34ocy7" id="1psy5BQvvOi" role="1dgzf0">
+          <node concept="34oehE" id="1psy5BQvTfr" role="34ocs8">
+            <node concept="2kdjtB" id="1psy5BQwbFp" role="2RGvlO">
+              <ref role="2UGuZ7" to="ls40:rlSsqGdDSX" resolve="PatternIdentByValue" />
+            </node>
+            <node concept="30NkWi" id="1psy5BQvLx1" role="2RGvhl">
+              <ref role="XkjO9" node="6PRO_yFteHM" resolve="decl" />
+            </node>
+          </node>
+        </node>
         <node concept="34ocy7" id="6PRO_yFwwPi" role="1dgzf0">
           <node concept="34ofUU" id="6PRO_yFwLEd" role="34ocs8">
             <node concept="2Brx2E" id="6PRO_yFwT4j" role="34ocZk">
@@ -8740,7 +8753,7 @@
               </node>
             </node>
             <node concept="2kdhWc" id="6PRO_yFwBiV" role="34ocZn">
-              <node concept="727y6" id="1if2dobxyKp" role="3zVzRQ">
+              <node concept="727y6" id="1psy5BQwjoS" role="3zVzRQ">
                 <ref role="3zVwH8" to="ls40:6apqgQ6x1b4" resolve="mutable" />
               </node>
               <node concept="30NkWi" id="6PRO_yFw$5q" role="2kdhYM">
@@ -9286,8 +9299,8 @@
         </node>
       </node>
       <node concept="3TL$xT" id="1j4ljul9HW" role="3TLBbI">
-        <node concept="2kdjtB" id="1j4ljulvF1" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:rlSsqGdDSX" resolve="PatternIdentByValue" />
+        <node concept="2kdjtB" id="1psy5BQztgt" role="1dukDx">
+          <ref role="2UGuZ7" to="ls40:2CfTpbqDrZl" resolve="PatternIdent" />
         </node>
       </node>
       <node concept="wzYYL" id="5QRIyceEk4B" role="wzYgH" />
@@ -9386,8 +9399,8 @@
         </node>
       </node>
       <node concept="3TL$xT" id="1j4ljt0$gU" role="3TLBbI">
-        <node concept="2kdjtB" id="1j4ljt0JHG" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:rlSsqGdDSX" resolve="PatternIdentByValue" />
+        <node concept="2kdjtB" id="1psy5BQz_0m" role="1dukDx">
+          <ref role="2UGuZ7" to="ls40:2CfTpbqDrZl" resolve="PatternIdent" />
         </node>
       </node>
     </node>
@@ -18484,7 +18497,17 @@
   </node>
   <node concept="3TKv5i" id="3IOa0firapL">
     <property role="TrG5h" value="Resolution" />
-    <node concept="1XdyHe" id="2oS0yTrryyJ" role="1dubk0" />
+    <node concept="2Qv1iZ" id="4iUnnyFZBLX" role="1dubk0">
+      <property role="EcuMT" value="4952373513110322301" />
+      <property role="TrG5h" value="BorrowDecl" />
+      <node concept="2kdjtB" id="4iUnnyFZJ7T" role="2Qv0pB">
+        <ref role="2UGuZ7" to="ls40:3IkiYNasXJy" resolve="Borrow" />
+      </node>
+      <node concept="2kdjtB" id="4iUnnyFZLRM" role="2Qv0pB">
+        <ref role="2UGuZ7" to="ls40:2CfTpbqDrZk" resolve="PatternIdentByRef" />
+      </node>
+    </node>
+    <node concept="1XdyHe" id="4iUnnyFZyra" role="1dubk0" />
     <node concept="3zyOaA" id="3IOa0fip6nh" role="1dubk0">
       <property role="TrG5h" value="resolveStruct" />
       <node concept="3zV_Rz" id="3IOa0fip6ni" role="3zVECS">
@@ -19072,8 +19095,8 @@
       <node concept="3zV_Rz" id="1tv5iIM3eA" role="3zVECS">
         <node concept="34ocy7" id="1tv5iIM6Kh" role="1dgzf0">
           <node concept="34oehE" id="1tv5iIM9SI" role="34ocs8">
-            <node concept="2kdjtB" id="1tv5iIMeaY" role="2RGvlO">
-              <ref role="2UGuZ7" to="ls40:rlSsqGdDSX" resolve="PatternIdentByValue" />
+            <node concept="2kdjtB" id="4iUnnyFZLRQ" role="2RGvlO">
+              <ref role="2UGuZ7" to="ls40:2CfTpbqDrZl" resolve="PatternIdent" />
             </node>
             <node concept="30NkWi" id="1tv5iIM8ll" role="2RGvhl">
               <ref role="XkjO9" node="2$1FQ4LICBL" resolve="n" />
