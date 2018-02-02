@@ -110,6 +110,7 @@
       <concept id="1223387125302" name="jetbrains.mps.lang.editor.structure.QueryFunction_Boolean" flags="in" index="3nzxsE" />
       <concept id="3308396621974580100" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_Default" flags="ng" index="3p36aQ" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
       </concept>
       <concept id="1215085112640" name="jetbrains.mps.lang.editor.structure.FirstPositionAllowedStyleClassItem" flags="ln" index="3CHQLq" />
@@ -129,7 +130,10 @@
       <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
         <child id="1219418656006" name="styleItem" index="3F10Kt" />
       </concept>
-      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY" />
+      <concept id="1073389882823" name="jetbrains.mps.lang.editor.structure.CellModel_RefNode" flags="sg" stub="730538219795960754" index="3F1sOY">
+        <property id="16410578721444372" name="customizeEmptyCell" index="2ru_X1" />
+        <child id="16410578721629643" name="emptyCellModel" index="2ruayu" />
+      </concept>
       <concept id="1073390211982" name="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList" flags="sg" stub="2794558372793454595" index="3F2HdR" />
       <concept id="5624877018226904808" name="jetbrains.mps.lang.editor.structure.TransformationMenu_Named" flags="ng" index="3ICXOK" />
       <concept id="5624877018228267058" name="jetbrains.mps.lang.editor.structure.ITransformationMenu" flags="ng" index="3INCJE">
@@ -2276,6 +2280,26 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="iPR$nfGgsY">
+    <property role="3GE5qa" value="Expr" />
+    <ref role="1XX52x" to="ls40:iPR$nfGgsN" resolve="Return" />
+    <node concept="3EZMnI" id="iPR$nfGgt0" role="2wV5jI">
+      <node concept="3F0ifn" id="iPR$nfGgt7" role="3EZMnx">
+        <property role="3F0ifm" value="return" />
+        <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
+      </node>
+      <node concept="3F1sOY" id="iPR$nfIXtR" role="3EZMnx">
+        <property role="39s7Ar" value="true" />
+        <property role="2ru_X1" value="true" />
+        <ref role="1NtTu8" to="ls40:iPR$nfGgsO" resolve="e" />
+        <node concept="3F0ifn" id="iPR$nfJu_e" role="2ruayu" />
+      </node>
+      <node concept="3F0ifn" id="daLs9Nauut" role="3EZMnx">
+        <property role="3F0ifm" value=";a" />
+      </node>
+      <node concept="l2Vlx" id="iPR$nfGgt3" role="2iSdaV" />
     </node>
   </node>
 </model>
