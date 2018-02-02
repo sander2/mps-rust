@@ -747,16 +747,6 @@
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>
-  <node concept="1TIwiD" id="2CfTpbqDrZk">
-    <property role="EcuMT" value="3030893493139914708" />
-    <property role="TrG5h" value="PatternIdentByRef" />
-    <ref role="1TJDcQ" node="2CfTpbqDrZl" resolve="PatternIdent" />
-    <node concept="1TJgyi" id="2CfTpbqDrZm" role="1TKVEl">
-      <property role="IQ2nx" value="3030893493139914710" />
-      <property role="TrG5h" value="mutableBorrow" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-  </node>
   <node concept="1TIwiD" id="2CfTpbqDrZl">
     <property role="EcuMT" value="3030893493139914709" />
     <property role="TrG5h" value="PatternIdent" />
@@ -765,6 +755,17 @@
     <ref role="1TJDcQ" node="rlSsqGdD8e" resolve="Pattern" />
     <node concept="PrWs8" id="2CfTpbqFrE4" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2CfTpbqDrZk">
+    <property role="EcuMT" value="3030893493139914708" />
+    <property role="TrG5h" value="PatternIdentByRef" />
+    <property role="34LRSv" value="ref" />
+    <ref role="1TJDcQ" node="2CfTpbqDrZl" resolve="PatternIdent" />
+    <node concept="1TJgyi" id="2CfTpbqDrZm" role="1TKVEl">
+      <property role="IQ2nx" value="3030893493139914710" />
+      <property role="TrG5h" value="mutableBorrow" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
     </node>
   </node>
 </model>

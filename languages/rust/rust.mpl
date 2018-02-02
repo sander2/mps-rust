@@ -75,6 +75,9 @@
     <language slang="l:b83431fe-5c8f-40bc-8a36-65e25f4dd253:jetbrains.mps.lang.textGen" version="1" />
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
     <language slang="l:7a5dda62-9140-4668-ab76-d5ed1746f2b2:jetbrains.mps.lang.typesystem" version="1" />
+    <language slang="l:b802a056-92a2-4fbc-902e-f8e5004c331f:org.inca.core" version="0" />
+    <language slang="l:8c9a2720-9d21-4370-a226-819eb3e76e1e:org.inca.fun" version="0" />
+    <language slang="l:cd2909da-ecb4-49dc-b176-33e5c619e516:org.inca.gp" version="0" />
     <language slang="l:02643902-b3a5-4bb6-b85c-3bbbe5fdac0e:rust" version="3" />
   </languageVersions>
   <dependencyVersions>
