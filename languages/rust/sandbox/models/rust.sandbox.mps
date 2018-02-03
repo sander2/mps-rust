@@ -2,7 +2,7 @@
 <model ref="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="3" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="4" />
     <use id="e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2" name="org.inca.data" version="0" />
     <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="0" />
     <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="0" />
@@ -1346,7 +1346,7 @@
             <node concept="34ocy7" id="7EXp9q6q02N" role="1dgzf0">
               <node concept="34oehE" id="7EXp9q6q02O" role="34ocs8">
                 <node concept="2kdjtB" id="7EXp9q6q02P" role="2RGvlO">
-                  <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+                  <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
                 </node>
                 <node concept="30NkWi" id="7EXp9q6q02Q" role="2RGvhl">
                   <ref role="XkjO9" node="7EXp9q6q07G" resolve="n" />
@@ -3811,7 +3811,7 @@
       <property role="EcuMT" value="953014932104150490" />
       <property role="TrG5h" value="GenericDeclarator" />
       <node concept="2kdjtB" id="OTMwwdI7oY" role="2Qv0pB">
-        <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+        <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
       </node>
       <node concept="2kdjtB" id="OTMwwdIgOT" role="2Qv0pB">
         <ref role="2UGuZ7" to="ls40:67zX15hx4m6" resolve="Function" />
@@ -4953,7 +4953,7 @@
       <property role="EcuMT" value="704278095120944684" />
       <property role="TrG5h" value="QQ" />
       <node concept="2kdjtB" id="B66j8MLOZ2" role="2Qv0pB">
-        <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+        <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
       </node>
       <node concept="2kdjtB" id="B66j8MOeI9" role="2Qv0pB">
         <ref role="2UGuZ7" to="ls40:X3GX7L1XV2" resolve="StructFieldDecl" />
@@ -4975,7 +4975,7 @@
       <property role="EcuMT" value="953014932134257154" />
       <property role="TrG5h" value="QQ2" />
       <node concept="2kdjtB" id="OTMwwfwm83" role="2Qv0pB">
-        <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+        <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
       </node>
       <node concept="2kdjtB" id="OTMwwfwm84" role="2Qv0pB">
         <ref role="2UGuZ7" to="ls40:X3GX7L1XV2" resolve="StructFieldDecl" />
@@ -5564,7 +5564,7 @@
       <node concept="1VLyuc" id="B66j8MYSh6" role="1dv5OJ">
         <property role="TrG5h" value="s" />
         <node concept="2kdjtB" id="B66j8MYSh7" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
         </node>
       </node>
       <node concept="wzYYL" id="B66j8MYSha" role="wzYgH" />
@@ -5604,7 +5604,7 @@
       <node concept="1VLyuc" id="7_66cN1J13V" role="1dv5OJ">
         <property role="TrG5h" value="s" />
         <node concept="2kdjtB" id="7_66cN1J13W" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
         </node>
       </node>
       <node concept="wzYYL" id="7_66cN1J13X" role="wzYgH" />
@@ -5644,7 +5644,7 @@
       <node concept="1VLyuc" id="7_66cN1J90e" role="1dv5OJ">
         <property role="TrG5h" value="s" />
         <node concept="2kdjtB" id="7_66cN1J90f" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
         </node>
       </node>
       <node concept="wzYYL" id="7_66cN1J90g" role="wzYgH" />
@@ -5684,7 +5684,7 @@
       <node concept="1VLyuc" id="7_66cN1Jh3K" role="1dv5OJ">
         <property role="TrG5h" value="s" />
         <node concept="2kdjtB" id="7_66cN1Jh3L" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
         </node>
       </node>
       <node concept="wzYYL" id="7_66cN1Jh3M" role="wzYgH" />
@@ -5843,7 +5843,7 @@
       <node concept="1VLyuc" id="7_66cN1LOcX" role="1dv5OJ">
         <property role="TrG5h" value="s" />
         <node concept="2kdjtB" id="7_66cN1LOcY" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
         </node>
       </node>
       <node concept="wzYYL" id="7_66cN1LOcZ" role="wzYgH" />
@@ -5930,7 +5930,7 @@
       <node concept="1VLyuc" id="7_66cN1jQk7" role="1dv5OJ">
         <property role="TrG5h" value="s" />
         <node concept="2kdjtB" id="7_66cN1jY0s" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
         </node>
       </node>
       <node concept="3TL$xT" id="7_66cN1kVnH" role="3TLBbI">
@@ -6014,7 +6014,7 @@
         <node concept="34ocy7" id="OTMwwdIEM4" role="1dgzf0">
           <node concept="34oehE" id="OTMwwdIEMY" role="34ocs8">
             <node concept="2kdjtB" id="OTMwwdIUZm" role="2RGvlO">
-              <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+              <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
             </node>
             <node concept="30NkWi" id="OTMwwdIEMP" role="2RGvhl">
               <ref role="XkjO9" node="7_66cN0XXuk" resolve="s" />
@@ -6236,7 +6236,7 @@
       <node concept="1VLyuc" id="B66j8MZ9w$" role="1dv5OJ">
         <property role="TrG5h" value="s" />
         <node concept="2kdjtB" id="B66j8MZ9w_" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
         </node>
       </node>
       <node concept="3TL$xT" id="B66j8MZ9wA" role="3TLBbI">
@@ -6324,7 +6324,7 @@
       <node concept="1VLyuc" id="7_66cN0OQMH" role="1dv5OJ">
         <property role="TrG5h" value="s" />
         <node concept="2kdjtB" id="7_66cN0OQMI" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
         </node>
       </node>
       <node concept="3TL$xT" id="7_66cN0OQMJ" role="3TLBbI">
@@ -6754,7 +6754,7 @@
       <node concept="1VLyuc" id="7ib3dauTT4f" role="1dv5OJ">
         <property role="TrG5h" value="s" />
         <node concept="2kdjtB" id="7ib3dauTT4x" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+          <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
         </node>
       </node>
       <node concept="3TL$xT" id="7ib3dauTT4F" role="3TLBbI">
@@ -19665,7 +19665,7 @@
         <node concept="34ocy7" id="3dWlfh3WkTz" role="1dgzf0">
           <node concept="34oehE" id="3dWlfh3WniV" role="34ocs8">
             <node concept="2kdjtB" id="3dWlfh3XGPv" role="2RGvlO">
-              <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStruct" />
+              <ref role="2UGuZ7" to="ls40:1ioFhpHY0JZ" resolve="FieldStructDeprecated" />
             </node>
             <node concept="30NkWi" id="3dWlfh3Wmd5" role="2RGvhl">
               <ref role="XkjO9" node="3dWlfh3W8FP" resolve="item" />
@@ -19707,7 +19707,7 @@
       </node>
       <node concept="3TL$xT" id="3IOa0fipx5s" role="3TLBbI">
         <node concept="2kdjtB" id="3IOa0fip$QP" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:1ioFhpHXQ60" resolve="Struct" />
+          <ref role="2UGuZ7" to="ls40:1ioFhpHXQ60" resolve="StructDeprecated" />
         </node>
       </node>
     </node>

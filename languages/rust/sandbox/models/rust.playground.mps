@@ -25,9 +25,10 @@
         <child id="704278095092241963" name="generics" index="SMsWp" />
       </concept>
       <concept id="704278095091541404" name="rust.structure.Generics" flags="ng" index="SKNMI" />
-      <concept id="1484126389064436735" name="rust.structure.FieldStruct" flags="ng" index="1ToarD" />
-      <concept id="1484126389064393088" name="rust.structure.Struct" flags="ng" index="1TrWMm">
-        <child id="704278095091541502" name="generics" index="SKNNc" />
+      <concept id="3570966331251178368" name="rust.structure.FieldsVariant" flags="ng" index="1I_qlP" />
+      <concept id="3570966331251178358" name="rust.structure.StructNew" flags="ng" index="1I_qm3">
+        <child id="3570966331251178361" name="generics" index="1I_qmc" />
+        <child id="3570966331251178363" name="data" index="1I_qme" />
       </concept>
       <concept id="1099920448281658011" name="rust.structure.Module" flags="ng" index="3YhZ5a">
         <child id="1099920448281713974" name="defs" index="3YhEVB" />
@@ -47,9 +48,10 @@
       </node>
       <node concept="SKNMI" id="36eBJluYsdw" role="SMsWp" />
     </node>
-    <node concept="1ToarD" id="27CR$QZYZmn" role="3YhEVB">
+    <node concept="1I_qm3" id="36eBJlvc20M" role="3YhEVB">
       <property role="TrG5h" value="X" />
-      <node concept="SKNMI" id="27CR$QZYZmp" role="SKNNc" />
+      <node concept="SKNMI" id="36eBJlvc20L" role="1I_qmc" />
+      <node concept="1I_qlP" id="36eBJlvc20N" role="1I_qme" />
     </node>
   </node>
 </model>

@@ -12,6 +12,7 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
+      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
@@ -188,7 +189,7 @@
   <node concept="1TIwiD" id="1ioFhpHXQ60">
     <property role="EcuMT" value="1484126389064393088" />
     <property role="3GE5qa" value="Item" />
-    <property role="TrG5h" value="Struct" />
+    <property role="TrG5h" value="StructDeprecated" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" node="X3GX7L1bso" resolve="Item" />
@@ -202,12 +203,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="B66j8L1ims" resolve="Generics" />
     </node>
+    <node concept="asaX9" id="36eBJlv8yp$" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="1ioFhpHY0JZ">
     <property role="EcuMT" value="1484126389064436735" />
     <property role="3GE5qa" value="Item" />
-    <property role="TrG5h" value="FieldStruct" />
-    <ref role="1TJDcQ" node="1ioFhpHXQ60" resolve="Struct" />
+    <property role="TrG5h" value="FieldStructDeprecated" />
+    <ref role="1TJDcQ" node="1ioFhpHXQ60" resolve="StructDeprecated" />
     <node concept="1TJgyj" id="1ioFhpHY0K0" role="1TKVEi">
       <property role="IQ2ns" value="1484126389064436736" />
       <property role="20lmBu" value="aggregation" />
@@ -215,6 +217,7 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="X3GX7L1XV2" resolve="StructFieldDecl" />
     </node>
+    <node concept="asaX9" id="36eBJlv8ypA" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="7VV7iqShXVa">
     <property role="EcuMT" value="9149939120070975178" />
@@ -811,6 +814,50 @@
       <property role="20kJfa" value="line" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="zqge:2cLqkTm6J5A" resolve="Line" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="36eBJlv6NHQ">
+    <property role="EcuMT" value="3570966331251178358" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="StructNew" />
+    <ref role="1TJDcQ" node="X3GX7L1bso" resolve="Item" />
+    <node concept="1TJgyj" id="36eBJlv6NHT" role="1TKVEi">
+      <property role="IQ2ns" value="3570966331251178361" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="generics" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="B66j8L1ims" resolve="Generics" />
+    </node>
+    <node concept="1TJgyj" id="36eBJlv6NHV" role="1TKVEi">
+      <property role="IQ2ns" value="3570966331251178363" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="data" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="36eBJlv6NHZ" resolve="VariantData" />
+    </node>
+    <node concept="PrWs8" id="36eBJlv6NHR" role="PzmwI">
+      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="36eBJlv6NHZ">
+    <property role="EcuMT" value="3570966331251178367" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="VariantData" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="36eBJlv6NI0">
+    <property role="EcuMT" value="3570966331251178368" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="FieldsVariant" />
+    <ref role="1TJDcQ" node="36eBJlv6NHZ" resolve="VariantData" />
+    <node concept="1TJgyj" id="36eBJlv6NI1" role="1TKVEi">
+      <property role="IQ2ns" value="3570966331251178369" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="fields" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="X3GX7L1XV2" resolve="StructFieldDecl" />
     </node>
   </node>
 </model>
