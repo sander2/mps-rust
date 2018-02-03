@@ -2,7 +2,7 @@
 <model ref="r:e0856fcd-14e6-44f8-8195-f0d12b02fa9d(rust.playground)">
   <persistence version="9" />
   <languages>
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="2" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="3" />
   </languages>
   <imports />
   <registry>

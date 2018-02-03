@@ -4,7 +4,7 @@
   <languages>
     <use id="28f9e497-3b42-4291-aeba-0a1039153ab1" name="jetbrains.mps.lang.plugin" version="2" />
     <use id="ef7bf5ac-d06c-4342-b11d-e42104eb9343" name="jetbrains.mps.lang.plugin.standalone" version="0" />
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="2" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="3" />
     <use id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel" version="8" />
     <use id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access" version="0" />
     <use id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage" version="5" />
@@ -1198,7 +1198,7 @@
                 </node>
                 <node concept="2pJPEk" id="4WXtgFrpMnI" role="33vP2m">
                   <node concept="2pJPED" id="4WXtgFrpMpF" role="2pJPEn">
-                    <ref role="2pJxaS" to="ls40:rlSsqGdDSX" resolve="PatternIdent" />
+                    <ref role="2pJxaS" to="ls40:rlSsqGdDSX" resolve="PatternIdentByValue" />
                     <node concept="2pJxcG" id="4WXtgFrpMqs" role="2pJxcM">
                       <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
                       <node concept="Xl_RD" id="4WXtgFrpMry" role="2pJxcZ">
@@ -3607,7 +3607,7 @@
                 </node>
                 <node concept="2pJPEk" id="4WXtgFrqxnj" role="33vP2m">
                   <node concept="2pJPED" id="4WXtgFrqxnk" role="2pJPEn">
-                    <ref role="2pJxaS" to="ls40:rlSsqGdDSX" resolve="PatternIdent" />
+                    <ref role="2pJxaS" to="ls40:rlSsqGdDSX" resolve="PatternIdentByValue" />
                     <node concept="2pJxcG" id="4WXtgFrqxnl" role="2pJxcM">
                       <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
                       <node concept="Xl_RD" id="4WXtgFrqxnm" role="2pJxcZ">
@@ -3818,7 +3818,7 @@
           <node concept="3cpWs6" id="6apqgQ6A$9q" role="3cqZAp">
             <node concept="2pJPEk" id="6apqgQ6A$hT" role="3cqZAk">
               <node concept="2pJPED" id="6apqgQ6A$rb" role="2pJPEn">
-                <ref role="2pJxaS" to="ls40:rlSsqGdDSX" resolve="PatternIdent" />
+                <ref role="2pJxaS" to="ls40:rlSsqGdDSX" resolve="PatternIdentByValue" />
                 <node concept="2pJxcG" id="6apqgQ6A$EH" role="2pJxcM">
                   <ref role="2pJxcJ" to="ls40:6apqgQ6x1b4" resolve="mutable" />
                   <node concept="2OqwBi" id="6apqgQ6A$T6" role="2pJxcZ">
@@ -3847,7 +3847,7 @@
         </node>
         <node concept="3Tm1VV" id="1A$EJ17qiyi" role="1B3o_S" />
         <node concept="3Tqbb2" id="1A$EJ17qiNj" role="3clF45">
-          <ref role="ehGHo" to="ls40:rlSsqGdDSX" resolve="PatternIdent" />
+          <ref role="ehGHo" to="ls40:rlSsqGdDSX" resolve="PatternIdentByValue" />
         </node>
       </node>
       <node concept="3Tm1VV" id="3E4ThbjAlj" role="1B3o_S" />

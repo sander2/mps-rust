@@ -2,7 +2,7 @@
 <model ref="r:0acba99b-cb2a-4a04-8483-4e951948781d(rust.benches)">
   <persistence version="9" />
   <languages>
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="2" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="3" />
   </languages>
   <imports />
   <registry>
@@ -24,7 +24,7 @@
         <property id="8841274033449256778" name="mutable" index="2n4$iD" />
         <child id="8841274033449256651" name="pat" index="2n4$kC" />
       </concept>
-      <concept id="492547977675972157" name="rust.structure.PatternIdent" flags="ng" index="2ESRZV">
+      <concept id="492547977675972157" name="rust.structure.PatternIdentByValue" flags="ng" index="2ESRZV">
         <property id="7104825393965961924" name="mutable" index="3$7nJ9" />
       </concept>
       <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
