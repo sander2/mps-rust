@@ -3,9 +3,11 @@
   <persistence version="9" />
   <languages>
     <use id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure" version="6" />
+    <use id="c7fb639f-be78-4307-89b0-b5959c3fa8c8" name="jetbrains.mps.lang.text" version="0" />
     <devkit ref="78434eb8-b0e5-444b-850d-e7c4ad2da9ab(jetbrains.mps.devkit.aspect.structure)" />
   </languages>
   <imports>
+    <import index="zqge" ref="r:59e90602-6655-4552-86eb-441a42a9a0e4(jetbrains.mps.lang.text.structure)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
@@ -794,6 +796,22 @@
     <property role="TrG5h" value="Continue" />
     <property role="34LRSv" value="continue" />
     <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
+  </node>
+  <node concept="1TIwiD" id="36eBJluYpYU">
+    <property role="EcuMT" value="3570966331248975802" />
+    <property role="TrG5h" value="RustComment" />
+    <property role="34LRSv" value="//" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="36eBJluYrHp" role="PzmwI">
+      <ref role="PrY4T" to="tpck:3xhyJYa45Zm" resolve="IPlaceholderContent" />
+    </node>
+    <node concept="1TJgyj" id="36eBJluYrQH" role="1TKVEi">
+      <property role="IQ2ns" value="3570966331248983469" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="line" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="zqge:2cLqkTm6J5A" resolve="Line" />
+    </node>
   </node>
 </model>
 
