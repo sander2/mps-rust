@@ -12,7 +12,6 @@
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
-      <concept id="1224240836180" name="jetbrains.mps.lang.structure.structure.DeprecatedNodeAnnotation" flags="ig" index="asaX9" />
       <concept id="7862711839422615209" name="jetbrains.mps.lang.structure.structure.DocumentedNodeAnnotation" flags="ng" index="t5JxF">
         <property id="7862711839422615217" name="text" index="t5JxN" />
       </concept>
@@ -185,39 +184,6 @@
     <node concept="PrWs8" id="2oS0yTqb_w1" role="PzmwI">
       <ref role="PrY4T" node="2oS0yTq8TI0" resolve="IElseExpr" />
     </node>
-  </node>
-  <node concept="1TIwiD" id="1ioFhpHXQ60">
-    <property role="EcuMT" value="1484126389064393088" />
-    <property role="3GE5qa" value="Item" />
-    <property role="TrG5h" value="StructDeprecated" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" node="X3GX7L1bso" resolve="Item" />
-    <node concept="PrWs8" id="1ioFhpHY0K_" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="1TJgyj" id="B66j8L1inY" role="1TKVEi">
-      <property role="IQ2ns" value="704278095091541502" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="generics" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="B66j8L1ims" resolve="Generics" />
-    </node>
-    <node concept="asaX9" id="36eBJlv8yp$" role="lGtFl" />
-  </node>
-  <node concept="1TIwiD" id="1ioFhpHY0JZ">
-    <property role="EcuMT" value="1484126389064436735" />
-    <property role="3GE5qa" value="Item" />
-    <property role="TrG5h" value="FieldStructDeprecated" />
-    <ref role="1TJDcQ" node="1ioFhpHXQ60" resolve="StructDeprecated" />
-    <node concept="1TJgyj" id="1ioFhpHY0K0" role="1TKVEi">
-      <property role="IQ2ns" value="1484126389064436736" />
-      <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="fields" />
-      <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="X3GX7L1XV2" resolve="StructFieldDecl" />
-    </node>
-    <node concept="asaX9" id="36eBJlv8ypA" role="lGtFl" />
   </node>
   <node concept="1TIwiD" id="7VV7iqShXVa">
     <property role="EcuMT" value="9149939120070975178" />
