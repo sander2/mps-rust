@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="rust" uuid="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" languageVersion="4" moduleVersion="0">
+<language namespace="rust" uuid="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" languageVersion="5" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -38,6 +38,7 @@
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">c7fb639f-be78-4307-89b0-b5959c3fa8c8(jetbrains.mps.lang.text)</dependency>
     <dependency reexport="false">ceab5195-25ea-4f22-9b92-103b95ca8c0c(jetbrains.mps.lang.core)</dependency>
+    <dependency reexport="false">c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:9d69e719-78c8-4286-90db-fb19c107d049:com.mbeddr.mpsutil.grammarcells" version="0" />
@@ -81,7 +82,7 @@
     <language slang="l:b802a056-92a2-4fbc-902e-f8e5004c331f:org.inca.core" version="0" />
     <language slang="l:8c9a2720-9d21-4370-a226-819eb3e76e1e:org.inca.fun" version="0" />
     <language slang="l:cd2909da-ecb4-49dc-b176-33e5c619e516:org.inca.gp" version="0" />
-    <language slang="l:02643902-b3a5-4bb6-b85c-3bbbe5fdac0e:rust" version="4" />
+    <language slang="l:02643902-b3a5-4bb6-b85c-3bbbe5fdac0e:rust" version="5" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
