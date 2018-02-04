@@ -2,7 +2,7 @@
 <model ref="r:c9a914b2-8485-43fe-bbf2-b2b3a72cb5dd(rust.sandbox)">
   <persistence version="9" />
   <languages>
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="6" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="7" />
     <use id="e6d2ffd5-9c56-41f8-99ac-9d1ceb13daa2" name="org.inca.data" version="2" />
     <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="0" />
     <use id="b802a056-92a2-4fbc-902e-f8e5004c331f" name="org.inca.core" version="0" />
@@ -1782,6 +1782,39 @@
                 </node>
                 <node concept="30NkWi" id="7EXp9q6q04y" role="2RGvhl">
                   <ref role="XkjO9" node="7EXp9q6q07G" resolve="n" />
+                </node>
+              </node>
+            </node>
+            <node concept="34odk1" id="3odeCgAl$sD" role="1dgzf0">
+              <node concept="2k1GkI" id="3odeCgAl$sE" role="34ocZk">
+                <node concept="2k1_uq" id="3odeCgAl$sF" role="2nKVj6">
+                  <ref role="2nKBpL" node="3cETwxIjUd" resolve="typeOf" />
+                  <node concept="2kdhWc" id="3odeCgAl$sG" role="2nKBpO">
+                    <node concept="727y6" id="3odeCgAl$sH" role="3zVzRQ">
+                      <ref role="3zVwH8" to="ls40:3odeCgA74sW" resolve="condition" />
+                    </node>
+                    <node concept="30NkWi" id="3odeCgAl$sI" role="2kdhYM">
+                      <ref role="XkjO9" node="7EXp9q6q07G" resolve="n" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="30KbLJ" id="3odeCgAl$sJ" role="34ocZn">
+                <property role="TrG5h" value="condType" />
+              </node>
+            </node>
+            <node concept="34ocy7" id="3odeCgAl$sK" role="1dgzf0">
+              <node concept="34ofUU" id="3odeCgAl$sL" role="34ocs8">
+                <node concept="1p__ei" id="3odeCgAl$sM" role="34ocZk">
+                  <node concept="3_JagS" id="3odeCgAl$sN" role="1p__f_">
+                    <ref role="3_Jajq" node="xVxp1qqXZp" resolve="TypeLattice" />
+                  </node>
+                  <node concept="2ZRyFJ" id="3odeCgAl$sO" role="1p_StM">
+                    <ref role="2ZRyFH" node="11x_cChnVp_" resolve="Boolean" />
+                  </node>
+                </node>
+                <node concept="30NkWi" id="3odeCgAl$sP" role="34ocZn">
+                  <ref role="XkjO9" node="3odeCgAl$sJ" resolve="condType" />
                 </node>
               </node>
             </node>
@@ -10342,7 +10375,7 @@
       <property role="TrG5h" value="getCFGSource_While" />
       <node concept="3zV_Rz" id="5cYjNPEDwTG" role="3zVECS">
         <node concept="1XdyHb" id="6he4umCpIvf" role="1dgzf0">
-          <property role="1dubkF" value="source of first CFG node in while body" />
+          <property role="1dubkF" value="source of condition" />
         </node>
         <node concept="34ocy7" id="2q_fATWlaua" role="1dgzf0">
           <node concept="34oehE" id="2q_fATWlgKr" role="34ocs8">
@@ -10359,8 +10392,8 @@
             <node concept="2k1_uq" id="2q_fATWlmir" role="2nKVj6">
               <ref role="2nKBpL" node="6ZSdBbG_ggr" resolve="getFirstNestedCFGNode" />
               <node concept="2kdhWc" id="2q_fATWlonk" role="2nKBpO">
-                <node concept="727y6" id="2q_fATWlpS8" role="3zVzRQ">
-                  <ref role="3zVwH8" to="ls40:5$fSc6YusP6" resolve="block" />
+                <node concept="727y6" id="3odeCgAa4yQ" role="3zVzRQ">
+                  <ref role="3zVwH8" to="ls40:3odeCgA74sW" resolve="condition" />
                 </node>
                 <node concept="30NkWi" id="2q_fATWlnto" role="2kdhYM">
                   <ref role="XkjO9" node="2q_fATWlbOn" resolve="src" />
@@ -10382,69 +10415,135 @@
             </node>
           </node>
         </node>
-        <node concept="30Nfyg" id="5cYjNPEDCSp" role="1dgzf0">
-          <node concept="30NkWi" id="2q_fATWlt_X" role="30Nf_D">
-            <ref role="XkjO9" node="2q_fATWlbOn" resolve="src" />
+        <node concept="1waTxd" id="3odeCgAf$_z" role="1dgzf0">
+          <node concept="3zV_Rz" id="3odeCgAf$__" role="3zVECR">
+            <node concept="1XdyHb" id="3odeCgAh5pY" role="1dgzf0">
+              <property role="1dubkF" value="the while itself" />
+            </node>
+            <node concept="30Nfyg" id="5cYjNPEDCSp" role="1dgzf0">
+              <node concept="30NkWi" id="2q_fATWlt_X" role="30Nf_D">
+                <ref role="XkjO9" node="2q_fATWlbOn" resolve="src" />
+              </node>
+            </node>
+          </node>
+          <node concept="3zV_Rz" id="3odeCgAfV2f" role="3zVECR">
+            <node concept="1XdyHb" id="3odeCgAhxQM" role="1dgzf0">
+              <property role="1dubkF" value="last statement in body" />
+            </node>
+            <node concept="30Nfyg" id="5cYjNPEDLDE" role="1dgzf0">
+              <node concept="2k1GkI" id="5cYjNPEDM1J" role="30Nf_D">
+                <node concept="2k1_uq" id="5cYjNPEDM1H" role="2nKVj6">
+                  <ref role="2nKBpL" node="6ZSdBbG8mgb" resolve="getLastNestedCFGNode" />
+                  <node concept="2kdhWc" id="5cYjNPEDM$V" role="2nKBpO">
+                    <node concept="727y6" id="3odeCgAgtWC" role="3zVzRQ">
+                      <ref role="3zVwH8" to="ls40:5$fSc6YusP6" resolve="block" />
+                    </node>
+                    <node concept="30NkWi" id="3odeCgAgtqG" role="2kdhYM">
+                      <ref role="XkjO9" node="2q_fATWlbOn" resolve="src" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3zV_Rz" id="3odeCgAgjGu" role="3zVECR">
+            <node concept="1XdyHb" id="3odeCgAi3yY" role="1dgzf0">
+              <property role="1dubkF" value="any continue statement" />
+            </node>
+            <node concept="34odk1" id="daLs9NrjL1" role="1dgzf0">
+              <node concept="2k1GkI" id="daLs9Ns05D" role="34ocZk">
+                <node concept="2k1_uq" id="daLs9Ns05B" role="2nKVj6">
+                  <ref role="2nKBpL" node="daLs9Nmx1g" resolve="loopGetFlowControls" />
+                  <node concept="30NkWi" id="3odeCgAffCW" role="2nKBpO">
+                    <ref role="XkjO9" node="2q_fATWlbOn" resolve="src" />
+                  </node>
+                </node>
+              </node>
+              <node concept="30KbLJ" id="daLs9Nr5Ef" role="34ocZn">
+                <property role="TrG5h" value="continueStmt" />
+              </node>
+            </node>
+            <node concept="34ocy7" id="daLs9NslCd" role="1dgzf0">
+              <node concept="34oehE" id="daLs9Nsr5d" role="34ocs8">
+                <node concept="2kdjtB" id="daLs9NsAbf" role="2RGvlO">
+                  <ref role="2UGuZ7" to="ls40:daLs9Nj8Xg" resolve="Continue" />
+                </node>
+                <node concept="30NkWi" id="daLs9NslCE" role="2RGvhl">
+                  <ref role="XkjO9" node="daLs9Nr5Ef" resolve="continueStmt" />
+                </node>
+              </node>
+            </node>
+            <node concept="30Nfyg" id="daLs9NsQLG" role="1dgzf0">
+              <node concept="30NkWi" id="daLs9NsVTd" role="30Nf_D">
+                <ref role="XkjO9" node="daLs9Nr5Ef" resolve="continueStmt" />
+              </node>
+            </node>
           </node>
         </node>
       </node>
-      <node concept="3zV_Rz" id="5cYjNPEDDfJ" role="3zVECS">
-        <node concept="1XdyHb" id="5cYjNPEEoID" role="1dgzf0">
-          <property role="1dubkF" value="additional source node of a while node: the last statement in the body block" />
+      <node concept="3zV_Rz" id="3odeCgAa0AT" role="3zVECS">
+        <node concept="1XdyHb" id="3odeCgAa0AU" role="1dgzf0">
+          <property role="1dubkF" value="source of first CFG node in while body is the condition" />
         </node>
-        <node concept="34ocy7" id="5cYjNPEDHXV" role="1dgzf0">
-          <node concept="34oehE" id="5cYjNPEDIBU" role="34ocs8">
-            <node concept="2kdjtB" id="5cYjNPEDJjB" role="2RGvlO">
+        <node concept="34ocy7" id="3odeCgAa0AV" role="1dgzf0">
+          <node concept="34oehE" id="3odeCgAa0AW" role="34ocs8">
+            <node concept="2kdjtB" id="3odeCgAa0AX" role="2RGvlO">
               <ref role="2UGuZ7" to="ls40:5$fSc6YusP5" resolve="While" />
             </node>
-            <node concept="30NkWi" id="5cYjNPEDIiT" role="2RGvhl">
-              <ref role="XkjO9" node="5cYjNPEDwVD" resolve="n" />
+            <node concept="30KbLJ" id="3odeCgAa0AY" role="2RGvhl">
+              <property role="TrG5h" value="while" />
             </node>
           </node>
         </node>
-        <node concept="30Nfyg" id="5cYjNPEDLDE" role="1dgzf0">
-          <node concept="2k1GkI" id="5cYjNPEDM1J" role="30Nf_D">
-            <node concept="2k1_uq" id="5cYjNPEDM1H" role="2nKVj6">
-              <ref role="2nKBpL" node="6ZSdBbG8mgb" resolve="getLastNestedCFGNode" />
-              <node concept="2kdhWc" id="5cYjNPEDM$V" role="2nKBpO">
-                <node concept="727y6" id="5cYjNPEDN1P" role="3zVzRQ">
+        <node concept="34odk1" id="3odeCgAa0AZ" role="1dgzf0">
+          <node concept="2k1GkI" id="3odeCgAa0B0" role="34ocZk">
+            <node concept="2k1_uq" id="3odeCgAa0B1" role="2nKVj6">
+              <ref role="2nKBpL" node="6ZSdBbG_ggr" resolve="getFirstNestedCFGNode" />
+              <node concept="2kdhWc" id="3odeCgAa0B2" role="2nKBpO">
+                <node concept="727y6" id="3odeCgAa0B3" role="3zVzRQ">
                   <ref role="3zVwH8" to="ls40:5$fSc6YusP6" resolve="block" />
                 </node>
-                <node concept="30NkWi" id="5cYjNPEDMe_" role="2kdhYM">
-                  <ref role="XkjO9" node="5cYjNPEDwVD" resolve="n" />
+                <node concept="30NkWi" id="3odeCgAa0B4" role="2kdhYM">
+                  <ref role="XkjO9" node="3odeCgAa0AY" resolve="while" />
                 </node>
               </node>
             </node>
           </node>
+          <node concept="30KbLJ" id="3odeCgAa0B5" role="34ocZn">
+            <property role="TrG5h" value="q" />
+          </node>
         </node>
-      </node>
-      <node concept="3zV_Rz" id="daLs9NqX2a" role="3zVECS">
-        <node concept="34odk1" id="daLs9NrjL1" role="1dgzf0">
-          <node concept="2k1GkI" id="daLs9Ns05D" role="34ocZk">
-            <node concept="2k1_uq" id="daLs9Ns05B" role="2nKVj6">
-              <ref role="2nKBpL" node="daLs9Nmx1g" resolve="loopGetFlowControls" />
-              <node concept="30NkWi" id="daLs9Ns4wI" role="2nKBpO">
-                <ref role="XkjO9" node="5cYjNPEDwVD" resolve="n" />
+        <node concept="34ocy7" id="3odeCgAa0B6" role="1dgzf0">
+          <node concept="34ofUU" id="3odeCgAa0B7" role="34ocs8">
+            <node concept="30NkWi" id="3odeCgAa0B8" role="34ocZk">
+              <ref role="XkjO9" node="5cYjNPEDwVD" resolve="n" />
+            </node>
+            <node concept="30NkWi" id="3odeCgAa0B9" role="34ocZn">
+              <ref role="XkjO9" node="3odeCgAa0B5" resolve="q" />
+            </node>
+          </node>
+        </node>
+        <node concept="34odk1" id="3odeCgAbEuV" role="1dgzf0">
+          <node concept="2k1GkI" id="3odeCgAbMT5" role="34ocZk">
+            <node concept="2k1_uq" id="3odeCgAbMT3" role="2nKVj6">
+              <ref role="2nKBpL" node="6ZSdBbG8mgb" resolve="getLastNestedCFGNode" />
+              <node concept="2kdhWc" id="3odeCgAbQY$" role="2nKBpO">
+                <node concept="727y6" id="3odeCgAbWuQ" role="3zVzRQ">
+                  <ref role="3zVwH8" to="ls40:3odeCgA74sW" resolve="condition" />
+                </node>
+                <node concept="30NkWi" id="3odeCgAbQYt" role="2kdhYM">
+                  <ref role="XkjO9" node="3odeCgAa0AY" resolve="while" />
+                </node>
               </node>
             </node>
           </node>
-          <node concept="30KbLJ" id="daLs9Nr5Ef" role="34ocZn">
-            <property role="TrG5h" value="continueStmt" />
+          <node concept="30KbLJ" id="3odeCgAbopk" role="34ocZn">
+            <property role="TrG5h" value="lastInCondition" />
           </node>
         </node>
-        <node concept="34ocy7" id="daLs9NslCd" role="1dgzf0">
-          <node concept="34oehE" id="daLs9Nsr5d" role="34ocs8">
-            <node concept="2kdjtB" id="daLs9NsAbf" role="2RGvlO">
-              <ref role="2UGuZ7" to="ls40:daLs9Nj8Xg" resolve="Continue" />
-            </node>
-            <node concept="30NkWi" id="daLs9NslCE" role="2RGvhl">
-              <ref role="XkjO9" node="daLs9Nr5Ef" resolve="continueStmt" />
-            </node>
-          </node>
-        </node>
-        <node concept="30Nfyg" id="daLs9NsQLG" role="1dgzf0">
-          <node concept="30NkWi" id="daLs9NsVTd" role="30Nf_D">
-            <ref role="XkjO9" node="daLs9Nr5Ef" resolve="continueStmt" />
+        <node concept="30Nfyg" id="3odeCgAa0Ba" role="1dgzf0">
+          <node concept="30NkWi" id="3odeCgAc0Kb" role="30Nf_D">
+            <ref role="XkjO9" node="3odeCgAbopk" resolve="lastInCondition" />
           </node>
         </node>
       </node>

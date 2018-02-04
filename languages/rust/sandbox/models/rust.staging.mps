@@ -2,7 +2,7 @@
 <model ref="r:b8e93141-71d1-4fe6-9bba-8fff18012183(rust.staging)">
   <persistence version="9" />
   <languages>
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="6" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="7" />
   </languages>
   <imports>
     <import index="ls40" ref="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)" />
@@ -14,6 +14,7 @@
       </concept>
     </language>
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
+      <concept id="1180388172941756681" name="rust.structure.True" flags="ng" index="19pR3" />
       <concept id="492547977675972157" name="rust.structure.PatternIdentByValue" flags="ng" index="2ESRZV">
         <property id="7104825393965961924" name="mutable" index="3$7nJ9" />
       </concept>
@@ -41,6 +42,10 @@
       <concept id="9149939120071034736" name="rust.structure.VarRef" flags="ng" index="36GXDm" />
       <concept id="9149939120070975254" name="rust.structure.FieldAccess" flags="ng" index="36Jc8K">
         <child id="9149939120070975255" name="struct" index="36Jc8L" />
+      </concept>
+      <concept id="6417595116755209541" name="rust.structure.While" flags="ng" index="3BtyQ4">
+        <child id="3894833591994828604" name="condition" index="g4nQS" />
+        <child id="6417595116755209542" name="block" index="3BtyQ7" />
       </concept>
       <concept id="3570966331251178368" name="rust.structure.FieldsVariant" flags="ng" index="1I_qlP">
         <child id="3570966331251178369" name="fields" index="1I_qlO" />
@@ -721,6 +726,20 @@
       </node>
       <node concept="3YiHqP" id="OTMwwdxeGP" role="KpVaL" />
       <node concept="SKNMI" id="OTMwwdxeGR" role="SMsWp" />
+    </node>
+    <node concept="KpV6n" id="3odeCgAnFLY" role="3YhEVB">
+      <property role="TrG5h" value="test_ok_while_no_trailing_semicolumn_2" />
+      <node concept="3YiHqP" id="3odeCgAnFLZ" role="KpVaL">
+        <node concept="3BtyQ4" id="3odeCgAnFM0" role="3YiHqO">
+          <node concept="3YiHqP" id="3odeCgAnFM1" role="3BtyQ7" />
+          <node concept="19pR3" id="3odeCgAnFM2" role="g4nQS" />
+        </node>
+        <node concept="3BtyQ4" id="3odeCgAnFM3" role="3YiHqO">
+          <node concept="3YiHqP" id="3odeCgAnFM4" role="3BtyQ7" />
+          <node concept="19pR3" id="3odeCgAnFM5" role="g4nQS" />
+        </node>
+      </node>
+      <node concept="SKNMI" id="3odeCgAnFM6" role="SMsWp" />
     </node>
     <node concept="1I_qm3" id="36eBJlvc20P" role="3YhEVB">
       <property role="TrG5h" value="A" />

@@ -915,9 +915,8 @@
         <property role="3F0ifm" value="while" />
         <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
       </node>
-      <node concept="3F0ifn" id="3tSQwZ36RXX" role="3EZMnx">
-        <property role="3F0ifm" value="true" />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      <node concept="3F1sOY" id="3odeCgA75AS" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:3odeCgA74sW" resolve="condition" />
       </node>
       <node concept="3F1sOY" id="5$fSc6YusQb" role="3EZMnx">
         <ref role="1NtTu8" to="ls40:5$fSc6YusP6" resolve="block" />

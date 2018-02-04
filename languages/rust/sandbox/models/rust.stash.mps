@@ -2,7 +2,7 @@
 <model ref="r:50f2aa38-a7e3-4b90-bd54-3f44b46d6198(rust.stash)">
   <persistence version="9" />
   <languages>
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="6" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="7" />
   </languages>
   <imports />
   <registry>
@@ -60,6 +60,7 @@
         <child id="339421738354935604" name="e" index="3b1d_L" />
       </concept>
       <concept id="6417595116755209541" name="rust.structure.While" flags="ng" index="3BtyQ4">
+        <child id="3894833591994828604" name="condition" index="g4nQS" />
         <child id="6417595116755209542" name="block" index="3BtyQ7" />
       </concept>
       <concept id="3570966331262478589" name="rust.structure.EnumItem" flags="ng" index="1Iijo8">
@@ -123,6 +124,7 @@
                 <node concept="1K1$Ed" id="daLs9NBLAn" role="36Jc8R" />
               </node>
             </node>
+            <node concept="19pR3" id="3odeCgA8err" role="g4nQS" />
           </node>
         </node>
         <node concept="3YiHtV" id="daLs9NRESs" role="3YiHqO">
@@ -140,6 +142,7 @@
                 <node concept="1K1$Ei" id="daLs9NPxsG" role="36Jc8R" />
               </node>
             </node>
+            <node concept="19pR3" id="3odeCgA8ers" role="g4nQS" />
           </node>
         </node>
       </node>
@@ -170,6 +173,7 @@
                 </node>
               </node>
             </node>
+            <node concept="19pR3" id="3odeCgA8ert" role="g4nQS" />
           </node>
         </node>
         <node concept="3YiHtV" id="daLs9NUd9s" role="3YiHqO">
@@ -194,6 +198,7 @@
                 </node>
               </node>
             </node>
+            <node concept="19pR3" id="3odeCgA8eru" role="g4nQS" />
           </node>
         </node>
         <node concept="36JcfG" id="daLs9NPxsN" role="3YiHqO">
@@ -258,6 +263,7 @@
                 </node>
               </node>
             </node>
+            <node concept="19pR3" id="3odeCgA8erv" role="g4nQS" />
           </node>
         </node>
       </node>
@@ -304,6 +310,7 @@
                 </node>
               </node>
             </node>
+            <node concept="19pR3" id="3odeCgA8erw" role="g4nQS" />
           </node>
         </node>
       </node>
@@ -338,6 +345,7 @@
                 <node concept="1K1$Ei" id="daLs9NUdb2" role="36Jc8R" />
               </node>
             </node>
+            <node concept="19pR3" id="3odeCgA8erx" role="g4nQS" />
           </node>
         </node>
       </node>
@@ -374,6 +382,7 @@
                 </node>
               </node>
             </node>
+            <node concept="19pR3" id="3odeCgA8ery" role="g4nQS" />
           </node>
         </node>
         <node concept="19pR0" id="daLs9N_ivN" role="3YiHqO" />
@@ -411,6 +420,7 @@
                 </node>
               </node>
             </node>
+            <node concept="19pR3" id="3odeCgA8erz" role="g4nQS" />
           </node>
         </node>
         <node concept="19pR0" id="daLs9N_iww" role="3YiHqO" />
