@@ -45,7 +45,7 @@
       <concept id="3570966331251178368" name="rust.structure.FieldsVariant" flags="ng" index="1I_qlP">
         <child id="3570966331251178369" name="fields" index="1I_qlO" />
       </concept>
-      <concept id="3570966331251178358" name="rust.structure.StructNew" flags="ng" index="1I_qm3">
+      <concept id="3570966331251178358" name="rust.structure.Struct" flags="ng" index="1I_qm3">
         <child id="3570966331251178363" name="data" index="1I_qme" />
       </concept>
       <concept id="6660783661625949398" name="rust.structure.DataTypeDef" flags="ng" index="1KBQu_">
@@ -725,7 +725,6 @@
     <node concept="1I_qm3" id="36eBJlvc20P" role="3YhEVB">
       <property role="TrG5h" value="A" />
       <node concept="1I_qlP" id="36eBJlvc20Q" role="1I_qme" />
-      <node concept="SKNMI" id="36eBJlvc20O" role="1I_qmc" />
     </node>
     <node concept="1I_qm3" id="36eBJlvc20W" role="3YhEVB">
       <property role="TrG5h" value="B" />
@@ -754,18 +753,6 @@
             <node concept="S5f1f" id="36eBJlvc217" role="S5v9l">
               <property role="TrG5h" value="'b" />
             </node>
-          </node>
-        </node>
-      </node>
-      <node concept="SKNMI" id="36eBJlvc20R" role="1I_qmc">
-        <node concept="SKNMG" id="36eBJlvc20S" role="SKNMg">
-          <node concept="S5f1f" id="36eBJlvc20T" role="VJOK_">
-            <property role="TrG5h" value="'a" />
-          </node>
-        </node>
-        <node concept="SKNMG" id="36eBJlvc20U" role="SKNMg">
-          <node concept="S5f1f" id="36eBJlvc20V" role="VJOK_">
-            <property role="TrG5h" value="'b" />
           </node>
         </node>
       </node>
