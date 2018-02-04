@@ -2,7 +2,7 @@
 <model ref="r:50f2aa38-a7e3-4b90-bd54-3f44b46d6198(rust.stash)">
   <persistence version="9" />
   <languages>
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="5" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="6" />
   </languages>
   <imports />
   <registry>
@@ -85,6 +85,7 @@
       </concept>
       <concept id="3709933601141783943" name="rust.structure.StructInit" flags="ng" index="1RaM_N" />
       <concept id="2753953570241008254" name="rust.structure.IfExpr" flags="ng" index="1W6_1g">
+        <child id="3894833591989204087" name="condition" index="jMOVN" />
         <child id="2753953570241008871" name="ifTrue" index="1W6_r9" />
         <child id="2753953570241016320" name="ifFalse" index="1W6B0I" />
       </concept>
@@ -364,6 +365,7 @@
                   <node concept="3YiHqP" id="iPR$nfK16V" role="1W6B0I">
                     <node concept="1K1$Ed" id="daLs9N_iv8" role="3YiHqO" />
                   </node>
+                  <node concept="19pR3" id="3odeCg_Mr2B" role="jMOVN" />
                 </node>
               </node>
               <node concept="3b1d_Q" id="daLs9N_iuH" role="3YiHqO">
@@ -400,6 +402,7 @@
                   <node concept="3YiHqP" id="daLs9NUdbq" role="1W6B0I">
                     <node concept="1K1$Ei" id="daLs9NUdbr" role="3YiHqO" />
                   </node>
+                  <node concept="19pR3" id="3odeCg_Mr2C" role="jMOVN" />
                 </node>
               </node>
               <node concept="3b1d_Q" id="daLs9NUdbs" role="3YiHqO">
@@ -437,6 +440,7 @@
                 <node concept="19pR3" id="daLs9NaulS" role="3b1d_L" />
               </node>
             </node>
+            <node concept="19pR3" id="3odeCg_Mr2D" role="jMOVN" />
           </node>
         </node>
       </node>

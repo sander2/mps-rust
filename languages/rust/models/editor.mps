@@ -699,9 +699,8 @@
         <property role="3F0ifm" value="if" />
         <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
       </node>
-      <node concept="3F0ifn" id="3tSQwZ36RY8" role="3EZMnx">
-        <property role="3F0ifm" value="true" />
-        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      <node concept="3F1sOY" id="3odeCg_LHjK" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:3odeCg_LBhR" resolve="condition" />
       </node>
       <node concept="l2Vlx" id="2oS0yTq8B8k" role="2iSdaV" />
       <node concept="3F1sOY" id="2oS0yTq8B8K" role="3EZMnx">
