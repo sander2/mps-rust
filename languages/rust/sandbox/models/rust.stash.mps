@@ -7,8 +7,16 @@
   <imports />
   <registry>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
+      </concept>
+      <concept id="3717301156197626279" name="jetbrains.mps.lang.core.structure.BasePlaceholder" flags="ng" index="3DQ70j" />
+      <concept id="709746936026466394" name="jetbrains.mps.lang.core.structure.ChildAttribute" flags="ng" index="3VBwX9">
+        <property id="709746936026609031" name="linkId" index="3V$3ak" />
+        <property id="709746936026609029" name="linkRole" index="3V$3am" />
       </concept>
     </language>
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
@@ -54,7 +62,6 @@
         <child id="2753953570241008871" name="ifTrue" index="1W6_r9" />
         <child id="2753953570241016320" name="ifFalse" index="1W6B0I" />
       </concept>
-      <concept id="1099920448281687832" name="rust.structure.Item" flags="ng" index="3YhKj9" />
       <concept id="1099920448281658011" name="rust.structure.Module" flags="ng" index="3YhZ5a">
         <child id="1099920448281713974" name="defs" index="3YhEVB" />
       </concept>
@@ -410,9 +417,18 @@
         <node concept="SKNMI" id="daLs9NaulW" role="2Tz1$T" />
       </node>
     </node>
-    <node concept="3YhKj9" id="36eBJluzZuY" role="3YhEVB" />
-    <node concept="3YhKj9" id="36eBJluzZzV" role="3YhEVB" />
-    <node concept="3YhKj9" id="36eBJluzZCU" role="3YhEVB" />
+    <node concept="3DQ70j" id="2vh$OcMMJ4T" role="lGtFl">
+      <property role="3V$3am" value="defs" />
+      <property role="3V$3ak" value="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e/1099920448281658011/1099920448281713974" />
+    </node>
+    <node concept="3DQ70j" id="2vh$OcMMJ4W" role="lGtFl">
+      <property role="3V$3am" value="defs" />
+      <property role="3V$3ak" value="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e/1099920448281658011/1099920448281713974" />
+    </node>
+    <node concept="3DQ70j" id="2vh$OcMMJ51" role="lGtFl">
+      <property role="3V$3am" value="defs" />
+      <property role="3V$3ak" value="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e/1099920448281658011/1099920448281713974" />
+    </node>
     <node concept="KpV6n" id="daLs9OJJNn" role="3YhEVB">
       <property role="TrG5h" value="test_ok_return_in_let" />
       <node concept="3YiHqP" id="daLs9OJJNo" role="KpVaL">
