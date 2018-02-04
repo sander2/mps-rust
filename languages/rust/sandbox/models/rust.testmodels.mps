@@ -2,7 +2,7 @@
 <model ref="r:0975438c-049b-4b2d-95e4-70bb24bec384(rust.testmodels)">
   <persistence version="9" />
   <languages>
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="3" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="5" />
   </languages>
   <imports />
   <registry>
@@ -97,7 +97,7 @@
       <concept id="3570966331251178368" name="rust.structure.FieldsVariant" flags="ng" index="1I_qlP">
         <child id="3570966331251178369" name="fields" index="1I_qlO" />
       </concept>
-      <concept id="3570966331251178358" name="rust.structure.StructNew" flags="ng" index="1I_qm3">
+      <concept id="3570966331251178358" name="rust.structure.Struct" flags="ng" index="1I_qm3">
         <child id="3570966331251178363" name="data" index="1I_qme" />
       </concept>
       <concept id="3570966331248975802" name="rust.structure.RustComment" flags="ng" index="1JtK5f">
@@ -2486,7 +2486,6 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="36eBJlvc21b" role="1I_qmc" />
     </node>
     <node concept="1I_qm3" id="36eBJlvc21i" role="3YhEVB">
       <property role="TrG5h" value="Z" />
@@ -2506,7 +2505,6 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="36eBJlvc21h" role="1I_qmc" />
     </node>
     <node concept="1I_qm3" id="36eBJlvc21r" role="3YhEVB">
       <property role="TrG5h" value="Z2" />

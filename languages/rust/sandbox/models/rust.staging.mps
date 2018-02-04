@@ -2,7 +2,7 @@
 <model ref="r:b8e93141-71d1-4fe6-9bba-8fff18012183(rust.staging)">
   <persistence version="9" />
   <languages>
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="3" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="5" />
   </languages>
   <imports>
     <import index="ls40" ref="r:6ee45597-f11c-4e46-9762-115c5a6e371d(rust.structure)" />
@@ -45,7 +45,7 @@
       <concept id="3570966331251178368" name="rust.structure.FieldsVariant" flags="ng" index="1I_qlP">
         <child id="3570966331251178369" name="fields" index="1I_qlO" />
       </concept>
-      <concept id="3570966331251178358" name="rust.structure.StructNew" flags="ng" index="1I_qm3">
+      <concept id="3570966331251178358" name="rust.structure.Struct" flags="ng" index="1I_qm3">
         <child id="3570966331251178363" name="data" index="1I_qme" />
       </concept>
       <concept id="6660783661625949398" name="rust.structure.DataTypeDef" flags="ng" index="1KBQu_">
