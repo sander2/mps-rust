@@ -2454,6 +2454,7 @@
     <node concept="3EZMnI" id="36eBJlv7hrK" role="2wV5jI">
       <node concept="3F0ifn" id="36eBJlv7hrL" role="3EZMnx">
         <property role="3F0ifm" value="struct" />
+        <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
       </node>
       <node concept="3F0A7n" id="36eBJlv7hrM" role="3EZMnx">
         <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
@@ -2578,7 +2579,7 @@
           <node concept="3clFbS" id="5LJQRcH25It" role="2VODD2">
             <node concept="3clFbF" id="5LJQRcH25Iu" role="3cqZAp">
               <node concept="Xl_RD" id="5LJQRcH25Iv" role="3clFbG">
-                <property role="Xl_RC" value="!" />
+                <property role="Xl_RC" value="&lt;" />
               </node>
             </node>
           </node>
