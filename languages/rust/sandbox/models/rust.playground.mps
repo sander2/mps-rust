@@ -66,6 +66,26 @@
   </registry>
   <node concept="3YhZ5a" id="3IOa0fhWB$I">
     <property role="TrG5h" value="Playground" />
+    <node concept="1I_qm3" id="2vh$OcNvfTm" role="3YhEVB">
+      <property role="TrG5h" value="XYZ" />
+      <node concept="1I_qlP" id="2vh$OcNvfWg" role="1I_qme">
+        <node concept="3Yh6Oj" id="2vh$OcNvfWk" role="1I_qlO">
+          <property role="TrG5h" value="x" />
+          <node concept="Lhmvi" id="2vh$OcNvfWq" role="LhiMj">
+            <property role="TrG5h" value="X" />
+            <node concept="SKNMI" id="2vh$OcNvfWs" role="2Tz1$T" />
+          </node>
+        </node>
+        <node concept="3Yh6Oj" id="2vh$OcNvfWy" role="1I_qlO">
+          <property role="TrG5h" value="x" />
+          <node concept="Lhmvi" id="2vh$OcNvfWz" role="LhiMj">
+            <property role="TrG5h" value="X" />
+            <node concept="SKNMI" id="2vh$OcNvfW$" role="2Tz1$T" />
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="2vh$OcNvfTq" role="1I_qmc" />
+    </node>
     <node concept="KpV6n" id="5LJQRcH2NgI" role="3YhEVB">
       <property role="TrG5h" value="q" />
       <node concept="3YiHqP" id="5LJQRcH2NgK" role="KpVaL">
