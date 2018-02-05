@@ -93,6 +93,7 @@
       <concept id="1099920448281894594" name="rust.structure.StructFieldDecl" flags="ng" index="3Yh6Oj">
         <child id="6397481250907310046" name="ty" index="LhiMj" />
       </concept>
+      <concept id="1099920448281687832" name="rust.structure.Item" flags="ng" index="3YhKj9" />
       <concept id="1099920448281658011" name="rust.structure.Module" flags="ng" index="3YhZ5a">
         <child id="1099920448281713974" name="defs" index="3YhEVB" />
       </concept>
@@ -854,6 +855,82 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="3YhKj9" id="3tTpUZQI5hq" role="3YhEVB" />
+    <node concept="1I_qm3" id="3odeCg_$onp" role="3YhEVB">
+      <property role="TrG5h" value="X" />
+      <node concept="1I_qlP" id="3odeCg_$onI" role="1I_qme" />
+      <node concept="SKNMI" id="3odeCg_$ont" role="1I_qmc" />
+    </node>
+    <node concept="1Iijof" id="3odeCg_$omF" role="3YhEVB">
+      <property role="TrG5h" value="Enum1" />
+      <node concept="SKNMI" id="3odeCg_$omG" role="1I_qmc" />
+    </node>
+    <node concept="1Iijof" id="3odeCg_$omJ" role="3YhEVB">
+      <property role="TrG5h" value="Enum2" />
+      <node concept="1Iijo8" id="3odeCg_$omP" role="1Iijob">
+        <property role="TrG5h" value="Variant1" />
+        <node concept="1I_qlP" id="3odeCg_$omR" role="_6_rc" />
+      </node>
+      <node concept="SKNMI" id="3odeCg_$omK" role="1I_qmc" />
+    </node>
+    <node concept="1Iijof" id="3odeCg_$omT" role="3YhEVB">
+      <property role="TrG5h" value="Enum3" />
+      <node concept="1Iijo8" id="3odeCg_$omU" role="1Iijob">
+        <property role="TrG5h" value="Variant1" />
+        <node concept="1I_qlP" id="3odeCg_$omV" role="_6_rc">
+          <node concept="3Yh6Oj" id="3odeCg_$on7" role="1I_qlO">
+            <property role="TrG5h" value="item1" />
+            <node concept="Lhmvi" id="3odeCg_$onL" role="LhiMj">
+              <property role="TrG5h" value="X" />
+              <node concept="SKNMI" id="3odeCg_$onN" role="2Tz1$T" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="3odeCg_$omW" role="1I_qmc" />
+    </node>
+    <node concept="1Iijof" id="3odeCg_$onR" role="3YhEVB">
+      <property role="TrG5h" value="Enum4" />
+      <node concept="1Iijo8" id="3odeCg_$onS" role="1Iijob">
+        <property role="TrG5h" value="Variant1" />
+        <node concept="1I_qlP" id="3odeCg_$onT" role="_6_rc">
+          <node concept="3Yh6Oj" id="3odeCg_$onU" role="1I_qlO">
+            <property role="TrG5h" value="item1" />
+            <node concept="Lhmvi" id="3odeCg_$onV" role="LhiMj">
+              <property role="TrG5h" value="X" />
+              <node concept="SKNMI" id="3odeCg_$onW" role="2Tz1$T" />
+            </node>
+          </node>
+          <node concept="3Yh6Oj" id="3odeCg_$ool" role="1I_qlO">
+            <property role="TrG5h" value="item2" />
+            <node concept="Lhmvi" id="3odeCg_$oom" role="LhiMj">
+              <property role="TrG5h" value="X" />
+              <node concept="SKNMI" id="3odeCg_$oon" role="2Tz1$T" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1Iijo8" id="3odeCg_$oou" role="1Iijob">
+        <property role="TrG5h" value="Variant2" />
+        <node concept="1I_qlP" id="3odeCg_$oov" role="_6_rc">
+          <node concept="3Yh6Oj" id="3odeCg_$oow" role="1I_qlO">
+            <property role="TrG5h" value="item3" />
+            <node concept="Lhmvi" id="3odeCg_$oox" role="LhiMj">
+              <property role="TrG5h" value="X" />
+              <node concept="SKNMI" id="3odeCg_$ooy" role="2Tz1$T" />
+            </node>
+          </node>
+          <node concept="3Yh6Oj" id="3odeCg_$ooz" role="1I_qlO">
+            <property role="TrG5h" value="item4" />
+            <node concept="Lhmvi" id="3odeCg_$oo$" role="LhiMj">
+              <property role="TrG5h" value="X" />
+              <node concept="SKNMI" id="3odeCg_$oo_" role="2Tz1$T" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="3odeCg_$onX" role="1I_qmc" />
     </node>
   </node>
 </model>
