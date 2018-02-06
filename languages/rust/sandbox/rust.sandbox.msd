@@ -15,7 +15,6 @@
     <dependency reexport="false">7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)</dependency>
     <dependency reexport="false">8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
-    <dependency reexport="false">caf25f7b-d31c-47ec-9b81-44629d39c479(rust.benchmarker)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:164506a7-7496-45ef-a65c-87c02ee66d82:RustComments" version="0" />
