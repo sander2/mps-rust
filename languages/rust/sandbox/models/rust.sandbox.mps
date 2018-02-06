@@ -16886,12 +16886,40 @@
             <property role="TrG5h" value="t" />
           </node>
         </node>
+        <node concept="34ocy7" id="2UYuFh_vAyK" role="1dgzf0">
+          <node concept="2dT$3Y" id="2UYuFh_vC8m" role="34ocs8">
+            <node concept="2k1GkI" id="2UYuFh_vJQg" role="2dT$1H">
+              <node concept="2k1_uq" id="2UYuFh_vJQe" role="2nKVj6">
+                <ref role="2nKBpL" node="2UYuFh_u$t1" resolve="ownedType_GenericsNok" />
+                <node concept="30NkWi" id="2UYuFh_vJQH" role="2nKBpO">
+                  <ref role="XkjO9" node="2vh$OcN3Lo0" resolve="t" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1VLyuc" id="7h5rk7lDN7i" role="1dv5OJ">
+        <property role="TrG5h" value="s" />
+        <node concept="2kdjtB" id="2vh$OcNa1eX" role="1dukDx">
+          <ref role="2UGuZ7" to="ls40:5LJQRcGWbNm" resolve="DataTypeDef" />
+        </node>
+      </node>
+      <node concept="wzYhD" id="2vh$OcMFuZ3" role="wzYgH" />
+    </node>
+    <node concept="1XdyHe" id="2vh$OcN4l4c" role="1dubk0" />
+    <node concept="1XdyHb" id="2vh$OcN3Loq" role="1dubk0">
+      <property role="1dubkF" value="nok if t supplies too many or too few generics" />
+    </node>
+    <node concept="3zyOaA" id="2UYuFh_u$t1" role="1dubk0">
+      <property role="TrG5h" value="ownedType_GenericsNok" />
+      <node concept="3zV_Rz" id="2UYuFh_u$t2" role="3zVECS">
         <node concept="34odk1" id="2vh$OcN3Lo1" role="1dgzf0">
           <node concept="2k1GkI" id="2vh$OcN3Lo2" role="34ocZk">
             <node concept="2k1_uq" id="2vh$OcN3Lo3" role="2nKVj6">
               <ref role="2nKBpL" node="3cETwxIuzM" resolve="getSurroundingModule" />
-              <node concept="30NkWi" id="2vh$OcN3Lo4" role="2nKBpO">
-                <ref role="XkjO9" node="7h5rk7lDN7i" resolve="s" />
+              <node concept="30NkWi" id="2UYuFh_vd3A" role="2nKBpO">
+                <ref role="XkjO9" node="2UYuFh_uQwN" resolve="t" />
               </node>
             </node>
           </node>
@@ -16908,7 +16936,7 @@
                   <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
                 </node>
                 <node concept="30NkWi" id="2vh$OcN3Lob" role="2kdhYM">
-                  <ref role="XkjO9" node="2vh$OcN3Lo0" resolve="t" />
+                  <ref role="XkjO9" node="2UYuFh_uQwN" resolve="t" />
                 </node>
               </node>
               <node concept="30NkWi" id="2vh$OcN3Loc" role="2nKBpO">
@@ -16930,7 +16958,7 @@
             </node>
           </node>
           <node concept="30KbLJ" id="2vh$OcN3Loi" role="34ocZn">
-            <property role="TrG5h" value="targetGenerics" />
+            <property role="TrG5h" value="expectedGenerics" />
           </node>
         </node>
         <node concept="34odk1" id="2vh$OcN3Loj" role="1dgzf0">
@@ -16939,17 +16967,17 @@
               <ref role="3zVwH8" to="ls40:7_66cN0Mw7P" resolve="generics" />
             </node>
             <node concept="30NkWi" id="2vh$OcN3Lom" role="2kdhYM">
-              <ref role="XkjO9" node="2vh$OcN3Lo0" resolve="t" />
+              <ref role="XkjO9" node="2UYuFh_uQwN" resolve="t" />
             </node>
           </node>
           <node concept="30KbLJ" id="2vh$OcN3Lon" role="34ocZn">
-            <property role="TrG5h" value="tGenerics" />
+            <property role="TrG5h" value="suppliedGenerics" />
           </node>
         </node>
         <node concept="1waTxd" id="2vh$OcN3Loo" role="1dgzf0">
           <node concept="3zV_Rz" id="2vh$OcN3Lop" role="3zVECR">
-            <node concept="1XdyHb" id="2vh$OcN3Loq" role="1dgzf0">
-              <property role="1dubkF" value="nok if t supplies too many or too few generics" />
+            <node concept="1XdyHb" id="2UYuFh_CJjL" role="1dgzf0">
+              <property role="1dubkF" value="lifetime given where none are expected" />
             </node>
             <node concept="34ocy7" id="2vh$OcN3Lor" role="1dgzf0">
               <node concept="2dT$3Y" id="2vh$OcN3Los" role="34ocs8">
@@ -16958,7 +16986,7 @@
                     <ref role="3zVwH8" to="ls40:B66j8L1imy" resolve="params" />
                   </node>
                   <node concept="30NkWi" id="2vh$OcN3Lov" role="2kdhYM">
-                    <ref role="XkjO9" node="2vh$OcN3Lon" resolve="tGenerics" />
+                    <ref role="XkjO9" node="2vh$OcN3Lon" resolve="suppliedGenerics" />
                   </node>
                 </node>
               </node>
@@ -16970,13 +16998,42 @@
                     <ref role="3zVwH8" to="ls40:B66j8L1imy" resolve="params" />
                   </node>
                   <node concept="30NkWi" id="2vh$OcN3Lo$" role="2kdhYM">
-                    <ref role="XkjO9" node="2vh$OcN3Loi" resolve="targetGenerics" />
+                    <ref role="XkjO9" node="2vh$OcN3Loi" resolve="expectedGenerics" />
                   </node>
                 </node>
               </node>
             </node>
           </node>
           <node concept="3zV_Rz" id="2vh$OcN3Lo_" role="3zVECR">
+            <node concept="1XdyHb" id="2UYuFh_D6Yf" role="1dgzf0">
+              <property role="1dubkF" value="no lifetime given where there are some expected." />
+            </node>
+            <node concept="1XdyHb" id="2UYuFh_DBGc" role="1dgzf0">
+              <property role="1dubkF" value="this is not an error in functions since they can be elided" />
+            </node>
+            <node concept="34odk1" id="2UYuFh_EwL2" role="1dgzf0">
+              <node concept="2k1GkI" id="2UYuFh_ECm0" role="34ocZk">
+                <node concept="2k1_uq" id="2UYuFh_EClY" role="2nKVj6">
+                  <ref role="2nKBpL" node="llrzm4Xbuz" resolve="getSurroundingItem" />
+                  <node concept="30NkWi" id="2UYuFh_EDXO" role="2nKBpO">
+                    <ref role="XkjO9" node="2UYuFh_uQwN" resolve="t" />
+                  </node>
+                </node>
+              </node>
+              <node concept="30KbLJ" id="2UYuFh_ElXI" role="34ocZn">
+                <property role="TrG5h" value="item" />
+              </node>
+            </node>
+            <node concept="34ocy7" id="2UYuFh_ENUe" role="1dgzf0">
+              <node concept="2BbxxA" id="2UYuFh_ERgX" role="34ocs8">
+                <node concept="2kdjtB" id="2UYuFh_EYNJ" role="2RGvlO">
+                  <ref role="2UGuZ7" to="ls40:67zX15hx4m6" resolve="Function" />
+                </node>
+                <node concept="30NkWi" id="2UYuFh_HxOe" role="2RGvhl">
+                  <ref role="XkjO9" node="2UYuFh_ElXI" resolve="item" />
+                </node>
+              </node>
+            </node>
             <node concept="34ocy7" id="2vh$OcN3LoA" role="1dgzf0">
               <node concept="34sUYq" id="2vh$OcN3LoB" role="34ocs8">
                 <node concept="2kdhWc" id="2vh$OcN3LoC" role="34sUSb">
@@ -16984,7 +17041,7 @@
                     <ref role="3zVwH8" to="ls40:B66j8L1imy" resolve="params" />
                   </node>
                   <node concept="30NkWi" id="2vh$OcN3LoE" role="2kdhYM">
-                    <ref role="XkjO9" node="2vh$OcN3Lon" resolve="tGenerics" />
+                    <ref role="XkjO9" node="2vh$OcN3Lon" resolve="suppliedGenerics" />
                   </node>
                 </node>
               </node>
@@ -16996,13 +17053,16 @@
                     <ref role="3zVwH8" to="ls40:B66j8L1imy" resolve="params" />
                   </node>
                   <node concept="30NkWi" id="2vh$OcN3LoJ" role="2kdhYM">
-                    <ref role="XkjO9" node="2vh$OcN3Loi" resolve="targetGenerics" />
+                    <ref role="XkjO9" node="2vh$OcN3Loi" resolve="expectedGenerics" />
                   </node>
                 </node>
               </node>
             </node>
           </node>
           <node concept="3zV_Rz" id="2vh$OcN3LoK" role="3zVECR">
+            <node concept="1XdyHb" id="2UYuFh_F24c" role="1dgzf0">
+              <property role="1dubkF" value="invalid number of args, remaining cases" />
+            </node>
             <node concept="34odk1" id="2vh$OcN3LoL" role="1dgzf0">
               <node concept="2kdhWc" id="2vh$OcN3LoM" role="34ocZk">
                 <node concept="727y6" id="2vh$OcN3LoN" role="3zVzRQ">
@@ -17012,7 +17072,7 @@
                   </node>
                 </node>
                 <node concept="30NkWi" id="2vh$OcN3LoP" role="2kdhYM">
-                  <ref role="XkjO9" node="2vh$OcN3Lo0" resolve="t" />
+                  <ref role="XkjO9" node="2UYuFh_uQwN" resolve="t" />
                 </node>
               </node>
               <node concept="30KbLJ" id="2vh$OcN3LoQ" role="34ocZn">
@@ -17077,15 +17137,15 @@
           </node>
         </node>
       </node>
-      <node concept="1VLyuc" id="7h5rk7lDN7i" role="1dv5OJ">
-        <property role="TrG5h" value="s" />
-        <node concept="2kdjtB" id="2vh$OcNa1eX" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:5LJQRcGWbNm" resolve="DataTypeDef" />
+      <node concept="wzYYL" id="2UYuFh_u$sZ" role="wzYgH" />
+      <node concept="1VLyuc" id="2UYuFh_uQwN" role="1dv5OJ">
+        <property role="TrG5h" value="t" />
+        <node concept="2kdjtB" id="2UYuFh_v3mI" role="1dukDx">
+          <ref role="2UGuZ7" to="ls40:5z8qOPDzgMv" resolve="OwnedType" />
         </node>
       </node>
-      <node concept="wzYhD" id="2vh$OcMFuZ3" role="wzYgH" />
     </node>
-    <node concept="1XdyHe" id="2vh$OcN4l4c" role="1dubk0" />
+    <node concept="1XdyHe" id="2UYuFh_uohD" role="1dubk0" />
     <node concept="3zyOaA" id="2vh$OcN4EDP" role="1dubk0">
       <property role="TrG5h" value="dataTypeDef_GetVariants" />
       <node concept="3zV_Rz" id="2vh$OcN4EDQ" role="3zVECS">
@@ -17819,6 +17879,79 @@
                 <ref role="2nKBpL" node="B66j8MKsWc" resolve="resolveLifetime" />
                 <node concept="30NkWi" id="llrzm4Rjuo" role="2nKBpO">
                   <ref role="XkjO9" node="llrzm4QX7D" resolve="ref" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="2UYuFh_$1yj" role="3zVECS">
+        <node concept="1XdyHb" id="2UYuFh__hbf" role="1dgzf0">
+          <property role="1dubkF" value="invalid length of generics in arg" />
+        </node>
+        <node concept="34odk1" id="2UYuFh_$xEv" role="1dgzf0">
+          <node concept="2k1GkI" id="2UYuFh_$DkP" role="34ocZk">
+            <node concept="2k1_uq" id="2UYuFh_$DkN" role="2nKVj6">
+              <ref role="2nKBpL" node="7h5rk7lDNaF" resolve="typeGetUsedOwnedType" />
+              <node concept="2kdhWc" id="2UYuFh_$EUx" role="2nKBpO">
+                <node concept="727y6" id="2UYuFh_$Gw9" role="3zVzRQ">
+                  <ref role="3zVwH8" to="ls40:4CgVvoSZkH4" resolve="args" />
+                  <node concept="727y6" id="2UYuFh_$Gy9" role="3zVwHm">
+                    <ref role="3zVwH8" to="ls40:4CgVvoSZgOL" resolve="ty" />
+                  </node>
+                </node>
+                <node concept="30NkWi" id="2UYuFh_$EUv" role="2kdhYM">
+                  <ref role="XkjO9" node="3tTpUZQqPfg" resolve="f" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="2UYuFh_$9y8" role="34ocZn">
+            <property role="TrG5h" value="argTy" />
+          </node>
+        </node>
+        <node concept="34ocy7" id="2UYuFh_$XbP" role="1dgzf0">
+          <node concept="2dT$3Y" id="2UYuFh__4Fi" role="34ocs8">
+            <node concept="2k1GkI" id="2UYuFh__caN" role="2dT$1H">
+              <node concept="2k1_uq" id="2UYuFh__caL" role="2nKVj6">
+                <ref role="2nKBpL" node="2UYuFh_u$t1" resolve="ownedType_GenericsNok" />
+                <node concept="30NkWi" id="2UYuFh__cb8" role="2nKBpO">
+                  <ref role="XkjO9" node="2UYuFh_$9y8" resolve="argTy" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="2UYuFh__dLR" role="3zVECS">
+        <node concept="1XdyHb" id="2UYuFh___oX" role="1dgzf0">
+          <property role="1dubkF" value="invalid length of generics in returntype" />
+        </node>
+        <node concept="34odk1" id="2UYuFh__dLS" role="1dgzf0">
+          <node concept="2k1GkI" id="2UYuFh__dLT" role="34ocZk">
+            <node concept="2k1_uq" id="2UYuFh__dLU" role="2nKVj6">
+              <ref role="2nKBpL" node="7h5rk7lDNaF" resolve="typeGetUsedOwnedType" />
+              <node concept="2kdhWc" id="2UYuFh__dLV" role="2nKBpO">
+                <node concept="727y6" id="2UYuFh__frv" role="3zVzRQ">
+                  <ref role="3zVwH8" to="ls40:5MYV7vaYjEz" resolve="returnType" />
+                </node>
+                <node concept="30NkWi" id="2UYuFh__dLY" role="2kdhYM">
+                  <ref role="XkjO9" node="3tTpUZQqPfg" resolve="f" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="2UYuFh__dLZ" role="34ocZn">
+            <property role="TrG5h" value="retTy" />
+          </node>
+        </node>
+        <node concept="34ocy7" id="2UYuFh__dM0" role="1dgzf0">
+          <node concept="2dT$3Y" id="2UYuFh__dM1" role="34ocs8">
+            <node concept="2k1GkI" id="2UYuFh__dM2" role="2dT$1H">
+              <node concept="2k1_uq" id="2UYuFh__dM3" role="2nKVj6">
+                <ref role="2nKBpL" node="2UYuFh_u$t1" resolve="ownedType_GenericsNok" />
+                <node concept="30NkWi" id="2UYuFh__dM4" role="2nKBpO">
+                  <ref role="XkjO9" node="2UYuFh__dLZ" resolve="retTy" />
                 </node>
               </node>
             </node>
