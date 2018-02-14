@@ -20981,6 +20981,96 @@
           </node>
         </node>
       </node>
+      <node concept="3zV_Rz" id="1R5hX0V9x7S" role="3zVECS">
+        <node concept="34odk1" id="1R5hX0Va5hQ" role="1dgzf0">
+          <node concept="2kdhWc" id="1R5hX0Va5hR" role="34ocZk">
+            <node concept="3lV9gE" id="1R5hX0Va5hS" role="3zVzRQ">
+              <ref role="3zVwH8" to="hqsm:7A0HCuGt5rZ" resolve="parent" />
+            </node>
+            <node concept="30NkWi" id="1R5hX0Va5hT" role="2kdhYM">
+              <ref role="XkjO9" node="3IIgHeSky2u" resolve="i" />
+            </node>
+          </node>
+          <node concept="30KbLJ" id="1R5hX0Va5hU" role="34ocZn">
+            <property role="TrG5h" value="parent" />
+          </node>
+        </node>
+        <node concept="34ocy7" id="1R5hX0Va5hV" role="1dgzf0">
+          <node concept="2BbxxA" id="1R5hX0Va5hW" role="34ocs8">
+            <node concept="2kdjtB" id="1R5hX0Va5hX" role="2RGvlO">
+              <ref role="2UGuZ7" to="ls40:5z8qOPD_3tU" resolve="ITypeRef" />
+            </node>
+            <node concept="30NkWi" id="1R5hX0Va5hY" role="2RGvhl">
+              <ref role="XkjO9" node="1R5hX0Va5hU" resolve="parent" />
+            </node>
+          </node>
+        </node>
+        <node concept="34ocy7" id="1R5hX0VdLEx" role="1dgzf0">
+          <node concept="34oehE" id="1R5hX0Ve3zu" role="34ocs8">
+            <node concept="2kdjtB" id="1R5hX0VeCXP" role="2RGvlO">
+              <ref role="2UGuZ7" to="ls40:5z8qOPDzgMv" resolve="OwnedType" />
+            </node>
+            <node concept="30NkWi" id="1R5hX0VdLF2" role="2RGvhl">
+              <ref role="XkjO9" node="3IIgHeSky2u" resolve="i" />
+            </node>
+          </node>
+        </node>
+        <node concept="34odk1" id="1R5hX0VfveA" role="1dgzf0">
+          <node concept="2k1GkI" id="1R5hX0Vg4_u" role="34ocZk">
+            <node concept="2k1_uq" id="1R5hX0Vg4_s" role="2nKVj6">
+              <ref role="2nKBpL" node="3IIgHeS8IeC" resolve="resolveOwnedType" />
+              <node concept="30NkWi" id="1R5hX0Vgm4r" role="2nKBpO">
+                <ref role="XkjO9" node="3IIgHeSky2u" resolve="i" />
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="1R5hX0Vfe5z" role="34ocZn">
+            <property role="TrG5h" value="s" />
+          </node>
+        </node>
+        <node concept="34odk1" id="1R5hX0VmTTK" role="1dgzf0">
+          <node concept="2k1GkI" id="1R5hX0VnuF9" role="34ocZk">
+            <node concept="2k1_uq" id="1R5hX0VnuF7" role="2nKVj6">
+              <ref role="2nKBpL" node="gXDxRp9yGA" resolve="struct_lifetimeCorresponds" />
+              <node concept="30NkWi" id="1R5hX0VnJ$Z" role="2nKBpO">
+                <ref role="XkjO9" node="1R5hX0Vfe5z" resolve="s" />
+              </node>
+            </node>
+          </node>
+          <node concept="2k1_ex" id="1R5hX0VlMo5" role="34ocZn">
+            <node concept="30KbLJ" id="1R5hX0VmndX" role="3tmOSN">
+              <property role="TrG5h" value="a" />
+            </node>
+            <node concept="30KbLJ" id="1R5hX0VmBCa" role="3tmOSN">
+              <property role="TrG5h" value="b" />
+            </node>
+          </node>
+        </node>
+        <node concept="30Nfyg" id="1R5hX0VoiPi" role="1dgzf0">
+          <node concept="2k1_ex" id="1R5hX0VoiQn" role="30Nf_D">
+            <node concept="30NkWi" id="1R5hX0Vo$xr" role="3tmOSN">
+              <ref role="XkjO9" node="1R5hX0VmBCa" resolve="b" />
+            </node>
+            <node concept="30NkWi" id="1R5hX0Vo$xC" role="3tmOSN">
+              <ref role="XkjO9" node="1R5hX0VmndX" resolve="a" />
+            </node>
+          </node>
+        </node>
+        <node concept="1X3_iC" id="1R5hX0VoPbn" role="lGtFl">
+          <property role="3V$3am" value="contents" />
+          <property role="3V$3ak" value="b802a056-92a2-4fbc-902e-f8e5004c331f/4530729936991344605/4530729936991965471" />
+          <node concept="30Nfyg" id="1R5hX0VhbmY" role="8Wnug">
+            <node concept="2k1GkI" id="1R5hX0VhLfE" role="30Nf_D">
+              <node concept="2k1_uq" id="1R5hX0VhLfC" role="2nKVj6">
+                <ref role="2nKBpL" node="gXDxRp9yGA" resolve="struct_lifetimeCorresponds" />
+                <node concept="30NkWi" id="1R5hX0Vi0U1" role="2nKBpO">
+                  <ref role="XkjO9" node="1R5hX0Vfe5z" resolve="s" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3zV_Rz" id="3IIgHeSsoih" role="3zVECS">
         <node concept="1XdyHb" id="3IIgHeSKxkW" role="1dgzf0">
           <property role="1dubkF" value="use head recursion to calculate closure: if exists (a,b) then also (a.next, b.next)" />
