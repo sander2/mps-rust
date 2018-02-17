@@ -22010,17 +22010,21 @@
         <node concept="1XdyHb" id="40FtoMN2Gny" role="1dgzf0">
           <property role="1dubkF" value="only look for return type which actually contain lifetime refs (we assume no elision for now)" />
         </node>
-        <node concept="34ocy7" id="40FtoMMZ$Kb" role="1dgzf0">
-          <node concept="2dT$3Y" id="40FtoMMZC32" role="34ocs8">
-            <node concept="2k1GkI" id="40FtoMMZUjd" role="2dT$1H">
-              <node concept="2k1_uq" id="40FtoMMZUjb" role="2nKVj6">
-                <ref role="2nKBpL" node="1L7nrci2O_7" resolve="type_getLifetimeRefs" />
-                <node concept="2kdhWc" id="40FtoMN0TG8" role="2nKBpO">
-                  <node concept="727y6" id="40FtoMN1ce2" role="3zVzRQ">
-                    <ref role="3zVwH8" to="ls40:5MYV7vaYjEz" resolve="returnType" />
-                  </node>
-                  <node concept="30NkWi" id="40FtoMN0TG5" role="2kdhYM">
-                    <ref role="XkjO9" node="40FtoMMFoG9" resolve="f" />
+        <node concept="1X3_iC" id="7FMFGocf5l4" role="lGtFl">
+          <property role="3V$3am" value="contents" />
+          <property role="3V$3ak" value="b802a056-92a2-4fbc-902e-f8e5004c331f/4530729936991344605/4530729936991965471" />
+          <node concept="34ocy7" id="40FtoMMZ$Kb" role="8Wnug">
+            <node concept="2dT$3Y" id="40FtoMMZC32" role="34ocs8">
+              <node concept="2k1GkI" id="40FtoMMZUjd" role="2dT$1H">
+                <node concept="2k1_uq" id="40FtoMMZUjb" role="2nKVj6">
+                  <ref role="2nKBpL" node="1L7nrci2O_7" resolve="type_getLifetimeRefs" />
+                  <node concept="2kdhWc" id="40FtoMN0TG8" role="2nKBpO">
+                    <node concept="727y6" id="40FtoMN1ce2" role="3zVzRQ">
+                      <ref role="3zVwH8" to="ls40:5MYV7vaYjEz" resolve="returnType" />
+                    </node>
+                    <node concept="30NkWi" id="40FtoMN0TG5" role="2kdhYM">
+                      <ref role="XkjO9" node="40FtoMMFoG9" resolve="f" />
+                    </node>
                   </node>
                 </node>
               </node>
