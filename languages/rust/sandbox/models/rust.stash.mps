@@ -1255,6 +1255,51 @@
         </node>
       </node>
     </node>
+    <node concept="3YhKj9" id="5uD1K04iKka" role="3YhEVB" />
+    <node concept="3YhKj9" id="5uD1K04iKzf" role="3YhEVB" />
+    <node concept="3YhKj9" id="5uD1K04iKMm" role="3YhEVB" />
+    <node concept="KpV6n" id="7j$eJQWcXIS" role="3YhEVB">
+      <property role="TrG5h" value="test_fail_func_call_lifetime_6" />
+      <node concept="3YiHqP" id="7j$eJQWcXIT" role="KpVaL">
+        <node concept="36JcfG" id="7j$eJQWcXIU" role="3YiHqO">
+          <node concept="2ESRZV" id="7j$eJQWcXIV" role="1uLnU5">
+            <property role="3$7nJ9" value="false" />
+            <property role="TrG5h" value="tmp1" />
+          </node>
+          <node concept="1RaM_N" id="7j$eJQWcXIW" role="36Jc8R">
+            <property role="TrG5h" value="A" />
+          </node>
+        </node>
+        <node concept="36JcfG" id="5uD1K03tTF1" role="3YiHqO">
+          <node concept="2ESRZV" id="5uD1K03tTFn" role="1uLnU5">
+            <property role="3$7nJ9" value="false" />
+            <property role="TrG5h" value="tmp2" />
+          </node>
+          <node concept="3LTT0e" id="5uD1K03tTFu" role="36Jc8R">
+            <property role="3LTT0f" value="false" />
+            <node concept="36GXDm" id="5uD1K03tTFA" role="3LTTvY">
+              <property role="TrG5h" value="tmp1" />
+            </node>
+          </node>
+        </node>
+        <node concept="36JcfG" id="7j$eJQWcXIX" role="3YiHqO">
+          <node concept="2ESRZV" id="7j$eJQWcXIY" role="1uLnU5">
+            <property role="3$7nJ9" value="false" />
+            <property role="TrG5h" value="arg1" />
+          </node>
+          <node concept="1RaM_N" id="7j$eJQWcXIZ" role="36Jc8R">
+            <property role="TrG5h" value="F" />
+            <node concept="1RaM_Y" id="7j$eJQWcXJ0" role="1RaM_V">
+              <property role="TrG5h" value="a" />
+              <node concept="36GXDm" id="5uD1K03tTFJ" role="1RaM_T">
+                <property role="TrG5h" value="tmp2" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="7j$eJQWcXJO" role="SMsWp" />
+    </node>
   </node>
 </model>
 
