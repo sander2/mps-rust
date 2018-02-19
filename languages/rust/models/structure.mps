@@ -723,6 +723,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="B66j8LOI_X" resolve="Lifetime" />
     </node>
+    <node concept="1TJgyj" id="6GNqNYiJXnb" role="1TKVEi">
+      <property role="IQ2ns" value="7724635706659689931" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="bounds" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="B66j8LOI_X" resolve="Lifetime" />
+    </node>
   </node>
   <node concept="1TIwiD" id="B66j8LOI_X">
     <property role="EcuMT" value="704278095105026429" />
