@@ -330,6 +330,7 @@
         <reference id="1024655549788599479" name="module" index="ws7DW" />
       </concept>
       <concept id="1024655549795904162" name="org.inca.core.structure.ProtectedVisibility" flags="ng" index="wzYhD" />
+      <concept id="1024655549795904180" name="org.inca.core.structure.PublicVisibility" flags="ng" index="wzYhZ" />
       <concept id="1024655549795901818" name="org.inca.core.structure.PrivateVisibility" flags="ng" index="wzYYL" />
       <concept id="7447605944634188286" name="org.inca.core.structure.NewMatchOperation" flags="ng" index="2ymhvr">
         <child id="7447605944634333569" name="bindings" index="2ynQY$" />
@@ -578,6 +579,7 @@
           <ref role="2UGuZ7" to="ls40:X3GX7L14ar" resolve="Module" />
         </node>
       </node>
+      <node concept="wzYhZ" id="459FEiJRMm1" role="wzYgH" />
     </node>
     <node concept="1XdyHe" id="4JmXFjQ1JcY" role="1dubk0" />
     <node concept="3zyOaA" id="B66j8LjUNe" role="1dubk0">
@@ -804,6 +806,7 @@
           </node>
         </node>
       </node>
+      <node concept="wzYhZ" id="459FEiJRc7q" role="wzYgH" />
     </node>
     <node concept="1XdyHe" id="3SsynISLURB" role="1dubk0" />
     <node concept="3zyOaA" id="1ACJDl4T4OU" role="1dubk0">
@@ -13240,6 +13243,7 @@
           <ref role="2UGuZ7" to="ls40:67zX15hx4m6" resolve="Function" />
         </node>
       </node>
+      <node concept="wzYhZ" id="459FEiJSM0q" role="wzYgH" />
     </node>
     <node concept="1XdyHe" id="6k$2nTdAmqu" role="1dubk0" />
     <node concept="3zyOaA" id="2q_fATW2o$a" role="1dubk0">
