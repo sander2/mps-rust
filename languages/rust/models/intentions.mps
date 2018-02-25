@@ -418,5 +418,77 @@
       </node>
     </node>
   </node>
+  <node concept="2S6QgY" id="3xR$tTkxvq5">
+    <property role="TrG5h" value="StructToEnum" />
+    <ref role="2ZfgGC" to="ls40:36eBJlv6NHQ" resolve="Struct" />
+    <node concept="2S6ZIM" id="3xR$tTkxvq6" role="2ZfVej">
+      <node concept="3clFbS" id="3xR$tTkxvq7" role="2VODD2">
+        <node concept="3clFbF" id="3xR$tTkxvz2" role="3cqZAp">
+          <node concept="Xl_RD" id="3xR$tTkxvz1" role="3clFbG">
+            <property role="Xl_RC" value="Convert to Enum" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2Sbjvc" id="3xR$tTkxvq8" role="2ZfgGD">
+      <node concept="3clFbS" id="3xR$tTkxvq9" role="2VODD2">
+        <node concept="3clFbF" id="3xR$tTkxwn7" role="3cqZAp">
+          <node concept="2OqwBi" id="3xR$tTkxwxx" role="3clFbG">
+            <node concept="2Sf5sV" id="3xR$tTkxwn6" role="2Oq$k0" />
+            <node concept="1P9Npp" id="3xR$tTkxx5r" role="2OqNvi">
+              <node concept="2pJPEk" id="3xR$tTkxx7D" role="1P9ThW">
+                <node concept="2pJPED" id="3xR$tTkxx9R" role="2pJPEn">
+                  <ref role="2pJxaS" to="ls40:36eBJlvLUzU" resolve="Enum" />
+                  <node concept="2pIpSj" id="3xR$tTkxxcV" role="2pJxcM">
+                    <ref role="2pIpSl" to="ls40:36eBJlv6NHT" resolve="generics" />
+                    <node concept="36biLy" id="3xR$tTkxxg4" role="2pJxcZ">
+                      <node concept="2OqwBi" id="3xR$tTkxxvy" role="36biLW">
+                        <node concept="2Sf5sV" id="3xR$tTkxxiO" role="2Oq$k0" />
+                        <node concept="3TrEf2" id="3xR$tTkxxO3" role="2OqNvi">
+                          <ref role="3Tt5mk" to="ls40:36eBJlv6NHT" resolve="generics" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2pIpSj" id="3xR$tTkxxYT" role="2pJxcM">
+                    <ref role="2pIpSl" to="ls40:36eBJlvLUzY" resolve="items" />
+                    <node concept="2pJPED" id="3xR$tTkxy4G" role="2pJxcZ">
+                      <ref role="2pJxaS" to="ls40:36eBJlvLUzX" resolve="EnumItem" />
+                      <node concept="2pJxcG" id="3xR$tTkxyUV" role="2pJxcM">
+                        <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
+                        <node concept="Xl_RD" id="3xR$tTkxz9X" role="2pJxcZ">
+                          <property role="Xl_RC" value="Variant1" />
+                        </node>
+                      </node>
+                      <node concept="2pIpSj" id="3xR$tTkxy9D" role="2pJxcM">
+                        <ref role="2pIpSl" to="ls40:cUpsSA83c2" resolve="data" />
+                        <node concept="36biLy" id="3xR$tTkxycp" role="2pJxcZ">
+                          <node concept="2OqwBi" id="3xR$tTkxyrR" role="36biLW">
+                            <node concept="2Sf5sV" id="3xR$tTkxyf9" role="2Oq$k0" />
+                            <node concept="3TrEf2" id="3xR$tTkxyKo" role="2OqNvi">
+                              <ref role="3Tt5mk" to="ls40:36eBJlv6NHV" resolve="data" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="2pJxcG" id="3xR$tTkz_A3" role="2pJxcM">
+                    <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
+                    <node concept="2OqwBi" id="3xR$tTkz_Tf" role="2pJxcZ">
+                      <node concept="2Sf5sV" id="3xR$tTkz_Gj" role="2Oq$k0" />
+                      <node concept="3TrcHB" id="3xR$tTkzAdI" role="2OqNvi">
+                        <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
 </model>
 
