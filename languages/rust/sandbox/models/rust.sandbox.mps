@@ -15454,7 +15454,7 @@
         <node concept="30Nfyg" id="3IIgHeSagZt" role="1dgzf0">
           <node concept="2k1GkI" id="3IIgHeSajFe" role="30Nf_D">
             <node concept="2k1_uq" id="3IIgHeSajFc" role="2nKVj6">
-              <ref role="2nKBpL" node="3IOa0fip6nh" resolve="resolveStruct" />
+              <ref role="2nKBpL" node="3xR$tTklQk5" resolve="resolveDataTypeDef" />
               <node concept="2kdhWc" id="3IIgHeSajKP" role="2nKBpO">
                 <node concept="727y6" id="3IIgHeSajRS" role="3zVzRQ">
                   <ref role="3zVwH8" to="tpck:h0TrG11" resolve="name" />
@@ -15477,8 +15477,8 @@
         </node>
       </node>
       <node concept="3TL$xT" id="3IIgHeS8IeZ" role="3TLBbI">
-        <node concept="2kdjtB" id="3IIgHeS8If0" role="1dukDx">
-          <ref role="2UGuZ7" to="ls40:36eBJlv6NHQ" resolve="Struct" />
+        <node concept="2kdjtB" id="6$9zhi9KRPJ" role="1dukDx">
+          <ref role="2UGuZ7" to="ls40:5LJQRcGWbNm" resolve="DataTypeDef" />
         </node>
       </node>
       <node concept="wzYhD" id="3IIgHeSadFb" role="wzYgH" />
@@ -17948,7 +17948,7 @@
             <node concept="34odk1" id="3xR$tTkXgFZ" role="1dgzf0">
               <node concept="2k1GkI" id="3xR$tTkXgG0" role="34ocZk">
                 <node concept="2k1_uq" id="3xR$tTkXgG1" role="2nKVj6">
-                  <ref role="2nKBpL" node="3xR$tTkXgEA" resolve="dataTypeDef_getInferredLifetimeRestrictions3" />
+                  <ref role="2nKBpL" node="3xR$tTkWGeN" resolve="dataTypeDef_getInferredLifetimeRestrictions1" />
                   <node concept="30NkWi" id="3xR$tTkXgG2" role="2nKBpO">
                     <ref role="XkjO9" node="3xR$tTkXgFY" resolve="s" />
                   </node>
