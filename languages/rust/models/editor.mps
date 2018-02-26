@@ -128,6 +128,7 @@
         <property id="1215007802031" name="value" index="3$6WeP" />
       </concept>
       <concept id="1215007883204" name="jetbrains.mps.lang.editor.structure.PaddingLeftStyleClassItem" flags="ln" index="3$7fVu" />
+      <concept id="1215007897487" name="jetbrains.mps.lang.editor.structure.PaddingRightStyleClassItem" flags="ln" index="3$7jql" />
       <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
         <property id="1214560368769" name="emptyNoTargetText" index="39s7Ar" />
         <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
@@ -258,6 +259,9 @@
       <concept id="5455284157993863840" name="jetbrains.mps.lang.quotation.structure.NodeBuilderNode" flags="nn" index="2pJPED">
         <reference id="5455284157993910961" name="concept" index="2pJxaS" />
         <child id="5455284157993911099" name="values" index="2pJxcM" />
+      </concept>
+      <concept id="8182547171709738802" name="jetbrains.mps.lang.quotation.structure.NodeBuilderList" flags="nn" index="36be1Y">
+        <child id="8182547171709738803" name="nodes" index="36be1Z" />
       </concept>
       <concept id="8182547171709752110" name="jetbrains.mps.lang.quotation.structure.NodeBuilderExpression" flags="nn" index="36biLy">
         <child id="8182547171709752112" name="expression" index="36biLW" />
@@ -1050,15 +1054,31 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="5cYjNPEqWIX" role="3cqZAp">
-              <node concept="37vLTI" id="5cYjNPEqY86" role="3clFbG">
-                <node concept="2ZBlsa" id="5cYjNPEqYpB" role="37vLTx" />
-                <node concept="2OqwBi" id="5cYjNPEqWWz" role="37vLTJ">
-                  <node concept="37vLTw" id="5cYjNPEqWIV" role="2Oq$k0">
+            <node concept="3clFbF" id="7$vvGw7SvA9" role="3cqZAp">
+              <node concept="37vLTI" id="7$vvGw7SwFe" role="3clFbG">
+                <node concept="2pJPEk" id="7$vvGw7SwPs" role="37vLTx">
+                  <node concept="2pJPED" id="7$vvGw7Sx0S" role="2pJPEn">
+                    <ref role="2pJxaS" to="ls40:NDhvEwd_PY" resolve="Path" />
+                    <node concept="2pIpSj" id="7$vvGw7SxaM" role="2pJxcM">
+                      <ref role="2pIpSl" to="ls40:NDhvEwdAa3" resolve="segments" />
+                      <node concept="36be1Y" id="7$vvGw7SxkM" role="2pJxcZ">
+                        <node concept="2pJPED" id="7$vvGw7SxuT" role="36be1Z">
+                          <ref role="2pJxaS" to="ls40:NDhvEwdAa2" resolve="PathSegment" />
+                          <node concept="2pJxcG" id="7$vvGw7SxEI" role="2pJxcM">
+                            <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
+                            <node concept="2ZBlsa" id="7$vvGw7SxP0" role="2pJxcZ" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="7$vvGw7SvNl" role="37vLTJ">
+                  <node concept="37vLTw" id="7$vvGw7SvA7" role="2Oq$k0">
                     <ref role="3cqZAo" node="5cYjNPEqUix" resolve="ret" />
                   </node>
-                  <node concept="3TrcHB" id="5cYjNPEqXkT" role="2OqNvi">
-                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                  <node concept="3TrEf2" id="7$vvGw7Swcd" role="2OqNvi">
+                    <ref role="3Tt5mk" to="ls40:NDhvEweEpp" resolve="path" />
                   </node>
                 </node>
               </node>
@@ -1094,8 +1114,8 @@
                 </node>
                 <node concept="2Rf3mk" id="5cYjNPEqISs" role="2OqNvi">
                   <node concept="1xMEDy" id="5cYjNPEqISu" role="1xVPHs">
-                    <node concept="chp4Y" id="5LJQRcGWLCo" role="ri$Ld">
-                      <ref role="cht4Q" to="ls40:36eBJlv6NHQ" resolve="Struct" />
+                    <node concept="chp4Y" id="7$vvGw7Sy4W" role="ri$Ld">
+                      <ref role="cht4Q" to="ls40:5LJQRcGWbNm" resolve="DataTypeDef" />
                     </node>
                   </node>
                 </node>
@@ -3178,6 +3198,14 @@
         <ref role="1NtTu8" to="ls40:NDhvEwdAa3" resolve="segments" />
         <node concept="l2Vlx" id="NDhvEwdAas" role="2czzBx" />
         <node concept="3F0ifn" id="NDhvEwdAax" role="2czzBI" />
+        <node concept="tppnM" id="7$vvGw7qiBX" role="sWeuL">
+          <node concept="3$7fVu" id="7$vvGw7qUcq" role="3F10Kt">
+            <property role="3$6WeP" value="0" />
+          </node>
+          <node concept="3$7jql" id="7$vvGw7qiC0" role="3F10Kt">
+            <property role="3$6WeP" value="-1" />
+          </node>
+        </node>
       </node>
       <node concept="l2Vlx" id="NDhvEwdAaj" role="2iSdaV" />
     </node>
