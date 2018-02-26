@@ -3170,5 +3170,26 @@
       </node>
     </node>
   </node>
+  <node concept="24kQdi" id="NDhvEwdAae">
+    <ref role="1XX52x" to="ls40:NDhvEwd_PY" resolve="Path" />
+    <node concept="3EZMnI" id="NDhvEwdAag" role="2wV5jI">
+      <node concept="3F2HdR" id="NDhvEwdAaq" role="3EZMnx">
+        <property role="2czwfO" value="::" />
+        <ref role="1NtTu8" to="ls40:NDhvEwdAa3" resolve="segments" />
+        <node concept="l2Vlx" id="NDhvEwdAas" role="2czzBx" />
+        <node concept="3F0ifn" id="NDhvEwdAax" role="2czzBI" />
+      </node>
+      <node concept="l2Vlx" id="NDhvEwdAaj" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="NDhvEweows">
+    <ref role="1XX52x" to="ls40:NDhvEwdAa2" resolve="PathSegment" />
+    <node concept="3EZMnI" id="NDhvEweowu" role="2wV5jI">
+      <node concept="3F0A7n" id="NDhvEweowC" role="3EZMnx">
+        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      </node>
+      <node concept="l2Vlx" id="NDhvEweowx" role="2iSdaV" />
+    </node>
+  </node>
 </model>
 

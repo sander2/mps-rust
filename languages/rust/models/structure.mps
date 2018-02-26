@@ -889,5 +889,25 @@
       <ref role="20lvS9" node="36eBJlv6NHZ" resolve="VariantData" />
     </node>
   </node>
+  <node concept="1TIwiD" id="NDhvEwd_PY">
+    <property role="EcuMT" value="930351740760776062" />
+    <property role="TrG5h" value="Path" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="NDhvEwdAa3" role="1TKVEi">
+      <property role="IQ2ns" value="930351740760777347" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="segments" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="NDhvEwdAa2" resolve="PathSegment" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="NDhvEwdAa2">
+    <property role="EcuMT" value="930351740760777346" />
+    <property role="TrG5h" value="PathSegment" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="PrWs8" id="NDhvEwdAa$" role="PzmwI">
+      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
+    </node>
+  </node>
 </model>
 
