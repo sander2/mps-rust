@@ -10792,24 +10792,6 @@
       </node>
       <node concept="SKNMI" id="iPR$neLoaj" role="SMsWp" />
     </node>
-    <node concept="1I_qm3" id="36eBJlvc23z" role="3YhEVB">
-      <property role="TrG5h" value="X" />
-      <node concept="1I_qlP" id="36eBJlvc23$" role="1I_qme" />
-      <node concept="SKNMI" id="36eBJlvc23y" role="1I_qmc" />
-    </node>
-    <node concept="1I_qm3" id="36eBJlvc23A" role="3YhEVB">
-      <property role="TrG5h" value="Y" />
-      <node concept="1I_qlP" id="36eBJlvc23B" role="1I_qme">
-        <node concept="3Yh6Oj" id="36eBJlvc23C" role="1I_qlO">
-          <property role="TrG5h" value="x" />
-          <node concept="Lhmvi" id="36eBJlvc23D" role="LhiMj">
-            <property role="TrG5h" value="X" />
-            <node concept="SKNMI" id="36eBJlvc23E" role="2Tz1$T" />
-          </node>
-        </node>
-      </node>
-      <node concept="SKNMI" id="36eBJlvc23_" role="1I_qmc" />
-    </node>
     <node concept="1I_qm3" id="36eBJlvc23I" role="3YhEVB">
       <property role="TrG5h" value="P" />
       <node concept="1I_qlP" id="36eBJlvc23J" role="1I_qme">
