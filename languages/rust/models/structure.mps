@@ -248,15 +248,19 @@
     <property role="R4oN_" value="Struct initialization" />
     <property role="34LRSv" value="init" />
     <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
+    <node concept="1TJgyj" id="NDhvEweEpp" role="1TKVEi">
+      <property role="IQ2ns" value="930351740761056857" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="path" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="NDhvEwd_PY" resolve="Path" />
+    </node>
     <node concept="1TJgyj" id="3dWlfh4lRQf" role="1TKVEi">
       <property role="IQ2ns" value="3709933601141783951" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="fields" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3dWlfh4lRQa" resolve="StructInitPair" />
-    </node>
-    <node concept="PrWs8" id="6mPjxNlSMdu" role="PzmwI">
-      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="3dWlfh4lRQa">

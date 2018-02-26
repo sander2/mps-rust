@@ -576,8 +576,8 @@
     <property role="3GE5qa" value="Expr" />
     <ref role="1XX52x" to="ls40:3dWlfh4lRQ7" resolve="StructInit" />
     <node concept="3EZMnI" id="3dWlfh4lRR9" role="2wV5jI">
-      <node concept="3F0A7n" id="3ldL1i67RVd" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      <node concept="3F1sOY" id="NDhvEwfz6o" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:NDhvEweEpp" resolve="path" />
       </node>
       <node concept="3F0ifn" id="3ldL1i67RW3" role="3EZMnx">
         <property role="3F0ifm" value="{" />
