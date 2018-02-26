@@ -612,6 +612,7 @@
     <property role="TrG5h" value="Pattern" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="46yx_MsjG7C" role="PzmwI">
       <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
@@ -620,6 +621,7 @@
   <node concept="1TIwiD" id="rlSsqGdDSX">
     <property role="EcuMT" value="492547977675972157" />
     <property role="TrG5h" value="PatternIdentByValue" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="1TJDcQ" node="2CfTpbqDrZl" resolve="PatternIdent" />
     <node concept="1TJgyi" id="6apqgQ6x1b4" role="1TKVEl">
       <property role="IQ2nx" value="7104825393965961924" />
@@ -630,10 +632,8 @@
   <node concept="1TIwiD" id="46yx_MrFZLq">
     <property role="EcuMT" value="4729490290999557210" />
     <property role="TrG5h" value="PatternStruct" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="1TJDcQ" node="rlSsqGdD8e" resolve="Pattern" />
-    <node concept="PrWs8" id="46yx_MrG0dg" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
     <node concept="1TJgyj" id="46yx_MrG0lK" role="1TKVEi">
       <property role="IQ2ns" value="4729490290999559536" />
       <property role="20lmBu" value="aggregation" />
@@ -641,10 +641,18 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="46yx_MrG0dk" resolve="FieldPat" />
     </node>
+    <node concept="1TJgyj" id="3o7875ZdKSt" role="1TKVEi">
+      <property role="IQ2ns" value="3893116074722790941" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="path" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="NDhvEwd_PY" resolve="Path" />
+    </node>
   </node>
   <node concept="1TIwiD" id="46yx_MrG0dk">
     <property role="EcuMT" value="4729490290999558996" />
     <property role="TrG5h" value="FieldPat" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="46yx_MrG0f9" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
@@ -660,6 +668,7 @@
   <node concept="1TIwiD" id="3SsynIVQUPP">
     <property role="EcuMT" value="4475603294225149301" />
     <property role="TrG5h" value="PatternLiteral" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="1TJDcQ" node="rlSsqGdD8e" resolve="Pattern" />
     <node concept="1TJgyj" id="3SsynIVQURE" role="1TKVEi">
       <property role="IQ2ns" value="4475603294225149418" />
@@ -673,6 +682,7 @@
     <property role="EcuMT" value="8841274033449256650" />
     <property role="TrG5h" value="PatternBorrow" />
     <property role="34LRSv" value="&amp;" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="1TJDcQ" node="rlSsqGdD8e" resolve="Pattern" />
     <node concept="1TJgyj" id="7EMwYfHCcrb" role="1TKVEi">
       <property role="IQ2ns" value="8841274033449256651" />
@@ -691,6 +701,7 @@
     <property role="EcuMT" value="1258243912085627422" />
     <property role="TrG5h" value="PatternWildcard" />
     <property role="34LRSv" value="_" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="1TJDcQ" node="rlSsqGdD8e" resolve="Pattern" />
   </node>
   <node concept="1TIwiD" id="B66j8L1ims">
@@ -748,6 +759,7 @@
     <property role="TrG5h" value="PatternIdent" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="1TJDcQ" node="rlSsqGdD8e" resolve="Pattern" />
     <node concept="PrWs8" id="2CfTpbqFrE4" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
@@ -757,6 +769,7 @@
     <property role="EcuMT" value="3030893493139914708" />
     <property role="TrG5h" value="PatternIdentByRef" />
     <property role="34LRSv" value="ref" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="1TJDcQ" node="2CfTpbqDrZl" resolve="PatternIdent" />
     <node concept="1TJgyi" id="2CfTpbqDrZm" role="1TKVEl">
       <property role="IQ2nx" value="3030893493139914710" />

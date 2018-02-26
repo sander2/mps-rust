@@ -3,7 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="d7a92d38-f7db-40d0-8431-763b0c3c9f20" name="jetbrains.mps.lang.intentions" version="0" />
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="7" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="9" />
     <use id="8c9a2720-9d21-4370-a226-819eb3e76e1e" name="org.inca.fun" version="0" />
     <devkit ref="2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)" />
   </languages>
@@ -91,6 +91,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -98,6 +101,7 @@
   </registry>
   <node concept="2S6QgY" id="27CR$QZYB3V">
     <property role="TrG5h" value="IdentByRefToggleMut" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="2ZfgGC" to="ls40:2CfTpbqDrZk" resolve="PatternIdentByRef" />
     <node concept="2S6ZIM" id="27CR$QZYB3W" role="2ZfVej">
       <node concept="3clFbS" id="27CR$QZYB3X" role="2VODD2">
@@ -133,6 +137,7 @@
   </node>
   <node concept="2S6QgY" id="27CR$QZYQpG">
     <property role="TrG5h" value="IdentByValueToggleMut" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="2ZfgGC" to="ls40:rlSsqGdDSX" resolve="PatternIdentByValue" />
     <node concept="2S6ZIM" id="27CR$QZYQpH" role="2ZfVej">
       <node concept="3clFbS" id="27CR$QZYQpI" role="2VODD2">
@@ -212,6 +217,7 @@
   </node>
   <node concept="2S6QgY" id="4iUnnyFZ7vK">
     <property role="TrG5h" value="CaptureByRef" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="2ZfgGC" to="ls40:rlSsqGdDSX" resolve="PatternIdentByValue" />
     <node concept="2S6ZIM" id="4iUnnyFZ7vL" role="2ZfVej">
       <node concept="3clFbS" id="4iUnnyFZ7vM" role="2VODD2">
@@ -259,6 +265,7 @@
   </node>
   <node concept="2S6QgY" id="4iUnnyFZayR">
     <property role="TrG5h" value="CaptureByValue" />
+    <property role="3GE5qa" value="Pattern" />
     <ref role="2ZfgGC" to="ls40:2CfTpbqDrZk" resolve="PatternIdentByRef" />
     <node concept="2S6ZIM" id="4iUnnyFZayS" role="2ZfVej">
       <node concept="3clFbS" id="4iUnnyFZayT" role="2VODD2">

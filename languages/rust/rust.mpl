@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<language namespace="rust" uuid="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" languageVersion="8" moduleVersion="0">
+<language namespace="rust" uuid="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" languageVersion="9" moduleVersion="0">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
@@ -82,7 +82,7 @@
     <language slang="l:b802a056-92a2-4fbc-902e-f8e5004c331f:org.inca.core" version="0" />
     <language slang="l:8c9a2720-9d21-4370-a226-819eb3e76e1e:org.inca.fun" version="0" />
     <language slang="l:cd2909da-ecb4-49dc-b176-33e5c619e516:org.inca.gp" version="0" />
-    <language slang="l:02643902-b3a5-4bb6-b85c-3bbbe5fdac0e:rust" version="7" />
+    <language slang="l:02643902-b3a5-4bb6-b85c-3bbbe5fdac0e:rust" version="9" />
   </languageVersions>
   <dependencyVersions>
     <module reference="3f233e7f-b8a6-46d2-a57f-795d56775243(Annotations)" version="0" />
