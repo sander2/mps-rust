@@ -93,6 +93,9 @@
                 <node concept="2GRMtS" id="6CNNUJvPpxX" role="2GRMtT">
                   <property role="TrG5h" value="Enum1" />
                 </node>
+                <node concept="2GRMtS" id="6CNNUJvRj2J" role="2GRMtT">
+                  <property role="TrG5h" value="test2" />
+                </node>
               </node>
             </node>
             <node concept="3YiYgZ" id="6CNNUJvPpxE" role="2EU_hA" />
