@@ -2857,8 +2857,8 @@
                 </node>
                 <node concept="2Rf3mk" id="7j$eJQW6uCh" role="2OqNvi">
                   <node concept="1xMEDy" id="7j$eJQW6uCi" role="1xVPHs">
-                    <node concept="chp4Y" id="7j$eJQW6uCj" role="ri$Ld">
-                      <ref role="cht4Q" to="ls40:36eBJlv6NHQ" resolve="Struct" />
+                    <node concept="chp4Y" id="6CNNUJvOKqw" role="ri$Ld">
+                      <ref role="cht4Q" to="ls40:5LJQRcGWbNm" resolve="DataTypeDef" />
                     </node>
                   </node>
                 </node>
