@@ -37,6 +37,9 @@
         <child id="704278095091541410" name="params" index="SKNMg" />
       </concept>
       <concept id="9149939120071034736" name="rust.structure.VarRef" flags="ng" index="36GXDm" />
+      <concept id="339421738354935603" name="rust.structure.Return" flags="ng" index="3b1d_Q">
+        <child id="339421738354935604" name="e" index="3b1d_L" />
+      </concept>
       <concept id="3570966331251178368" name="rust.structure.FieldsVariant" flags="ng" index="1I_qlP">
         <child id="3570966331251178369" name="fields" index="1I_qlO" />
       </concept>
@@ -87,8 +90,10 @@
         </node>
       </node>
       <node concept="3YiHqP" id="7ezIbFYQDBd" role="KpVaL">
-        <node concept="36GXDm" id="7ezIbFYQEfH" role="3YiHqO">
-          <property role="TrG5h" value="arg" />
+        <node concept="3b1d_Q" id="4w25QXC0vBt" role="3YiHqO">
+          <node concept="36GXDm" id="4w25QXC0vBB" role="3b1d_L">
+            <property role="TrG5h" value="arg" />
+          </node>
         </node>
       </node>
       <node concept="SKNMI" id="7ezIbFYQDBn" role="SMsWp">
@@ -143,8 +148,10 @@
         </node>
       </node>
       <node concept="3YiHqP" id="7ezIbFYQEm3" role="KpVaL">
-        <node concept="36GXDm" id="7ezIbFYQEm4" role="3YiHqO">
-          <property role="TrG5h" value="arg" />
+        <node concept="3b1d_Q" id="4w25QXC0vBE" role="3YiHqO">
+          <node concept="36GXDm" id="4w25QXC0vBF" role="3b1d_L">
+            <property role="TrG5h" value="arg" />
+          </node>
         </node>
       </node>
       <node concept="SKNMI" id="7ezIbFYQEm5" role="SMsWp">
