@@ -23191,6 +23191,7 @@
       </node>
       <node concept="wzYYL" id="5QRIyceFd8i" role="wzYgH" />
     </node>
+    <node concept="1XdyHe" id="47$NKCEeaRD" role="1dubk0" />
     <node concept="3zyOaA" id="uwuRA6BRZc" role="1dubk0">
       <property role="TrG5h" value="pathIs2_part8" />
       <node concept="3zV_Rz" id="uwuRA6EY32" role="3zVECS">
@@ -23511,10 +23512,10 @@
       <property role="1dubkF" value="PatternStruct deconstruction" />
     </node>
     <node concept="1XdyHb" id="19295xtfXsC" role="1dubk0">
-      <property role="1dubkF" value="if Foo{x:n} is equivalent to path1, then n is equivalent to path1.x" />
+      <property role="1dubkF" value="if deconstruction Foo{x:n} is equivalent to path1, then n is equivalent to path1.x" />
     </node>
     <node concept="1XdyHb" id="19295xtgomf" role="1dubk0">
-      <property role="1dubkF" value="if Foo{x:n} is equivalent to some structinit Foo{x:y}, then n is equivalent to y" />
+      <property role="1dubkF" value="if deconstruction Foo{x:n} is equivalent to some structinit Foo{x:y}, then n is equivalent to y" />
     </node>
     <node concept="3zyOaA" id="4aWjx0ZG8FS" role="1dubk0">
       <property role="TrG5h" value="pathIs2_part4" />

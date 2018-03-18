@@ -926,5 +926,29 @@
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
   </node>
+  <node concept="1TIwiD" id="47$NKCE9TC8">
+    <property role="EcuMT" value="4748147549719206408" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="Impl" />
+    <property role="34LRSv" value="impl" />
+    <ref role="1TJDcQ" node="X3GX7L1bso" resolve="Item" />
+    <node concept="1TJgyj" id="47$NKCEcHkJ" role="1TKVEi">
+      <property role="IQ2ns" value="4748147549719942447" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="generics" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="B66j8L1ims" resolve="Generics" />
+    </node>
+    <node concept="1TJgyj" id="47$NKCE9TC9" role="1TKVEi">
+      <property role="IQ2ns" value="4748147549719206409" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="methods" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="67zX15hx4m6" resolve="Function" />
+    </node>
+    <node concept="PrWs8" id="47$NKCEc3ep" role="PzmwI">
+      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
+    </node>
+  </node>
 </model>
 
