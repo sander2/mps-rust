@@ -83,10 +83,14 @@
       <concept id="6151553526979403289" name="org.inca.fun.structure.PatternFunctionEmptyContent" flags="ng" index="1XdyHe" />
     </language>
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" name="jetbrains.mps.lang.test">
+      <concept id="2325284917965760583" name="jetbrains.mps.lang.test.structure.BeforeTestsMethod" flags="ig" index="0EjCn" />
+      <concept id="2325284917965760584" name="jetbrains.mps.lang.test.structure.AfterTestsMethod" flags="ig" index="0EjCo" />
       <concept id="5097124989038916362" name="jetbrains.mps.lang.test.structure.TestInfo" flags="ng" index="2XOHcx">
         <property id="5097124989038916363" name="projectPath" index="2XOHcw" />
       </concept>
       <concept id="1216913645126" name="jetbrains.mps.lang.test.structure.NodesTestCase" flags="lg" index="1lH9Xt">
+        <child id="2325284917965993569" name="beforeTests" index="0EEgL" />
+        <child id="2325284917965993580" name="afterTests" index="0EEgW" />
         <child id="1216993439383" name="methods" index="1qtyYc" />
         <child id="1217501895093" name="testMethods" index="1SL9yI" />
       </concept>
@@ -189,6 +193,9 @@
       </concept>
       <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
         <child id="1145553007750" name="creator" index="2ShVmc" />
+      </concept>
+      <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
+        <child id="1137022507850" name="body" index="2VODD2" />
       </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
@@ -13682,6 +13689,7 @@
       <node concept="3clFbS" id="1qSNzGzOgNM" role="3clF47">
         <node concept="2GUZhq" id="5$fSc6YyoWO" role="3cqZAp">
           <node concept="3clFbS" id="5$fSc6YyoWQ" role="2GV8ay">
+            <node concept="3clFbH" id="1M4D8cUZGqf" role="3cqZAp" />
             <node concept="1QHqEK" id="5$fSc6YypRK" role="3cqZAp">
               <node concept="1QHqEC" id="5$fSc6YypRM" role="1QHqEI">
                 <node concept="3clFbS" id="5$fSc6YypRO" role="1bW5cS">
@@ -14452,11 +14460,11 @@
             <node concept="3clFbH" id="5$fSc6YyoWP" role="3cqZAp" />
           </node>
           <node concept="3clFbS" id="5$fSc6YyoWR" role="2GVbov">
-            <node concept="3clFbF" id="72CZAphnwNV" role="3cqZAp">
-              <node concept="2YIFZM" id="72CZAphnwNW" role="3clFbG">
-                <ref role="1Pybhc" to="pzen:4h0s9CVLlTo" resolve="EnginePool" />
+            <node concept="3clFbF" id="1M4D8cUZHQK" role="3cqZAp">
+              <node concept="2YIFZM" id="1M4D8cV5fEh" role="3clFbG">
                 <ref role="37wK5l" to="pzen:z7YXzAfHc2" resolve="disposeAffectedEngines" />
-                <node concept="37vLTw" id="1qSNzGzOxd$" role="37wK5m">
+                <ref role="1Pybhc" to="pzen:4h0s9CVLlTo" resolve="EnginePool" />
+                <node concept="37vLTw" id="1M4D8cV5i3k" role="37wK5m">
                   <ref role="3cqZAo" node="1qSNzGzOtq6" resolve="testModel" />
                 </node>
               </node>
@@ -14661,6 +14669,26 @@
                 <ref role="3cqZAo" node="1qSNzGzRiMC" resolve="testModel" />
               </node>
             </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="0EjCn" id="1M4D8cV5cld" role="0EEgL">
+      <node concept="3clFbS" id="1M4D8cV5cle" role="2VODD2">
+        <node concept="3clFbF" id="1M4D8cUZH_K" role="3cqZAp">
+          <node concept="2YIFZM" id="1M4D8cUZHNa" role="3clFbG">
+            <ref role="37wK5l" to="pzen:5w4aNPZwAvq" resolve="disposeAllEngines" />
+            <ref role="1Pybhc" to="pzen:4h0s9CVLlTo" resolve="EnginePool" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="0EjCo" id="1M4D8cV5dGG" role="0EEgW">
+      <node concept="3clFbS" id="1M4D8cV5dGH" role="2VODD2">
+        <node concept="3clFbF" id="1M4D8cV5eEN" role="3cqZAp">
+          <node concept="2YIFZM" id="1M4D8cV5eEO" role="3clFbG">
+            <ref role="37wK5l" to="pzen:5w4aNPZwAvq" resolve="disposeAllEngines" />
+            <ref role="1Pybhc" to="pzen:4h0s9CVLlTo" resolve="EnginePool" />
           </node>
         </node>
       </node>
