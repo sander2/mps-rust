@@ -8,6 +8,7 @@
   <registry>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
@@ -169,6 +170,7 @@
   </registry>
   <node concept="3YhZ5a" id="67zX15hHpbq">
     <property role="TrG5h" value="testModule1" />
+    <property role="3GE5qa" value="RegressionTests" />
     <node concept="KpV6n" id="4WXtgFrs5G2" role="3YhEVB">
       <property role="TrG5h" value="test_ok_letbinding" />
       <node concept="3YiHqP" id="4WXtgFrs5G1" role="KpVaL">
@@ -3298,6 +3300,7 @@
   </node>
   <node concept="3YhZ5a" id="3ns6jdf3$nx">
     <property role="TrG5h" value="UninitializedMemoryAccessTest" />
+    <property role="3GE5qa" value="RegressionTests" />
     <node concept="KpV6n" id="4WXtgFrsfj2" role="3YhEVB">
       <property role="TrG5h" value="test_borrowck_fail_destructive_read_simple_varref" />
       <node concept="3YiHqP" id="4WXtgFrsfj1" role="KpVaL">
@@ -5330,6 +5333,7 @@
   </node>
   <node concept="3YhZ5a" id="worLduNXn1">
     <property role="TrG5h" value="LifetimeTests" />
+    <property role="3GE5qa" value="RegressionTests" />
     <node concept="KpV6n" id="4WXtgFrsh6w" role="3YhEVB">
       <property role="TrG5h" value="test_ok_lifetime_1" />
       <node concept="3YiHqP" id="4WXtgFrsh6v" role="KpVaL">
@@ -6608,6 +6612,7 @@
   </node>
   <node concept="3YhZ5a" id="worLdvhbkC">
     <property role="TrG5h" value="MutabilityTests" />
+    <property role="3GE5qa" value="RegressionTests" />
     <node concept="KpV6n" id="4WXtgFrsgNT" role="3YhEVB">
       <property role="TrG5h" value="test_fail_mut_borrow_1" />
       <node concept="3YiHqP" id="4WXtgFrsgNS" role="KpVaL">
@@ -7205,6 +7210,7 @@
   </node>
   <node concept="3YhZ5a" id="6mPjxNl6seG">
     <property role="TrG5h" value="RestrictionsTest" />
+    <property role="3GE5qa" value="RegressionTests" />
     <node concept="KpV6n" id="4WXtgFrsfXe" role="3YhEVB">
       <property role="TrG5h" value="test_borrowck_ok_multiple_immutable_borrows" />
       <node concept="3YiHqP" id="4WXtgFrsfXd" role="KpVaL">
@@ -11067,6 +11073,7 @@
   </node>
   <node concept="3YhZ5a" id="19295xwJIuq">
     <property role="TrG5h" value="AliasBorrowTests" />
+    <property role="3GE5qa" value="RegressionTests" />
     <node concept="KpV6n" id="32dBiv4dpM4" role="3YhEVB">
       <property role="TrG5h" value="test_borrowck_fail_escape_block_nested_1" />
       <node concept="3YiHqP" id="32dBiv4dpM5" role="KpVaL">
@@ -12833,6 +12840,7 @@
   </node>
   <node concept="3YhZ5a" id="5rSZUXALzmH">
     <property role="TrG5h" value="LifetimeNamed" />
+    <property role="3GE5qa" value="RegressionTests" />
     <node concept="KpV6n" id="7_66cN0MnRL" role="3YhEVB">
       <property role="TrG5h" value="test_ok_struct_decl_Y1" />
       <node concept="3YiHqP" id="7_66cN0MnRM" role="KpVaL">
@@ -16332,6 +16340,7 @@
   </node>
   <node concept="3YhZ5a" id="3tTpUZQWx0j">
     <property role="TrG5h" value="LifetimeFunctionHeader" />
+    <property role="3GE5qa" value="RegressionTests" />
     <node concept="KpV6n" id="5rSZUXALzq7" role="3YhEVB">
       <property role="TrG5h" value="test_ok_functionheader_unused_lifetime" />
       <node concept="3YiHqP" id="5rSZUXALzq8" role="KpVaL" />
@@ -17398,6 +17407,7 @@
   </node>
   <node concept="3YhZ5a" id="BBBBOhqBYg">
     <property role="TrG5h" value="FunctionCallLifetimeTests" />
+    <property role="3GE5qa" value="RegressionTests" />
     <node concept="KpV6n" id="7FMFGoccZ59" role="3YhEVB">
       <property role="TrG5h" value="test_ok_functionheader_elided_lifetime_q" />
       <node concept="1MVu3q" id="7FMFGoccZ5a" role="1MVqqM">
@@ -19907,6 +19917,7 @@
   </node>
   <node concept="3YhZ5a" id="3_rJ7vMz6P8">
     <property role="TrG5h" value="StructLifetimeInclusionTests" />
+    <property role="3GE5qa" value="RegressionTests" />
     <node concept="1I_qm3" id="BBBBOhqCqR" role="3YhEVB">
       <property role="TrG5h" value="A" />
       <node concept="SKNMI" id="BBBBOhqCqT" role="1I_qmc" />
@@ -20807,6 +20818,7 @@
   </node>
   <node concept="3YhZ5a" id="6$9zhi9NLB2">
     <property role="TrG5h" value="EnumTests" />
+    <property role="3GE5qa" value="RegressionTests" />
     <node concept="KpV6n" id="3o7875ZdcH5" role="3YhEVB">
       <property role="TrG5h" value="test_fail_irrefutability_in_let_1" />
       <node concept="3YiHqP" id="3o7875ZdcH7" role="KpVaL">
@@ -22460,6 +22472,9 @@
       </node>
       <node concept="SKNMI" id="3o7875Zd9QI" role="1I_qmc" />
     </node>
+  </node>
+  <node concept="3YhZ5a" id="2Y$zPthSXfm">
+    <property role="TrG5h" value="StagingNew" />
   </node>
 </model>
 
