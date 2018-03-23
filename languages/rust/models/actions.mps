@@ -180,6 +180,26 @@
         </node>
       </node>
     </node>
+    <node concept="37WvkG" id="59syMjaWG7r" role="37WGs$">
+      <ref role="37XkoT" to="ls40:59syMjaWG6I" resolve="SelfArgByRef" />
+      <node concept="37Y9Zx" id="59syMjaWG7s" role="37ZfLb">
+        <node concept="3clFbS" id="59syMjaWG7t" role="2VODD2">
+          <node concept="3clFbF" id="59syMjaWGp2" role="3cqZAp">
+            <node concept="37vLTI" id="59syMjaWH6F" role="3clFbG">
+              <node concept="3clFbT" id="59syMjaWH96" role="37vLTx">
+                <property role="3clFbU" value="false" />
+              </node>
+              <node concept="2OqwBi" id="59syMjaWGwr" role="37vLTJ">
+                <node concept="1r4Lsj" id="59syMjaWGpl" role="2Oq$k0" />
+                <node concept="3TrcHB" id="59syMjaWGEg" role="2OqNvi">
+                  <ref role="3TsBF5" to="ls40:59syMjaWG6J" resolve="mutBorrow" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
 </model>
 

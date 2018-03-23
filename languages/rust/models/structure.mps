@@ -468,7 +468,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="args" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="4CgVvoSZgOG" resolve="FunctionArg" />
+      <ref role="20lvS9" node="59syMjaXvVw" resolve="FunctionArgBase" />
     </node>
     <node concept="1TJgyj" id="5MYV7vaYjEz" role="1TKVEi">
       <property role="IQ2ns" value="6683038896314989219" />
@@ -536,7 +536,7 @@
     <property role="EcuMT" value="5337027200207883564" />
     <property role="3GE5qa" value="Item" />
     <property role="TrG5h" value="FunctionArg" />
-    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <ref role="1TJDcQ" node="59syMjaXvVw" resolve="FunctionArgBase" />
     <node concept="1TJgyj" id="1A$EJ17othW" role="1TKVEi">
       <property role="IQ2ns" value="1847789696095212668" />
       <property role="20lmBu" value="aggregation" />
@@ -949,6 +949,62 @@
     <node concept="PrWs8" id="47$NKCEc3ep" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="59syMjaFVn7">
+    <property role="EcuMT" value="5934771399103067591" />
+    <property role="3GE5qa" value="Expr" />
+    <property role="TrG5h" value="MethodCall" />
+    <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
+    <node concept="1TJgyj" id="59syMjaGc_Y" role="1TKVEi">
+      <property role="IQ2ns" value="5934771399103138174" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="obj" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+    <node concept="1TJgyj" id="59syMjaFVnb" role="1TKVEi">
+      <property role="IQ2ns" value="5934771399103067595" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="args" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+    <node concept="PrWs8" id="59syMjaGtN5" role="PzmwI">
+      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="59syMjaWG6k">
+    <property role="EcuMT" value="5934771399107461524" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="SelfArg" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" node="59syMjaXvVw" resolve="FunctionArgBase" />
+  </node>
+  <node concept="1TIwiD" id="59syMjaWG6l">
+    <property role="EcuMT" value="5934771399107461525" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="SelfArgByValue" />
+    <ref role="1TJDcQ" node="59syMjaWG6k" resolve="SelfArg" />
+  </node>
+  <node concept="1TIwiD" id="59syMjaWG6I">
+    <property role="EcuMT" value="5934771399107461550" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="SelfArgByRef" />
+    <ref role="1TJDcQ" node="59syMjaWG6k" resolve="SelfArg" />
+    <node concept="1TJgyi" id="59syMjaWG6J" role="1TKVEl">
+      <property role="IQ2nx" value="5934771399107461551" />
+      <property role="TrG5h" value="mutBorrow" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="59syMjaXvVw">
+    <property role="EcuMT" value="5934771399107673824" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="FunctionArgBase" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
 </model>
 
