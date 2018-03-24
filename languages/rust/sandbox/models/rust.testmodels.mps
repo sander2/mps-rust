@@ -1506,6 +1506,139 @@
       </node>
       <node concept="SKNMI" id="7_66cMVy7nv" role="SMsWp" />
     </node>
+    <node concept="KpV6n" id="2s$64VJBD85" role="3YhEVB">
+      <property role="TrG5h" value="helper_func" />
+      <node concept="1MVu3q" id="2s$64VJBDaF" role="1MVqqM">
+        <node concept="Lhmvi" id="2s$64VJBDaM" role="1MVu37">
+          <property role="TrG5h" value="X" />
+          <node concept="SKNMI" id="2s$64VJBDaN" role="2Tz1$T" />
+        </node>
+        <node concept="2ESRZV" id="2s$64VJBDaS" role="1uLnUc">
+          <property role="3$7nJ9" value="false" />
+          <property role="TrG5h" value="a" />
+        </node>
+      </node>
+      <node concept="1MVu3q" id="2s$64VJBDaV" role="1MVqqM">
+        <node concept="Lhmvi" id="2s$64VJBDaW" role="1MVu37">
+          <property role="TrG5h" value="X" />
+          <node concept="SKNMI" id="2s$64VJBDaX" role="2Tz1$T" />
+        </node>
+        <node concept="2ESRZV" id="2s$64VJBDaY" role="1uLnUc">
+          <property role="3$7nJ9" value="false" />
+          <property role="TrG5h" value="b" />
+        </node>
+      </node>
+      <node concept="1MVu3q" id="2s$64VJBDbf" role="1MVqqM">
+        <node concept="Lhmvi" id="2s$64VJBDbg" role="1MVu37">
+          <property role="TrG5h" value="X" />
+          <node concept="SKNMI" id="2s$64VJBDbh" role="2Tz1$T" />
+        </node>
+        <node concept="2ESRZV" id="2s$64VJBDbi" role="1uLnUc">
+          <property role="3$7nJ9" value="false" />
+          <property role="TrG5h" value="c" />
+        </node>
+      </node>
+      <node concept="3YiHqP" id="2s$64VJBD87" role="KpVaL" />
+      <node concept="SKNMI" id="2s$64VJBD89" role="SMsWp" />
+    </node>
+    <node concept="KpV6n" id="2s$64VJBDbF" role="3YhEVB">
+      <property role="TrG5h" value="test_fail_functionCallArgType" />
+      <node concept="1MVu3q" id="2s$64VJBDbG" role="1MVqqM">
+        <node concept="Lhmvi" id="2s$64VJBDbH" role="1MVu37">
+          <property role="TrG5h" value="X" />
+          <node concept="SKNMI" id="2s$64VJBDbI" role="2Tz1$T" />
+        </node>
+        <node concept="2ESRZV" id="2s$64VJBDbJ" role="1uLnUc">
+          <property role="3$7nJ9" value="false" />
+          <property role="TrG5h" value="a" />
+        </node>
+      </node>
+      <node concept="1MVu3q" id="2s$64VJBDbK" role="1MVqqM">
+        <node concept="Lhmvi" id="2s$64VJBDbL" role="1MVu37">
+          <property role="TrG5h" value="X" />
+          <node concept="SKNMI" id="2s$64VJBDbM" role="2Tz1$T" />
+        </node>
+        <node concept="2ESRZV" id="2s$64VJBDbN" role="1uLnUc">
+          <property role="3$7nJ9" value="false" />
+          <property role="TrG5h" value="b" />
+        </node>
+      </node>
+      <node concept="1MVu3q" id="2s$64VJBDbO" role="1MVqqM">
+        <node concept="Lhmvi" id="2s$64VJBDbP" role="1MVu37">
+          <property role="TrG5h" value="X" />
+          <node concept="SKNMI" id="2s$64VJBDbQ" role="2Tz1$T" />
+        </node>
+        <node concept="2ESRZV" id="2s$64VJBDbR" role="1uLnUc">
+          <property role="3$7nJ9" value="false" />
+          <property role="TrG5h" value="c" />
+        </node>
+      </node>
+      <node concept="3YiHqP" id="2s$64VJBDbS" role="KpVaL">
+        <node concept="3YiHtV" id="2s$64VJBDdB" role="3YiHqO">
+          <node concept="2mlud8" id="2s$64VJBDdJ" role="3YiHtU">
+            <property role="TrG5h" value="helper_func" />
+            <node concept="36GXDm" id="2s$64VJBDdN" role="2ntBmc">
+              <property role="TrG5h" value="a" />
+            </node>
+            <node concept="19pR3" id="2s$64VJBDer" role="2ntBmc" />
+            <node concept="36GXDm" id="2s$64VJBDe9" role="2ntBmc">
+              <property role="TrG5h" value="c" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="2s$64VJBDbT" role="SMsWp" />
+    </node>
+    <node concept="KpV6n" id="2s$64VJBDez" role="3YhEVB">
+      <property role="TrG5h" value="test_ok_functionCallArgType" />
+      <node concept="1MVu3q" id="2s$64VJBDe$" role="1MVqqM">
+        <node concept="Lhmvi" id="2s$64VJBDe_" role="1MVu37">
+          <property role="TrG5h" value="X" />
+          <node concept="SKNMI" id="2s$64VJBDeA" role="2Tz1$T" />
+        </node>
+        <node concept="2ESRZV" id="2s$64VJBDeB" role="1uLnUc">
+          <property role="3$7nJ9" value="false" />
+          <property role="TrG5h" value="a" />
+        </node>
+      </node>
+      <node concept="1MVu3q" id="2s$64VJBDeC" role="1MVqqM">
+        <node concept="Lhmvi" id="2s$64VJBDeD" role="1MVu37">
+          <property role="TrG5h" value="X" />
+          <node concept="SKNMI" id="2s$64VJBDeE" role="2Tz1$T" />
+        </node>
+        <node concept="2ESRZV" id="2s$64VJBDeF" role="1uLnUc">
+          <property role="3$7nJ9" value="false" />
+          <property role="TrG5h" value="b" />
+        </node>
+      </node>
+      <node concept="1MVu3q" id="2s$64VJBDeG" role="1MVqqM">
+        <node concept="Lhmvi" id="2s$64VJBDeH" role="1MVu37">
+          <property role="TrG5h" value="X" />
+          <node concept="SKNMI" id="2s$64VJBDeI" role="2Tz1$T" />
+        </node>
+        <node concept="2ESRZV" id="2s$64VJBDeJ" role="1uLnUc">
+          <property role="3$7nJ9" value="false" />
+          <property role="TrG5h" value="c" />
+        </node>
+      </node>
+      <node concept="3YiHqP" id="2s$64VJBDeK" role="KpVaL">
+        <node concept="3YiHtV" id="2s$64VJBDeL" role="3YiHqO">
+          <node concept="2mlud8" id="2s$64VJBDeM" role="3YiHtU">
+            <property role="TrG5h" value="helper_func" />
+            <node concept="36GXDm" id="2s$64VJBDeN" role="2ntBmc">
+              <property role="TrG5h" value="a" />
+            </node>
+            <node concept="36GXDm" id="2s$64VJBDlL" role="2ntBmc">
+              <property role="TrG5h" value="b" />
+            </node>
+            <node concept="36GXDm" id="2s$64VJBDeP" role="2ntBmc">
+              <property role="TrG5h" value="c" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="2s$64VJBDeQ" role="SMsWp" />
+    </node>
     <node concept="KpV6n" id="4WXtgFrs5KQ" role="3YhEVB">
       <property role="TrG5h" value="test_ok_match1" />
       <node concept="3YiHqP" id="4WXtgFrs5KP" role="KpVaL">

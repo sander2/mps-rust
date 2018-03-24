@@ -93,11 +93,8 @@
     <property role="R5$K2" value="false" />
     <property role="3GE5qa" value="Item" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
-    <node concept="PrWs8" id="X3GX7L1bui" role="PzmwI">
-      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
-    </node>
-    <node concept="PrWs8" id="7FAWTxy91sB" role="PzmwI">
-      <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
+    <node concept="PrWs8" id="2s$64VL05jm" role="PzmwI">
+      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
   </node>
   <node concept="1TIwiD" id="X3GX7L1XUC">
@@ -455,6 +452,9 @@
     <ref role="1TJDcQ" node="X3GX7L1bso" resolve="Item" />
     <node concept="PrWs8" id="5rSZUXANxFC" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
+    </node>
+    <node concept="PrWs8" id="2s$64VL8hjf" role="PzmwI">
+      <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
     </node>
     <node concept="1TJgyj" id="67zX15hx4qw" role="1TKVEi">
       <property role="IQ2ns" value="7053749796611573408" />
@@ -872,6 +872,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="B66j8L1ims" resolve="Generics" />
     </node>
+    <node concept="PrWs8" id="6Pj_qC5Ppmy" role="PzmwI">
+      <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="36eBJlvLUzU">
     <property role="EcuMT" value="3570966331262478586" />
@@ -946,9 +949,6 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="67zX15hx4m6" resolve="Function" />
     </node>
-    <node concept="PrWs8" id="47$NKCEc3ep" role="PzmwI">
-      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
-    </node>
   </node>
   <node concept="1TIwiD" id="59syMjaFVn7">
     <property role="EcuMT" value="5934771399103067591" />
@@ -973,29 +973,23 @@
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
   </node>
-  <node concept="1TIwiD" id="59syMjaWG6k">
-    <property role="EcuMT" value="5934771399107461524" />
-    <property role="3GE5qa" value="Item" />
-    <property role="TrG5h" value="SelfArg" />
-    <property role="R5$K7" value="true" />
-    <property role="R5$K2" value="false" />
-    <ref role="1TJDcQ" node="59syMjaXvVw" resolve="FunctionArgBase" />
-  </node>
-  <node concept="1TIwiD" id="59syMjaWG6l">
-    <property role="EcuMT" value="5934771399107461525" />
-    <property role="3GE5qa" value="Item" />
-    <property role="TrG5h" value="SelfArgByValue" />
-    <ref role="1TJDcQ" node="59syMjaWG6k" resolve="SelfArg" />
-  </node>
   <node concept="1TIwiD" id="59syMjaWG6I">
     <property role="EcuMT" value="5934771399107461550" />
     <property role="3GE5qa" value="Item" />
-    <property role="TrG5h" value="SelfArgByRef" />
-    <ref role="1TJDcQ" node="59syMjaWG6k" resolve="SelfArg" />
+    <property role="TrG5h" value="SelfArg" />
+    <ref role="1TJDcQ" node="59syMjaXvVw" resolve="FunctionArgBase" />
     <node concept="1TJgyi" id="59syMjaWG6J" role="1TKVEl">
       <property role="IQ2nx" value="5934771399107461551" />
-      <property role="TrG5h" value="mutBorrow" />
+      <property role="TrG5h" value="mutable" />
       <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="1TJgyi" id="2s$64VJNTVl" role="1TKVEl">
+      <property role="IQ2nx" value="2820405993950650069" />
+      <property role="TrG5h" value="byRef" />
+      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
+    </node>
+    <node concept="PrWs8" id="2s$64VJV27N" role="PzmwI">
+      <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
     </node>
   </node>
   <node concept="1TIwiD" id="59syMjaXvVw">
