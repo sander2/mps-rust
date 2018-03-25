@@ -27419,6 +27419,31 @@
             <property role="TrG5h" value="resolvedLifetime" />
           </node>
         </node>
+        <node concept="34ocy7" id="6py9Z8DPUqV" role="1dgzf0">
+          <node concept="34oehE" id="6py9Z8DR5WY" role="34ocs8">
+            <node concept="2kdjtB" id="6py9Z8DRF5T" role="2RGvlO">
+              <ref role="2UGuZ7" to="ls40:B66j8LOI_X" resolve="Lifetime" />
+            </node>
+            <node concept="30KbLJ" id="6py9Z8DQu2t" role="2RGvhl">
+              <property role="TrG5h" value="z" />
+            </node>
+          </node>
+        </node>
+        <node concept="34ocy7" id="6py9Z8DS$04" role="1dgzf0">
+          <node concept="34ofUU" id="6py9Z8DTJ6B" role="34ocs8">
+            <node concept="30NkWi" id="6py9Z8DUie1" role="34ocZk">
+              <ref role="XkjO9" node="5uD1K06wkWo" resolve="resolvedLifetime" />
+            </node>
+            <node concept="2k1GkI" id="6py9Z8DTbj2" role="34ocZn">
+              <node concept="2k1_uq" id="6py9Z8DTbj0" role="2nKVj6">
+                <ref role="2nKBpL" node="2XIiNjc51Cq" resolve="outlives" />
+                <node concept="30NkWi" id="6py9Z8DTrkd" role="2nKBpO">
+                  <ref role="XkjO9" node="6py9Z8DQu2t" resolve="z" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="34odk1" id="5uD1K06mrI$" role="1dgzf0">
           <node concept="2k1GkI" id="5uD1K06mrI_" role="34ocZk">
             <node concept="2k1_uq" id="5uD1K06mrIA" role="2nKVj6">
@@ -27434,8 +27459,8 @@
             </node>
           </node>
           <node concept="2k1_ex" id="5uD1K06mrIC" role="34ocZn">
-            <node concept="30NkWi" id="5uD1K06zU5O" role="3tmOSN">
-              <ref role="XkjO9" node="5uD1K06wkWo" resolve="resolvedLifetime" />
+            <node concept="30NkWi" id="6py9Z8DV4sC" role="3tmOSN">
+              <ref role="XkjO9" node="6py9Z8DQu2t" resolve="z" />
             </node>
             <node concept="30KbLJ" id="5uD1K06mrIE" role="3tmOSN">
               <property role="TrG5h" value="scope" />
