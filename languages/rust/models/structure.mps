@@ -977,20 +977,7 @@
     <property role="EcuMT" value="5934771399107461550" />
     <property role="3GE5qa" value="Item" />
     <property role="TrG5h" value="SelfArg" />
-    <ref role="1TJDcQ" node="59syMjaXvVw" resolve="FunctionArgBase" />
-    <node concept="1TJgyi" id="59syMjaWG6J" role="1TKVEl">
-      <property role="IQ2nx" value="5934771399107461551" />
-      <property role="TrG5h" value="mutable" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="1TJgyi" id="2s$64VJNTVl" role="1TKVEl">
-      <property role="IQ2nx" value="2820405993950650069" />
-      <property role="TrG5h" value="byRef" />
-      <ref role="AX2Wp" to="tpck:fKAQMTB" resolve="boolean" />
-    </node>
-    <node concept="PrWs8" id="2s$64VJV27N" role="PzmwI">
-      <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
-    </node>
+    <ref role="1TJDcQ" node="4CgVvoSZgOG" resolve="FunctionArg" />
   </node>
   <node concept="1TIwiD" id="59syMjaXvVw">
     <property role="EcuMT" value="5934771399107673824" />
@@ -999,6 +986,12 @@
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="4hLHJS5usT4">
+    <property role="EcuMT" value="4931924269077220932" />
+    <property role="TrG5h" value="PatternIdentSelf" />
+    <property role="3GE5qa" value="Pattern" />
+    <ref role="1TJDcQ" node="rlSsqGdDSX" resolve="PatternIdentByValue" />
   </node>
 </model>
 
