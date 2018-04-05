@@ -32,9 +32,7 @@
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
       <concept id="1180388172941756682" name="rust.structure.False" flags="ng" index="19pR0" />
       <concept id="1180388172941756681" name="rust.structure.True" flags="ng" index="19pR3" />
-      <concept id="6683038896314060607" name="rust.structure.Call" flags="ng" index="2mlud8">
-        <child id="6683038896328579579" name="args" index="2ntBmc" />
-      </concept>
+      <concept id="6683038896314060607" name="rust.structure.FunctionCall" flags="ng" index="2mlud8" />
       <concept id="492547977675972157" name="rust.structure.PatternIdentByValue" flags="ng" index="2ESRZV">
         <property id="7104825393965961924" name="mutable" index="3$7nJ9" />
       </concept>
@@ -55,6 +53,9 @@
         <property id="6397481250907299728" name="mutable" index="Lhnjt" />
         <child id="5628091656755586953" name="ty" index="2MmPw3" />
         <child id="704278095105092455" name="lifetime" index="S5v9l" />
+      </concept>
+      <concept id="3592446266465227943" name="rust.structure.Call" flags="ng" index="2Mz7DZ">
+        <child id="3051785381403782356" name="arg2" index="2f5R9Q" />
       </concept>
       <concept id="704278095105026429" name="rust.structure.Lifetime" flags="ng" index="S5f1f" />
       <concept id="704278095091541406" name="rust.structure.LifetimeDefinition" flags="ng" index="SKNMG">
@@ -1646,7 +1647,7 @@
           </node>
           <node concept="2mlud8" id="5uD1K05EBXI" role="36Jc8R">
             <property role="TrG5h" value="testq" />
-            <node concept="1RaM_N" id="39H3_PbIkWC" role="2ntBmc">
+            <node concept="1RaM_N" id="39H3_PbIkWC" role="2f5R9Q">
               <node concept="1RaM_Y" id="39H3_PbIkWD" role="1RaM_V">
                 <property role="TrG5h" value="a" />
                 <node concept="3LTT0e" id="39H3_PbIkWE" role="1RaM_T">
@@ -1662,7 +1663,7 @@
                 </node>
               </node>
             </node>
-            <node concept="1RaM_N" id="5uD1K06COVk" role="2ntBmc">
+            <node concept="1RaM_N" id="5uD1K06COVk" role="2f5R9Q">
               <node concept="1RaM_Y" id="5uD1K06COVp" role="1RaM_V">
                 <property role="TrG5h" value="a" />
                 <node concept="3LTT0e" id="5uD1K06COVv" role="1RaM_T">
@@ -2097,7 +2098,7 @@
           </node>
           <node concept="2mlud8" id="2XIiNje3hV9" role="36Jc8R">
             <property role="TrG5h" value="q" />
-            <node concept="3LTT0e" id="2XIiNje3hVa" role="2ntBmc">
+            <node concept="3LTT0e" id="2XIiNje3hVa" role="2f5R9Q">
               <property role="3LTT0f" value="false" />
               <node concept="36GXDm" id="2XIiNje3hVb" role="3LTTvY">
                 <property role="TrG5h" value="x" />
@@ -2209,7 +2210,7 @@
                 </node>
                 <node concept="2mlud8" id="3UQDOBxP8iZ" role="2X_3D4">
                   <property role="TrG5h" value="helperqq" />
-                  <node concept="36GXDm" id="3UQDOBxP8j6" role="2ntBmc">
+                  <node concept="36GXDm" id="3UQDOBxP8j6" role="2f5R9Q">
                     <property role="TrG5h" value="tmp" />
                   </node>
                 </node>
@@ -2399,7 +2400,7 @@
                 </node>
                 <node concept="2mlud8" id="4HNXFtogImB" role="2X_3D4">
                   <property role="TrG5h" value="helperqq4" />
-                  <node concept="36GXDm" id="4HNXFtogImC" role="2ntBmc">
+                  <node concept="36GXDm" id="4HNXFtogImC" role="2f5R9Q">
                     <property role="TrG5h" value="tmp" />
                   </node>
                 </node>
@@ -2493,7 +2494,7 @@
         <node concept="3YiHtV" id="4rEyGxvcc5d" role="3YiHqO">
           <node concept="2mlud8" id="4rEyGxvcc5F" role="3YiHtU">
             <property role="TrG5h" value="testq" />
-            <node concept="36GXDm" id="4rEyGxvcc5J" role="2ntBmc">
+            <node concept="36GXDm" id="4rEyGxvcc5J" role="2f5R9Q">
               <property role="TrG5h" value="z" />
             </node>
           </node>

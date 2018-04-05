@@ -15,9 +15,7 @@
     </language>
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
       <concept id="1180388172941756681" name="rust.structure.True" flags="ng" index="19pR3" />
-      <concept id="6683038896314060607" name="rust.structure.Call" flags="ng" index="2mlud8">
-        <child id="6683038896328579579" name="args" index="2ntBmc" />
-      </concept>
+      <concept id="6683038896314060607" name="rust.structure.FunctionCall" flags="ng" index="2mlud8" />
       <concept id="492547977675972157" name="rust.structure.PatternIdentByValue" flags="ng" index="2ESRZV">
         <property id="7104825393965961924" name="mutable" index="3$7nJ9" />
       </concept>
@@ -34,6 +32,9 @@
         <property id="6397481250907299728" name="mutable" index="Lhnjt" />
         <child id="5628091656755586953" name="ty" index="2MmPw3" />
         <child id="704278095105092455" name="lifetime" index="S5v9l" />
+      </concept>
+      <concept id="3592446266465227943" name="rust.structure.Call" flags="ng" index="2Mz7DZ">
+        <child id="3051785381403782356" name="arg2" index="2f5R9Q" />
       </concept>
       <concept id="704278095105026429" name="rust.structure.Lifetime" flags="ng" index="S5f1f" />
       <concept id="704278095091541406" name="rust.structure.LifetimeDefinition" flags="ng" index="SKNMG">
@@ -188,7 +189,7 @@
                 </node>
                 <node concept="2mlud8" id="3UQDOBxP8iZ" role="2X_3D4">
                   <property role="TrG5h" value="helperqq" />
-                  <node concept="36GXDm" id="3UQDOBxP8j6" role="2ntBmc">
+                  <node concept="36GXDm" id="3UQDOBxP8j6" role="2f5R9Q">
                     <property role="TrG5h" value="tmp" />
                   </node>
                 </node>
