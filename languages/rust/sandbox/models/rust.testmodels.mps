@@ -44,7 +44,6 @@
       <concept id="5934771399107461550" name="rust.structure.SelfArg" flags="ng" index="2oF$Ea" />
       <concept id="5934771399103067591" name="rust.structure.MethodCall" flags="ng" index="2oWNVz">
         <child id="5934771399103138174" name="obj" index="2oV49q" />
-        <child id="5934771399103067595" name="args" index="2oWNVJ" />
       </concept>
       <concept id="492547977675972157" name="rust.structure.PatternIdentByValue" flags="ng" index="2ESRZV">
         <property id="7104825393965961924" name="mutable" index="3$7nJ9" />
@@ -26849,10 +26848,10 @@
       </node>
       <node concept="3YiHqP" id="37qVHy3kTfe" role="KpVaL">
         <node concept="3YiHtV" id="37qVHy3kTff" role="3YiHqO">
-          <node concept="2oWNVz" id="37qVHy3kTfg" role="3YiHtU">
+          <node concept="2oWNVz" id="29twYXM153H" role="3YiHtU">
             <property role="TrG5h" value="test_ok_method_with_arg" />
-            <node concept="19pR3" id="37qVHy3kTjY" role="2oWNVJ" />
-            <node concept="36GXDm" id="37qVHy3kTfh" role="2oV49q">
+            <node concept="19pR3" id="29twYXM154d" role="2f5R9Q" />
+            <node concept="36GXDm" id="29twYXM153P" role="2oV49q">
               <property role="TrG5h" value="b" />
             </node>
           </node>
@@ -26876,10 +26875,10 @@
         </node>
       </node>
       <node concept="3YiHqP" id="37qVHy3iCqj" role="KpVaL">
-        <node concept="3YiHtV" id="37qVHy3iCqk" role="3YiHqO">
-          <node concept="2oWNVz" id="37qVHy3iCql" role="3YiHtU">
+        <node concept="3YiHtV" id="29twYXM31sw" role="3YiHqO">
+          <node concept="2oWNVz" id="29twYXM31sx" role="3YiHtU">
             <property role="TrG5h" value="test_borrowck_ok_method2" />
-            <node concept="36GXDm" id="37qVHy3iCqm" role="2oV49q">
+            <node concept="36GXDm" id="29twYXMlWWI" role="2oV49q">
               <property role="TrG5h" value="b" />
             </node>
           </node>
