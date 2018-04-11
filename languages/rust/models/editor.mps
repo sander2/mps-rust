@@ -2465,9 +2465,6 @@
         <ref role="1NtTu8" to="ls40:iPR$nfGgsO" resolve="e" />
         <node concept="3F0ifn" id="iPR$nfJu_e" role="2ruayu" />
       </node>
-      <node concept="3F0ifn" id="daLs9Nauut" role="3EZMnx">
-        <property role="3F0ifm" value=";" />
-      </node>
       <node concept="l2Vlx" id="iPR$nfGgt3" role="2iSdaV" />
     </node>
   </node>
