@@ -70,14 +70,6 @@
         <child id="1638911550608610281" name="executeFunction" index="IWgqQ" />
         <child id="5692353713941573325" name="textFunction" index="1hCUd6" />
       </concept>
-      <concept id="1136916919141" name="jetbrains.mps.lang.editor.structure.CellKeyMapItem" flags="lg" index="2PxR9H">
-        <child id="1136916998332" name="keystroke" index="2PyaAO" />
-        <child id="1136920925604" name="executeFunction" index="2PL9iG" />
-      </concept>
-      <concept id="1136916976737" name="jetbrains.mps.lang.editor.structure.CellKeyMapKeystroke" flags="ng" index="2Py5lD">
-        <property id="1136923970224" name="keycode" index="2PWKIS" />
-      </concept>
-      <concept id="1136917288805" name="jetbrains.mps.lang.editor.structure.CellKeyMap_ExecuteFunction" flags="in" index="2PzhpH" />
       <concept id="1186403751766" name="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem" flags="ln" index="Vb9p2">
         <property id="1186403771423" name="style" index="Vbekb" />
       </concept>
@@ -100,7 +92,6 @@
       <concept id="1233759184865" name="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem" flags="ln" index="11LMrY" />
       <concept id="1081293058843" name="jetbrains.mps.lang.editor.structure.CellKeyMapDeclaration" flags="ig" index="325Ffw">
         <reference id="1139445935125" name="applicableConcept" index="1chiOs" />
-        <child id="1136930944870" name="item" index="2QnnpI" />
       </concept>
       <concept id="8998492695583125082" name="jetbrains.mps.lang.editor.structure.SubstituteFeature_MatchingText" flags="ng" index="16NfWO">
         <child id="8998492695583129244" name="query" index="16NeZM" />
@@ -3973,22 +3964,6 @@
         <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
       </node>
       <node concept="l2Vlx" id="4hLHJS5usTp" role="2iSdaV" />
-    </node>
-  </node>
-  <node concept="1h_SRR" id="29twYXMs9gG">
-    <property role="3GE5qa" value="Item" />
-    <ref role="1h_SK9" to="ls40:59syMjaWG6I" resolve="SelfArg" />
-  </node>
-  <node concept="325Ffw" id="29twYXMs9iP">
-    <property role="3GE5qa" value="Item" />
-    <ref role="1chiOs" to="ls40:59syMjaWG6I" resolve="SelfArg" />
-    <node concept="2PxR9H" id="29twYXMs9iQ" role="2QnnpI">
-      <node concept="2Py5lD" id="29twYXMs9iR" role="2PyaAO">
-        <property role="2PWKIS" value="non-space char" />
-      </node>
-      <node concept="2PzhpH" id="29twYXMs9iS" role="2PL9iG">
-        <node concept="3clFbS" id="29twYXMs9iT" role="2VODD2" />
-      </node>
     </node>
   </node>
 </model>
