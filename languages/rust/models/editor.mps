@@ -3527,9 +3527,6 @@
           </node>
         </node>
       </node>
-      <node concept="3F0A7n" id="29twYXMs8UD" role="3EZMnx">
-        <ref role="1NtTu8" to="ls40:29twYXMs8_H" resolve="q" />
-      </node>
       <node concept="3F0ifn" id="59syMjaWG7f" role="3EZMnx">
         <property role="3F0ifm" value="self" />
         <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
