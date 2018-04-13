@@ -818,8 +818,8 @@
   <node concept="24kQdi" id="5z8qOPDziip">
     <ref role="1XX52x" to="ls40:5z8qOPDzgMv" resolve="OwnedType" />
     <node concept="3EZMnI" id="7_66cN0Mw81" role="2wV5jI">
-      <node concept="3F0A7n" id="5z8qOPDziir" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+      <node concept="3F1sOY" id="EcWOxxF5VK" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:EcWOxxBQFt" resolve="path" />
       </node>
       <node concept="3F1sOY" id="7_66cN0Mw8d" role="3EZMnx">
         <ref role="1NtTu8" to="ls40:7_66cN0Mw7P" resolve="generics" />
