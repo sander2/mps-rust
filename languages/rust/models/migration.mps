@@ -410,7 +410,7 @@
                 </node>
                 <node concept="2SmgA7" id="7_66cN3Qqv1" role="2OqNvi">
                   <node concept="chp4Y" id="7_66cN3QqvC" role="1dBWTz">
-                    <ref role="cht4Q" to="ls40:5z8qOPDzgMv" resolve="OwnedType" />
+                    <ref role="cht4Q" to="ls40:5z8qOPDzgMv" resolve="PathType" />
                   </node>
                 </node>
               </node>
@@ -1570,7 +1570,7 @@
                 </node>
                 <node concept="2SmgA7" id="EcWOxxEIid" role="2OqNvi">
                   <node concept="chp4Y" id="EcWOxxEIpI" role="1dBWTz">
-                    <ref role="cht4Q" to="ls40:5z8qOPDzgMv" resolve="OwnedType" />
+                    <ref role="cht4Q" to="ls40:5z8qOPDzgMv" resolve="PathType" />
                   </node>
                 </node>
               </node>
@@ -1608,7 +1608,7 @@
                     <node concept="1P9Npp" id="EcWOxxEIij" role="2OqNvi">
                       <node concept="2pJPEk" id="EcWOxxEIik" role="1P9ThW">
                         <node concept="2pJPED" id="EcWOxxEIil" role="2pJPEn">
-                          <ref role="2pJxaS" to="ls40:5z8qOPDzgMv" resolve="OwnedType" />
+                          <ref role="2pJxaS" to="ls40:5z8qOPDzgMv" resolve="PathType" />
                           <node concept="2pIpSj" id="EcWOxxEKc1" role="2pJxcM">
                             <ref role="2pIpSl" to="ls40:7_66cN0Mw7P" resolve="generics" />
                             <node concept="36biLy" id="EcWOxxEKfw" role="2pJxcZ">

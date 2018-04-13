@@ -236,7 +236,7 @@
             <node concept="37vLTI" id="4hLHJS5uVSw" role="3clFbG">
               <node concept="2pJPEk" id="4hLHJS5uVZ2" role="37vLTx">
                 <node concept="2pJPED" id="4hLHJS5uW4R" role="2pJPEn">
-                  <ref role="2pJxaS" to="ls40:5z8qOPDzgMv" resolve="OwnedType" />
+                  <ref role="2pJxaS" to="ls40:5z8qOPDzgMv" resolve="PathType" />
                   <node concept="2pJxcG" id="4hLHJS5uW9r" role="2pJxcM">
                     <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
                     <node concept="Xl_RD" id="4hLHJS5uWe4" role="2pJxcZ">
