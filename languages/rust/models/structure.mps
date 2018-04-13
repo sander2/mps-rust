@@ -994,5 +994,36 @@
       <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
     </node>
   </node>
+  <node concept="1TIwiD" id="EcWOxxBQCr">
+    <property role="EcuMT" value="760249929319803419" />
+    <property role="3GE5qa" value="Expr" />
+    <property role="TrG5h" value="Array" />
+    <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
+    <node concept="1TJgyj" id="EcWOxxBQCy" role="1TKVEi">
+      <property role="IQ2ns" value="760249929319803426" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="exprs" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="EcWOxxBQDz">
+    <property role="EcuMT" value="760249929319803491" />
+    <property role="3GE5qa" value="Expr" />
+    <property role="TrG5h" value="Repeat" />
+    <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
+    <node concept="1TJgyj" id="EcWOxxBQDE" role="1TKVEi">
+      <property role="IQ2ns" value="760249929319803498" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="expr" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+    <node concept="1TJgyi" id="EcWOxxBQDH" role="1TKVEl">
+      <property role="IQ2nx" value="760249929319803501" />
+      <property role="TrG5h" value="amount" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
+    </node>
+  </node>
 </model>
 
