@@ -417,7 +417,7 @@
       <property role="IQ2ns" value="704278095105092455" />
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="lifetime" />
-      <property role="20lbJX" value="0..1" />
+      <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="B66j8LOI_X" resolve="Lifetime" />
     </node>
   </node>
