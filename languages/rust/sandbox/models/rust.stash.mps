@@ -46,7 +46,7 @@
         <child id="704278095092241963" name="generics" index="SMsWp" />
         <child id="5337027200207899460" name="args" index="1MVqqM" />
       </concept>
-      <concept id="6397481250907294879" name="rust.structure.OwnedType" flags="ng" index="Lhmvi">
+      <concept id="6397481250907294879" name="rust.structure.PathType" flags="ng" index="Lhmvi">
         <child id="8738699394645885429" name="generics" index="2Tz1$T" />
         <child id="760249929319803613" name="path" index="1F4TAl" />
       </concept>
@@ -805,6 +805,9 @@
                   </node>
                 </node>
               </node>
+              <node concept="S5f1f" id="2ukHHm$pD5O" role="S5v9l">
+                <property role="TrG5h" value="'elided" />
+              </node>
             </node>
           </node>
         </node>
@@ -966,6 +969,9 @@
                     <property role="TrG5h" value="X" />
                   </node>
                 </node>
+              </node>
+              <node concept="S5f1f" id="2ukHHm$pD5P" role="S5v9l">
+                <property role="TrG5h" value="'elided" />
               </node>
             </node>
           </node>
@@ -1171,6 +1177,9 @@
               </node>
             </node>
           </node>
+          <node concept="S5f1f" id="2ukHHm$pD5Q" role="S5v9l">
+            <property role="TrG5h" value="'elided" />
+          </node>
         </node>
         <node concept="2ESRZV" id="3tTpUZQdCg5" role="1uLnUc">
           <property role="3$7nJ9" value="false" />
@@ -1273,6 +1282,9 @@
                 <property role="TrG5h" value="B" />
               </node>
             </node>
+          </node>
+          <node concept="S5f1f" id="2ukHHm$pD5R" role="S5v9l">
+            <property role="TrG5h" value="'elided" />
           </node>
         </node>
         <node concept="2ESRZV" id="OTMwwdxfwH" role="1uLnUc">
@@ -1381,6 +1393,9 @@
                 <property role="TrG5h" value="A" />
               </node>
             </node>
+          </node>
+          <node concept="S5f1f" id="2ukHHm$pD5S" role="S5v9l">
+            <property role="TrG5h" value="'elided" />
           </node>
         </node>
       </node>

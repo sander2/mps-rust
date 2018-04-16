@@ -14,6 +14,7 @@
     <import index="tpco" ref="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" />
     <import index="tpch" ref="r:00000000-0000-4000-0000-011c8959028d(jetbrains.mps.lang.structure.editor)" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
+    <import index="wyt6" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/java:java.lang(JDK/)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -178,6 +179,7 @@
         <child id="1068498886295" name="lValue" index="37vLTJ" />
       </concept>
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
+      <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1076505808687" name="jetbrains.mps.baseLanguage.structure.WhileStatement" flags="nn" index="2$JKZl">
         <child id="1076505808688" name="condition" index="2$JKZa" />
       </concept>
@@ -197,7 +199,6 @@
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
-      <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
@@ -238,6 +239,13 @@
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
         <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
+      <concept id="1081516740877" name="jetbrains.mps.baseLanguage.structure.NotExpression" flags="nn" index="3fqX7Q">
+        <child id="1081516765348" name="expression" index="3fr31v" />
+      </concept>
+      <concept id="1204053956946" name="jetbrains.mps.baseLanguage.structure.IMethodCall" flags="ng" index="1ndlxa">
+        <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
+        <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
       <concept id="1081773326031" name="jetbrains.mps.baseLanguage.structure.BinaryOperation" flags="nn" index="3uHJSO">
         <child id="1081773367579" name="rightExpression" index="3uHU7w" />
@@ -776,15 +784,28 @@
       </node>
       <node concept="3F1sOY" id="B66j8LP0VR" role="3EZMnx">
         <ref role="1NtTu8" to="ls40:B66j8LOYHB" resolve="lifetime" />
+        <ref role="1ERwB7" node="6R8$K0Ye3tg" resolve="LifetimeDeletion" />
         <node concept="pkWqt" id="B66j8LP15t" role="pqm2j">
           <node concept="3clFbS" id="B66j8LP15u" role="2VODD2">
             <node concept="3clFbF" id="B66j8LP1cO" role="3cqZAp">
-              <node concept="3y3z36" id="B66j8LP2i0" role="3clFbG">
-                <node concept="10Nm6u" id="B66j8LP2yU" role="3uHU7w" />
-                <node concept="2OqwBi" id="B66j8LP1q_" role="3uHU7B">
-                  <node concept="pncrf" id="B66j8LP1cM" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="B66j8LP1M_" role="2OqNvi">
-                    <ref role="3Tt5mk" to="ls40:B66j8LOYHB" resolve="lifetime" />
+              <node concept="3fqX7Q" id="6R8$K0Yb_zY" role="3clFbG">
+                <node concept="2OqwBi" id="6R8$K0Yb_$0" role="3fr31v">
+                  <node concept="2OqwBi" id="6R8$K0Yb_$1" role="2Oq$k0">
+                    <node concept="2OqwBi" id="6R8$K0Yb_$2" role="2Oq$k0">
+                      <node concept="pncrf" id="6R8$K0Yb_$3" role="2Oq$k0" />
+                      <node concept="3TrEf2" id="6R8$K0Yb_$4" role="2OqNvi">
+                        <ref role="3Tt5mk" to="ls40:B66j8LOYHB" resolve="lifetime" />
+                      </node>
+                    </node>
+                    <node concept="3TrcHB" id="6R8$K0Yb_$5" role="2OqNvi">
+                      <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="6R8$K0Yb_$6" role="2OqNvi">
+                    <ref role="37wK5l" to="wyt6:~String.equals(java.lang.Object):boolean" resolve="equals" />
+                    <node concept="Xl_RD" id="6R8$K0Yb_$7" role="37wK5m">
+                      <property role="Xl_RC" value="'elided" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -928,22 +949,19 @@
           <node concept="3clFbS" id="B66j8M4cBD" role="2VODD2">
             <node concept="3clFbF" id="B66j8M4dsm" role="3cqZAp">
               <node concept="37vLTI" id="B66j8M4e83" role="3clFbG">
-                <node concept="2pJPEk" id="B66j8M4ecw" role="37vLTx">
-                  <node concept="2pJPED" id="B66j8M4eid" role="2pJPEn">
-                    <ref role="2pJxaS" to="ls40:B66j8LOI_X" resolve="Lifetime" />
-                    <node concept="2pJxcG" id="B66j8M4eo8" role="2pJxcM">
-                      <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
-                      <node concept="Xl_RD" id="B66j8M4ewl" role="2pJxcZ">
-                        <property role="Xl_RC" value="'" />
-                      </node>
+                <node concept="2OqwBi" id="6R8$K0XSx8o" role="37vLTJ">
+                  <node concept="2OqwBi" id="B66j8M4d$A" role="2Oq$k0">
+                    <node concept="7Obwk" id="B66j8M4dsl" role="2Oq$k0" />
+                    <node concept="3TrEf2" id="B66j8M4dLJ" role="2OqNvi">
+                      <ref role="3Tt5mk" to="ls40:B66j8LOYHB" resolve="lifetime" />
                     </node>
                   </node>
-                </node>
-                <node concept="2OqwBi" id="B66j8M4d$A" role="37vLTJ">
-                  <node concept="7Obwk" id="B66j8M4dsl" role="2Oq$k0" />
-                  <node concept="3TrEf2" id="B66j8M4dLJ" role="2OqNvi">
-                    <ref role="3Tt5mk" to="ls40:B66j8LOYHB" resolve="lifetime" />
+                  <node concept="3TrcHB" id="6R8$K0XSxlu" role="2OqNvi">
+                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
                   </node>
+                </node>
+                <node concept="Xl_RD" id="6R8$K0XSxVj" role="37vLTx">
+                  <property role="Xl_RC" value="'" />
                 </node>
               </node>
             </node>
@@ -4032,6 +4050,35 @@
         <property role="3F0ifm" value="]" />
       </node>
       <node concept="l2Vlx" id="6FAuemar7fd" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="1h_SRR" id="6R8$K0Ye3tg">
+    <property role="TrG5h" value="LifetimeDeletion" />
+    <ref role="1h_SK9" to="ls40:5z8qOPDzgMw" resolve="PointerType" />
+    <node concept="1hA7zw" id="6R8$K0Ye3tn" role="1h_SK8">
+      <property role="1hAc7j" value="delete_action_id" />
+      <node concept="1hAIg9" id="6R8$K0Ye3to" role="1hA7z_">
+        <node concept="3clFbS" id="6R8$K0Ye3tp" role="2VODD2">
+          <node concept="3clFbF" id="6R8$K0Ye3tL" role="3cqZAp">
+            <node concept="37vLTI" id="6R8$K0Ye4Ux" role="3clFbG">
+              <node concept="2OqwBi" id="6R8$K0Ye49D" role="37vLTJ">
+                <node concept="2OqwBi" id="6R8$K0Ye3Ad" role="2Oq$k0">
+                  <node concept="0IXxy" id="6R8$K0Ye3tK" role="2Oq$k0" />
+                  <node concept="3TrEf2" id="6R8$K0Ye3Ne" role="2OqNvi">
+                    <ref role="3Tt5mk" to="ls40:B66j8LOYHB" resolve="lifetime" />
+                  </node>
+                </node>
+                <node concept="3TrcHB" id="6R8$K0Ye4oT" role="2OqNvi">
+                  <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="6R8$K0Ye5mh" role="37vLTx">
+                <property role="Xl_RC" value="'elided" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </node>
 </model>
