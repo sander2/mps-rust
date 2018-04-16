@@ -2840,9 +2840,23 @@
                       <ref role="2pJxaS" to="ls40:B66j8L1ims" resolve="Generics" />
                     </node>
                   </node>
-                  <node concept="2pJxcG" id="7j$eJQWanC1" role="2pJxcM">
-                    <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
-                    <node concept="2ZBlsa" id="7j$eJQWanJf" role="2pJxcZ" />
+                  <node concept="2pIpSj" id="2ukHHm$mJ$m" role="2pJxcM">
+                    <ref role="2pIpSl" to="ls40:EcWOxxBQFt" resolve="path" />
+                    <node concept="2pJPED" id="2ukHHm$mJCO" role="2pJxcZ">
+                      <ref role="2pJxaS" to="ls40:NDhvEwd_PY" resolve="Path" />
+                      <node concept="2pIpSj" id="2ukHHm$mJD8" role="2pJxcM">
+                        <ref role="2pIpSl" to="ls40:NDhvEwdAa3" resolve="segments" />
+                        <node concept="36be1Y" id="2ukHHm$mJDy" role="2pJxcZ">
+                          <node concept="2pJPED" id="2ukHHm$mJEg" role="36be1Z">
+                            <ref role="2pJxaS" to="ls40:NDhvEwdAa2" resolve="PathSegment" />
+                            <node concept="2pJxcG" id="2ukHHm$mJF3" role="2pJxcM">
+                              <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
+                              <node concept="2ZBlsa" id="2ukHHm$mJVx" role="2pJxcZ" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
                   </node>
                 </node>
               </node>
@@ -3999,6 +4013,25 @@
         <property role="3F0ifm" value="]" />
       </node>
       <node concept="l2Vlx" id="EcWOxxBQE3" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="6FAuemar7f2">
+    <property role="3GE5qa" value="Expr" />
+    <ref role="1XX52x" to="ls40:6FAuemar6MM" resolve="Indexed" />
+    <node concept="3EZMnI" id="6FAuemar7fa" role="2wV5jI">
+      <node concept="3F1sOY" id="6FAuemar7fk" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:6FAuemar7eO" resolve="expr" />
+      </node>
+      <node concept="3F0ifn" id="6FAuemar7ft" role="3EZMnx">
+        <property role="3F0ifm" value="[" />
+      </node>
+      <node concept="3F0A7n" id="6FAuemar7fE" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:6FAuemar7eR" resolve="index" />
+      </node>
+      <node concept="3F0ifn" id="6FAuemar7fV" role="3EZMnx">
+        <property role="3F0ifm" value="]" />
+      </node>
+      <node concept="l2Vlx" id="6FAuemar7fd" role="2iSdaV" />
     </node>
   </node>
 </model>
