@@ -53,6 +53,9 @@
         <reference id="5455284157993910961" name="concept" index="2pJxaS" />
         <child id="5455284157993911099" name="values" index="2pJxcM" />
       </concept>
+      <concept id="8182547171709738802" name="jetbrains.mps.lang.quotation.structure.NodeBuilderList" flags="nn" index="36be1Y">
+        <child id="8182547171709738803" name="nodes" index="36be1Z" />
+      </concept>
     </language>
     <language id="aee9cad2-acd4-4608-aef2-0004f6a1cdbd" name="jetbrains.mps.lang.actions">
       <concept id="1158700664498" name="jetbrains.mps.lang.actions.structure.NodeFactories" flags="ng" index="37WguZ">
@@ -237,10 +240,24 @@
               <node concept="2pJPEk" id="4hLHJS5uVZ2" role="37vLTx">
                 <node concept="2pJPED" id="4hLHJS5uW4R" role="2pJPEn">
                   <ref role="2pJxaS" to="ls40:5z8qOPDzgMv" resolve="PathType" />
-                  <node concept="2pJxcG" id="4hLHJS5uW9r" role="2pJxcM">
-                    <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
-                    <node concept="Xl_RD" id="4hLHJS5uWe4" role="2pJxcZ">
-                      <property role="Xl_RC" value="@self" />
+                  <node concept="2pIpSj" id="3ECTLJIRL32" role="2pJxcM">
+                    <ref role="2pIpSl" to="ls40:EcWOxxBQFt" resolve="path" />
+                    <node concept="2pJPED" id="3ECTLJIRL7D" role="2pJxcZ">
+                      <ref role="2pJxaS" to="ls40:NDhvEwd_PY" resolve="Path" />
+                      <node concept="2pIpSj" id="3ECTLJIRL9B" role="2pJxcM">
+                        <ref role="2pIpSl" to="ls40:NDhvEwdAa3" resolve="segments" />
+                        <node concept="36be1Y" id="3ECTLJIRLbF" role="2pJxcZ">
+                          <node concept="2pJPED" id="3ECTLJIRLe3" role="36be1Z">
+                            <ref role="2pJxaS" to="ls40:NDhvEwdAa2" resolve="PathSegment" />
+                            <node concept="2pJxcG" id="3ECTLJIRLgw" role="2pJxcM">
+                              <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
+                              <node concept="Xl_RD" id="3ECTLJIRLj3" role="2pJxcZ">
+                                <property role="Xl_RC" value="Self" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                   <node concept="2pIpSj" id="4hLHJS5uWlo" role="2pJxcM">

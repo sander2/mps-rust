@@ -3772,16 +3772,42 @@
                       <ref role="2pIpSl" to="ls40:4SqZSFWgqu9" resolve="ty" />
                       <node concept="2pJPED" id="4hLHJS5uP_k" role="2pJxcZ">
                         <ref role="2pJxaS" to="ls40:5z8qOPDzgMv" resolve="PathType" />
-                        <node concept="2pJxcG" id="4hLHJS5uPBi" role="2pJxcM">
-                          <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
-                          <node concept="Xl_RD" id="4hLHJS5uPDl" role="2pJxcZ">
-                            <property role="Xl_RC" value="@self" />
+                        <node concept="2pIpSj" id="3ECTLJIRMfJ" role="2pJxcM">
+                          <ref role="2pIpSl" to="ls40:EcWOxxBQFt" resolve="path" />
+                          <node concept="2pJPED" id="3ECTLJIRMfK" role="2pJxcZ">
+                            <ref role="2pJxaS" to="ls40:NDhvEwd_PY" resolve="Path" />
+                            <node concept="2pIpSj" id="3ECTLJIRMfL" role="2pJxcM">
+                              <ref role="2pIpSl" to="ls40:NDhvEwdAa3" resolve="segments" />
+                              <node concept="36be1Y" id="3ECTLJIRMfM" role="2pJxcZ">
+                                <node concept="2pJPED" id="3ECTLJIRMfN" role="36be1Z">
+                                  <ref role="2pJxaS" to="ls40:NDhvEwdAa2" resolve="PathSegment" />
+                                  <node concept="2pJxcG" id="3ECTLJIRMfO" role="2pJxcM">
+                                    <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
+                                    <node concept="Xl_RD" id="3ECTLJIRMfP" role="2pJxcZ">
+                                      <property role="Xl_RC" value="Self" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                           </node>
                         </node>
                         <node concept="2pIpSj" id="4hLHJS5uPV0" role="2pJxcM">
                           <ref role="2pIpSl" to="ls40:7_66cN0Mw7P" resolve="generics" />
                           <node concept="2pJPED" id="4hLHJS5uPXb" role="2pJxcZ">
                             <ref role="2pJxaS" to="ls40:B66j8L1ims" resolve="Generics" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2pIpSj" id="3ECTLJIRN7u" role="2pJxcM">
+                      <ref role="2pIpSl" to="ls40:B66j8LOYHB" resolve="lifetime" />
+                      <node concept="2pJPED" id="3ECTLJIRNgL" role="2pJxcZ">
+                        <ref role="2pJxaS" to="ls40:B66j8LOI_X" resolve="Lifetime" />
+                        <node concept="2pJxcG" id="3ECTLJIRNku" role="2pJxcM">
+                          <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
+                          <node concept="Xl_RD" id="3ECTLJIRNkM" role="2pJxcZ">
+                            <property role="Xl_RC" value="'elided" />
                           </node>
                         </node>
                       </node>
@@ -3796,6 +3822,7 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="3ECTLJIRLCg" role="3cqZAp" />
             <node concept="3clFbF" id="4hLHJS5uQ5A" role="3cqZAp">
               <node concept="37vLTI" id="4hLHJS5uS9$" role="3clFbG">
                 <node concept="3clFbT" id="4hLHJS5uSaj" role="37vLTx">
@@ -3938,10 +3965,24 @@
               <node concept="2pJPEk" id="4hLHJS5v0xD" role="37vLTx">
                 <node concept="2pJPED" id="4hLHJS5v0xM" role="2pJPEn">
                   <ref role="2pJxaS" to="ls40:5z8qOPDzgMv" resolve="PathType" />
-                  <node concept="2pJxcG" id="4hLHJS5v0xN" role="2pJxcM">
-                    <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
-                    <node concept="Xl_RD" id="4hLHJS5v0xO" role="2pJxcZ">
-                      <property role="Xl_RC" value="@self" />
+                  <node concept="2pIpSj" id="3ECTLJIRL32" role="2pJxcM">
+                    <ref role="2pIpSl" to="ls40:EcWOxxBQFt" resolve="path" />
+                    <node concept="2pJPED" id="3ECTLJIRL7D" role="2pJxcZ">
+                      <ref role="2pJxaS" to="ls40:NDhvEwd_PY" resolve="Path" />
+                      <node concept="2pIpSj" id="3ECTLJIRL9B" role="2pJxcM">
+                        <ref role="2pIpSl" to="ls40:NDhvEwdAa3" resolve="segments" />
+                        <node concept="36be1Y" id="3ECTLJIRLbF" role="2pJxcZ">
+                          <node concept="2pJPED" id="3ECTLJIRLe3" role="36be1Z">
+                            <ref role="2pJxaS" to="ls40:NDhvEwdAa2" resolve="PathSegment" />
+                            <node concept="2pJxcG" id="3ECTLJIRLgw" role="2pJxcM">
+                              <ref role="2pJxcJ" to="tpck:h0TrG11" resolve="name" />
+                              <node concept="Xl_RD" id="3ECTLJIRLj3" role="2pJxcZ">
+                                <property role="Xl_RC" value="Self" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                     </node>
                   </node>
                   <node concept="2pIpSj" id="4hLHJS5v0xP" role="2pJxcM">
