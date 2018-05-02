@@ -10,6 +10,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/rust.benchmarker/rust.benchmarker.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/rust.importer/rust.importer.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/rust.incrementalityChecker/rust.incrementalityChecker.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/rust.testChecker/rust.testChecker.msd" folder="" />
     </projectModules>
   </component>
 </project>
