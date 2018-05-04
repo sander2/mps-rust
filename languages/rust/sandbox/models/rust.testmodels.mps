@@ -34923,7 +34923,7 @@
       <node concept="SKNMI" id="3DJvz2dAWvD" role="SMsWp" />
     </node>
     <node concept="KpV6n" id="3DJvz2dAV7v" role="3YhEVB">
-      <property role="TrG5h" value="test_borrowck_fail_array_borrow_2" />
+      <property role="TrG5h" value="test_fail_array_borrow_2" />
       <node concept="3YiHqP" id="3DJvz2dAV7w" role="KpVaL">
         <node concept="36JcfG" id="3DJvz2dAV7x" role="3YiHqO">
           <node concept="2ESRZV" id="3DJvz2dAV7y" role="1uLnU5">
