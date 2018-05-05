@@ -8109,18 +8109,13 @@
             </node>
           </node>
         </node>
-        <node concept="30Nfyg" id="7Xk$0OLs_LX" role="1dgzf0">
-          <node concept="2k1GkI" id="7Xk$0OLtbf6" role="30Nf_D">
-            <node concept="2k1_uq" id="7Xk$0OLtbf4" role="2nKVj6">
-              <ref role="2nKBpL" node="7Xk$0OI1tHk" resolve="stripIndexed" />
-              <node concept="2kdhWc" id="7Xk$0OLtojY" role="2nKBpO">
-                <node concept="727y6" id="7Xk$0OLt_rF" role="3zVzRQ">
-                  <ref role="3zVwH8" to="ls40:3IkiYNasXKi" resolve="e" />
-                </node>
-                <node concept="30NkWi" id="7Xk$0OLtojW" role="2kdhYM">
-                  <ref role="XkjO9" node="iPR$net5uu" resolve="d" />
-                </node>
-              </node>
+        <node concept="30Nfyg" id="7Xk$0OM$Nt1" role="1dgzf0">
+          <node concept="2kdhWc" id="7Xk$0OM_2Tf" role="30Nf_D">
+            <node concept="727y6" id="7Xk$0OM_fIx" role="3zVzRQ">
+              <ref role="3zVwH8" to="ls40:3IkiYNasXKi" resolve="e" />
+            </node>
+            <node concept="30NkWi" id="7Xk$0OM_2Tc" role="2kdhYM">
+              <ref role="XkjO9" node="iPR$net5uu" resolve="d" />
             </node>
           </node>
         </node>
