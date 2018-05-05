@@ -1604,6 +1604,72 @@
           </node>
         </node>
       </node>
+      <node concept="3zV_Rz" id="5WoWmZcH$Q" role="3zVECS">
+        <node concept="34ocy7" id="3tTpUZQX1vV" role="1dgzf0">
+          <node concept="2dT$3Y" id="5WoWmZe21U" role="34ocs8">
+            <node concept="2k1GkI" id="5WoWmZe21R" role="2dT$1H">
+              <node concept="2k1_uq" id="5WoWmZe21S" role="2nKVj6">
+                <ref role="2nKBpL" node="3tTpUZQq$kc" resolve="FunctionHeaderLifetimeNok" />
+                <node concept="30NkWi" id="5WoWmZe21T" role="2nKBpO">
+                  <ref role="XkjO9" node="3SsynIUFkYY" resolve="f" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3zV_Rz" id="5WoWmZ4qXY" role="3zVECS">
+        <node concept="1XdyHb" id="5WoWmZf9qT" role="1dgzf0">
+          <property role="1dubkF" value="invalid return type" />
+        </node>
+        <node concept="34odk1" id="5MYV7vbkFaJ" role="1dgzf0">
+          <node concept="2k1GkI" id="5MYV7vbkORN" role="34ocZk">
+            <node concept="2k1_uq" id="iPR$ng2_oE" role="2nKVj6">
+              <ref role="2nKBpL" node="iPR$nfODi1" resolve="functionActualReturnType" />
+              <node concept="30NkWi" id="5WoWmZ9BjR" role="2nKBpO">
+                <ref role="XkjO9" node="3SsynIUFkYY" resolve="f" />
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="5MYV7vbkg0i" role="34ocZn">
+            <property role="TrG5h" value="actualRetTy" />
+          </node>
+        </node>
+        <node concept="34odk1" id="5MYV7vblK3M" role="1dgzf0">
+          <node concept="2k1GkI" id="5MYV7vblTR5" role="34ocZk">
+            <node concept="2k1_uq" id="5MYV7vblTR3" role="2nKVj6">
+              <ref role="2nKBpL" node="5MYV7vb8H_b" resolve="returnTypeOfFunc" />
+              <node concept="30NkWi" id="5WoWmZa2DO" role="2nKBpO">
+                <ref role="XkjO9" node="3SsynIUFkYY" resolve="f" />
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="5MYV7vbll9n" role="34ocZn">
+            <property role="TrG5h" value="specifiedRetTy" />
+          </node>
+        </node>
+        <node concept="34ocy7" id="iPR$ng3M2H" role="1dgzf0">
+          <node concept="34ofUU" id="iPR$ng5hR0" role="34ocs8">
+            <node concept="2Brx2E" id="iPR$ng5rGB" role="34ocZk">
+              <node concept="2k1_0R" id="iPR$ng5rGA" role="2Brx2B" />
+            </node>
+            <node concept="1p__ei" id="iPR$ng46Q_" role="34ocZn">
+              <node concept="3_JagS" id="iPR$ng46Qz" role="1p__f_">
+                <ref role="3_Jajq" node="xVxp1qqXZp" resolve="TypeLattice" />
+              </node>
+              <node concept="1i8UFo" id="iPR$ng4rKv" role="1p_StM">
+                <ref role="2RnLXx" node="2Oko8um3WZA" resolve="leq" />
+                <node concept="1sjAk5" id="iPR$ng4_B4" role="2ZRyFy">
+                  <ref role="1sjAk2" node="5MYV7vbkg0i" resolve="actualRetTy" />
+                </node>
+                <node concept="1sjAk5" id="iPR$ng55FK" role="2ZRyFy">
+                  <ref role="1sjAk2" node="5MYV7vbll9n" resolve="specifiedRetTy" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node concept="3zV_Rz" id="5WoWmVR58o" role="3zVECS">
         <node concept="34ocy7" id="5WoWmVJime" role="1dgzf0">
           <node concept="34oehE" id="5WoWmVL52m" role="34ocs8">
@@ -2225,75 +2291,14 @@
                 </node>
               </node>
             </node>
-            <node concept="34ocy7" id="3tTpUZQX1vV" role="1dgzf0">
-              <node concept="34sUYq" id="3tTpUZQXaOa" role="34ocs8">
-                <node concept="2k1GkI" id="3tTpUZQY7Ii" role="34sUSb">
-                  <node concept="2k1_uq" id="3tTpUZQY7Ig" role="2nKVj6">
-                    <ref role="2nKBpL" node="3tTpUZQq$kc" resolve="FunctionHeaderLifetimeNok" />
-                    <node concept="30NkWi" id="3tTpUZQY$yQ" role="2nKBpO">
-                      <ref role="XkjO9" node="7EXp9q6q07G" resolve="n" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="34odk1" id="5MYV7vbkFaJ" role="1dgzf0">
-              <node concept="2k1GkI" id="5MYV7vbkORN" role="34ocZk">
-                <node concept="2k1_uq" id="iPR$ng2_oE" role="2nKVj6">
+            <node concept="30Nfyg" id="5WoWmZ1YFX" role="1dgzf0">
+              <node concept="2k1GkI" id="5WoWmZ2AJc" role="30Nf_D">
+                <node concept="2k1_uq" id="5WoWmZ2AJa" role="2nKVj6">
                   <ref role="2nKBpL" node="iPR$nfODi1" resolve="functionActualReturnType" />
-                  <node concept="30NkWi" id="iPR$ng2Jbw" role="2nKBpO">
+                  <node concept="30NkWi" id="5WoWmZ2QUW" role="2nKBpO">
                     <ref role="XkjO9" node="7EXp9q6q07G" resolve="n" />
                   </node>
                 </node>
-              </node>
-              <node concept="30KbLJ" id="5MYV7vbkg0i" role="34ocZn">
-                <property role="TrG5h" value="actualRetTy" />
-              </node>
-            </node>
-            <node concept="34odk1" id="5MYV7vblK3M" role="1dgzf0">
-              <node concept="2k1GkI" id="5MYV7vblTR5" role="34ocZk">
-                <node concept="2k1_uq" id="5MYV7vblTR3" role="2nKVj6">
-                  <ref role="2nKBpL" node="5MYV7vb8H_b" resolve="returnTypeOfFunc" />
-                  <node concept="30NkWi" id="5MYV7vblYdF" role="2nKBpO">
-                    <ref role="XkjO9" node="7EXp9q6q07G" resolve="n" />
-                  </node>
-                </node>
-              </node>
-              <node concept="30KbLJ" id="5MYV7vbll9n" role="34ocZn">
-                <property role="TrG5h" value="specifiedRetTy" />
-              </node>
-            </node>
-            <node concept="1XdyHe" id="daLs9OTvaO" role="1dgzf0" />
-            <node concept="34ocy7" id="iPR$ng3M2H" role="1dgzf0">
-              <node concept="34ofUU" id="iPR$ng5hR0" role="34ocs8">
-                <node concept="2Brx2E" id="iPR$ng5rGB" role="34ocZk">
-                  <node concept="2k1_0R" id="iPR$ng5rGA" role="2Brx2B">
-                    <property role="2k1_0O" value="true" />
-                  </node>
-                </node>
-                <node concept="1p__ei" id="iPR$ng46Q_" role="34ocZn">
-                  <node concept="3_JagS" id="iPR$ng46Qz" role="1p__f_">
-                    <ref role="3_Jajq" node="xVxp1qqXZp" resolve="TypeLattice" />
-                  </node>
-                  <node concept="1i8UFo" id="iPR$ng4rKv" role="1p_StM">
-                    <ref role="2RnLXx" node="2Oko8um3WZA" resolve="leq" />
-                    <node concept="1sjAk5" id="iPR$ng4_B4" role="2ZRyFy">
-                      <ref role="1sjAk2" node="5MYV7vbkg0i" resolve="actualRetTy" />
-                    </node>
-                    <node concept="1sjAk5" id="iPR$ng55FK" role="2ZRyFy">
-                      <ref role="1sjAk2" node="5MYV7vbll9n" resolve="specifiedRetTy" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="1XdyHe" id="iPR$nfNBTX" role="1dgzf0" />
-            <node concept="1XdyHb" id="iPR$ng7sbE" role="1dgzf0">
-              <property role="1dubkF" value="perhaps should be specifiedRetTy, but this is useful for debugging for now" />
-            </node>
-            <node concept="30Nfyg" id="7EXp9q6q030" role="1dgzf0">
-              <node concept="30NkWi" id="iPR$ng6V2v" role="30Nf_D">
-                <ref role="XkjO9" node="5MYV7vbkg0i" resolve="actualRetTy" />
               </node>
             </node>
           </node>
