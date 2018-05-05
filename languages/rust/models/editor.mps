@@ -34,7 +34,6 @@
       <concept id="1196434649611" name="jetbrains.mps.lang.editor.structure.SubstituteMenu_SimpleString" flags="ng" index="2h3Zct">
         <property id="1196434851095" name="text" index="2h4Kg1" />
       </concept>
-      <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
       <concept id="8954657570917870539" name="jetbrains.mps.lang.editor.structure.TransformationLocation_ContextAssistant" flags="ng" index="2j_NTm" />
       <concept id="6089045305654894366" name="jetbrains.mps.lang.editor.structure.SubstituteMenuReference_Default" flags="ng" index="2kknPJ" />
       <concept id="1237303669825" name="jetbrains.mps.lang.editor.structure.CellLayout_Indent" flags="nn" index="l2Vlx" />
@@ -1745,15 +1744,18 @@
       <node concept="3F0ifn" id="f2qQxQ7QEC" role="3EZMnx">
         <property role="3F0ifm" value="{" />
       </node>
-      <node concept="3F2HdR" id="rlSsqGgB_0" role="3EZMnx">
+      <node concept="3F2HdR" id="5mULGgkDFs_" role="3EZMnx">
         <ref role="1NtTu8" to="ls40:rlSsqGgB$A" resolve="arms" />
-        <node concept="2iRkQZ" id="rlSsqGh6SY" role="2czzBx" />
-        <node concept="pVoyu" id="rlSsqGi3ho" role="3F10Kt">
+        <node concept="pVoyu" id="5mULGgkDFsY" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
-        <node concept="lj46D" id="rlSsqGj03b" role="3F10Kt">
+        <node concept="lj46D" id="5mULGgkDFsZ" role="3F10Kt">
           <property role="VOm3f" value="true" />
         </node>
+        <node concept="pj6Ft" id="5mULGglkknN" role="3F10Kt">
+          <property role="VOm3f" value="true" />
+        </node>
+        <node concept="l2Vlx" id="5mULGgkDFsB" role="2czzBx" />
       </node>
       <node concept="3F0ifn" id="f2qQxQ7QF0" role="3EZMnx">
         <property role="3F0ifm" value="}" />
