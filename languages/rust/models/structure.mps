@@ -1042,9 +1042,22 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
     </node>
-    <node concept="1TJgyi" id="6FAuemar7eR" role="1TKVEl">
-      <property role="IQ2nx" value="7702977139929019319" />
-      <property role="TrG5h" value="index" />
+    <node concept="1TJgyj" id="7eIxoA1f9ix" role="1TKVEi">
+      <property role="IQ2ns" value="8335746785934611617" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="idx" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7eIxoA1d7Ew">
+    <property role="EcuMT" value="8335746785934080672" />
+    <property role="3GE5qa" value="Expr" />
+    <property role="TrG5h" value="IntLit" />
+    <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
+    <node concept="1TJgyi" id="7eIxoA1d7Ex" role="1TKVEl">
+      <property role="IQ2nx" value="8335746785934080673" />
+      <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
