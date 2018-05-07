@@ -707,7 +707,7 @@
   </node>
   <node concept="1TIwiD" id="B66j8L1ims">
     <property role="EcuMT" value="704278095091541404" />
-    <property role="3GE5qa" value="Item" />
+    <property role="3GE5qa" value="Generics" />
     <property role="TrG5h" value="Generics" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="1TJgyj" id="B66j8L1imy" role="1TKVEi">
@@ -720,7 +720,7 @@
   </node>
   <node concept="1TIwiD" id="B66j8L1imt">
     <property role="EcuMT" value="704278095091541405" />
-    <property role="3GE5qa" value="Item" />
+    <property role="3GE5qa" value="Generics" />
     <property role="TrG5h" value="GenericParam" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
@@ -728,7 +728,7 @@
   </node>
   <node concept="1TIwiD" id="B66j8L1imu">
     <property role="EcuMT" value="704278095091541406" />
-    <property role="3GE5qa" value="Item" />
+    <property role="3GE5qa" value="Generics" />
     <property role="TrG5h" value="LifetimeDefinition" />
     <property role="34LRSv" value="'" />
     <ref role="1TJDcQ" node="B66j8L1imt" resolve="GenericParam" />
@@ -1121,6 +1121,15 @@
     </node>
     <node concept="PrWs8" id="1HDRF1Zmw0W" role="PzmwI">
       <ref role="PrY4T" node="5z8qOPD_3tU" resolve="ITypeRef" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="1HDRF1ZGHOF">
+    <property role="EcuMT" value="1975354761216711979" />
+    <property role="TrG5h" value="TypeParam" />
+    <property role="3GE5qa" value="Generics" />
+    <ref role="1TJDcQ" node="B66j8L1imt" resolve="GenericParam" />
+    <node concept="PrWs8" id="1HDRF1ZGHOM" role="PzmwI">
+      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
   </node>
 </model>

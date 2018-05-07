@@ -116,6 +116,7 @@
       <concept id="1975354761210888249" name="rust.structure.SliceType" flags="ng" index="1$cXU9">
         <child id="1975354761210888250" name="elemTy" index="1$cXUa" />
       </concept>
+      <concept id="1975354761216711979" name="rust.structure.TypeParam" flags="ng" index="1$QKer" />
       <concept id="6417595116755209541" name="rust.structure.While" flags="ng" index="3BtyQ4">
         <child id="3894833591994828604" name="condition" index="g4nQS" />
         <child id="6417595116755209542" name="block" index="3BtyQ7" />
@@ -37958,6 +37959,31 @@
         </node>
       </node>
       <node concept="SKNMI" id="1HDRF1ZGG6k" role="SMsWp" />
+    </node>
+  </node>
+  <node concept="3YhZ5a" id="1HDRF1ZH$Q1">
+    <property role="3GE5qa" value="RegressionTests" />
+    <property role="TrG5h" value="Generics" />
+    <node concept="1I_qm3" id="1HDRF1ZH$Ma" role="3YhEVB">
+      <property role="TrG5h" value="test_ok_X" />
+      <node concept="1I_qlP" id="1HDRF1ZH$Nc" role="1I_qme">
+        <node concept="3Yh6Oj" id="1HDRF1ZH$No" role="1I_qlO">
+          <property role="TrG5h" value="e" />
+          <node concept="Lhmvi" id="1HDRF1ZH$PP" role="LhiMj">
+            <node concept="SKNMI" id="1HDRF1ZH$PQ" role="2Tz1$T" />
+            <node concept="2GRLy4" id="1HDRF1ZH$PR" role="1F4TAl">
+              <node concept="2GRMtS" id="1HDRF1ZH$PS" role="2GRMtT">
+                <property role="TrG5h" value="T" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="1HDRF1ZH$Me" role="1I_qmc">
+        <node concept="1$QKer" id="1HDRF1ZH$Nk" role="SKNMg">
+          <property role="TrG5h" value="T" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
