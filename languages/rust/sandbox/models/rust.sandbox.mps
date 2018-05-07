@@ -13292,6 +13292,18 @@
             </node>
           </node>
         </node>
+        <node concept="34ocy7" id="1HDRF1YOzvW" role="1dgzf0">
+          <node concept="34sUYq" id="1HDRF1YOzzz" role="34ocs8">
+            <node concept="2k1GkI" id="1HDRF1YOSWk" role="34sUSb">
+              <node concept="2k1_uq" id="1HDRF1YOSWi" role="2nKVj6">
+                <ref role="2nKBpL" node="1HDRF1YIDHu" resolve="funcContainsAccessOfMutablyBorrowedVar" />
+                <node concept="30NkWi" id="1HDRF1YOSZa" role="2nKBpO">
+                  <ref role="XkjO9" node="3ns6jdf6NwQ" resolve="f" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="30Nfyg" id="73xHM6jFJSY" role="1dgzf0">
           <node concept="30NkWi" id="73xHM6jFJTR" role="30Nf_D">
             <ref role="XkjO9" node="3ns6jdf6NwQ" resolve="f" />
@@ -13601,6 +13613,67 @@
         </node>
       </node>
       <node concept="wzYYL" id="5QRIycepPzw" role="wzYgH" />
+    </node>
+    <node concept="3zyOaA" id="1HDRF1YIDHu" role="1dubk0">
+      <property role="TrG5h" value="funcContainsAccessOfMutablyBorrowedVar" />
+      <node concept="3zV_Rz" id="1HDRF1YIDHv" role="3zVECS">
+        <node concept="34ocy7" id="1HDRF1YIDHw" role="1dgzf0">
+          <node concept="34oehE" id="1HDRF1YIDHx" role="34ocs8">
+            <node concept="30KbLJ" id="1HDRF1YIDHz" role="2RGvhl">
+              <property role="TrG5h" value="b" />
+            </node>
+            <node concept="2Qv0mg" id="1HDRF1YMY51" role="2RGvlO">
+              <ref role="2Qv0mk" node="71BF$qn4LbP" resolve="ICFGNode" />
+            </node>
+          </node>
+        </node>
+        <node concept="34ocy7" id="1HDRF1YNioN" role="1dgzf0">
+          <node concept="2dT$3Y" id="1HDRF1YNBb1" role="34ocs8">
+            <node concept="2k1GkI" id="1HDRF1YNVSk" role="2dT$1H">
+              <node concept="2k1_uq" id="1HDRF1YNVSi" role="2nKVj6">
+                <ref role="2nKBpL" node="tcVLGwD$pp" resolve="isCompletePath" />
+                <node concept="30NkWi" id="1HDRF1YNVTS" role="2nKBpO">
+                  <ref role="XkjO9" node="1HDRF1YIDHz" resolve="b" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="34ocy7" id="1HDRF1YIDH$" role="1dgzf0">
+          <node concept="2dT$3Y" id="1HDRF1YIDH_" role="34ocs8">
+            <node concept="2k1GkI" id="1HDRF1YIDHA" role="2dT$1H">
+              <node concept="2k1_uq" id="1HDRF1YIDHB" role="2nKVj6">
+                <ref role="2nKBpL" node="2q_fATW3H3K" resolve="isInFunc" />
+                <node concept="30NkWi" id="1HDRF1YIDHC" role="2nKBpO">
+                  <ref role="XkjO9" node="1HDRF1YIDHZ" resolve="f" />
+                </node>
+                <node concept="30NkWi" id="1HDRF1YIDHD" role="2nKBpO">
+                  <ref role="XkjO9" node="1HDRF1YIDHz" resolve="b" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="34ocy7" id="1HDRF1YLFYB" role="1dgzf0">
+          <node concept="2dT$3Y" id="1HDRF1YLG5t" role="34ocs8">
+            <node concept="2k1GkI" id="1HDRF1YM1jU" role="2dT$1H">
+              <node concept="2k1_uq" id="1HDRF1YM1jS" role="2nKVj6">
+                <ref role="2nKBpL" node="1HDRF1Y$Uz7" resolve="accessesMutablyBorrowedData" />
+                <node concept="30NkWi" id="1HDRF1YM1kj" role="2nKBpO">
+                  <ref role="XkjO9" node="1HDRF1YIDHz" resolve="b" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1VLyuc" id="1HDRF1YIDHZ" role="1dv5OJ">
+        <property role="TrG5h" value="f" />
+        <node concept="2kdjtB" id="1HDRF1YIDI0" role="1dukDx">
+          <ref role="2UGuZ7" to="ls40:67zX15hx4m6" resolve="Function" />
+        </node>
+      </node>
+      <node concept="wzYYL" id="1HDRF1YIDI1" role="wzYgH" />
     </node>
     <node concept="1XdyHe" id="6mPjxNkViV0" role="1dubk0" />
     <node concept="3zyOaA" id="iPR$nezgET" role="1dubk0">
@@ -14030,6 +14103,100 @@
         </node>
       </node>
       <node concept="wzYYL" id="5QRIycepZ47" role="wzYgH" />
+    </node>
+    <node concept="3zyOaA" id="1HDRF1Y$Uz7" role="1dubk0">
+      <property role="TrG5h" value="accessesMutablyBorrowedData" />
+      <node concept="3zV_Rz" id="1HDRF1Y$Uz8" role="3zVECS">
+        <node concept="1XdyHb" id="1HDRF1Y$Uz9" role="1dgzf0">
+          <property role="1dubkF" value="assure n is any complete non-borrow path reference" />
+        </node>
+        <node concept="34ocy7" id="1HDRF1Y$Uza" role="1dgzf0">
+          <node concept="2dT$3Y" id="1HDRF1Y$Uzb" role="34ocs8">
+            <node concept="2k1GkI" id="1HDRF1Y$Uzc" role="2dT$1H">
+              <node concept="2k1_uq" id="1HDRF1Y$Uzd" role="2nKVj6">
+                <ref role="2nKBpL" node="tcVLGwD$pp" resolve="isCompletePath" />
+                <node concept="30NkWi" id="1HDRF1Y$Uze" role="2nKBpO">
+                  <ref role="XkjO9" node="1HDRF1Y$UzF" resolve="n" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="34ocy7" id="1HDRF1Y$Uzf" role="1dgzf0">
+          <node concept="34sUYq" id="1HDRF1Y$Uzg" role="34ocs8">
+            <node concept="2k1GkI" id="1HDRF1Y$Uzh" role="34sUSb">
+              <node concept="2k1_uq" id="1HDRF1Y$Uzi" role="2nKVj6">
+                <ref role="2nKBpL" node="7WokiZH9ZL3" resolve="isBorrowed" />
+                <node concept="30NkWi" id="1HDRF1Y$Uzj" role="2nKBpO">
+                  <ref role="XkjO9" node="1HDRF1Y$UzF" resolve="n" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1XdyHe" id="1HDRF1YGnQ4" role="1dgzf0" />
+        <node concept="34odk1" id="1HDRF1Y$Uzq" role="1dgzf0">
+          <node concept="2k1GkI" id="1HDRF1Y$Uzr" role="34ocZk">
+            <node concept="2k1_uq" id="1HDRF1Y$Uzs" role="2nKVj6">
+              <ref role="2nKBpL" node="7eGzudabC98" resolve="getAllBorrowsBefore" />
+              <node concept="30NkWi" id="1HDRF1Y$Uzt" role="2nKBpO">
+                <ref role="XkjO9" node="1HDRF1Y$UzF" resolve="n" />
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="1HDRF1Y$Uzu" role="34ocZn">
+            <property role="TrG5h" value="b" />
+          </node>
+        </node>
+        <node concept="34ocy7" id="1HDRF1YDerl" role="1dgzf0">
+          <node concept="2dT$3Y" id="1HDRF1YDy0r" role="34ocs8">
+            <node concept="2k1GkI" id="1HDRF1YEad7" role="2dT$1H">
+              <node concept="2k1_uq" id="1HDRF1YEad5" role="2nKVj6">
+                <ref role="2nKBpL" node="iPR$nezgET" resolve="borrowDeclIsMutable" />
+                <node concept="30NkWi" id="1HDRF1YEtuX" role="2nKBpO">
+                  <ref role="XkjO9" node="1HDRF1Y$Uzu" resolve="b" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="1XdyHe" id="1HDRF1YEKHh" role="1dgzf0" />
+        <node concept="34odk1" id="1HDRF1Y$Uzw" role="1dgzf0">
+          <node concept="2k1GkI" id="1HDRF1Y$Uzx" role="34ocZk">
+            <node concept="2k1_uq" id="1HDRF1Y$Uzy" role="2nKVj6">
+              <ref role="2nKBpL" node="iPR$ness7B" resolve="getBorrowDeclPath" />
+              <node concept="30NkWi" id="1HDRF1Y$Uzz" role="2nKBpO">
+                <ref role="XkjO9" node="1HDRF1Y$Uzu" resolve="b" />
+              </node>
+            </node>
+          </node>
+          <node concept="30KbLJ" id="1HDRF1Y$Uz$" role="34ocZn">
+            <property role="TrG5h" value="path" />
+          </node>
+        </node>
+        <node concept="34ocy7" id="1HDRF1Y$Uz_" role="1dgzf0">
+          <node concept="2dT$3Y" id="1HDRF1Y$UzA" role="34ocs8">
+            <node concept="2k1GkI" id="1HDRF1Y$UzB" role="2dT$1H">
+              <node concept="2k1_uq" id="1HDRF1Y$UzC" role="2nKVj6">
+                <ref role="2nKBpL" node="1qSNzG_li29" resolve="pathsConflict" />
+                <node concept="30NkWi" id="1HDRF1Y$UzD" role="2nKBpO">
+                  <ref role="XkjO9" node="1HDRF1Y$Uz$" resolve="path" />
+                </node>
+                <node concept="30NkWi" id="1HDRF1Y$UzE" role="2nKBpO">
+                  <ref role="XkjO9" node="1HDRF1Y$UzF" resolve="n" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="1VLyuc" id="1HDRF1Y$UzF" role="1dv5OJ">
+        <property role="TrG5h" value="n" />
+        <node concept="2Qv0mg" id="1HDRF1Y$UzG" role="1dukDx">
+          <ref role="2Qv0mk" node="71BF$qn4LbP" resolve="ICFGNode" />
+        </node>
+      </node>
+      <node concept="wzYYL" id="1HDRF1Y$UzH" role="wzYgH" />
     </node>
     <node concept="3zyOaA" id="7Xk$0OH$1MS" role="1dubk0">
       <property role="TrG5h" value="mutatesData" />
