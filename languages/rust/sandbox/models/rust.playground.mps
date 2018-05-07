@@ -13,6 +13,7 @@
     </language>
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
       <concept id="1180388172941756681" name="rust.structure.True" flags="ng" index="19pR3" />
+      <concept id="7790705638231565416" name="rust.structure.Range" flags="ng" index="CsG7C" />
       <concept id="492547977675972157" name="rust.structure.PatternIdentByValue" flags="ng" index="2ESRZV">
         <property id="7104825393965961924" name="mutable" index="3$7nJ9" />
       </concept>
@@ -40,10 +41,6 @@
       <concept id="6660783661625949398" name="rust.structure.DataTypeDef" flags="ng" index="1KBQu_">
         <child id="3570966331251178361" name="generics" index="1I_qmc" />
       </concept>
-      <concept id="4293139825171880930" name="rust.structure.Borrow" flags="ng" index="3LTT0e">
-        <property id="4293139825171880931" name="mutable" index="3LTT0f" />
-        <child id="4293139825171880978" name="e" index="3LTTvY" />
-      </concept>
       <concept id="8335746785934080672" name="rust.structure.IntLit" flags="ng" index="3MAJWD">
         <property id="8335746785934080673" name="value" index="3MAJWC" />
       </concept>
@@ -52,9 +49,6 @@
       </concept>
       <concept id="1099920448281994596" name="rust.structure.Block" flags="ng" index="3YiHqP">
         <child id="1099920448281994597" name="statements" index="3YiHqO" />
-      </concept>
-      <concept id="1099920448281994410" name="rust.structure.StatementSemi" flags="ng" index="3YiHtV">
-        <child id="1099920448281994411" name="e" index="3YiHtU" />
       </concept>
     </language>
   </registry>
@@ -65,43 +59,61 @@
       <node concept="1I_qlP" id="1WZV9YFny$M" role="1I_qme" />
       <node concept="SKNMI" id="1WZV9YFny$N" role="1I_qmc" />
     </node>
-    <node concept="KpV6n" id="6Ku9o16elIG" role="3YhEVB">
-      <property role="TrG5h" value="test_borrowck_ok_array_copy_array_1a" />
-      <node concept="3YiHqP" id="6Ku9o16elIH" role="KpVaL">
-        <node concept="36JcfG" id="6Ku9o16elII" role="3YiHqO">
-          <node concept="2ESRZV" id="6Ku9o16elIJ" role="1uLnU5">
-            <property role="3$7nJ9" value="true" />
-            <property role="TrG5h" value="a" />
-          </node>
-          <node concept="1F4T_j" id="6Ku9o16elIK" role="36Jc8R">
-            <node concept="19pR3" id="6Ku9o16elIL" role="1F4T_E" />
-            <node concept="19pR3" id="6Ku9o16elIM" role="1F4T_E" />
-          </node>
-        </node>
-        <node concept="36JcfG" id="6Ku9o16elIN" role="3YiHqO">
-          <node concept="2ESRZV" id="6Ku9o16elIO" role="1uLnU5">
+    <node concept="KpV6n" id="1HDRF1ZfOjF" role="3YhEVB">
+      <property role="TrG5h" value="test_borrowck_fail_slice_dst_1" />
+      <node concept="3YiHqP" id="1HDRF1ZfOjH" role="KpVaL">
+        <node concept="36JcfG" id="1HDRF1ZfOxi" role="3YiHqO">
+          <node concept="2ESRZV" id="1HDRF1ZfOxj" role="1uLnU5">
             <property role="3$7nJ9" value="false" />
-            <property role="TrG5h" value="y1" />
+            <property role="TrG5h" value="a" />
           </node>
-          <node concept="3LTT0e" id="6Ku9o16elIP" role="36Jc8R">
-            <property role="3LTT0f" value="false" />
-            <node concept="3wyxhn" id="6Ku9o16elIQ" role="3LTTvY">
-              <node concept="36GXDm" id="6Ku9o16elIR" role="3wywHh">
-                <property role="TrG5h" value="a" />
-              </node>
-              <node concept="3MAJWD" id="6Ku9o16elIS" role="3M$x4C">
-                <property role="3MAJWC" value="2" />
-              </node>
-            </node>
+          <node concept="1F4T_j" id="1HDRF1ZfOxk" role="36Jc8R">
+            <node concept="19pR3" id="1HDRF1ZfOxl" role="1F4T_E" />
           </node>
         </node>
-        <node concept="3YiHtV" id="6Ku9o16elIT" role="3YiHqO">
-          <node concept="36GXDm" id="6Ku9o16enBh" role="3YiHtU">
-            <property role="TrG5h" value="a" />
+        <node concept="36JcfG" id="1HDRF1ZfOxD" role="3YiHqO">
+          <node concept="2ESRZV" id="1HDRF1ZfOxP" role="1uLnU5">
+            <property role="3$7nJ9" value="false" />
+            <property role="TrG5h" value="b" />
+          </node>
+          <node concept="3wyxhn" id="1HDRF1ZfOxW" role="36Jc8R">
+            <node concept="36GXDm" id="1HDRF1ZfOxX" role="3wywHh">
+              <property role="TrG5h" value="a" />
+            </node>
+            <node concept="CsG7C" id="1HDRF1ZfOxY" role="3M$x4C" />
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="6Ku9o16elIX" role="SMsWp" />
+      <node concept="SKNMI" id="1HDRF1ZfOjJ" role="SMsWp" />
+    </node>
+    <node concept="KpV6n" id="1HDRF1ZgCT1" role="3YhEVB">
+      <property role="TrG5h" value="test_borrowck_fail_slice_dst_1" />
+      <node concept="3YiHqP" id="1HDRF1ZgCT2" role="KpVaL">
+        <node concept="36JcfG" id="1HDRF1ZgCT3" role="3YiHqO">
+          <node concept="2ESRZV" id="1HDRF1ZgCT4" role="1uLnU5">
+            <property role="3$7nJ9" value="false" />
+            <property role="TrG5h" value="a" />
+          </node>
+          <node concept="1F4T_j" id="1HDRF1ZgCT5" role="36Jc8R">
+            <node concept="19pR3" id="1HDRF1ZgCT6" role="1F4T_E" />
+          </node>
+        </node>
+        <node concept="36JcfG" id="1HDRF1ZgCT7" role="3YiHqO">
+          <node concept="2ESRZV" id="1HDRF1ZgCT8" role="1uLnU5">
+            <property role="3$7nJ9" value="false" />
+            <property role="TrG5h" value="b" />
+          </node>
+          <node concept="3wyxhn" id="1HDRF1ZgCT9" role="36Jc8R">
+            <node concept="36GXDm" id="1HDRF1ZgCTa" role="3wywHh">
+              <property role="TrG5h" value="a" />
+            </node>
+            <node concept="3MAJWD" id="1HDRF1ZgCU6" role="3M$x4C">
+              <property role="3MAJWC" value="2" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="1HDRF1ZgCTc" role="SMsWp" />
     </node>
   </node>
 </model>
