@@ -353,7 +353,7 @@
             <property role="TrG5h" value="root" />
             <node concept="17QB3L" id="3DJvz2dFr9r" role="1tU5fm" />
             <node concept="Xl_RD" id="5mULGgkErKL" role="33vP2m">
-              <property role="Xl_RC" value="Array" />
+              <property role="Xl_RC" value="GenFunctionLifetimeElision" />
             </node>
           </node>
         </node>
