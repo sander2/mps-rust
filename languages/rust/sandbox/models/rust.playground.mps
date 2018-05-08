@@ -23,7 +23,6 @@
       <concept id="930351740760777346" name="rust.structure.PathSegment" flags="ng" index="2GRMtS" />
       <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
         <child id="7053749796611573408" name="block" index="KpVaL" />
-        <child id="704278095092241963" name="generics" index="SMsWp" />
       </concept>
       <concept id="6397481250907294879" name="rust.structure.PathType" flags="ng" index="Lhmvi">
         <child id="8738699394645885429" name="generics" index="2Tz1$T" />
@@ -51,9 +50,6 @@
       <concept id="3570966331251178358" name="rust.structure.Struct" flags="ng" index="1I_qm3">
         <child id="3570966331251178363" name="data" index="1I_qme" />
       </concept>
-      <concept id="6660783661625949398" name="rust.structure.DataTypeDef" flags="ng" index="1KBQu_">
-        <child id="3570966331251178361" name="generics" index="1I_qmc" />
-      </concept>
       <concept id="8335746785934080672" name="rust.structure.IntLit" flags="ng" index="3MAJWD">
         <property id="8335746785934080673" name="value" index="3MAJWC" />
       </concept>
@@ -66,6 +62,9 @@
       <concept id="1099920448281994596" name="rust.structure.Block" flags="ng" index="3YiHqP">
         <child id="1099920448281994597" name="statements" index="3YiHqO" />
       </concept>
+      <concept id="1513470844665800712" name="rust.structure.IGenericsContainer" flags="ng" index="3ZdWmY">
+        <child id="1513470844665800716" name="gens" index="3ZdWmU" />
+      </concept>
     </language>
   </registry>
   <node concept="3YhZ5a" id="7vYWV1LmCWL">
@@ -73,7 +72,7 @@
     <node concept="1I_qm3" id="1WZV9YFny$L" role="3YhEVB">
       <property role="TrG5h" value="A" />
       <node concept="1I_qlP" id="1WZV9YFny$M" role="1I_qme" />
-      <node concept="SKNMI" id="1WZV9YFny$N" role="1I_qmc" />
+      <node concept="SKNMI" id="1k0VrrEl0Xu" role="3ZdWmU" />
     </node>
     <node concept="KpV6n" id="1HDRF1ZfOjF" role="3YhEVB">
       <property role="TrG5h" value="test_borrowck_fail_slice_dst_1" />
@@ -100,7 +99,7 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="1HDRF1ZfOjJ" role="SMsWp" />
+      <node concept="SKNMI" id="1k0VrrEl0Xs" role="3ZdWmU" />
     </node>
     <node concept="KpV6n" id="1HDRF1ZgCT1" role="3YhEVB">
       <property role="TrG5h" value="test_borrowck_fail_slice_dst_1" />
@@ -129,12 +128,12 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="1HDRF1ZgCTc" role="SMsWp" />
+      <node concept="SKNMI" id="1k0VrrEl0Xt" role="3ZdWmU" />
     </node>
     <node concept="1I_qm3" id="1HDRF1ZH$Oz" role="3YhEVB">
       <property role="TrG5h" value="A" />
       <node concept="1I_qlP" id="1HDRF1ZH$PL" role="1I_qme" />
-      <node concept="SKNMI" id="1HDRF1ZH$OB" role="1I_qmc" />
+      <node concept="SKNMI" id="1k0VrrEl0Xv" role="3ZdWmU" />
     </node>
     <node concept="1I_qm3" id="1HDRF1ZH$Ma" role="3YhEVB">
       <property role="TrG5h" value="X" />
@@ -151,8 +150,8 @@
           </node>
         </node>
       </node>
-      <node concept="SKNMI" id="1HDRF1ZH$Me" role="1I_qmc">
-        <node concept="1$QKer" id="1HDRF1ZH$Nk" role="SKNMg">
+      <node concept="SKNMI" id="1k0VrrEl0Xw" role="3ZdWmU">
+        <node concept="1$QKer" id="1k0VrrEl0Xx" role="SKNMg">
           <property role="TrG5h" value="T" />
         </node>
       </node>
