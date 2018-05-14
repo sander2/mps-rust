@@ -18,9 +18,7 @@
       <concept id="930351740760776062" name="rust.structure.Path" flags="ng" index="2GRLy4">
         <child id="930351740760777347" name="segments" index="2GRMtT" />
       </concept>
-      <concept id="930351740760777346" name="rust.structure.PathSegment" flags="ng" index="2GRMtS">
-        <child id="7197162076725408552" name="gens" index="2HK0vI" />
-      </concept>
+      <concept id="930351740760777346" name="rust.structure.PathSegment" flags="ng" index="2GRMtS" />
       <concept id="7197162076725414976" name="rust.structure.PathExp" flags="ng" index="2HKfy6">
         <child id="7197162076725414977" name="path" index="2HKfy7" />
       </concept>
@@ -70,13 +68,8 @@
       </node>
       <node concept="Lhmvi" id="6pW4t4Jaaue" role="2mhXrk">
         <node concept="2GRLy4" id="6pW4t4Jaaub" role="1F4TAl">
-          <node concept="2GRMtS" id="6pW4t4Jaauc" role="2GRMtT">
+          <node concept="2GRMtS" id="6pW4t4Nv21X" role="2GRMtT">
             <property role="TrG5h" value="Opt" />
-            <node concept="SKNMI" id="6pW4t4Jaaud" role="2HK0vI">
-              <node concept="1$QKer" id="6pW4t4MctuC" role="SKNMg">
-                <property role="TrG5h" value="T" />
-              </node>
-            </node>
           </node>
         </node>
       </node>
@@ -88,13 +81,8 @@
           <node concept="2mlud8" id="6pW4t4MctnM" role="3YiHtU">
             <node concept="2HKfy6" id="6pW4t4MctnU" role="1awipT">
               <node concept="2GRLy4" id="6pW4t4MctnW" role="2HKfy7">
-                <node concept="2GRMtS" id="6pW4t4MctnY" role="2GRMtT">
+                <node concept="2GRMtS" id="6pW4t4Nv21Z" role="2GRMtT">
                   <property role="TrG5h" value="f" />
-                  <node concept="SKNMI" id="6pW4t4Mcto0" role="2HK0vI">
-                    <node concept="1$QKer" id="6pW4t4Mctoe" role="SKNMg">
-                      <property role="TrG5h" value="bool" />
-                    </node>
-                  </node>
                 </node>
               </node>
             </node>
@@ -110,9 +98,8 @@
           <property role="TrG5h" value="t" />
           <node concept="Lhmvi" id="6pW4t4Jaaum" role="LhiMj">
             <node concept="2GRLy4" id="6pW4t4Jaauj" role="1F4TAl">
-              <node concept="2GRMtS" id="6pW4t4Jaauk" role="2GRMtT">
+              <node concept="2GRMtS" id="6pW4t4Nv221" role="2GRMtT">
                 <property role="TrG5h" value="T" />
-                <node concept="SKNMI" id="6pW4t4Jaaul" role="2HK0vI" />
               </node>
             </node>
           </node>

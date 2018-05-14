@@ -255,15 +255,9 @@
                                 <property role="Xl_RC" value="Self" />
                               </node>
                             </node>
-                            <node concept="2pIpSj" id="6pW4t4Lqcjs" role="2pJxcM">
-                              <ref role="2pIpSl" to="ls40:6fxtcre8ncC" resolve="gens" />
-                              <node concept="2pJPED" id="6pW4t4Lqcm9" role="2pJxcZ">
-                                <ref role="2pJxaS" to="ls40:B66j8L1ims" resolve="Generics" />
-                                <node concept="2pIpSj" id="6pW4t4Lqcmo" role="2pJxcM">
-                                  <ref role="2pIpSl" to="ls40:B66j8L1imy" resolve="params" />
-                                  <node concept="36be1Y" id="6pW4t4Lqcou" role="2pJxcZ" />
-                                </node>
-                              </node>
+                            <node concept="2pIpSj" id="6pW4t4NtcsA" role="2pJxcM">
+                              <ref role="2pIpSl" to="ls40:6pW4t4MC95s" resolve="pathArgs" />
+                              <node concept="36be1Y" id="6pW4t4Ntcyj" role="2pJxcZ" />
                             </node>
                           </node>
                         </node>

@@ -423,6 +423,9 @@
     <node concept="PrWs8" id="1QkkqS1qsbY" role="PrDN$">
       <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
     </node>
+    <node concept="PrWs8" id="6pW4t4MCbN2" role="PrDN$">
+      <ref role="PrY4T" node="6pW4t4MC95r" resolve="IPathArg" />
+    </node>
   </node>
   <node concept="1TIwiD" id="5$fSc6YusP5">
     <property role="EcuMT" value="6417595116755209541" />
@@ -747,6 +750,9 @@
     <node concept="PrWs8" id="B66j8LOI_Y" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
+    <node concept="PrWs8" id="6pW4t4MCbMR" role="PzmwI">
+      <ref role="PrY4T" node="6pW4t4MC95r" resolve="IPathArg" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2CfTpbqDrZl">
     <property role="EcuMT" value="3030893493139914709" />
@@ -920,12 +926,12 @@
     <node concept="PrWs8" id="NDhvEwdAa$" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
-    <node concept="1TJgyj" id="6fxtcre8ncC" role="1TKVEi">
-      <property role="IQ2ns" value="7197162076725408552" />
+    <node concept="1TJgyj" id="6pW4t4MC95s" role="1TKVEi">
+      <property role="IQ2ns" value="7384797079175991644" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="gens" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="B66j8L1ims" resolve="Generics" />
+      <property role="20kJfa" value="pathArgs" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="6pW4t4MC95r" resolve="IPathArg" />
     </node>
   </node>
   <node concept="1TIwiD" id="47$NKCE9TC8">
@@ -1123,6 +1129,9 @@
     <node concept="PrWs8" id="1HDRF1ZGHOM" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
+    <node concept="PrWs8" id="6pW4t4Nd1Ea" role="PzmwI">
+      <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
+    </node>
   </node>
   <node concept="PlHQZ" id="1k0VrrEdMw8">
     <property role="EcuMT" value="1513470844665800712" />
@@ -1148,6 +1157,11 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="NDhvEwd_PY" resolve="Path" />
     </node>
+  </node>
+  <node concept="PlHQZ" id="6pW4t4MC95r">
+    <property role="EcuMT" value="7384797079175991643" />
+    <property role="3GE5qa" value="Ty" />
+    <property role="TrG5h" value="IPathArg" />
   </node>
 </model>
 
