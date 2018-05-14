@@ -34,7 +34,6 @@
         <child id="5337027200207899460" name="args" index="1MVqqM" />
       </concept>
       <concept id="6397481250907294879" name="rust.structure.PathType" flags="ng" index="Lhmvi">
-        <child id="8738699394645885429" name="generics" index="2Tz1$T" />
         <child id="760249929319803613" name="path" index="1F4TAl" />
       </concept>
       <concept id="3592446266465227943" name="rust.structure.Call" flags="ng" index="2Mz7DZ">
@@ -93,12 +92,11 @@
       <node concept="3YiHqP" id="1HDRF1ZnybK" role="KpVaL" />
       <node concept="1MVu3q" id="1HDRF1ZnyIc" role="1MVqqM">
         <node concept="1$c3q1" id="1HDRF1ZnyIl" role="1MVu37">
-          <node concept="Lhmvi" id="1HDRF1ZnyIw" role="1$c27j">
-            <node concept="SKNMI" id="1HDRF1ZnyIx" role="2Tz1$T" />
-            <node concept="2GRLy4" id="1HDRF1ZnyIy" role="1F4TAl">
-              <node concept="2GRMtS" id="1HDRF1ZnyIz" role="2GRMtT">
+          <node concept="Lhmvi" id="6pW4t4Jaaua" role="1$c27j">
+            <node concept="2GRLy4" id="6pW4t4Jaau7" role="1F4TAl">
+              <node concept="2GRMtS" id="6pW4t4Jaau8" role="2GRMtT">
                 <property role="TrG5h" value="bool" />
-                <node concept="SKNMI" id="6pW4t4H4PnF" role="2HK0vI" />
+                <node concept="SKNMI" id="6pW4t4Jaau9" role="2HK0vI" />
               </node>
             </node>
           </node>
@@ -152,16 +150,11 @@
           <property role="TrG5h" value="T" />
         </node>
       </node>
-      <node concept="Lhmvi" id="6pW4t4IgHRz" role="2mhXrk">
-        <node concept="SKNMI" id="6pW4t4IgHR$" role="2Tz1$T" />
-        <node concept="2GRLy4" id="6pW4t4IgHR_" role="1F4TAl">
-          <node concept="2GRMtS" id="6pW4t4IgHRA" role="2GRMtT">
+      <node concept="Lhmvi" id="6pW4t4Jaaue" role="2mhXrk">
+        <node concept="2GRLy4" id="6pW4t4Jaaub" role="1F4TAl">
+          <node concept="2GRMtS" id="6pW4t4Jaauc" role="2GRMtT">
             <property role="TrG5h" value="Opt" />
-            <node concept="SKNMI" id="6pW4t4IgHRJ" role="2HK0vI">
-              <node concept="1$QKer" id="6pW4t4IgHRQ" role="SKNMg">
-                <property role="TrG5h" value="T" />
-              </node>
-            </node>
+            <node concept="SKNMI" id="6pW4t4Jaaud" role="2HK0vI" />
           </node>
         </node>
       </node>
@@ -177,19 +170,11 @@
           <property role="TrG5h" value="U" />
         </node>
       </node>
-      <node concept="Lhmvi" id="6pW4t4J4zlU" role="2mhXrk">
-        <node concept="SKNMI" id="6pW4t4J4zlV" role="2Tz1$T" />
-        <node concept="2GRLy4" id="6pW4t4J4zlW" role="1F4TAl">
-          <node concept="2GRMtS" id="6pW4t4J4zlX" role="2GRMtT">
+      <node concept="Lhmvi" id="6pW4t4Jaaui" role="2mhXrk">
+        <node concept="2GRLy4" id="6pW4t4Jaauf" role="1F4TAl">
+          <node concept="2GRMtS" id="6pW4t4Jaaug" role="2GRMtT">
             <property role="TrG5h" value="Opt2" />
-            <node concept="SKNMI" id="6pW4t4J4zlY" role="2HK0vI">
-              <node concept="1$QKer" id="6pW4t4J4zlZ" role="SKNMg">
-                <property role="TrG5h" value="T" />
-              </node>
-              <node concept="1$QKer" id="6pW4t4J4zo$" role="SKNMg">
-                <property role="TrG5h" value="U" />
-              </node>
-            </node>
+            <node concept="SKNMI" id="6pW4t4Jaauh" role="2HK0vI" />
           </node>
         </node>
       </node>
@@ -199,12 +184,11 @@
       <node concept="1I_qlP" id="1k0VrrFUl67" role="1I_qme">
         <node concept="3Yh6Oj" id="1k0VrrFUmub" role="1I_qlO">
           <property role="TrG5h" value="t" />
-          <node concept="Lhmvi" id="1k0VrrFUmuH" role="LhiMj">
-            <node concept="SKNMI" id="1k0VrrFUmuI" role="2Tz1$T" />
-            <node concept="2GRLy4" id="1k0VrrFUmuJ" role="1F4TAl">
-              <node concept="2GRMtS" id="1k0VrrFUmuK" role="2GRMtT">
+          <node concept="Lhmvi" id="6pW4t4Jaaum" role="LhiMj">
+            <node concept="2GRLy4" id="6pW4t4Jaauj" role="1F4TAl">
+              <node concept="2GRMtS" id="6pW4t4Jaauk" role="2GRMtT">
                 <property role="TrG5h" value="T" />
-                <node concept="SKNMI" id="6pW4t4H4Pox" role="2HK0vI" />
+                <node concept="SKNMI" id="6pW4t4Jaaul" role="2HK0vI" />
               </node>
             </node>
           </node>
@@ -221,24 +205,22 @@
       <node concept="1I_qlP" id="6pW4t4J4zim" role="1I_qme">
         <node concept="3Yh6Oj" id="6pW4t4J4zin" role="1I_qlO">
           <property role="TrG5h" value="t" />
-          <node concept="Lhmvi" id="6pW4t4J4zio" role="LhiMj">
-            <node concept="SKNMI" id="6pW4t4J4zip" role="2Tz1$T" />
-            <node concept="2GRLy4" id="6pW4t4J4ziq" role="1F4TAl">
-              <node concept="2GRMtS" id="6pW4t4J4zir" role="2GRMtT">
+          <node concept="Lhmvi" id="6pW4t4Jaauq" role="LhiMj">
+            <node concept="2GRLy4" id="6pW4t4Jaaun" role="1F4TAl">
+              <node concept="2GRMtS" id="6pW4t4Jaauo" role="2GRMtT">
                 <property role="TrG5h" value="T1" />
-                <node concept="SKNMI" id="6pW4t4J4zis" role="2HK0vI" />
+                <node concept="SKNMI" id="6pW4t4Jaaup" role="2HK0vI" />
               </node>
             </node>
           </node>
         </node>
         <node concept="3Yh6Oj" id="6pW4t4J4zkW" role="1I_qlO">
           <property role="TrG5h" value="t2" />
-          <node concept="Lhmvi" id="6pW4t4J4zkX" role="LhiMj">
-            <node concept="SKNMI" id="6pW4t4J4zkY" role="2Tz1$T" />
-            <node concept="2GRLy4" id="6pW4t4J4zkZ" role="1F4TAl">
-              <node concept="2GRMtS" id="6pW4t4J4zl0" role="2GRMtT">
+          <node concept="Lhmvi" id="6pW4t4Jaauu" role="LhiMj">
+            <node concept="2GRLy4" id="6pW4t4Jaaur" role="1F4TAl">
+              <node concept="2GRMtS" id="6pW4t4Jaaus" role="2GRMtT">
                 <property role="TrG5h" value="T2" />
-                <node concept="SKNMI" id="6pW4t4J4zl1" role="2HK0vI" />
+                <node concept="SKNMI" id="6pW4t4Jaaut" role="2HK0vI" />
               </node>
             </node>
           </node>
