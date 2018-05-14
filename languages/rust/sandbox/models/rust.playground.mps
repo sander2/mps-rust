@@ -29,6 +29,7 @@
         <child id="7197162076725414977" name="path" index="2HKfy7" />
       </concept>
       <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
+        <child id="6683038896314989219" name="returnType" index="2mhXrk" />
         <child id="7053749796611573408" name="block" index="KpVaL" />
         <child id="5337027200207899460" name="args" index="1MVqqM" />
       </concept>
@@ -39,7 +40,9 @@
       <concept id="3592446266465227943" name="rust.structure.Call" flags="ng" index="2Mz7DZ">
         <child id="3051785381403782356" name="arg2" index="2f5R9Q" />
       </concept>
-      <concept id="704278095091541404" name="rust.structure.Generics" flags="ng" index="SKNMI" />
+      <concept id="704278095091541404" name="rust.structure.Generics" flags="ng" index="SKNMI">
+        <child id="704278095091541410" name="params" index="SKNMg" />
+      </concept>
       <concept id="9149939120071034736" name="rust.structure.VarRef" flags="ng" index="36GXDm" />
       <concept id="9149939120070975178" name="rust.structure.LetBinding" flags="ng" index="36JcfG">
         <child id="9149939120070975249" name="value" index="36Jc8R" />
@@ -49,8 +52,15 @@
         <child id="1975354761210888035" name="elemTy" index="1$c27j" />
         <child id="1975354761210888038" name="len" index="1$c27m" />
       </concept>
+      <concept id="1975354761216711979" name="rust.structure.TypeParam" flags="ng" index="1$QKer" />
       <concept id="760249929319803419" name="rust.structure.Array" flags="ng" index="1F4T_j">
         <child id="760249929319803426" name="exprs" index="1F4T_E" />
+      </concept>
+      <concept id="3570966331251178368" name="rust.structure.FieldsVariant" flags="ng" index="1I_qlP">
+        <child id="3570966331251178369" name="fields" index="1I_qlO" />
+      </concept>
+      <concept id="3570966331251178358" name="rust.structure.Struct" flags="ng" index="1I_qm3">
+        <child id="3570966331251178363" name="data" index="1I_qme" />
       </concept>
       <concept id="8335746785934080672" name="rust.structure.IntLit" flags="ng" index="3MAJWD">
         <property id="8335746785934080673" name="value" index="3MAJWC" />
@@ -58,6 +68,9 @@
       <concept id="5337027200207883564" name="rust.structure.FunctionArg" flags="ng" index="1MVu3q">
         <child id="1847789696095212668" name="pat" index="1uLnUc" />
         <child id="5337027200207883569" name="ty" index="1MVu37" />
+      </concept>
+      <concept id="1099920448281894594" name="rust.structure.StructFieldDecl" flags="ng" index="3Yh6Oj">
+        <child id="6397481250907310046" name="ty" index="LhiMj" />
       </concept>
       <concept id="1099920448281658011" name="rust.structure.Module" flags="ng" index="3YhZ5a">
         <child id="1099920448281713974" name="defs" index="3YhEVB" />
@@ -130,6 +143,115 @@
         </node>
       </node>
       <node concept="SKNMI" id="1k0VrrEl1gJ" role="3ZdWmU" />
+    </node>
+    <node concept="KpV6n" id="6pW4t4IgHMW" role="3YhEVB">
+      <property role="TrG5h" value="f" />
+      <node concept="3YiHqP" id="6pW4t4IgHMY" role="KpVaL" />
+      <node concept="SKNMI" id="6pW4t4IgHN0" role="3ZdWmU">
+        <node concept="1$QKer" id="6pW4t4IgHO6" role="SKNMg">
+          <property role="TrG5h" value="T" />
+        </node>
+      </node>
+      <node concept="Lhmvi" id="6pW4t4IgHRz" role="2mhXrk">
+        <node concept="SKNMI" id="6pW4t4IgHR$" role="2Tz1$T" />
+        <node concept="2GRLy4" id="6pW4t4IgHR_" role="1F4TAl">
+          <node concept="2GRMtS" id="6pW4t4IgHRA" role="2GRMtT">
+            <property role="TrG5h" value="Opt" />
+            <node concept="SKNMI" id="6pW4t4IgHRJ" role="2HK0vI">
+              <node concept="1$QKer" id="6pW4t4IgHRQ" role="SKNMg">
+                <property role="TrG5h" value="T" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="KpV6n" id="6pW4t4J4zlQ" role="3YhEVB">
+      <property role="TrG5h" value="g" />
+      <node concept="3YiHqP" id="6pW4t4J4zlR" role="KpVaL" />
+      <node concept="SKNMI" id="6pW4t4J4zlS" role="3ZdWmU">
+        <node concept="1$QKer" id="6pW4t4J4zlT" role="SKNMg">
+          <property role="TrG5h" value="T" />
+        </node>
+        <node concept="1$QKer" id="6pW4t4J4zop" role="SKNMg">
+          <property role="TrG5h" value="U" />
+        </node>
+      </node>
+      <node concept="Lhmvi" id="6pW4t4J4zlU" role="2mhXrk">
+        <node concept="SKNMI" id="6pW4t4J4zlV" role="2Tz1$T" />
+        <node concept="2GRLy4" id="6pW4t4J4zlW" role="1F4TAl">
+          <node concept="2GRMtS" id="6pW4t4J4zlX" role="2GRMtT">
+            <property role="TrG5h" value="Opt2" />
+            <node concept="SKNMI" id="6pW4t4J4zlY" role="2HK0vI">
+              <node concept="1$QKer" id="6pW4t4J4zlZ" role="SKNMg">
+                <property role="TrG5h" value="T" />
+              </node>
+              <node concept="1$QKer" id="6pW4t4J4zo$" role="SKNMg">
+                <property role="TrG5h" value="U" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1I_qm3" id="1k0VrrFUl66" role="3YhEVB">
+      <property role="TrG5h" value="Opt" />
+      <node concept="1I_qlP" id="1k0VrrFUl67" role="1I_qme">
+        <node concept="3Yh6Oj" id="1k0VrrFUmub" role="1I_qlO">
+          <property role="TrG5h" value="t" />
+          <node concept="Lhmvi" id="1k0VrrFUmuH" role="LhiMj">
+            <node concept="SKNMI" id="1k0VrrFUmuI" role="2Tz1$T" />
+            <node concept="2GRLy4" id="1k0VrrFUmuJ" role="1F4TAl">
+              <node concept="2GRMtS" id="1k0VrrFUmuK" role="2GRMtT">
+                <property role="TrG5h" value="T" />
+                <node concept="SKNMI" id="6pW4t4H4Pox" role="2HK0vI" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="1k0VrrFUl6m" role="3ZdWmU">
+        <node concept="1$QKer" id="1k0VrrFUmtZ" role="SKNMg">
+          <property role="TrG5h" value="T" />
+        </node>
+      </node>
+    </node>
+    <node concept="1I_qm3" id="6pW4t4J4zil" role="3YhEVB">
+      <property role="TrG5h" value="Opt2" />
+      <node concept="1I_qlP" id="6pW4t4J4zim" role="1I_qme">
+        <node concept="3Yh6Oj" id="6pW4t4J4zin" role="1I_qlO">
+          <property role="TrG5h" value="t" />
+          <node concept="Lhmvi" id="6pW4t4J4zio" role="LhiMj">
+            <node concept="SKNMI" id="6pW4t4J4zip" role="2Tz1$T" />
+            <node concept="2GRLy4" id="6pW4t4J4ziq" role="1F4TAl">
+              <node concept="2GRMtS" id="6pW4t4J4zir" role="2GRMtT">
+                <property role="TrG5h" value="T1" />
+                <node concept="SKNMI" id="6pW4t4J4zis" role="2HK0vI" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3Yh6Oj" id="6pW4t4J4zkW" role="1I_qlO">
+          <property role="TrG5h" value="t2" />
+          <node concept="Lhmvi" id="6pW4t4J4zkX" role="LhiMj">
+            <node concept="SKNMI" id="6pW4t4J4zkY" role="2Tz1$T" />
+            <node concept="2GRLy4" id="6pW4t4J4zkZ" role="1F4TAl">
+              <node concept="2GRMtS" id="6pW4t4J4zl0" role="2GRMtT">
+                <property role="TrG5h" value="T2" />
+                <node concept="SKNMI" id="6pW4t4J4zl1" role="2HK0vI" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="6pW4t4J4zit" role="3ZdWmU">
+        <node concept="1$QKer" id="6pW4t4J4ziu" role="SKNMg">
+          <property role="TrG5h" value="T1" />
+        </node>
+        <node concept="1$QKer" id="6pW4t4J4zkm" role="SKNMg">
+          <property role="TrG5h" value="T2" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
