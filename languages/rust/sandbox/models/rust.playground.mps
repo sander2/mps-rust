@@ -15,7 +15,9 @@
       <concept id="930351740760776062" name="rust.structure.Path" flags="ng" index="2GRLy4">
         <child id="930351740760777347" name="segments" index="2GRMtT" />
       </concept>
-      <concept id="930351740760777346" name="rust.structure.PathSegment" flags="ng" index="2GRMtS" />
+      <concept id="930351740760777346" name="rust.structure.PathSegment" flags="ng" index="2GRMtS">
+        <child id="7197162076725408552" name="gens" index="2HK0vI" />
+      </concept>
       <concept id="6397481250907294879" name="rust.structure.PathType" flags="ng" index="Lhmvi">
         <child id="8738699394645885429" name="generics" index="2Tz1$T" />
         <child id="760249929319803613" name="path" index="1F4TAl" />
@@ -68,6 +70,7 @@
             <node concept="2GRLy4" id="1HDRF1ZH$PR" role="1F4TAl">
               <node concept="2GRMtS" id="1HDRF1ZH$PS" role="2GRMtT">
                 <property role="TrG5h" value="T" />
+                <node concept="SKNMI" id="6pW4t4H4ONu" role="2HK0vI" />
               </node>
             </node>
           </node>
@@ -79,6 +82,7 @@
             <node concept="2GRLy4" id="1k0VrrFOtWu" role="1F4TAl">
               <node concept="2GRMtS" id="1k0VrrFOtWv" role="2GRMtT">
                 <property role="TrG5h" value="A" />
+                <node concept="SKNMI" id="6pW4t4H4ONv" role="2HK0vI" />
               </node>
             </node>
           </node>
@@ -104,6 +108,7 @@
                 <node concept="2GRLy4" id="5WoWmYRF2d" role="1F4TAl">
                   <node concept="2GRMtS" id="5WoWmYRF2e" role="2GRMtT">
                     <property role="TrG5h" value="A" />
+                    <node concept="SKNMI" id="6pW4t4H4ONw" role="2HK0vI" />
                   </node>
                 </node>
               </node>

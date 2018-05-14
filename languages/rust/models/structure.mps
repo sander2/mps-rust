@@ -560,8 +560,12 @@
     <property role="3GE5qa" value="Expr" />
     <property role="TrG5h" value="FunctionCall" />
     <ref role="1TJDcQ" node="37qVHy3lDiB" resolve="Call" />
-    <node concept="PrWs8" id="5MYV7vaUKXg" role="PzmwI">
-      <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
+    <node concept="1TJgyj" id="6pW4t4GZjuC" role="1TKVEi">
+      <property role="IQ2ns" value="7384797079081400232" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="func" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
     </node>
   </node>
   <node concept="1TIwiD" id="f2qQxQ7Pf3">
@@ -923,6 +927,13 @@
     <node concept="PrWs8" id="NDhvEwdAa$" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
+    <node concept="1TJgyj" id="6fxtcre8ncC" role="1TKVEi">
+      <property role="IQ2ns" value="7197162076725408552" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="gens" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="B66j8L1ims" resolve="Generics" />
+    </node>
   </node>
   <node concept="1TIwiD" id="47$NKCE9TC8">
     <property role="EcuMT" value="4748147549719206408" />
@@ -1130,6 +1141,19 @@
       <property role="20kJfa" value="generics" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="B66j8L1ims" resolve="Generics" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6fxtcre8oL0">
+    <property role="EcuMT" value="7197162076725414976" />
+    <property role="3GE5qa" value="Expr" />
+    <property role="TrG5h" value="PathExp" />
+    <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
+    <node concept="1TJgyj" id="6fxtcre8oL1" role="1TKVEi">
+      <property role="IQ2ns" value="7197162076725414977" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="path" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="NDhvEwd_PY" resolve="Path" />
     </node>
   </node>
 </model>

@@ -8548,6 +8548,21 @@
         </node>
       </node>
     </node>
+    <node concept="2Z3Rg9" id="6fxtcre7OQd" role="2Z3R6k">
+      <property role="TrG5h" value="GenericType" />
+      <node concept="2Z3RmO" id="6fxtcre7Wx1" role="2Z3Rhz">
+        <node concept="2ZQB9c" id="6fxtcre7WwY" role="2Z3Rhw">
+          <ref role="2ZQB93" node="xVxp1qqXZp" resolve="TypeLattice" />
+        </node>
+      </node>
+      <node concept="2Z3RmO" id="6fxtcre7YAL" role="2Z3Rhz">
+        <node concept="_YKpA" id="6fxtcre7YAH" role="2Z3Rhw">
+          <node concept="2ZQB9c" id="6fxtcre7Z4p" role="_ZDj9">
+            <ref role="2ZQB93" node="xVxp1qqXZp" resolve="TypeLattice" />
+          </node>
+        </node>
+      </node>
+    </node>
   </node>
   <node concept="3TKv5i" id="2Z$qCIibyvG">
     <property role="TrG5h" value="ControlFlow" />
