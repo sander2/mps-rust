@@ -352,9 +352,7 @@
           <node concept="3cpWsn" id="3DJvz2dFr9w" role="3cpWs9">
             <property role="TrG5h" value="root" />
             <node concept="17QB3L" id="3DJvz2dFr9r" role="1tU5fm" />
-            <node concept="Xl_RD" id="5mULGgkErKL" role="33vP2m">
-              <property role="Xl_RC" value="GenFunctionLifetimeElision" />
-            </node>
+            <node concept="10Nm6u" id="oW49KS95fH" role="33vP2m" />
           </node>
         </node>
         <node concept="3clFbH" id="3DJvz2dFhf1" role="3cqZAp" />
