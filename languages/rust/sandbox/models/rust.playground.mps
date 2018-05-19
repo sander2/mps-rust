@@ -12,12 +12,8 @@
       </concept>
     </language>
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
-      <concept id="1180388172941756681" name="rust.structure.True" flags="ng" index="19pR3" />
       <concept id="6683038896314060607" name="rust.structure.FunctionCall" flags="ng" index="2mlud8">
         <child id="7384797079081400232" name="func" index="1awipT" />
-      </concept>
-      <concept id="5934771399103067591" name="rust.structure.MethodCall" flags="ng" index="2oWNVz">
-        <child id="5934771399103138174" name="obj" index="2oV49q" />
       </concept>
       <concept id="492547977675972157" name="rust.structure.PatternIdentByValue" flags="ng" index="2ESRZV">
         <property id="7104825393965961924" name="mutable" index="3$7nJ9" />
@@ -34,18 +30,13 @@
       <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
         <child id="6683038896314989219" name="returnType" index="2mhXrk" />
         <child id="7053749796611573408" name="block" index="KpVaL" />
-        <child id="5337027200207899460" name="args" index="1MVqqM" />
       </concept>
       <concept id="6397481250907294879" name="rust.structure.PathType" flags="ng" index="Lhmvi">
         <child id="760249929319803613" name="path" index="1F4TAl" />
       </concept>
-      <concept id="3592446266465227943" name="rust.structure.Call" flags="ng" index="2Mz7DZ">
-        <child id="3051785381403782356" name="arg2" index="2f5R9Q" />
-      </concept>
       <concept id="704278095091541404" name="rust.structure.Generics" flags="ng" index="SKNMI">
         <child id="704278095091541410" name="params" index="SKNMg" />
       </concept>
-      <concept id="9149939120071034736" name="rust.structure.VarRef" flags="ng" index="36GXDm" />
       <concept id="9149939120070975178" name="rust.structure.LetBinding" flags="ng" index="36JcfG">
         <child id="9149939120070975249" name="value" index="36Jc8R" />
         <child id="1847789696095212661" name="pat" index="1uLnU5" />
@@ -58,10 +49,6 @@
       <concept id="3570966331251178358" name="rust.structure.Struct" flags="ng" index="1I_qm3">
         <child id="3570966331251178363" name="data" index="1I_qme" />
       </concept>
-      <concept id="5337027200207883564" name="rust.structure.FunctionArg" flags="ng" index="1MVu3q">
-        <child id="1847789696095212668" name="pat" index="1uLnUc" />
-        <child id="5337027200207883569" name="ty" index="1MVu37" />
-      </concept>
       <concept id="1099920448281894594" name="rust.structure.StructFieldDecl" flags="ng" index="3Yh6Oj">
         <child id="6397481250907310046" name="ty" index="LhiMj" />
       </concept>
@@ -70,9 +57,6 @@
       </concept>
       <concept id="1099920448281994596" name="rust.structure.Block" flags="ng" index="3YiHqP">
         <child id="1099920448281994597" name="statements" index="3YiHqO" />
-      </concept>
-      <concept id="1099920448281994410" name="rust.structure.StatementSemi" flags="ng" index="3YiHtV">
-        <child id="1099920448281994411" name="e" index="3YiHtU" />
       </concept>
       <concept id="1513470844665800712" name="rust.structure.IGenericsContainer" flags="ng" index="3ZdWmY">
         <child id="1513470844665800716" name="generics" index="3ZdWmU" />
@@ -203,34 +187,6 @@
       <property role="TrG5h" value="A" />
       <node concept="1I_qlP" id="xGjOHJvFaD" role="1I_qme" />
       <node concept="SKNMI" id="xGjOHJvF8v" role="3ZdWmU" />
-    </node>
-    <node concept="KpV6n" id="37qVHy3kTf9" role="3YhEVB">
-      <property role="TrG5h" value="test_borrowck_ok_call_method_2" />
-      <node concept="1MVu3q" id="37qVHy3kTfa" role="1MVqqM">
-        <node concept="Lhmvi" id="6pW4t4Jabea" role="1MVu37">
-          <node concept="2GRLy4" id="6pW4t4Jabe7" role="1F4TAl">
-            <node concept="2GRMtS" id="oW49KS8K1K" role="2GRMtT">
-              <property role="TrG5h" value="B" />
-            </node>
-          </node>
-        </node>
-        <node concept="2ESRZV" id="37qVHy3kTfd" role="1uLnUc">
-          <property role="3$7nJ9" value="false" />
-          <property role="TrG5h" value="b" />
-        </node>
-      </node>
-      <node concept="3YiHqP" id="37qVHy3kTfe" role="KpVaL">
-        <node concept="3YiHtV" id="37qVHy3kTff" role="3YiHqO">
-          <node concept="2oWNVz" id="29twYXM153H" role="3YiHtU">
-            <property role="TrG5h" value="test_ok_method_with_arg" />
-            <node concept="19pR3" id="29twYXM154d" role="2f5R9Q" />
-            <node concept="36GXDm" id="29twYXM153P" role="2oV49q">
-              <property role="TrG5h" value="b" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="SKNMI" id="1k0VrrEl1f2" role="3ZdWmU" />
     </node>
   </node>
 </model>
