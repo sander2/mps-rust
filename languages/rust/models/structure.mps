@@ -963,6 +963,13 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
     </node>
+    <node concept="1TJgyj" id="4H3D3engHoq" role="1TKVEi">
+      <property role="IQ2ns" value="5423358917772236314" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="typeParams" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="5z8qOPD_3tU" resolve="ITypeRef" />
+    </node>
     <node concept="PrWs8" id="59syMjaGtN5" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
