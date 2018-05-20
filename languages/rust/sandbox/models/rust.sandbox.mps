@@ -465,6 +465,9 @@
       <concept id="1171323947159" name="jetbrains.mps.lang.smodel.structure.Model_NodesOperation" flags="nn" index="2SmgA7">
         <child id="1758937410080001570" name="conceptArgument" index="1dBWTz" />
       </concept>
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
         <property id="1238684351431" name="asCast" index="1BlNFB" />
       </concept>
@@ -13941,20 +13944,14 @@
                       <node concept="3zZkjj" id="67zX15hUziM" role="2OqNvi">
                         <node concept="1bVj0M" id="67zX15hUziN" role="23t8la">
                           <node concept="3clFbS" id="67zX15hUziO" role="1bW5cS">
-                            <node concept="3clFbF" id="67zX15hUziP" role="3cqZAp">
-                              <node concept="2OqwBi" id="67zX15hUziQ" role="3clFbG">
-                                <node concept="2OqwBi" id="67zX15hUziR" role="2Oq$k0">
-                                  <node concept="37vLTw" id="67zX15hUziS" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="67zX15hUziW" resolve="it" />
-                                  </node>
-                                  <node concept="3TrcHB" id="67zX15hUziT" role="2OqNvi">
-                                    <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
-                                  </node>
+                            <node concept="3clFbF" id="3AVZPqNw9ho" role="3cqZAp">
+                              <node concept="2OqwBi" id="3AVZPqNw9Gk" role="3clFbG">
+                                <node concept="37vLTw" id="3AVZPqNw9hg" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="67zX15hUziW" resolve="it" />
                                 </node>
-                                <node concept="liA8E" id="67zX15hUziU" role="2OqNvi">
-                                  <ref role="37wK5l" to="wyt6:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
-                                  <node concept="Xl_RD" id="67zX15hUziV" role="37wK5m">
-                                    <property role="Xl_RC" value="test_" />
+                                <node concept="1mIQ4w" id="3AVZPqNwb5k" role="2OqNvi">
+                                  <node concept="chp4Y" id="3AVZPqNwc7k" role="cj9EA">
+                                    <ref role="cht4Q" to="ls40:7FAWTxy91ou" resolve="ITypable" />
                                   </node>
                                 </node>
                               </node>
