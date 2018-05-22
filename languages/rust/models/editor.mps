@@ -3562,11 +3562,12 @@
         <property role="3F0ifm" value="impl" />
         <ref role="1k5W1q" to="tpch:24YP6ZDyde4" resolve="Keyword" />
       </node>
-      <node concept="3F0A7n" id="47$NKCEc3$u" role="3EZMnx">
-        <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
-      </node>
-      <node concept="3F1sOY" id="47$NKCEcKJ1" role="3EZMnx">
+      <node concept="3F1sOY" id="5IX8lx1194s" role="3EZMnx">
         <ref role="1NtTu8" to="ls40:1k0VrrEdMwc" resolve="generics" />
+      </node>
+      <node concept="3F0ifn" id="5IX8lx1iGFF" role="3EZMnx" />
+      <node concept="3F1sOY" id="5IX8lx1hRAK" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:5IX8lx1hRo3" resolve="self_ty" />
       </node>
       <node concept="3F0ifn" id="47$NKCE9TCD" role="3EZMnx">
         <property role="3F0ifm" value="{" />
