@@ -920,6 +920,9 @@
       <property role="20lbJX" value="1..n" />
       <ref role="20lvS9" node="NDhvEwdAa2" resolve="PathSegment" />
     </node>
+    <node concept="PrWs8" id="7iQPyMUfgSP" role="PzmwI">
+      <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="NDhvEwdAa2">
     <property role="EcuMT" value="930351740760777346" />
