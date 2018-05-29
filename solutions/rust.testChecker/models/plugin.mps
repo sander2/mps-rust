@@ -353,7 +353,7 @@
             <property role="TrG5h" value="root" />
             <node concept="17QB3L" id="3DJvz2dFr9r" role="1tU5fm" />
             <node concept="Xl_RD" id="3AVZPqLQxVe" role="33vP2m">
-              <property role="Xl_RC" value="Generics" />
+              <property role="Xl_RC" value="GenericFunctionLifetimeElision" />
             </node>
           </node>
         </node>
@@ -404,7 +404,7 @@
                             </node>
                             <node concept="2SmgA7" id="6j0C3JOWXo_" role="2OqNvi">
                               <node concept="chp4Y" id="5mULGgjJ5Ff" role="1dBWTz">
-                                <ref role="cht4Q" to="ls40:X3GX7L1bso" resolve="Item" />
+                                <ref role="cht4Q" to="ls40:X3GX7L1bso" resolve="NamedItem" />
                               </node>
                             </node>
                           </node>
@@ -812,7 +812,7 @@
                                   </node>
                                   <node concept="2SmgA7" id="6j0C3JOWfXW" role="2OqNvi">
                                     <node concept="chp4Y" id="5mULGgjYUvE" role="1dBWTz">
-                                      <ref role="cht4Q" to="ls40:X3GX7L1bso" resolve="Item" />
+                                      <ref role="cht4Q" to="ls40:X3GX7L1bso" resolve="NamedItem" />
                                     </node>
                                   </node>
                                 </node>
@@ -1433,7 +1433,7 @@
       <node concept="37vLTG" id="3Sl$ZZRKrMw" role="3clF46">
         <property role="TrG5h" value="f" />
         <node concept="3Tqbb2" id="3Sl$ZZRKrMv" role="1tU5fm">
-          <ref role="ehGHo" to="ls40:X3GX7L1bso" resolve="Item" />
+          <ref role="ehGHo" to="ls40:X3GX7L1bso" resolve="NamedItem" />
         </node>
       </node>
     </node>
