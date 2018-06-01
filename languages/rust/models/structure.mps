@@ -1196,5 +1196,112 @@
     <property role="3GE5qa" value="Item" />
     <property role="TrG5h" value="IRealItem" />
   </node>
+  <node concept="1TIwiD" id="34k4eXAN8jO">
+    <property role="EcuMT" value="3536470227800589556" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="BinOpExpr" />
+    <ref role="1TJDcQ" node="X3GX7L25vI" resolve="Expr" />
+    <node concept="1TJgyj" id="34k4eXAN8jP" role="1TKVEi">
+      <property role="IQ2ns" value="3536470227800589557" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="left" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+    <node concept="1TJgyj" id="34k4eXAN8jS" role="1TKVEi">
+      <property role="IQ2ns" value="3536470227800589560" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="right" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="X3GX7L25vI" resolve="Expr" />
+    </node>
+    <node concept="1TJgyj" id="34k4eXAO6qG" role="1TKVEi">
+      <property role="IQ2ns" value="3536470227800843948" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="op" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="34k4eXAN8jX" resolve="BinOp" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8jX">
+    <property role="EcuMT" value="3536470227800589565" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="BinOp" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8jY">
+    <property role="EcuMT" value="3536470227800589566" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="Add" />
+    <ref role="1TJDcQ" node="34k4eXAN8jX" resolve="BinOp" />
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8kn">
+    <property role="EcuMT" value="3536470227800589591" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="Sub" />
+    <ref role="1TJDcQ" node="34k4eXAN8jX" resolve="BinOp" />
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8kA">
+    <property role="EcuMT" value="3536470227800589606" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="Mul" />
+    <ref role="1TJDcQ" node="34k4eXAN8jX" resolve="BinOp" />
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8mZ">
+    <property role="EcuMT" value="3536470227800589759" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="Div" />
+    <ref role="1TJDcQ" node="34k4eXAN8jX" resolve="BinOp" />
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8ne">
+    <property role="EcuMT" value="3536470227800589774" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="Eq" />
+    <ref role="1TJDcQ" node="34k4eXAN8jX" resolve="BinOp" />
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8nx">
+    <property role="EcuMT" value="3536470227800589793" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="Lt" />
+    <ref role="1TJDcQ" node="34k4eXAN8jX" resolve="BinOp" />
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8nK">
+    <property role="EcuMT" value="3536470227800589808" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="Le" />
+    <ref role="1TJDcQ" node="34k4eXAN8jX" resolve="BinOp" />
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8nZ">
+    <property role="EcuMT" value="3536470227800589823" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="Gt" />
+    <ref role="1TJDcQ" node="34k4eXAN8jX" resolve="BinOp" />
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8oe">
+    <property role="EcuMT" value="3536470227800589838" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="Ge" />
+    <ref role="1TJDcQ" node="34k4eXAN8jX" resolve="BinOp" />
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8ot">
+    <property role="EcuMT" value="3536470227800589853" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="Ne" />
+    <ref role="1TJDcQ" node="34k4eXAN8jX" resolve="BinOp" />
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8oG">
+    <property role="EcuMT" value="3536470227800589868" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="And" />
+    <ref role="1TJDcQ" node="34k4eXAN8jX" resolve="BinOp" />
+  </node>
+  <node concept="1TIwiD" id="34k4eXAN8pb">
+    <property role="EcuMT" value="3536470227800589899" />
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <property role="TrG5h" value="Or" />
+    <ref role="1TJDcQ" node="34k4eXAN8jX" resolve="BinOp" />
+  </node>
 </model>
 

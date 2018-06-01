@@ -4555,5 +4555,108 @@
       <node concept="l2Vlx" id="3AVZPqLSUzq" role="2iSdaV" />
     </node>
   </node>
+  <node concept="24kQdi" id="34k4eXAN8k7">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8jY" resolve="Add" />
+    <node concept="3EZMnI" id="34k4eXAN8k9" role="2wV5jI">
+      <node concept="3F0ifn" id="34k4eXAN8kj" role="3EZMnx">
+        <property role="3F0ifm" value="+" />
+      </node>
+      <node concept="l2Vlx" id="34k4eXAN8kc" role="2iSdaV" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="34k4eXAN8kw">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8kn" resolve="Sub" />
+    <node concept="3F0ifn" id="34k4eXAN8ky" role="2wV5jI">
+      <property role="3F0ifm" value="-" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="34k4eXAN8mP">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8kA" resolve="Mul" />
+    <node concept="3F0ifn" id="34k4eXAN8mV" role="2wV5jI">
+      <property role="3F0ifm" value="*" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="34k4eXAN8n8">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8mZ" resolve="Div" />
+    <node concept="3F0ifn" id="34k4eXAN8na" role="2wV5jI">
+      <property role="3F0ifm" value="/" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="34k4eXAN8nn">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8ne" resolve="Eq" />
+    <node concept="3F0ifn" id="34k4eXAN8nt" role="2wV5jI">
+      <property role="3F0ifm" value="==" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="34k4eXAN8nE">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8nx" resolve="Lt" />
+    <node concept="3F0ifn" id="34k4eXAN8nG" role="2wV5jI">
+      <property role="3F0ifm" value="&lt;" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="34k4eXAN8nT">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8nK" resolve="Le" />
+    <node concept="3F0ifn" id="34k4eXAN8nV" role="2wV5jI">
+      <property role="3F0ifm" value="&lt;=" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="34k4eXAN8o8">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8nZ" resolve="Gt" />
+    <node concept="3F0ifn" id="34k4eXAN8oa" role="2wV5jI">
+      <property role="3F0ifm" value="&gt;" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="34k4eXAN8on">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8oe" resolve="Ge" />
+    <node concept="3F0ifn" id="34k4eXAN8op" role="2wV5jI">
+      <property role="3F0ifm" value="&gt;=" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="34k4eXAN8oA">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8ot" resolve="Ne" />
+    <node concept="3F0ifn" id="34k4eXAN8oC" role="2wV5jI">
+      <property role="3F0ifm" value="!=" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="34k4eXAN8p5">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8oG" resolve="And" />
+    <node concept="3F0ifn" id="34k4eXAN8p7" role="2wV5jI">
+      <property role="3F0ifm" value="&amp;&amp;" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="34k4eXAN8pk">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8pb" resolve="Or" />
+    <node concept="3F0ifn" id="34k4eXAN8pm" role="2wV5jI">
+      <property role="3F0ifm" value="||" />
+    </node>
+  </node>
+  <node concept="24kQdi" id="34k4eXAO6q6">
+    <property role="3GE5qa" value="Expr.BinOp" />
+    <ref role="1XX52x" to="ls40:34k4eXAN8jO" resolve="BinOpExpr" />
+    <node concept="3EZMnI" id="34k4eXAO6q8" role="2wV5jI">
+      <node concept="3F1sOY" id="34k4eXAO6qm" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:34k4eXAN8jP" resolve="left" />
+      </node>
+      <node concept="3F1sOY" id="34k4eXAO6qU" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:34k4eXAO6qG" resolve="op" />
+      </node>
+      <node concept="l2Vlx" id="34k4eXAO6qb" role="2iSdaV" />
+      <node concept="3F1sOY" id="34k4eXAO6qA" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:34k4eXAN8jS" resolve="right" />
+      </node>
+    </node>
+  </node>
 </model>
 
