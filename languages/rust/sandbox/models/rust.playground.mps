@@ -28,6 +28,10 @@
         <child id="9149939120070975249" name="value" index="36Jc8R" />
         <child id="1847789696095212661" name="pat" index="1uLnU5" />
       </concept>
+      <concept id="3570966331251178368" name="rust.structure.FieldsVariant" flags="ng" index="1I_qlP" />
+      <concept id="3570966331251178358" name="rust.structure.Struct" flags="ng" index="1I_qm3">
+        <child id="3570966331251178363" name="data" index="1I_qme" />
+      </concept>
       <concept id="8335746785934080672" name="rust.structure.IntLit" flags="ng" index="3MAJWD">
         <property id="8335746785934080673" name="value" index="3MAJWC" />
       </concept>
@@ -79,6 +83,16 @@
         </node>
       </node>
       <node concept="SKNMI" id="34k4eXBo8b8" role="3ZdWmU" />
+    </node>
+    <node concept="1I_qm3" id="34k4eXBCxxn" role="3YhEVB">
+      <property role="TrG5h" value="Q" />
+      <node concept="1I_qlP" id="34k4eXBCxxl" role="1I_qme" />
+      <node concept="SKNMI" id="34k4eXBCxxm" role="3ZdWmU" />
+    </node>
+    <node concept="KpV6n" id="34k4eXBCxxr" role="3YhEVB">
+      <property role="TrG5h" value="main" />
+      <node concept="3YiHqP" id="34k4eXBCxxp" role="KpVaL" />
+      <node concept="SKNMI" id="34k4eXBCxxq" role="3ZdWmU" />
     </node>
   </node>
 </model>
