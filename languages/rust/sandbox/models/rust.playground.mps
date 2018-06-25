@@ -69,7 +69,12 @@
       <concept id="4479064394614101269" name="rust.structure.ConcreteFunction" flags="ng" index="39ew10">
         <child id="4479064394614104121" name="body" index="39ezlG" />
       </concept>
-      <concept id="4479064394621719232" name="rust.structure.Trait" flags="ng" index="39FWul" />
+      <concept id="4479064394621422054" name="rust.structure.TraitFunction" flags="ng" index="39E_MN">
+        <child id="4479064394621422055" name="body" index="39E_MM" />
+      </concept>
+      <concept id="4479064394621719232" name="rust.structure.Trait" flags="ng" index="39FWul">
+        <child id="4479064394621719233" name="funcs" index="39FWuk" />
+      </concept>
       <concept id="339421738354935603" name="rust.structure.Return" flags="ng" index="3b1d_Q" />
       <concept id="3536470227800589556" name="rust.structure.BinOpExpr" flags="ng" index="1nQ9gr">
         <child id="3536470227800843948" name="op" index="1nL7p3" />
@@ -157,6 +162,10 @@
     <property role="TrG5h" value="Playground" />
     <node concept="39FWul" id="3SCPlnRLsNU" role="3YhEVB">
       <property role="TrG5h" value="henk" />
+      <node concept="39E_MN" id="3SCPlnSQEah" role="39FWuk">
+        <node concept="SKNMI" id="3SCPlnSQEai" role="3ZdWmU" />
+        <node concept="3YiHqP" id="3SCPlnSQEgL" role="39E_MM" />
+      </node>
     </node>
     <node concept="1Iijof" id="7ASe3TVgg6C" role="3YhEVB">
       <property role="TrG5h" value="OptionQ" />

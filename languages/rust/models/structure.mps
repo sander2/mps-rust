@@ -96,9 +96,6 @@
     <node concept="PrWs8" id="2s$64VL05jm" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
     </node>
-    <node concept="PrWs8" id="5IX8lx119je" role="PzmwI">
-      <ref role="PrY4T" node="5IX8lx119j8" resolve="IRealItem" />
-    </node>
   </node>
   <node concept="1TIwiD" id="X3GX7L1XUC">
     <property role="EcuMT" value="1099920448281894568" />
@@ -869,6 +866,9 @@
     <node concept="PrWs8" id="1k0VrrEhfgJ" role="PzmwI">
       <ref role="PrY4T" node="1k0VrrEdMw8" resolve="IGenericsContainer" />
     </node>
+    <node concept="PrWs8" id="3SCPlnRLvAW" role="PzmwI">
+      <ref role="PrY4T" node="5IX8lx119j8" resolve="IRealItem" />
+    </node>
   </node>
   <node concept="1TIwiD" id="36eBJlvLUzU">
     <property role="EcuMT" value="3570966331262478586" />
@@ -945,7 +945,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="methods" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="67zX15hx4m6" resolve="Function" />
+      <ref role="20lvS9" node="3SCPlnR4Hkl" resolve="ConcreteFunction" />
     </node>
     <node concept="1TJgyj" id="5IX8lx1hRo3" role="1TKVEi">
       <property role="IQ2ns" value="6610476490985797123" />
@@ -1310,6 +1310,9 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="X3GX7L2ml$" resolve="Block" />
     </node>
+    <node concept="PrWs8" id="3SCPlnRZfZ4" role="PzmwI">
+      <ref role="PrY4T" node="5IX8lx119j8" resolve="IRealItem" />
+    </node>
   </node>
   <node concept="1TIwiD" id="3SCPlnRwCBA">
     <property role="EcuMT" value="4479064394621422054" />
@@ -1335,6 +1338,9 @@
       <property role="20kJfa" value="funcs" />
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="3SCPlnRwCBA" resolve="TraitFunction" />
+    </node>
+    <node concept="PrWs8" id="3SCPlnRLvAK" role="PzmwI">
+      <ref role="PrY4T" node="5IX8lx119j8" resolve="IRealItem" />
     </node>
   </node>
 </model>
