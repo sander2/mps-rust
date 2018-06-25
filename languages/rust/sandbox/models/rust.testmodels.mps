@@ -2,7 +2,7 @@
 <model ref="r:0975438c-049b-4b2d-95e4-70bb24bec384(rust.testmodels)">
   <persistence version="9" />
   <languages>
-    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="9" />
+    <use id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust" version="0" />
   </languages>
   <imports />
   <registry>
