@@ -302,8 +302,8 @@
       </concept>
     </language>
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
-      <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
-        <child id="7053749796611573408" name="block" index="KpVaL" />
+      <concept id="4479064394614101269" name="" flags="ng" index="39ew10">
+        <child id="4479064394614104121" name="" index="39ezlG" />
       </concept>
       <concept id="1099920448281994596" name="rust.structure.Block" flags="ng" index="3YiHqP" />
     </language>
@@ -890,9 +890,9 @@
                           </node>
                           <node concept="TSZUe" id="6j0C3JOWfYo" role="2OqNvi">
                             <node concept="2c44tf" id="6j0C3JOWfYp" role="25WWJ7">
-                              <node concept="KpV6n" id="6j0C3JOWfYq" role="2c44tc">
+                              <node concept="39ew10" id="3SCPlnR5NDi" role="2c44tc">
                                 <property role="TrG5h" value="main" />
-                                <node concept="3YiHqP" id="6j0C3JOWfYr" role="KpVaL" />
+                                <node concept="3YiHqP" id="3SCPlnR5NDh" role="39ezlG" />
                               </node>
                             </node>
                           </node>
