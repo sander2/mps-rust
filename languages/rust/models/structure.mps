@@ -74,7 +74,7 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="defs" />
       <property role="20lbJX" value="0..n" />
-      <ref role="20lvS9" node="5IX8lx119j8" resolve="IRealItem" />
+      <ref role="20lvS9" node="5IX8lx119j8" resolve="ITopLevelItem" />
     </node>
     <node concept="PrWs8" id="7c2Vtxi_Pyv" role="PzmwI">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
@@ -89,6 +89,9 @@
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="2s$64VL05jm" role="PzmwI">
       <ref role="PrY4T" node="6mPjxNlPCYK" resolve="INamedRustConcept" />
+    </node>
+    <node concept="PrWs8" id="w9HQ5zcChj" role="PzmwI">
+      <ref role="PrY4T" node="w9HQ5zbSVB" resolve="IItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="X3GX7L1XUC">
@@ -857,7 +860,7 @@
       <ref role="PrY4T" node="1k0VrrEdMw8" resolve="IGenericsContainer" />
     </node>
     <node concept="PrWs8" id="3SCPlnRLvAW" role="PzmwI">
-      <ref role="PrY4T" node="5IX8lx119j8" resolve="IRealItem" />
+      <ref role="PrY4T" node="5IX8lx119j8" resolve="ITopLevelItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="36eBJlvLUzU">
@@ -944,11 +947,17 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5z8qOPD_3tU" resolve="ITypeRef" />
     </node>
+    <node concept="1TJgyj" id="w9HQ5ywIj2" role="1TKVEi">
+      <property role="IQ2ns" value="579195655986275522" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="trait" />
+      <ref role="20lvS9" node="NDhvEwd_PY" resolve="Path" />
+    </node>
     <node concept="PrWs8" id="1k0VrrEhfgB" role="PzmwI">
       <ref role="PrY4T" node="1k0VrrEdMw8" resolve="IGenericsContainer" />
     </node>
     <node concept="PrWs8" id="5IX8lx1h2JT" role="PzmwI">
-      <ref role="PrY4T" node="5IX8lx119j8" resolve="IRealItem" />
+      <ref role="PrY4T" node="5IX8lx119j8" resolve="ITopLevelItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="59syMjaFVn7">
@@ -1164,6 +1173,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="NDhvEwd_PY" resolve="Path" />
     </node>
+    <node concept="1TJgyj" id="6FhaCXIkXdV" role="1TKVEi">
+      <property role="IQ2ns" value="7696980033672565627" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="self" />
+      <ref role="20lvS9" node="6FhaCXIkXdF" resolve="QualifiedSelf" />
+    </node>
   </node>
   <node concept="PlHQZ" id="6pW4t4MC95r">
     <property role="EcuMT" value="7384797079175991643" />
@@ -1179,7 +1194,10 @@
   <node concept="PlHQZ" id="5IX8lx119j8">
     <property role="EcuMT" value="6610476490981414088" />
     <property role="3GE5qa" value="Item" />
-    <property role="TrG5h" value="IRealItem" />
+    <property role="TrG5h" value="ITopLevelItem" />
+    <node concept="PrWs8" id="w9HQ5zbSVC" role="PrDN$">
+      <ref role="PrY4T" node="w9HQ5zbSVB" resolve="IItem" />
+    </node>
   </node>
   <node concept="1TIwiD" id="34k4eXAN8jO">
     <property role="EcuMT" value="3536470227800589556" />
@@ -1292,6 +1310,7 @@
     <property role="EcuMT" value="4479064394614101269" />
     <property role="3GE5qa" value="Item" />
     <property role="TrG5h" value="ConcreteFunction" />
+    <property role="34LRSv" value="fn" />
     <ref role="1TJDcQ" node="67zX15hx4m6" resolve="Function" />
     <node concept="1TJgyj" id="3SCPlnR4I0T" role="1TKVEi">
       <property role="IQ2ns" value="4479064394614104121" />
@@ -1301,7 +1320,7 @@
       <ref role="20lvS9" node="X3GX7L2ml$" resolve="Block" />
     </node>
     <node concept="PrWs8" id="3SCPlnRZfZ4" role="PzmwI">
-      <ref role="PrY4T" node="5IX8lx119j8" resolve="IRealItem" />
+      <ref role="PrY4T" node="5IX8lx119j8" resolve="ITopLevelItem" />
     </node>
   </node>
   <node concept="1TIwiD" id="3SCPlnRwCBA">
@@ -1330,8 +1349,33 @@
       <ref role="20lvS9" node="3SCPlnRwCBA" resolve="TraitFunction" />
     </node>
     <node concept="PrWs8" id="3SCPlnRLvAK" role="PzmwI">
-      <ref role="PrY4T" node="5IX8lx119j8" resolve="IRealItem" />
+      <ref role="PrY4T" node="5IX8lx119j8" resolve="ITopLevelItem" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="6FhaCXIkXdF">
+    <property role="EcuMT" value="7696980033672565611" />
+    <property role="3GE5qa" value="Ty" />
+    <property role="TrG5h" value="QualifiedSelf" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6FhaCXIkXdG" role="1TKVEi">
+      <property role="IQ2ns" value="7696980033672565612" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="ty" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="5z8qOPD_3tU" resolve="ITypeRef" />
+    </node>
+    <node concept="1TJgyj" id="6FhaCXIkXdQ" role="1TKVEi">
+      <property role="IQ2ns" value="7696980033672565622" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="trait" />
+      <property role="20lbJX" value="1..n" />
+      <ref role="20lvS9" node="NDhvEwdAa2" resolve="PathSegment" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="w9HQ5zbSVB">
+    <property role="EcuMT" value="579195655997591271" />
+    <property role="3GE5qa" value="Item" />
+    <property role="TrG5h" value="IItem" />
   </node>
 </model>
 

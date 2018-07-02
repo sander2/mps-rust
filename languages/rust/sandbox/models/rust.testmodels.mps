@@ -101,8 +101,14 @@
         <child id="1847789696095212661" name="pat" index="1uLnU5" />
         <child id="2753953570235995100" name="typeAnnotation" index="1ZVt7M" />
       </concept>
-      <concept id="4479064394614101269" name="" flags="ng" index="39ew10">
-        <child id="4479064394614104121" name="" index="39ezlG" />
+      <concept id="4479064394614101269" name="rust.structure.ConcreteFunction" flags="ng" index="39ew10">
+        <child id="4479064394614104121" name="body" index="39ezlG" />
+      </concept>
+      <concept id="4479064394621422054" name="rust.structure.TraitFunction" flags="ng" index="39E_MN">
+        <child id="4479064394621422055" name="body" index="39E_MM" />
+      </concept>
+      <concept id="4479064394621719232" name="rust.structure.Trait" flags="ng" index="39FWul">
+        <child id="4479064394621719233" name="funcs" index="39FWuk" />
       </concept>
       <concept id="339421738354935603" name="rust.structure.Return" flags="ng" index="3b1d_Q">
         <child id="339421738354935604" name="e" index="3b1d_L" />
@@ -44404,6 +44410,61 @@
           </node>
         </node>
         <node concept="SKNMI" id="3SCPlnR5ND3" role="3ZdWmU" />
+      </node>
+    </node>
+  </node>
+  <node concept="3YhZ5a" id="G6DnGx3GhT">
+    <property role="3GE5qa" value="RegressionTests" />
+    <property role="TrG5h" value="Traits" />
+    <node concept="1I_qm3" id="G6DnGx53Sf" role="3YhEVB">
+      <property role="TrG5h" value="A" />
+      <node concept="1I_qlP" id="G6DnGx53SJ" role="1I_qme" />
+      <node concept="SKNMI" id="G6DnGx53Sj" role="3ZdWmU" />
+    </node>
+    <node concept="39FWul" id="G6DnGx3GhU" role="3YhEVB">
+      <property role="TrG5h" value="MyTrait" />
+      <node concept="39E_MN" id="G6DnGx3GhX" role="39FWuk">
+        <property role="TrG5h" value="test_borrowck_ok_prototype" />
+        <node concept="SKNMI" id="G6DnGx3GhY" role="3ZdWmU" />
+      </node>
+      <node concept="39E_MN" id="G6DnGx3Gi3" role="39FWuk">
+        <property role="TrG5h" value="test_borrowck_ok_default" />
+        <node concept="SKNMI" id="G6DnGx3Gi4" role="3ZdWmU" />
+        <node concept="3YiHqP" id="G6DnGx53Rs" role="39E_MM" />
+      </node>
+      <node concept="39E_MN" id="G6DnGx53Rv" role="39FWuk">
+        <property role="TrG5h" value="test_borrowck_ok_func" />
+        <node concept="SKNMI" id="G6DnGx53Rw" role="3ZdWmU" />
+        <node concept="1MVu3q" id="G6DnGx53RM" role="1MVqqM">
+          <node concept="Lhmvi" id="G6DnGx53SN" role="1MVu37">
+            <node concept="2GRLy4" id="G6DnGx53SO" role="1F4TAl">
+              <node concept="2GRMtS" id="G6DnGx53SP" role="2GRMtT">
+                <property role="TrG5h" value="bool" />
+              </node>
+            </node>
+          </node>
+          <node concept="2ESRZV" id="G6DnGx53SW" role="1uLnUc">
+            <property role="3$7nJ9" value="false" />
+            <property role="TrG5h" value="arg1" />
+          </node>
+        </node>
+      </node>
+      <node concept="39E_MN" id="G6DnGx53SZ" role="39FWuk">
+        <property role="TrG5h" value="test_borrowck_ok_method" />
+        <node concept="SKNMI" id="G6DnGx53T0" role="3ZdWmU" />
+        <node concept="1MVu3q" id="G6DnGx53T1" role="1MVqqM">
+          <node concept="Lhmvi" id="G6DnGx53T2" role="1MVu37">
+            <node concept="2GRLy4" id="G6DnGx53T3" role="1F4TAl">
+              <node concept="2GRMtS" id="G6DnGx53T4" role="2GRMtT">
+                <property role="TrG5h" value="Self" />
+              </node>
+            </node>
+          </node>
+          <node concept="2ESRZV" id="G6DnGx53T5" role="1uLnUc">
+            <property role="3$7nJ9" value="false" />
+            <property role="TrG5h" value="self" />
+          </node>
+        </node>
       </node>
     </node>
   </node>
