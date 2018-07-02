@@ -33,6 +33,10 @@
     <language id="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e" name="rust">
       <concept id="1180388172941756682" name="rust.structure.False" flags="ng" index="19pR0" />
       <concept id="1180388172941756681" name="rust.structure.True" flags="ng" index="19pR3" />
+      <concept id="7696980033672565611" name="rust.structure.QualifiedSelf" flags="ng" index="4wJB$">
+        <child id="7696980033672565612" name="ty" index="4wJBz" />
+        <child id="7696980033672565622" name="trait" index="4wJBT" />
+      </concept>
       <concept id="4475603294225149301" name="rust.structure.PatternLiteral" flags="ng" index="25LMge">
         <child id="4475603294225149418" name="expr" index="25LMih" />
       </concept>
@@ -48,7 +52,7 @@
       <concept id="5934771399103067591" name="rust.structure.MethodCall" flags="ng" index="2oWNVz">
         <child id="5934771399103138174" name="obj" index="2oV49q" />
       </concept>
-      <concept id="6610476490981414088" name="rust.structure.IRealItem" flags="ng" index="qIrmg" />
+      <concept id="6610476490981414088" name="rust.structure.ITopLevelItem" flags="ng" index="qIrmg" />
       <concept id="7790705638231565416" name="rust.structure.Range" flags="ng" index="CsG7C">
         <child id="7790705638231571328" name="to" index="CsHS0" />
         <child id="7790705638231571325" name="from" index="CsHVX" />
@@ -63,6 +67,7 @@
         <child id="7384797079175991644" name="pathArgs" index="1kR82d" />
       </concept>
       <concept id="7197162076725414976" name="rust.structure.PathExp" flags="ng" index="2HKfy6">
+        <child id="7696980033672565627" name="self" index="4wJBO" />
         <child id="7197162076725414977" name="path" index="2HKfy7" />
       </concept>
       <concept id="7053749796611573126" name="rust.structure.Function" flags="ng" index="KpV6n">
@@ -159,6 +164,7 @@
       </concept>
       <concept id="4748147549719206408" name="rust.structure.Impl" flags="ng" index="1FKPk2">
         <child id="6610476490985797123" name="self_ty" index="qY_tr" />
+        <child id="579195655986275522" name="trait" index="1EyPez" />
         <child id="4748147549719206409" name="methods" index="1FKPk3" />
       </concept>
       <concept id="3570966331262478589" name="rust.structure.EnumItem" flags="ng" index="1Iijo8">
@@ -44421,6 +44427,11 @@
       <node concept="1I_qlP" id="G6DnGx53SJ" role="1I_qme" />
       <node concept="SKNMI" id="G6DnGx53Sj" role="3ZdWmU" />
     </node>
+    <node concept="1I_qm3" id="58LD_WaSbnh" role="3YhEVB">
+      <property role="TrG5h" value="B" />
+      <node concept="1I_qlP" id="58LD_WaSbni" role="1I_qme" />
+      <node concept="SKNMI" id="58LD_WaSbnj" role="3ZdWmU" />
+    </node>
     <node concept="39FWul" id="G6DnGx3GhU" role="3YhEVB">
       <property role="TrG5h" value="MyTrait" />
       <node concept="39E_MN" id="G6DnGx3GhX" role="39FWuk">
@@ -44466,6 +44477,141 @@
           </node>
         </node>
       </node>
+    </node>
+    <node concept="39FWul" id="58LD_WaR0A0" role="3YhEVB">
+      <property role="TrG5h" value="TraitA" />
+      <node concept="39E_MN" id="58LD_WaR0A1" role="39FWuk">
+        <property role="TrG5h" value="f" />
+        <node concept="SKNMI" id="58LD_WaR0A2" role="3ZdWmU" />
+      </node>
+    </node>
+    <node concept="39FWul" id="58LD_WaTmzo" role="3YhEVB">
+      <property role="TrG5h" value="TraitB" />
+      <node concept="39E_MN" id="58LD_WaTmzp" role="39FWuk">
+        <property role="TrG5h" value="g" />
+        <node concept="SKNMI" id="58LD_WaTmzq" role="3ZdWmU" />
+      </node>
+    </node>
+    <node concept="1FKPk2" id="58LD_WaPMKX" role="3YhEVB">
+      <node concept="39ew10" id="58LD_WaR0BW" role="1FKPk3">
+        <property role="TrG5h" value="f" />
+        <node concept="3YiHqP" id="58LD_WaR0BX" role="39ezlG" />
+        <node concept="SKNMI" id="58LD_WaR0BY" role="3ZdWmU" />
+      </node>
+      <node concept="Lhmvi" id="58LD_WaPMLQ" role="qY_tr">
+        <node concept="2GRLy4" id="58LD_WaPMLR" role="1F4TAl">
+          <node concept="2GRMtS" id="58LD_WaPMLS" role="2GRMtT">
+            <property role="TrG5h" value="A" />
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="58LD_WaPML0" role="3ZdWmU" />
+      <node concept="2GRLy4" id="58LD_WaR0_U" role="1EyPez">
+        <node concept="2GRMtS" id="58LD_WaR0_X" role="2GRMtT">
+          <property role="TrG5h" value="TraitA" />
+        </node>
+      </node>
+    </node>
+    <node concept="1FKPk2" id="58LD_WaSbhG" role="3YhEVB">
+      <node concept="39ew10" id="58LD_WaSbhH" role="1FKPk3">
+        <property role="TrG5h" value="g" />
+        <node concept="3YiHqP" id="58LD_WaSbhI" role="39ezlG" />
+        <node concept="SKNMI" id="58LD_WaSbhJ" role="3ZdWmU" />
+      </node>
+      <node concept="Lhmvi" id="58LD_WaSbhK" role="qY_tr">
+        <node concept="2GRLy4" id="58LD_WaSbhL" role="1F4TAl">
+          <node concept="2GRMtS" id="58LD_WaSbhM" role="2GRMtT">
+            <property role="TrG5h" value="B" />
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="58LD_WaSbhN" role="3ZdWmU" />
+      <node concept="2GRLy4" id="58LD_WaSbhO" role="1EyPez">
+        <node concept="2GRMtS" id="58LD_WaSbhP" role="2GRMtT">
+          <property role="TrG5h" value="TraitA" />
+        </node>
+      </node>
+    </node>
+    <node concept="39ew10" id="58LD_WaSbkL" role="3YhEVB">
+      <property role="TrG5h" value="test_borrowck_ok_qself_func_resolution_1" />
+      <node concept="3YiHqP" id="58LD_WaSbkN" role="39ezlG">
+        <node concept="2mlud8" id="58LD_WaSbmI" role="3YiHqO">
+          <node concept="2HKfy6" id="58LD_WaSbmQ" role="1awipT">
+            <node concept="2GRLy4" id="58LD_WaSbmS" role="2HKfy7">
+              <node concept="2GRMtS" id="58LD_WaSbps" role="2GRMtT">
+                <property role="TrG5h" value="f" />
+              </node>
+            </node>
+            <node concept="4wJB$" id="58LD_WaSbn2" role="4wJBO">
+              <node concept="Lhmvi" id="58LD_WaSbn5" role="4wJBz">
+                <node concept="2GRLy4" id="58LD_WaSbn6" role="1F4TAl">
+                  <node concept="2GRMtS" id="58LD_WaSbn7" role="2GRMtT">
+                    <property role="TrG5h" value="A" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2GRMtS" id="58LD_WaSbne" role="4wJBT">
+                <property role="TrG5h" value="TraitA" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="58LD_WaSbkP" role="3ZdWmU" />
+    </node>
+    <node concept="39ew10" id="58LD_WaTmwx" role="3YhEVB">
+      <property role="TrG5h" value="test_fail_qself_func_resolution_2" />
+      <node concept="3YiHqP" id="58LD_WaTmwB" role="39ezlG">
+        <node concept="2mlud8" id="58LD_WaTmwC" role="3YiHqO">
+          <node concept="2HKfy6" id="58LD_WaTmwD" role="1awipT">
+            <node concept="2GRLy4" id="58LD_WaTmwE" role="2HKfy7">
+              <node concept="2GRMtS" id="58LD_WaTmwF" role="2GRMtT">
+                <property role="TrG5h" value="f" />
+              </node>
+            </node>
+            <node concept="4wJB$" id="58LD_WaTmwG" role="4wJBO">
+              <node concept="Lhmvi" id="58LD_WaTmwH" role="4wJBz">
+                <node concept="2GRLy4" id="58LD_WaTmwI" role="1F4TAl">
+                  <node concept="2GRMtS" id="58LD_WaTmwJ" role="2GRMtT">
+                    <property role="TrG5h" value="B" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2GRMtS" id="58LD_WaTmwK" role="4wJBT">
+                <property role="TrG5h" value="TraitA" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="58LD_WaTmwL" role="3ZdWmU" />
+    </node>
+    <node concept="39ew10" id="58LD_WaTmA7" role="3YhEVB">
+      <property role="TrG5h" value="test_fail_qself_func_resolution_3" />
+      <node concept="3YiHqP" id="58LD_WaTmAd" role="39ezlG">
+        <node concept="2mlud8" id="58LD_WaTmAe" role="3YiHqO">
+          <node concept="2HKfy6" id="58LD_WaTmAf" role="1awipT">
+            <node concept="2GRLy4" id="58LD_WaTmAg" role="2HKfy7">
+              <node concept="2GRMtS" id="58LD_WaTmAh" role="2GRMtT">
+                <property role="TrG5h" value="f" />
+              </node>
+            </node>
+            <node concept="4wJB$" id="58LD_WaTmAi" role="4wJBO">
+              <node concept="Lhmvi" id="58LD_WaTmAj" role="4wJBz">
+                <node concept="2GRLy4" id="58LD_WaTmAk" role="1F4TAl">
+                  <node concept="2GRMtS" id="58LD_WaTmAl" role="2GRMtT">
+                    <property role="TrG5h" value="A" />
+                  </node>
+                </node>
+              </node>
+              <node concept="2GRMtS" id="58LD_WaTmAm" role="4wJBT">
+                <property role="TrG5h" value="TraitB" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="58LD_WaTmAn" role="3ZdWmU" />
     </node>
   </node>
 </model>
