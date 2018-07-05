@@ -37678,6 +37678,31 @@
                               </node>
                             </node>
                           </node>
+                          <node concept="3zV_Rz" id="2g3U5HMHtQY" role="3zVECR">
+                            <node concept="34ocy7" id="2g3U5HMHYNI" role="1dgzf0">
+                              <node concept="34oehE" id="2g3U5HMIv2q" role="34ocs8">
+                                <node concept="2kdjtB" id="2g3U5HMJ0A$" role="2RGvlO">
+                                  <ref role="2UGuZ7" to="ls40:3SCPlnRxLb0" resolve="Trait" />
+                                </node>
+                                <node concept="30NkWi" id="2g3U5HMIfoV" role="2RGvhl">
+                                  <ref role="XkjO9" node="5QPEHk6Eqhr" resolve="defn" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="30Nfyg" id="2g3U5HMJLPA" role="1dgzf0">
+                              <node concept="1p__ei" id="2g3U5HMJLQf" role="30Nf_D">
+                                <node concept="3_JagS" id="2g3U5HMJLQd" role="1p__f_">
+                                  <ref role="3_Jajq" node="xVxp1qqXZp" resolve="TypeLattice" />
+                                </node>
+                                <node concept="2ZRyFJ" id="2g3U5HMKixB" role="1p_StM">
+                                  <ref role="2ZRyFH" node="58LD_WbP1JY" resolve="Trait" />
+                                  <node concept="1sjAk5" id="2g3U5HMKN2H" role="2ZRyFy">
+                                    <ref role="1sjAk2" node="5QPEHk6Eqhr" resolve="defn" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                          </node>
                         </node>
                       </node>
                       <node concept="3zV_Rz" id="4H3D3elZ8HQ" role="3zVECR">
