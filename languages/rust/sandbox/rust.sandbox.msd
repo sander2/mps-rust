@@ -15,6 +15,8 @@
     <dependency reexport="false">8585453e-6bfb-4d80-98de-b16074f1d86c(jetbrains.mps.lang.test)</dependency>
     <dependency reexport="false">8865b7a8-5271-43d3-884c-6fd1d9cfdd34(MPS.OpenAPI)</dependency>
     <dependency reexport="false">caf25f7b-d31c-47ec-9b81-44629d39c479(rust.benchmarker)</dependency>
+    <dependency reexport="false">6839772c-d6f1-4888-802e-6f3fba3a3fe3(org.inca.data.test)</dependency>
+    <dependency reexport="false">6ed54515-acc8-4d1e-a16c-9fd6cfe951ea(MPS.Core)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:164506a7-7496-45ef-a65c-87c02ee66d82:RustComments" version="0" />
@@ -63,6 +65,7 @@
     <module reference="b802a056-92a2-4fbc-902e-f8e5004c331f(org.inca.core)" version="0" />
     <module reference="7766a138-716a-422a-9c88-131459fb8d6a(org.inca.core.runtime)" version="0" />
     <module reference="bc791f96-4749-4311-a6e4-241e47ca97f9(org.inca.core.util)" version="0" />
+    <module reference="6839772c-d6f1-4888-802e-6f3fba3a3fe3(org.inca.data.test)" version="0" />
     <module reference="50774306-a9df-40b3-8571-64880ad234e2(org.inca.ui)" version="0" />
     <module reference="02643902-b3a5-4bb6-b85c-3bbbe5fdac0e(rust)" version="0" />
     <module reference="caf25f7b-d31c-47ec-9b81-44629d39c479(rust.benchmarker)" version="0" />

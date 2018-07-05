@@ -88,6 +88,13 @@
         <node concept="SKNMI" id="58LD_WaR0A2" role="3ZdWmU" />
       </node>
     </node>
+    <node concept="39FWul" id="2g3U5HNU3dS" role="3YhEVB">
+      <property role="TrG5h" value="TraitB" />
+      <node concept="39E_MN" id="2g3U5HNU3dT" role="39FWuk">
+        <property role="TrG5h" value="f" />
+        <node concept="SKNMI" id="2g3U5HNU3dU" role="3ZdWmU" />
+      </node>
+    </node>
     <node concept="1FKPk2" id="58LD_WaPMKX" role="3YhEVB">
       <node concept="39ew10" id="58LD_WaR0BW" role="1FKPk3">
         <property role="TrG5h" value="f" />
@@ -105,6 +112,26 @@
       <node concept="2GRLy4" id="58LD_WaR0_U" role="1EyPez">
         <node concept="2GRMtS" id="58LD_WaR0_X" role="2GRMtT">
           <property role="TrG5h" value="TraitA" />
+        </node>
+      </node>
+    </node>
+    <node concept="1FKPk2" id="2g3U5HNU3fe" role="3YhEVB">
+      <node concept="39ew10" id="2g3U5HNU3ff" role="1FKPk3">
+        <property role="TrG5h" value="f" />
+        <node concept="3YiHqP" id="2g3U5HNU3fg" role="39ezlG" />
+        <node concept="SKNMI" id="2g3U5HNU3fh" role="3ZdWmU" />
+      </node>
+      <node concept="Lhmvi" id="2g3U5HNU3fi" role="qY_tr">
+        <node concept="2GRLy4" id="2g3U5HNU3fj" role="1F4TAl">
+          <node concept="2GRMtS" id="2g3U5HNU3fk" role="2GRMtT">
+            <property role="TrG5h" value="A" />
+          </node>
+        </node>
+      </node>
+      <node concept="SKNMI" id="2g3U5HNU3fl" role="3ZdWmU" />
+      <node concept="2GRLy4" id="2g3U5HNU3fm" role="1EyPez">
+        <node concept="2GRMtS" id="2g3U5HNU3fn" role="2GRMtT">
+          <property role="TrG5h" value="TraitB" />
         </node>
       </node>
     </node>
