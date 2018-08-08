@@ -1354,6 +1354,9 @@
     <node concept="PrWs8" id="3XangPGN4wF" role="PzmwI">
       <ref role="PrY4T" node="1k0VrrEdMw8" resolve="IGenericsContainer" />
     </node>
+    <node concept="PrWs8" id="7u3FsqPrgom" role="PzmwI">
+      <ref role="PrY4T" node="7FAWTxy91ou" resolve="ITypable" />
+    </node>
   </node>
   <node concept="1TIwiD" id="6FhaCXIkXdF">
     <property role="EcuMT" value="7696980033672565611" />

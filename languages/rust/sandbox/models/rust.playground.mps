@@ -73,6 +73,11 @@
       <node concept="1I_qlP" id="7u3FsqNXxwF" role="1I_qme" />
       <node concept="SKNMI" id="7u3FsqNXxwG" role="3ZdWmU" />
     </node>
+    <node concept="1I_qm3" id="dpF0kFx$Pw" role="3YhEVB">
+      <property role="TrG5h" value="B" />
+      <node concept="1I_qlP" id="dpF0kFx$Px" role="1I_qme" />
+      <node concept="SKNMI" id="dpF0kFx$Py" role="3ZdWmU" />
+    </node>
     <node concept="39FWul" id="16heV8Tu3bd" role="3YhEVB">
       <property role="TrG5h" value="TraitB" />
       <node concept="39E_MN" id="16heV8Tu3be" role="39FWuk">
@@ -139,13 +144,6 @@
             <node concept="2GRLy4" id="4wnYKlM6X9O" role="1F4TAl">
               <node concept="2GRMtS" id="4wnYKlM6X9P" role="2GRMtT">
                 <property role="TrG5h" value="A" />
-              </node>
-            </node>
-          </node>
-          <node concept="Lhmvi" id="7u3FsqNXMgJ" role="1kR82d">
-            <node concept="2GRLy4" id="7u3FsqNXMgK" role="1F4TAl">
-              <node concept="2GRMtS" id="7u3FsqNXMgL" role="2GRMtT">
-                <property role="TrG5h" value="bool" />
               </node>
             </node>
           </node>
