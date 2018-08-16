@@ -1370,12 +1370,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="5z8qOPD_3tU" resolve="ITypeRef" />
     </node>
-    <node concept="1TJgyj" id="6FhaCXIkXdQ" role="1TKVEi">
-      <property role="IQ2ns" value="7696980033672565622" />
+    <node concept="1TJgyj" id="5JzCvo$IuW0" role="1TKVEi">
+      <property role="IQ2ns" value="6621313955714952960" />
       <property role="20lmBu" value="aggregation" />
-      <property role="20kJfa" value="trait" />
-      <property role="20lbJX" value="1..n" />
-      <ref role="20lvS9" node="NDhvEwdAa2" resolve="PathSegment" />
+      <property role="20kJfa" value="traitPath" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="NDhvEwd_PY" resolve="Path" />
     </node>
   </node>
   <node concept="PlHQZ" id="w9HQ5zbSVB">

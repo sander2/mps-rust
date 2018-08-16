@@ -4950,9 +4950,8 @@
       <node concept="3F0ifn" id="6FhaCXIkXet" role="3EZMnx">
         <property role="3F0ifm" value="as" />
       </node>
-      <node concept="3F2HdR" id="6FhaCXIkXeE" role="3EZMnx">
-        <ref role="1NtTu8" to="ls40:6FhaCXIkXdQ" resolve="trait" />
-        <node concept="l2Vlx" id="6FhaCXIkXeG" role="2czzBx" />
+      <node concept="3F1sOY" id="5JzCvo$Jb1D" role="3EZMnx">
+        <ref role="1NtTu8" to="ls40:5JzCvo$IuW0" resolve="traitPath" />
       </node>
       <node concept="3F0ifn" id="6FhaCXIkXfp" role="3EZMnx">
         <property role="3F0ifm" value="&gt;" />

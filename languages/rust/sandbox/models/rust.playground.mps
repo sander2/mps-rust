@@ -26,7 +26,7 @@
       <concept id="1180388172941756681" name="rust.structure.True" flags="ng" index="19pR3" />
       <concept id="7696980033672565611" name="rust.structure.QualifiedSelf" flags="ng" index="4wJB$">
         <child id="7696980033672565612" name="ty" index="4wJBz" />
-        <child id="7696980033672565622" name="trait" index="4wJBT" />
+        <child id="6621313955714952960" name="traitPath" index="1Zm$VQ" />
       </concept>
       <concept id="6683038896314060607" name="rust.structure.FunctionCall" flags="ng" index="2mlud8">
         <child id="7384797079081400232" name="func" index="1awipT" />
@@ -231,7 +231,7 @@
                   <property role="TrG5h" value="f" />
                 </node>
               </node>
-              <node concept="4wJB$" id="5JzCvozGtNd" role="4wJBO">
+              <node concept="4wJB$" id="5JzCvo$KhBL" role="4wJBO">
                 <node concept="Lhmvi" id="5JzCvozGtNe" role="4wJBz">
                   <node concept="2GRLy4" id="5JzCvozGtNf" role="1F4TAl">
                     <node concept="2GRMtS" id="5JzCvozGtNg" role="2GRMtT">
@@ -239,12 +239,14 @@
                     </node>
                   </node>
                 </node>
-                <node concept="2GRMtS" id="5JzCvozGtNh" role="4wJBT">
-                  <property role="TrG5h" value="TraitF" />
-                  <node concept="Lhmvi" id="5JzCvozGtNi" role="1kR82d">
-                    <node concept="2GRLy4" id="5JzCvozGtNj" role="1F4TAl">
-                      <node concept="2GRMtS" id="5JzCvozGtNk" role="2GRMtT">
-                        <property role="TrG5h" value="bool" />
+                <node concept="2GRLy4" id="5JzCvo$JaSx" role="1Zm$VQ">
+                  <node concept="2GRMtS" id="5JzCvo$JaSy" role="2GRMtT">
+                    <property role="TrG5h" value="TraitF" />
+                    <node concept="Lhmvi" id="5JzCvo$JaSz" role="1kR82d">
+                      <node concept="2GRLy4" id="5JzCvo$JaS$" role="1F4TAl">
+                        <node concept="2GRMtS" id="5JzCvo$JaS_" role="2GRMtT">
+                          <property role="TrG5h" value="bool" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -280,7 +282,7 @@
                   <property role="TrG5h" value="f" />
                 </node>
               </node>
-              <node concept="4wJB$" id="5JzCvozGtNz" role="4wJBO">
+              <node concept="4wJB$" id="5JzCvo$KhBM" role="4wJBO">
                 <node concept="Lhmvi" id="5JzCvozGtN$" role="4wJBz">
                   <node concept="2GRLy4" id="5JzCvozGtN_" role="1F4TAl">
                     <node concept="2GRMtS" id="5JzCvozGtNA" role="2GRMtT">
@@ -288,12 +290,14 @@
                     </node>
                   </node>
                 </node>
-                <node concept="2GRMtS" id="5JzCvozGtNB" role="4wJBT">
-                  <property role="TrG5h" value="TraitF" />
-                  <node concept="Lhmvi" id="5JzCvozGtNC" role="1kR82d">
-                    <node concept="2GRLy4" id="5JzCvozGtND" role="1F4TAl">
-                      <node concept="2GRMtS" id="5JzCvozGtNE" role="2GRMtT">
-                        <property role="TrG5h" value="A" />
+                <node concept="2GRLy4" id="5JzCvo$JaSA" role="1Zm$VQ">
+                  <node concept="2GRMtS" id="5JzCvo$JaSB" role="2GRMtT">
+                    <property role="TrG5h" value="TraitF" />
+                    <node concept="Lhmvi" id="5JzCvo$JaSC" role="1kR82d">
+                      <node concept="2GRLy4" id="5JzCvo$JaSD" role="1F4TAl">
+                        <node concept="2GRMtS" id="5JzCvo$JaSE" role="2GRMtT">
+                          <property role="TrG5h" value="A" />
+                        </node>
                       </node>
                     </node>
                   </node>
