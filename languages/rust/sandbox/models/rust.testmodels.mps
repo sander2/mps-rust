@@ -418,6 +418,54 @@
       </node>
       <node concept="SKNMI" id="3SCPlnR5JP4" role="3ZdWmU" />
     </node>
+    <node concept="39ew10" id="5wwPfHKUt5p" role="3YhEVB">
+      <property role="TrG5h" value="test_ok_empty_block" />
+      <node concept="3YiHqP" id="5wwPfHKUt5q" role="39ezlG">
+        <node concept="3YiHqP" id="5wwPfHKUtRq" role="3YiHqO" />
+        <node concept="3YiHtV" id="5wwPfHKUvsa" role="3YiHqO">
+          <node concept="19pR3" id="5wwPfHKUvs9" role="3YiHtU" />
+        </node>
+      </node>
+      <node concept="SKNMI" id="5wwPfHKUt5y" role="3ZdWmU" />
+    </node>
+    <node concept="39ew10" id="5wwPfHKUvtj" role="3YhEVB">
+      <property role="TrG5h" value="test_ok_semi_empty_block" />
+      <node concept="3YiHqP" id="5wwPfHKUvtk" role="39ezlG">
+        <node concept="3YiHqP" id="5wwPfHKUvtl" role="3YiHqO">
+          <node concept="3YiHtV" id="5wwPfHKUwfG" role="3YiHqO">
+            <node concept="19pR3" id="5wwPfHKUwfM" role="3YiHtU" />
+          </node>
+        </node>
+        <node concept="3YiHtV" id="5wwPfHKUvtm" role="3YiHqO">
+          <node concept="19pR3" id="5wwPfHKUvtn" role="3YiHtU" />
+        </node>
+      </node>
+      <node concept="SKNMI" id="5wwPfHKUvto" role="3ZdWmU" />
+    </node>
+    <node concept="39ew10" id="5wwPfHKUuDv" role="3YhEVB">
+      <property role="TrG5h" value="test_ok_ignored_block" />
+      <node concept="3YiHqP" id="5wwPfHKUuDw" role="39ezlG">
+        <node concept="3YiHtV" id="5wwPfHKUvrN" role="3YiHqO">
+          <node concept="3YiHqP" id="5wwPfHKUvrM" role="3YiHtU" />
+        </node>
+        <node concept="3YiHtV" id="5wwPfHKUvss" role="3YiHqO">
+          <node concept="19pR3" id="5wwPfHKUvst" role="3YiHtU" />
+        </node>
+      </node>
+      <node concept="SKNMI" id="5wwPfHKUuD$" role="3ZdWmU" />
+    </node>
+    <node concept="39ew10" id="5wwPfHKUtRy" role="3YhEVB">
+      <property role="TrG5h" value="test_fail_nonempty_block" />
+      <node concept="3YiHqP" id="5wwPfHKUtRz" role="39ezlG">
+        <node concept="3YiHqP" id="5wwPfHKUtR$" role="3YiHqO">
+          <node concept="19pR3" id="5wwPfHKUuDr" role="3YiHqO" />
+        </node>
+        <node concept="3YiHtV" id="5wwPfHKUvsX" role="3YiHqO">
+          <node concept="19pR3" id="5wwPfHKUvsY" role="3YiHtU" />
+        </node>
+      </node>
+      <node concept="SKNMI" id="5wwPfHKUtRB" role="3ZdWmU" />
+    </node>
     <node concept="39ew10" id="3SCPlnR5JPf" role="3YhEVB">
       <property role="TrG5h" value="test_fail_forward_varref" />
       <node concept="3YiHqP" id="3SCPlnR5JP6" role="39ezlG">
