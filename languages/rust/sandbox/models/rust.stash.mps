@@ -632,7 +632,7 @@
       </node>
     </node>
     <node concept="39ew10" id="2xW811TgOBT" role="3YhEVB">
-      <property role="TrG5h" value="test_borrowck_ok_call_1" />
+      <property role="TrG5h" value="test_ok_call_1" />
       <node concept="3YiHqP" id="2xW811TgOBU" role="39ezlG">
         <node concept="3YiHtV" id="2xW811TgOBV" role="3YiHqO">
           <node concept="2mlud8" id="2xW811TgOBW" role="3YiHtU">

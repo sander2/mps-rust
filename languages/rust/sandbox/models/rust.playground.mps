@@ -155,7 +155,7 @@
       </node>
     </node>
     <node concept="39ew10" id="25AxjW1vZ97" role="3YhEVB">
-      <property role="TrG5h" value="test_borrowck_ok_trait_obj_arg" />
+      <property role="TrG5h" value="test_ok_trait_obj_arg" />
       <node concept="1MVu3q" id="25AxjW1vZc3" role="1MVqqM">
         <node concept="LhmvH" id="25AxjW1vZcc" role="1MVu37">
           <property role="Lhnjt" value="false" />
@@ -179,7 +179,7 @@
       <node concept="SKNMI" id="25AxjW1vZ9b" role="3ZdWmU" />
     </node>
     <node concept="39ew10" id="25AxjW1vZcx" role="3YhEVB">
-      <property role="TrG5h" value="test_borrowck_ok_trait_obj_arg_call_1" />
+      <property role="TrG5h" value="test_ok_trait_obj_arg_call_1" />
       <node concept="1MVu3q" id="25AxjW1vZcy" role="1MVqqM">
         <node concept="LhmvH" id="25AxjW1vZcz" role="1MVu37">
           <property role="Lhnjt" value="false" />
@@ -205,7 +205,7 @@
             <node concept="2HKfy6" id="25AxjW1vZgh" role="1awipT">
               <node concept="2GRLy4" id="25AxjW1vZgj" role="2HKfy7">
                 <node concept="2GRMtS" id="25AxjW1vZgl" role="2GRMtT">
-                  <property role="TrG5h" value="test_borrowck_ok_trait_obj_arg" />
+                  <property role="TrG5h" value="test_ok_trait_obj_arg" />
                 </node>
               </node>
             </node>
@@ -218,7 +218,7 @@
       <node concept="SKNMI" id="25AxjW1vZcE" role="3ZdWmU" />
     </node>
     <node concept="39ew10" id="25AxjW1vZgK" role="3YhEVB">
-      <property role="TrG5h" value="test_borrowck_ok_trait_obj_arg_call_2" />
+      <property role="TrG5h" value="test_ok_trait_obj_arg_call_2" />
       <node concept="1MVu3q" id="25AxjW1vZgL" role="1MVqqM">
         <node concept="LhmvH" id="25AxjW1vZgM" role="1MVu37">
           <property role="Lhnjt" value="false" />
@@ -244,7 +244,7 @@
             <node concept="2HKfy6" id="25AxjW1vZgV" role="1awipT">
               <node concept="2GRLy4" id="25AxjW1vZgW" role="2HKfy7">
                 <node concept="2GRMtS" id="25AxjW1vZgX" role="2GRMtT">
-                  <property role="TrG5h" value="test_borrowck_ok_trait_obj_arg" />
+                  <property role="TrG5h" value="test_ok_trait_obj_arg" />
                 </node>
               </node>
             </node>
@@ -283,7 +283,7 @@
             <node concept="2HKfy6" id="46U_9wmES2K" role="1awipT">
               <node concept="2GRLy4" id="46U_9wmES2L" role="2HKfy7">
                 <node concept="2GRMtS" id="46U_9wmES2M" role="2GRMtT">
-                  <property role="TrG5h" value="test_borrowck_ok_trait_obj_arg" />
+                  <property role="TrG5h" value="test_ok_trait_obj_arg" />
                 </node>
               </node>
             </node>

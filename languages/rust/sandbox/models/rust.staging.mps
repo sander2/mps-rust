@@ -686,7 +686,7 @@
       </node>
     </node>
     <node concept="39ew10" id="5JzCvozGtN2" role="3YhEVB">
-      <property role="TrG5h" value="test_borrowck_ok_call_1" />
+      <property role="TrG5h" value="test_ok_call_1" />
       <node concept="3YiHqP" id="5JzCvozGtN3" role="39ezlG">
         <node concept="3YiHtV" id="5JzCvozGtN4" role="3YiHqO">
           <node concept="2mlud8" id="5JzCvozGtN5" role="3YiHtU">
@@ -738,7 +738,7 @@
       </node>
     </node>
     <node concept="39ew10" id="5JzCvozGtNr" role="3YhEVB">
-      <property role="TrG5h" value="test_borrowck_ok_call_1" />
+      <property role="TrG5h" value="test_ok_call_1" />
       <node concept="3YiHqP" id="5JzCvozGtNs" role="39ezlG">
         <node concept="3YiHtV" id="5JzCvozGtNt" role="3YiHqO">
           <node concept="2mlud8" id="5JzCvozGtNu" role="3YiHtU">
