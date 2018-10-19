@@ -15954,8 +15954,8 @@
                     <node concept="3cpWsn" id="3m59ze4$OTO" role="3cpWs9">
                       <property role="TrG5h" value="knownErrors" />
                       <node concept="17QB3L" id="3m59ze4$OTJ" role="1tU5fm" />
-                      <node concept="Xl_RD" id="3m59ze4$S4v" role="33vP2m">
-                        <property role="Xl_RC" value="Error in Benches.SlowDeletion of body of test_borrowck_ok_insert: insert\nError in Benches.SlowDeletion of body of test_borrowck_ok_insert: test_ok_insert\nError in RegressionTests.AliasBorrowTests: test_fail_field_assign_unused\nError in RegressionTests.GenericTraits: test_ok_call_1\nError in RegressionTests.LifetimeNamed: test_fail_qq6L\nError in RegressionTests.LifetimeNamed: test_fail_qq6M\nError in RegressionTests.LifetimeNamed: test_fail_struct_lifetime_local_b\nError in RegressionTests.RangeTest: test_ok_range_1\nError in RegressionTests.RangeTest: test_ok_range_2\nError in RegressionTests.RestrictionsTest: test_fail_partially_initialize_2\nError in RegressionTests.RestrictionsTest: test_ok_partially_initialize_1\nError in RegressionTests.RestrictionsTest: test_ok_restrictions_lifetime_2\nError in RegressionTests.Traits: test_ok_call_traitg_1\nError in RegressionTests.Traits: test_ok_call_traitg_2" />
+                      <node concept="Xl_RD" id="63a5KeBXTAV" role="33vP2m">
+                        <property role="Xl_RC" value="Error in Benches.SlowDeletion of body of test_borrowck_ok_insert: insert\nError in Benches.SlowDeletion of body of test_borrowck_ok_insert: test_ok_insert\nError in RegressionTests.Verified.AliasBorrowTests: test_fail_field_assign_unused\nError in RegressionTests.Verified.GenericTraits: test_ok_call_1\nError in RegressionTests.Verified.LifetimeNamed: test_fail_qq6L\nError in RegressionTests.Verified.LifetimeNamed: test_fail_qq6M\nError in RegressionTests.Verified.LifetimeNamed: test_fail_struct_lifetime_local_b\nError in RegressionTests.Verified.RangeTest: test_ok_range_1\nError in RegressionTests.Verified.RangeTest: test_ok_range_2\nError in RegressionTests.Verified.RestrictionsTest: test_fail_partially_initialize_2\nError in RegressionTests.Verified.RestrictionsTest: test_ok_partially_initialize_1\nError in RegressionTests.Verified.RestrictionsTest: test_ok_restrictions_lifetime_2\nError in RegressionTests.Verified.Traits: test_ok_call_traitg_1\nError in RegressionTests.Verified.Traits: test_ok_call_traitg_2" />
                       </node>
                     </node>
                   </node>
@@ -45123,14 +45123,18 @@
         <node concept="1XdyHb" id="2oS0yTpMcpT" role="1dgzf0">
           <property role="1dubkF" value="no value given; infer type from any assignments to it later on" />
         </node>
-        <node concept="34ocy7" id="2oS0yTpM2qn" role="1dgzf0">
-          <node concept="34sUYq" id="2oS0yTpM4pO" role="34ocs8">
-            <node concept="2kdhWc" id="2oS0yTpM6oC" role="34sUSb">
-              <node concept="727y6" id="2oS0yTpM8nn" role="3zVzRQ">
-                <ref role="3zVwH8" to="ls40:7VV7iqShXWh" resolve="value" />
-              </node>
-              <node concept="30NkWi" id="2oS0yTpM6oy" role="2kdhYM">
-                <ref role="XkjO9" node="3ldL1i6tnmg" resolve="l1" />
+        <node concept="1X3_iC" id="63a5KeBSeOf" role="lGtFl">
+          <property role="3V$3am" value="contents" />
+          <property role="3V$3ak" value="b802a056-92a2-4fbc-902e-f8e5004c331f/4530729936991344605/4530729936991965471" />
+          <node concept="34ocy7" id="2oS0yTpM2qn" role="8Wnug">
+            <node concept="34sUYq" id="2oS0yTpM4pO" role="34ocs8">
+              <node concept="2kdhWc" id="2oS0yTpM6oC" role="34sUSb">
+                <node concept="727y6" id="2oS0yTpM8nn" role="3zVzRQ">
+                  <ref role="3zVwH8" to="ls40:7VV7iqShXWh" resolve="value" />
+                </node>
+                <node concept="30NkWi" id="2oS0yTpM6oy" role="2kdhYM">
+                  <ref role="XkjO9" node="3ldL1i6tnmg" resolve="l1" />
+                </node>
               </node>
             </node>
           </node>
